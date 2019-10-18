@@ -1,0 +1,4772 @@
+# Translation of Plugins - WordPress Page Builder &#8211; Beaver Builder - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - WordPress Page Builder &#8211; Beaver Builder - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-26 08:04:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - WordPress Page Builder &#8211; Beaver Builder - Development (trunk)\n"
+
+#: classes/class-fl-builder-admin-settings.php:56
+msgid "Error submitting."
+msgstr "提交时出错。"
+
+#: classes/class-fl-builder-admin-settings.php:49
+msgid "Thank you!"
+msgstr "谢谢！"
+
+#: classes/class-fl-builder-wpcli-command.php:486
+msgid "Unable to find Themer, is it installed and activated?"
+msgstr "找不到 Themer, 它是否已安装并激活？"
+
+#: classes/class-fl-builder-wpcli-command.php:272
+msgid "Not valid Themer layout."
+msgstr "无效的 Themer 布局。"
+
+#: classes/class-fl-builder-wpcli-command.php:269
+msgid "Hook updated"
+msgstr "Hook 挂钩已更新"
+
+#: classes/class-fl-builder-wpcli-command.php:266
+msgid "Layout type updated"
+msgstr "更新布局类型"
+
+#: classes/class-fl-builder-wpcli-command.php:259
+msgid "Incorrect type."
+msgstr "类型不正确。"
+
+#: classes/class-fl-builder-wpcli-command.php:207
+msgid "Post was not valid Themer layout."
+msgstr "文章不是有效的 Themer 布局。"
+
+#: classes/class-fl-builder-wpcli-command.php:205
+msgid "Layout status updated"
+msgstr "布局状态已更新"
+
+#: classes/class-fl-builder-wpcli-command.php:195
+msgid "Status must be either draft or publish"
+msgstr "状态必须是草稿或发布"
+
+#. translators: %1$s: license : %2$s: domain
+#: classes/class-fl-builder-wpcli-command.php:133
+msgid "Using license [ %1$s ] to register %2$s"
+msgstr "使用许可证[ %1$s ] 注册 %2$s"
+
+#: classes/class-fl-builder-wpcli-command.php:130
+msgid "No license info found."
+msgstr "找不到许可证信息。"
+
+#: classes/class-fl-builder-wpcli-command.php:123
+msgid "Found license using FL_LICENSE_KEY global."
+msgstr "使用 FL_LICENSE_KEY 全局找到许可证。"
+
+#: classes/class-fl-builder-wpcli-command.php:117
+msgid "Deactivated"
+msgstr "已停用"
+
+#: includes/global-settings.php:230
+msgid "When typography unit is set to vh/vm this unit will be used to calculate the font size."
+msgstr "当排版单位设置为 vh/vm 时，此单位将用于计算字体大小。"
+
+#: includes/global-settings.php:224
+msgid "Base Font Size"
+msgstr "基础字体大小"
+
+#: classes/class-fl-builder.php:1359
+msgid "Beta Feedback"
+msgstr "测试版反馈"
+
+#: classes/class-fl-builder.php:1356
+msgid "Alpha Feedback"
+msgstr "内测反馈"
+
+#: classes/class-fl-builder.php:1350
+msgid "Dev Feedback"
+msgstr "开发反馈"
+
+#: classes/class-fl-builder.php:1212
+msgctxt "Keyboard action to toggle responsive editing"
+msgid "Toggle Responsive Editing Mode"
+msgstr "切换响应式编辑模式"
+
+#: classes/class-fl-builder.php:976
+msgid "Publish Layout"
+msgstr "保存布局"
+
+#: classes/class-fl-builder-settings-presets.php:55
+msgid "Select A Preset"
+msgstr "选择预设"
+
+#: classes/class-fl-builder-settings-presets.php:28
+msgid "Untitled Preset"
+msgstr "无标题预设"
+
+#: classes/class-fl-builder-art.php:545
+msgid "Clip Contents"
+msgstr "剪切内容"
+
+#: classes/class-fl-builder-art.php:544
+msgid "No Clip"
+msgstr "不剪切"
+
+#: classes/class-fl-builder-art.php:542
+msgid "Clip Within Container"
+msgstr "容器内剪切"
+
+#: classes/class-fl-builder-art.php:538
+msgid "Shape Container"
+msgstr "形状容器"
+
+#: classes/class-fl-builder-art.php:474
+msgid "Gradient Fill"
+msgstr "渐变填充"
+
+#: classes/class-fl-builder-art.php:473
+msgid "Color Fill"
+msgstr "颜色填充"
+
+#. translators: %s: position label
+#: classes/class-fl-builder-art.php:468
+msgid "%s Shape Style"
+msgstr "%s形状样式"
+
+#: classes/class-fl-builder-art.php:453
+msgid "Bottom Right"
+msgstr "右下"
+
+#: classes/class-fl-builder-art.php:452
+msgid "Bottom Center"
+msgstr "底部中心"
+
+#: classes/class-fl-builder-art.php:451
+msgid "Bottom Left"
+msgstr "左下"
+
+#: classes/class-fl-builder-art.php:450
+msgid "Center Right"
+msgstr "右侧居中"
+
+#: classes/class-fl-builder-art.php:448
+msgid "Center Left"
+msgstr "左侧居中"
+
+#: classes/class-fl-builder-art.php:447
+msgid "Top Right"
+msgstr "顶部右侧"
+
+#: classes/class-fl-builder-art.php:446
+msgid "Top Center"
+msgstr "顶部中心"
+
+#: classes/class-fl-builder-art.php:445
+msgid "Top Left"
+msgstr "顶部左侧"
+
+#: classes/class-fl-builder-art.php:431
+msgid "Y Offset"
+msgstr "Y偏移量"
+
+#: classes/class-fl-builder-art.php:345
+msgid "Shape"
+msgstr "形状"
+
+#. translators: %s: position label
+#: classes/class-fl-builder-art.php:341
+msgid "%s Shape"
+msgstr "%s形状"
+
+#: classes/class-fl-builder-art.php:251
+msgid "Bottom Shape Layer"
+msgstr "底部形状图层"
+
+#: classes/class-fl-builder-art.php:243
+msgid "Top Shape Layer"
+msgstr "顶部形状图层"
+
+#: classes/class-fl-builder-art.php:126
+msgid "Untitled Shape"
+msgstr "无标题形状"
+
+#: classes/class-fl-builder-art.php:103
+msgid "Rectangle"
+msgstr "矩形"
+
+#: classes/class-fl-builder-art.php:96
+msgid "Topography"
+msgstr "地形"
+
+#: classes/class-fl-builder-art.php:89
+msgid "Spots"
+msgstr "景点"
+
+#: classes/class-fl-builder-art.php:82
+msgid "Concave"
+msgstr "凹面"
+
+#: classes/class-fl-builder-art.php:68
+msgid "Triangle"
+msgstr "三角形"
+
+#: classes/class-fl-builder-art.php:60
+msgid "Midpoint"
+msgstr "中点"
+
+#: classes/class-fl-builder-art.php:52
+msgid "Waves"
+msgstr "波浪"
+
+#: classes/class-fl-builder-art.php:44
+msgid "Slanted Edge"
+msgstr "倾斜边缘"
+
+#: includes/ui-field-shape-transform.php:70
+msgid "Orientation"
+msgstr "方向"
+
+#: includes/ui-field-shape-transform.php:54
+msgid "Vertical Orientation"
+msgstr "垂直方向"
+
+#: includes/ui-field-shape-transform.php:43
+msgid "Horizontal Orientation"
+msgstr "水平方向"
+
+#: includes/ui-field-shape-transform.php:33
+msgid "Rotate"
+msgstr "旋转"
+
+#: includes/ui-field-shape-transform.php:27
+msgid "Scale X"
+msgstr "比例 X"
+
+#: includes/ui-field-shape-transform.php:22
+msgid "Skew Y"
+msgstr "倾斜 Y"
+
+#: includes/ui-field-shape-transform.php:17
+msgid "Skew X"
+msgstr "倾斜 X"
+
+#: includes/ui-js-config.php:205
+msgid "All Structured Data fields are required."
+msgstr "所有结构化数据字段都是必需的。"
+
+#: includes/ui-field-font.php:26
+msgid "Weight"
+msgstr "粗细"
+
+#: includes/ui-field-font.php:18
+msgid "Family"
+msgstr "字体系列"
+
+#: includes/ui-field-shadow.php:40
+msgid "Spread"
+msgstr "扩散"
+
+#: includes/ui-field-shadow.php:35
+msgid "Blur"
+msgstr "模糊"
+
+#: includes/ui-field-gradient.php:47
+msgid "Center Center"
+msgstr "中部居中"
+
+#: includes/ui-field-gradient.php:20
+msgid "Radial"
+msgstr "径向"
+
+#: includes/ui-field-gradient.php:19
+msgid "Linear"
+msgstr "线性"
+
+#: includes/ui-field-typography.php:279
+msgid "Text Shadow"
+msgstr "文本阴影"
+
+#: includes/ui-field-typography.php:268
+msgid "Variant"
+msgstr "变体"
+
+#: includes/ui-field-typography.php:252
+msgid "Decoration"
+msgstr "装饰"
+
+#: includes/ui-field-typography.php:242 classes/class-fl-builder-art.php:525
+msgid "Transform"
+msgstr "转换"
+
+#: includes/ui-field-typography.php:228
+msgid "Style &amp Spacing"
+msgstr "样式/间距"
+
+#: includes/ui-field-typography.php:210
+msgid "Line Height"
+msgstr "行高"
+
+#: includes/ui-field-typography.php:202 classes/class-fl-builder-art.php:368
+msgid "Size"
+msgstr "大小"
+
+#: includes/ui-field-typography.php:187
+msgid "Font"
+msgstr "字体"
+
+#: includes/ui-field-typography.php:169
+msgid "Small Caps"
+msgstr "小写"
+
+#: includes/ui-field-typography.php:157
+msgid "Oblique"
+msgstr "倾斜"
+
+#: includes/ui-field-typography.php:144
+msgid "Line Through"
+msgstr "删除线"
+
+#: includes/ui-field-typography.php:143
+msgid "Overline"
+msgstr "上划线"
+
+#: includes/ui-field-typography.php:142
+msgid "Underline"
+msgstr "下划线"
+
+#: includes/ui-field-link.php:25
+msgid "No Follow"
+msgstr "不跟踪"
+
+#: includes/column-settings.php:480
+msgid "Optional. Choose an appropriate HTML5 content sectioning element to use for this column to improve accessibility and machine-readability."
+msgstr "可选。选择要用于此栏的适当 HTML5 内容切片元素, 以提高可访问性和机器可读性。"
+
+#: includes/column-settings.php:49
+msgid "Equalize Heights"
+msgstr "均衡高度"
+
+#: includes/ui-js-templates.php:321
+msgid "Exit"
+msgstr "退出"
+
+#: includes/ui-js-templates.php:312 classes/class-fl-builder.php:1009
+msgid "Responsive Editing"
+msgstr "响应式编辑"
+
+#: includes/module-settings.php:114
+msgid "Optional. Choose an appropriate HTML5 content sectioning element to use for this module to improve accessibility and machine-readability."
+msgstr "可选。 择适当的HTML5内容分区元素以用于此模块，以提高可访问性和机器可读性。"
+
+#: includes/ui-field-animation.php:138
+msgid "Duration"
+msgstr "时效"
+
+#: includes/ui-field-animation.php:86
+msgctxt "Animation style."
+msgid "Roll In"
+msgstr "滚入"
+
+#: includes/ui-field-animation.php:85
+msgctxt "Animation style."
+msgid "Jack in the Box"
+msgstr "跳入"
+
+#: includes/ui-field-animation.php:84
+msgctxt "Animation style."
+msgid "Light Speed"
+msgstr "光速"
+
+#: includes/ui-field-animation.php:83
+msgctxt "Animation style."
+msgid "Jello"
+msgstr "果冻"
+
+#: includes/ui-field-animation.php:82
+msgctxt "Animation style."
+msgid "Wobble"
+msgstr "摇晃"
+
+#: includes/ui-field-animation.php:81
+msgctxt "Animation style."
+msgid "Tada"
+msgstr "然后"
+
+#: includes/ui-field-animation.php:80
+msgctxt "Animation style."
+msgid "Swing"
+msgstr "摇摆"
+
+#: includes/ui-field-animation.php:79
+msgctxt "Animation style."
+msgid "Shake"
+msgstr "摇晃"
+
+#: includes/ui-field-animation.php:78
+msgctxt "Animation style."
+msgid "Rubber Band"
+msgstr "橡皮筋"
+
+#: includes/ui-field-animation.php:77
+msgctxt "Animation style."
+msgid "Pulse"
+msgstr "脉冲"
+
+#: includes/ui-field-animation.php:76
+msgctxt "Animation style."
+msgid "Flash"
+msgstr "闪现"
+
+#: includes/ui-field-animation.php:74
+msgctxt "Animation style."
+msgid "Fancy"
+msgstr "花式"
+
+#: includes/ui-field-animation.php:70
+msgctxt "Animation style."
+msgid "Flip Horizontal"
+msgstr "水平翻转"
+
+#: includes/ui-field-animation.php:69
+msgctxt "Animation style."
+msgid "Flip Vertical"
+msgstr "垂直翻转"
+
+#: includes/ui-field-animation.php:67
+msgctxt "Animation style."
+msgid "Flip"
+msgstr "翻转"
+
+#: includes/ui-field-animation.php:63
+msgctxt "Animation style."
+msgid "Rotate Up Right"
+msgstr "向右上旋转"
+
+#: includes/ui-field-animation.php:62
+msgctxt "Animation style."
+msgid "Rotate Up Left"
+msgstr "向左上旋转"
+
+#: includes/ui-field-animation.php:61
+msgctxt "Animation style."
+msgid "Rotate Down Right"
+msgstr "向右下旋转"
+
+#: includes/ui-field-animation.php:60
+msgctxt "Animation style."
+msgid "Rotate Down Left"
+msgstr "向左下旋转"
+
+#: includes/ui-field-animation.php:59
+msgctxt "Animation style."
+msgid "Rotate In"
+msgstr "旋转"
+
+#: includes/ui-field-animation.php:57
+msgctxt "Animation style."
+msgid "Rotate"
+msgstr "旋转"
+
+#: includes/ui-field-animation.php:53
+msgctxt "Animation style."
+msgid "Bounce Down"
+msgstr "向下弹跳"
+
+#: includes/ui-field-animation.php:52
+msgctxt "Animation style."
+msgid "Bounce Up"
+msgstr "向上弹跳"
+
+#: includes/ui-field-animation.php:51
+msgctxt "Animation style."
+msgid "Bounce Right"
+msgstr "向右弹跳"
+
+#: includes/ui-field-animation.php:50
+msgctxt "Animation style."
+msgid "Bounce Left"
+msgstr "向左弹跳"
+
+#: includes/ui-field-animation.php:49
+msgctxt "Animation style."
+msgid "Bounce In"
+msgstr "弹跳进入"
+
+#: includes/ui-field-animation.php:46 includes/ui-field-animation.php:48
+msgctxt "Animation style."
+msgid "Bounce"
+msgstr "弹跳"
+
+#: includes/ui-field-animation.php:42
+msgctxt "Animation style."
+msgid "Zoom Down"
+msgstr "向下缩放"
+
+#: includes/ui-field-animation.php:41
+msgctxt "Animation style."
+msgid "Zoom Up"
+msgstr "向上缩放"
+
+#: includes/ui-field-animation.php:40
+msgctxt "Animation style."
+msgid "Zoom Right"
+msgstr "向右缩放"
+
+#: includes/ui-field-animation.php:39
+msgctxt "Animation style."
+msgid "Zoom Left"
+msgstr "向左缩放"
+
+#: includes/ui-field-animation.php:38
+msgctxt "Animation style."
+msgid "Zoom In"
+msgstr "缩放"
+
+#: includes/ui-field-animation.php:36
+msgctxt "Animation style."
+msgid "Zoom"
+msgstr "缩放"
+
+#: includes/ui-field-animation.php:27
+msgctxt "Animation style."
+msgid "Slide"
+msgstr "滑动"
+
+#: includes/ui-field-animation.php:23
+msgctxt "Animation style."
+msgid "Fade Down"
+msgstr "向下淡入"
+
+#: includes/ui-field-animation.php:22
+msgctxt "Animation style."
+msgid "Fade Up"
+msgstr "向上淡入"
+
+#: includes/ui-field-animation.php:21
+msgctxt "Animation style."
+msgid "Fade Right"
+msgstr "向右淡入"
+
+#: includes/ui-field-animation.php:20
+msgctxt "Animation style."
+msgid "Fade Left"
+msgstr "向左淡入"
+
+#: includes/ui-field-animation.php:17
+msgctxt "Animation style."
+msgid "Fade"
+msgstr "淡入"
+
+#: includes/admin-settings-welcome.php:94
+msgid "<a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/690-beaver-builder-2-2-changes-to-specific-modules\">More module settings</a> and responsive capabilities give you more control with less code."
+msgstr "<a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/690-beaver-builder-2-2-changes-to-specific-modules\">更多模块设置</a>和响应功能使您能用更少的代码进行更多的控制。"
+
+#: includes/admin-settings-welcome.php:93
+msgid "Break out of the box with <a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/678-row-shape-overlays\">row shapes</a> and <a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/669-color-gradients-for-row-and-column-backgrounds-and-overlays\">gradients</a>, plus new border and text shadow effects."
+msgstr "使用<a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/678-row-shape-overlays\">行形状</a>和<a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/669-color-gradients-for-row-and-column-backgrounds-and-overlays\">渐变</a>，以及新的边框和文字阴影效果。"
+
+#: includes/admin-settings-welcome.php:92
+msgid "Mix and match over 80 new <a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/666-beaver-builder-2-2-release-features#prebuilt-rows\">prebuilt row templates</a>."
+msgstr "混合和匹配80多个新的<a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/666-beaver-builder-2-2-release-features#prebuilt-rows\">预建行模板</a>。"
+
+#: includes/admin-settings-welcome.php:91
+msgid "Leverage percent, em, and viewport-based units."
+msgstr "利用基于百分比、em 和视图的单位。"
+
+#: includes/admin-settings-welcome.php:88
+msgid "We're thrilled to announce Beaver Builder 2.2 \"Falcon\". Beaver Builder 2.2 brings a number of design-focused enhancements and quality-of-life improvements."
+msgstr "我们很高兴地宣布海狸生成器 2.2 代号”猎鹰\"。海狸生成器 2.2 带来了许多以设计为中心的增强功能和生活质量改进。"
+
+#: includes/ui-field-border.php:156
+msgid "Box Shadow"
+msgstr "边框阴影"
+
+#: includes/ui-field-border.php:148
+msgid "Radius"
+msgstr "半径"
+
+#: includes/ui-field-border.php:143
+msgid "Radius &amp; Shadow"
+msgstr "半径/阴影"
+
+#: includes/ui-field-border.php:39
+msgid "Double"
+msgstr "双边框"
+
+#: includes/ui-field-border.php:38
+msgid "Dotted"
+msgstr "点线"
+
+#: includes/ui-field-border.php:37
+msgid "Dashed"
+msgstr "虚线"
+
+#: includes/ui-field-border.php:36
+msgid "Solid"
+msgstr "实线"
+
+#: includes/row-settings.php:757
+msgid "Optional. Choose an appropriate HTML5 content sectioning element to use for this row to improve accessibility and machine-readability."
+msgstr "可选。选择适当的HTML5内容分区元素以用于此行，以提高可访问性和机器可读性。"
+
+#: includes/row-settings.php:747 includes/module-settings.php:104
+#: includes/column-settings.php:470
+msgid "Container Element"
+msgstr "容器元素"
+
+#: includes/row-settings.php:689 includes/column-settings.php:399
+msgid "All"
+msgstr "所有"
+
+#: includes/row-settings.php:687 includes/module-settings.php:44
+#: includes/column-settings.php:397
+msgid "Breakpoint"
+msgstr "断点"
+
+#: includes/row-settings.php:588 includes/column-settings.php:171
+msgid "Background Gradient"
+msgstr "背景渐变"
+
+#: includes/row-settings.php:563 includes/column-settings.php:306
+msgid "Overlay Gradient"
+msgstr "叠加渐变"
+
+#: includes/row-settings.php:537 includes/row-settings.php:592
+#: includes/column-settings.php:175 includes/column-settings.php:281
+#: classes/class-fl-builder-art.php:513
+msgid "Gradient"
+msgstr "渐变"
+
+#: includes/row-settings.php:535 includes/ui-field-border.php:35
+#: includes/column-settings.php:279 includes/ui-field-typography.php:141
+#: classes/class-fl-builder-art.php:187
+msgid "None"
+msgstr "未选择"
+
+#: includes/row-settings.php:532 includes/column-settings.php:276
+msgid "Overlay Type"
+msgstr "叠加类型"
+
+#: includes/row-settings.php:181 includes/column-settings.php:135
+msgctxt "Background type."
+msgid "Gradient"
+msgstr "渐变"
+
+#: includes/row-settings.php:113 includes/column-settings.php:67
+msgid "Vertical Alignment"
+msgstr "垂直对齐"
+
+#: includes/row-settings.php:76
+msgid "Full height rows fill the height of the browser window. Minimum height rows are no taller than the value entered."
+msgstr "全高度行填充浏览器窗口的高度。最小高度行不高于输入的值。"
+
+#: includes/row-settings.php:74 includes/row-settings.php:91
+#: includes/column-settings.php:27
+msgid "Minimum Height"
+msgstr "最小高度"
+
+#: modules/rich-text/rich-text.php:68
+msgid "Typography"
+msgstr "字体"
+
+#: modules/video/video.php:262
+msgid "Upload Date"
+msgstr "上传时间"
+
+#: modules/video/video.php:254
+msgid "Video Thumbnail"
+msgstr "视频缩略图"
+
+#: modules/video/video.php:247
+msgid "Video Description"
+msgstr "视频描述"
+
+#: modules/video/video.php:240
+msgid "Video Name"
+msgstr "视频名称"
+
+#: modules/video/video.php:223
+msgid "Enable Structured Data?"
+msgstr "启用结构化数据？"
+
+#: modules/photo/photo.php:646
+msgid "Caption Typography"
+msgstr "副标题排版"
+
+#: modules/photo/photo.php:624 includes/ui-field-typography.php:218
+#: classes/class-fl-builder-art.php:442
+msgid "Align"
+msgstr "对齐"
+
+#: includes/updater/classes/class-fl-updater.php:269
+msgid "License Removed"
+msgstr "许可证已删除"
+
+#. translators: %d: number of selected
+#: includes/ui-js-config.php:141
+msgid "%d Photo Selected"
+msgstr "选取 %d 图像"
+
+#. translators: 1: create app url: 2: register url
+#: classes/class-fl-builder-service-icontact-pro.php:153
+msgid "You must <a%1$s>create an app</a> in iContact Pro to obtain an app ID and password. Please see <a%2$s>the iContact docs</a> for complete instructions."
+msgstr "您必须在iContact Pro中<a%1$s>创建一个应用程序</a>以获取应用程序ID和密码。请参见<a%2$s> iContact文档</a>以完成操作。"
+
+#: classes/class-fl-builder-service-activecampaign.php:112
+msgid "Your API key can be found in your ActiveCampaign account under My Settings > Developer > API."
+msgstr "您可以在我的设置>开发人员> API下的 ActiveCampaign 帐户中找到您的API密钥。"
+
+#. Author URI of the plugin
+msgid "https://www.wpbeaverbuilder.com/?utm_medium=bb&utm_source=plugins-admin-page&utm_campaign=plugins-admin-author"
+msgstr "https://www.wpbeaverbuilder.com/?utm_medium=bb&utm_source=plugins-admin-page&utm_campaign=plugins-admin-author"
+
+#. Plugin URI of the plugin
+msgid "https://www.wpbeaverbuilder.com/?utm_medium=bb&utm_source=plugins-admin-page&utm_campaign=plugins-admin-uri"
+msgstr "https://www.wpbeaverbuilder.com/?utm_medium=bb&utm_source=plugins-admin-page&utm_campaign=plugins-admin-uri"
+
+#: modules/widget/includes/settings-text-widget.php:13
+msgid "Content:"
+msgstr "内容："
+
+#: modules/widget/includes/settings-text-widget.php:10
+msgid "Title:"
+msgstr "标题："
+
+#: modules/video/video.php:169
+msgid "A video in the WebM format to use as fallback. This format is required to support browsers such as FireFox and Opera."
+msgstr "一个作为备选的 WebM 格式的视频。支持 FireFox 和 Opera 需要此格式。"
+
+#: modules/video/video.php:162
+msgid "A video in the MP4 format. Most modern browsers support this format."
+msgstr "一个 MP4 格式的视频。多数现代浏览器支持此格式。"
+
+#: modules/photo/photo.php:591
+msgctxt "Photo Crop."
+msgid "None"
+msgstr "未选择"
+
+#: modules/audio/audio.php:190
+msgid "Show Artist Name"
+msgstr "显示艺术家名称"
+
+#: modules/audio/audio.php:181
+msgid "Show Thumbnail"
+msgstr "显示缩略图"
+
+#: modules/audio/audio.php:169
+msgid "Show Track Numbers"
+msgstr "显示曲目号码"
+
+#: modules/audio/audio.php:155
+msgid "Show Playlist"
+msgstr "显示播放列表"
+
+#: modules/audio/audio.php:150
+msgid "Dark"
+msgstr "深色"
+
+#: modules/photo/photo.php:541 modules/audio/audio.php:84
+#: modules/audio/audio.php:109
+msgid "Link"
+msgstr "链接"
+
+#: modules/audio/audio.php:80
+msgid "Audio Type"
+msgstr "音频类型"
+
+#: modules/audio/audio.php:19
+msgid "Render a WordPress audio shortcode."
+msgstr "制作一个 WordPress 音频短代码。"
+
+#: modules/audio/audio.php:18 modules/audio/audio.php:97
+msgid "Audio"
+msgstr "音频"
+
+#: includes/updater/includes/subscriptions.php:3
+msgid "The following downloads are currently available for remote update with the subscription(s) associated with this license."
+msgstr "以下可下载项目可用于与此许可证关联的订阅进行远程更新。"
+
+#: includes/updater/includes/subscriptions.php:2
+msgid "Available Downloads"
+msgstr "可用的下载"
+
+#: includes/updater/includes/form.php:65
+msgid "Save License Key"
+msgstr "保存许可证密钥"
+
+#: includes/updater/includes/form.php:42
+msgid "License key saved!"
+msgstr "许可证密钥已保存！"
+
+#: includes/updater/includes/form.php:34
+msgid "Deactivated!"
+msgstr "已停用！"
+
+#: includes/updater/includes/form.php:24
+msgid "Visit Account"
+msgstr "访问账户"
+
+#: includes/updater/includes/form.php:19
+msgid "UPDATES UNAVAILABLE! Your subscription is active but this domain has been deactivated. Please reactivate this domain in your account to enable automatic updates."
+msgstr "有可用的更新！您的订阅已激活，但此域名已停用。请在您的账户中重新启用此域名，以启用自动更新。"
+
+#: includes/updater/includes/form.php:6
+msgid "ERROR! We were unable to connect to the update server. If the issue persists, please contact your host and let them know your website cannot connect to updates.wpbeaverbuilder.com."
+msgstr "错误！我们无法连接到更新服务器。如果问题仍然存在，请与您的主机联系，让他们知道您的网站无法连接到 updates.wpbeaverbuilder.com。"
+
+#. translators: %s: subscribe link
+#: includes/updater/classes/class-fl-updater.php:384
+msgid "Please subscribe to enable automatic updates for this plugin. %s"
+msgstr "请订阅启用这个插件的自动升级。%s"
+
+#. translators: %s: link to license tab
+#: includes/updater/classes/class-fl-updater.php:380
+msgid "Please enter a valid license key to enable automatic updates. %s"
+msgstr "请输入有效的许可证密钥以启用自动更新。%s"
+
+#: includes/updater/includes/form.php:72
+#: includes/updater/classes/class-fl-updater.php:378
+msgid "Enter License Key"
+msgstr "输入许可证密钥"
+
+#: includes/updater/classes/class-fl-updater.php:370
+msgid "Please enter a valid license key to enable automatic updates."
+msgstr "请输入有效的许可证密钥以启用自动更新。"
+
+#: includes/updater/classes/class-fl-updater.php:325
+msgid "You submitted an invalid license. Non alphanumeric characters found."
+msgstr "您提交了无效的许可证。 找到非字母数字字符。"
+
+#: includes/ui-loop-settings.php:177
+msgid "Enter a list of authors usernames."
+msgstr "输入作者用户名的列表。"
+
+#. translators: %s: type label
+#. translators: %s: tax label
+#: includes/ui-loop-settings.php:146 includes/ui-loop-settings.php:161
+msgid "Enter a list of %1$s."
+msgstr "输入%1$s 的列表。"
+
+#: includes/ui-loop-settings.php:121
+msgid "Exclude the current post from the query."
+msgstr "从查询中排除当前文章。"
+
+#: includes/ui-loop-settings.php:119
+msgid "Exclude Current Post"
+msgstr "排除当前文章"
+
+#: includes/ui-loop-settings.php:105
+msgid "Meta Key"
+msgstr "Meta 元键"
+
+#: includes/ui-loop-settings.php:90
+msgid "Selection Order"
+msgstr "选择顺序"
+
+#: includes/ui-loop-settings.php:87
+msgid "Meta Value (Numeric)"
+msgstr "元值 (数字)"
+
+#: includes/ui-loop-settings.php:86
+msgid "Meta Value (Alphabetical)"
+msgstr "元值（字母）"
+
+#: includes/ui-loop-settings.php:39
+msgid "Main Query"
+msgstr "主查询"
+
+#: includes/ui-loop-settings.php:38 includes/ui-loop-settings.php:54
+msgid "Custom Query"
+msgstr "自定义查询"
+
+#: includes/ui-js-templates.php:1045
+msgid "Close"
+msgstr "关闭"
+
+#: includes/ui-js-templates.php:1028
+msgid "You haven't saved any revisions yet. Each time you publish a new revision will be saved here."
+msgstr "您还没有保存任何修订。每次发布新修订版时, 都将保存在此处。"
+
+#: includes/ui-js-templates.php:1024
+msgid "Revisions are disabled for this site. Please contact your host if you aren't sure how to enable revisions."
+msgstr "对此网站禁用修订。如果您不确定如何启用修订, 请与您的主机联系。"
+
+#: includes/ui-js-templates.php:1020
+msgid "No Revisions Found"
+msgstr "未找到修订版本"
+
+#: includes/ui-js-templates.php:987
+msgctxt "Message that displays when there are no templates to display"
+msgid "Sorry, no templates were found!"
+msgstr "抱歉，未找到模板！"
+
+#: includes/ui-js-templates.php:980
+msgctxt "Message that displays when a panel tab has no view to display"
+msgid "Sorry, no content was found!"
+msgstr "抱歉，未找到内容！"
+
+#: includes/ui-js-templates.php:811 includes/ui-js-templates.php:995
+msgctxt "Link to learn more about premium page builder"
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/ui-js-templates.php:810 includes/ui-js-templates.php:994
+msgctxt "Upgrade message that displays in the templates tab in lite installs."
+msgid "Save and reuse your layouts or kick-start your creativity with dozens of professionally designed templates."
+msgstr "保存和重用您的布局或启动您的创意与许多专业设计的模板。"
+
+#: includes/ui-js-templates.php:768 includes/ui-js-templates.php:801
+msgid "Get more time-saving features, modules, and expert support."
+msgstr "获得更省时的功能、模块和专家支持。"
+
+#: includes/ui-js-templates.php:605
+msgid "Group"
+msgstr "组"
+
+#: includes/ui-js-templates.php:591
+msgid "No settings selected."
+msgstr "选中的图像。"
+
+#: includes/ui-js-templates.php:524
+msgid "Search Modules"
+msgstr "搜索模块"
+
+#: includes/ui-js-templates.php:382
+msgctxt "No content panel search results found"
+msgid "No Results Found"
+msgstr "未找到结果"
+
+#: includes/ui-js-templates.php:231
+msgid "More"
+msgstr "更多"
+
+#: includes/ui-js-templates.php:181
+msgid "This module has visibility rules."
+msgstr "此模块具有可见性规则。"
+
+#: includes/ui-js-templates.php:155
+msgid "Delete Column"
+msgstr "删除此栏"
+
+#: includes/ui-js-templates.php:153
+msgid "Duplicate Column"
+msgstr "复制此栏"
+
+#: includes/ui-js-templates.php:151
+msgid "Move Column"
+msgstr "移动此栏"
+
+#. translators: %s: module name
+#: includes/ui-js-templates.php:143
+msgid "%s Settings"
+msgstr "%s设置"
+
+#: includes/ui-js-templates.php:84 includes/ui-js-templates.php:179
+msgid "This column has visibility rules."
+msgstr "此栏具有可见性规则。"
+
+#: includes/ui-js-templates.php:70 includes/ui-js-templates.php:167
+msgid "Parent Settings"
+msgstr "父级设置"
+
+#: includes/ui-js-templates.php:68 includes/ui-js-templates.php:165
+msgid "Move Parent"
+msgstr "移动父级"
+
+#: includes/ui-js-templates.php:55 includes/ui-js-templates.php:147
+msgid "Edit Column"
+msgstr "编辑此栏"
+
+#: includes/ui-js-templates.php:34
+msgid "This row has visibility rules."
+msgstr "此行具有可见性规则。"
+
+#: includes/ui-js-templates.php:21 includes/ui-js-templates.php:63
+#: includes/ui-js-templates.php:160
+msgid "Reset Row Width"
+msgstr "重置行宽"
+
+#: includes/ui-js-templates.php:20 includes/ui-js-templates.php:60
+#: includes/ui-js-templates.php:157
+msgid "Reset Column Widths"
+msgstr "重置栏宽"
+
+#: includes/ui-js-templates.php:18
+msgid "Row Actions"
+msgstr "行操作"
+
+#: includes/ui-js-templates.php:6 includes/ui-js-templates.php:45
+#: includes/ui-js-templates.php:137
+msgid "Locked"
+msgstr "已锁定"
+
+#: includes/ui-js-config.php:246
+msgid "No Notifications."
+msgstr "无通知。"
+
+#: includes/ui-js-config.php:245
+msgid "Loading..."
+msgstr "载入中…"
+
+#: includes/ui-js-config.php:244
+msgid "Notifications"
+msgstr "通知"
+
+#: includes/ui-js-config.php:232
+msgid "Column Group"
+msgstr "栏组"
+
+#: includes/ui-js-config.php:229
+msgid "Template"
+msgstr "模板"
+
+#: includes/ui-js-config.php:224
+msgid "Your changes are saved"
+msgstr "更改已保存"
+
+#: includes/ui-js-config.php:223
+msgid "No new changes to save"
+msgstr "没有要保存的新更改"
+
+#: includes/ui-js-config.php:222
+msgid "Changes being published"
+msgstr "正在发布的更改"
+
+#: includes/ui-js-config.php:221
+msgid "Publishing Changes"
+msgstr "发布更改"
+
+#: includes/ui-js-config.php:220
+msgid "Nothing new to publish"
+msgstr "没有新的发布"
+
+#: includes/ui-js-config.php:219
+msgid "Ok, got it!"
+msgstr "好的，我知道了！"
+
+#: includes/ui-js-config.php:218
+msgid "This layout has unpublished changes. If you discard this draft all of your previously unpublished changes will be lost."
+msgstr "此布局有未发布的更改。如果丢弃此草稿, 则所有以前未发布的更改都将丢失。"
+
+#: includes/ui-js-config.php:217
+msgid "This layout has unpublished changes"
+msgstr "此布局有未发布的更改"
+
+#: includes/ui-js-config.php:216
+msgid "Edited"
+msgstr "已编辑"
+
+#: includes/ui-js-config.php:215
+msgid "The layout is saved"
+msgstr "布局被保存"
+
+#: includes/ui-js-config.php:214
+msgid "Saved"
+msgstr "已保存"
+
+#: includes/ui-js-config.php:213
+msgid "The layout is currently being saved"
+msgstr "当前正在保存布局"
+
+#: includes/ui-js-config.php:212
+msgid "Saving..."
+msgstr "保存中…"
+
+#: includes/ui-js-config.php:204
+msgid "This field is required."
+msgstr "此字段必填。"
+
+#: includes/ui-js-config.php:197
+msgid "The Tools button lets you save a template, duplicate a layout, edit the settings for a layout or edit the global settings."
+msgstr "“工具”按钮让您保存模板、复制布局、编辑布局设置或编辑全局设置。"
+
+#: includes/ui-js-config.php:175
+msgid "Please enter at least one tag before saving."
+msgstr "请在保存前输入至少一个标签。"
+
+#: includes/ui-js-config.php:170
+msgid "These settings have errors. Please correct them before continuing."
+msgstr "这些设置有错误。请在继续之前更正它们。"
+
+#: includes/ui-js-config.php:164
+msgid "Save Row"
+msgstr "保存行"
+
+#: includes/ui-js-config.php:163
+msgid "Save Module"
+msgstr "保存模块"
+
+#: includes/ui-js-config.php:162
+msgid "Save Column"
+msgstr "保存此栏"
+
+#: includes/ui-js-config.php:161
+msgid "Save As..."
+msgstr "另存为..."
+
+#: includes/ui-js-config.php:158
+msgid "Row Saved!"
+msgstr "行已保存！"
+
+#. translators: %s: author name
+#: includes/ui-js-config.php:155
+msgctxt "%s is the author name."
+msgid "By %s"
+msgstr "由 %s"
+
+#. translators: %s: time diff - 1 day/2 weeks
+#: includes/ui-js-config.php:153
+msgctxt "%s is a time diff such as 1 day or 2 weeks."
+msgid "%s ago"
+msgstr "%s前"
+
+#: includes/ui-js-config.php:151
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#. translators: %s: preset color code
+#: includes/ui-js-config.php:148
+msgctxt "%s is the preset hex color code."
+msgid "%s added to presets!"
+msgstr "%s 已添加到预置！"
+
+#: includes/ui-js-config.php:145
+msgid "Paste color here..."
+msgstr "在此粘贴颜色..."
+
+#: includes/ui-js-config.php:136
+msgid "No saved modules found."
+msgstr "未找到保存的模块。"
+
+#: includes/ui-js-config.php:135
+msgid "No saved rows found."
+msgstr "未找到保存的行。"
+
+#: includes/ui-js-config.php:133
+msgid "Add a color preset first."
+msgstr "请先添加预设的颜色。"
+
+#: includes/ui-js-config.php:132
+msgid "Please enter a color first."
+msgstr "请先输入颜色。"
+
+#: includes/ui-js-config.php:128
+msgid "Module Saved!"
+msgstr "模块已保存！"
+
+#: includes/ui-js-config.php:121
+msgctxt "Indicator for global node templates."
+msgid "Global"
+msgstr "全局"
+
+#: includes/ui-js-config.php:118
+msgid "Field Loading..."
+msgstr "字段加载..."
+
+#: includes/ui-js-config.php:116
+msgid "Error! Please enter a valid year."
+msgstr "错误！请输入有效的年份。"
+
+#: includes/ui-js-config.php:115
+msgid "Error! Please enter a valid month."
+msgstr "错误！请输入有效的月份。"
+
+#: includes/ui-js-config.php:114
+msgid "Error! Please enter a valid day."
+msgstr "错误！请输入有效的日期。"
+
+#: includes/ui-js-templates.php:13 includes/ui-js-templates.php:51
+#: includes/ui-js-templates.php:145 includes/ui-js-config.php:107
+msgid "Duplicate"
+msgstr "复制"
+
+#: includes/ui-js-config.php:106
+msgid "Save Changes and Exit"
+msgstr "保存更改并退出"
+
+#: includes/ui-js-config.php:103
+msgid "Discard Changes and Exit"
+msgstr "放弃更改并退出"
+
+#: includes/ui-js-config.php:102
+msgid "WARNING! You are about to delete a global template that may be linked to other pages. Do you really want to delete this template and unlink it?"
+msgstr "警告！您将要删除一个全局模板，它可能与其他网页相链接。您确定要删除此模板并断开链接吗？"
+
+#: includes/ui-js-config.php:100
+msgid "Do you really want to delete this row?"
+msgstr "您确定要删除此行吗？"
+
+#: includes/ui-js-config.php:99
+msgid "Do you really want to delete this module?"
+msgstr "您确定要删除此模块吗？"
+
+#: includes/ui-js-config.php:97
+msgid "Do you really want to delete this column?"
+msgstr "您确定要删除此栏吗？"
+
+#: includes/ui-js-config.php:94
+msgid "Error! Please enter a date that is in the future."
+msgstr "错误！请输入将来的日期。"
+
+#: includes/ui-js-config.php:91
+msgid "Save With Errors"
+msgstr "保存错误"
+
+#: includes/ui-js-config.php:90
+msgid "Fix Errors"
+msgstr "修复错误"
+
+#: includes/ui-js-config.php:89
+msgid "This code has errors. We recommend you fix them before saving."
+msgstr "此代码有错误。 我们建议您在保存之前修复它们。"
+
+#: includes/ui-js-config.php:88
+msgid "Color Picker"
+msgstr "颜色选择器"
+
+#: includes/ui-js-config.php:87
+msgid "Color Presets"
+msgstr "预设颜色"
+
+#: includes/ui-js-config.php:83
+msgid "Blank"
+msgstr "空白"
+
+#. translators: %d: number of files selected (plural)
+#: includes/ui-js-config.php:82
+msgid "%d Audio Files Selected"
+msgstr "%d 音频文件已选择"
+
+#: includes/ui-js-config.php:80
+msgid "Audio Files Selected"
+msgstr "选中了音频文件"
+
+#. translators: %d: number of files selected
+#: includes/ui-js-config.php:79
+msgid "%d Audio File Selected"
+msgstr "%d选定的音频文件"
+
+#: includes/ui-js-config.php:77
+msgid "Audio File Selected"
+msgstr "选中了音频文件"
+
+#. translators: %s: preset color code
+#: includes/ui-js-config.php:76
+msgctxt "%s is the preset hex color code."
+msgid "%s is already a saved preset."
+msgstr "%s 是已保存的预置。"
+
+#: includes/ui-field-video.php:39
+msgid "Remove Video"
+msgstr "移除视频"
+
+#: includes/ui-field-multiple-audios.php:36
+msgid "Add Audio Files"
+msgstr "添加音频文件"
+
+#: includes/ui-field-multiple-audios.php:35
+msgid "Edit Playlist"
+msgstr "编辑播放列表"
+
+#: includes/ui-field-multiple-audios.php:34 includes/ui-js-config.php:166
+msgid "Select Audio"
+msgstr "选择音频"
+
+#: includes/ui-field-link.php:3
+msgctxt "Link placeholder"
+msgid "http://www.example.com"
+msgstr "http://www.exemple.com"
+
+#: includes/ui-bar.php:32
+msgid "Apply"
+msgstr "应用"
+
+#: includes/ui-bar.php:27
+msgid "Continue Editing"
+msgstr "继续编辑"
+
+#: includes/ui-bar.php:14
+msgid "Publish"
+msgstr "发布"
+
+#: includes/ui-bar.php:14
+msgid "Publish changes and exit"
+msgstr "发布更改并退出"
+
+#: includes/ui-js-config.php:171 includes/ui-bar.php:12
+msgid "Submit for Review"
+msgstr "提交供审核"
+
+#: includes/ui-bar.php:12
+msgid "Submit changes for review and exit"
+msgstr "提交审核并退出"
+
+#: includes/ui-bar.php:10
+msgid "Keep changes drafted and exit"
+msgstr "保留草稿更改并退出"
+
+#: includes/ui-bar.php:9
+msgid "Discard"
+msgstr "丢弃"
+
+#: includes/ui-bar.php:9
+msgid "Discard changes and exit"
+msgstr "放弃更改并退出"
+
+#: includes/ui-bar-title-area.php:13
+msgid "Toggle Main Menu"
+msgstr "切换主菜单"
+
+#: includes/strings.php:14
+msgid "Launch Page Builder"
+msgstr "启动海狸生成器"
+
+#: includes/strings.php:12
+msgid "Use an easy drag-and-drop builder to edit content on this page."
+msgstr "使用易于拖放的海狸生成器编辑此网页上的内容。"
+
+#. translators: %s: singular label
+#: includes/strings.php:10
+msgctxt "%s is the singular post type name (e.g. page)"
+msgid "Click here to edit content on this %s using an easy drag-and-drop builder."
+msgstr "单击此处使用简单的拖放生成器编辑此%s上的内容。"
+
+#: includes/strings.php:8
+msgid "The Beaver Builder Booster plugin is not compatible with your host."
+msgstr "海狸生成器Booster 插件与您的主机不兼容。"
+
+#. translators: %s: wporg docs link
+#: includes/row-settings.php:722
+msgid "Optional. Set the <a%s>capability</a> required for users to view this row."
+msgstr "可选。设置用户查看此行所需的<a%s>能力</a>。"
+
+#: includes/row-settings.php:383
+msgid "Enable Audio"
+msgstr "启用音频"
+
+#: includes/row-settings.php:375
+msgid "A video from Youtube or Vimeo to use as the background of this row. Most modern browsers support this format."
+msgstr "来自Youtube或Vimeo的视频用作此行的背景。 大多数现代浏览器都支持此格式"
+
+#: includes/row-settings.php:374
+msgid "Youtube Or Vimeo URL"
+msgstr "Youtube 或 Vimeo URL"
+
+#: includes/row-settings.php:365
+msgid "Video URL (WebM)"
+msgstr "视频 URL (WebM)"
+
+#: includes/row-settings.php:357
+msgid "A video in the MP4 to use as the background of this row. Most modern browsers support this format."
+msgstr "一个MP4 格式的视频，用作此行的背景。多数现代浏览器支持此格式。"
+
+#: includes/row-settings.php:356
+msgid "Video URL (MP4)"
+msgstr "视频 URL (MP4)"
+
+#: includes/row-settings.php:349 includes/row-settings.php:366
+msgid "A video in the WebM format to use as the background of this row. This format is required to support browsers such as FireFox and Opera."
+msgstr "WebM 格式的视频，用作此行的背景。支持 FireFox 和 Opera 需要此格式。"
+
+#: modules/video/video.php:168 includes/row-settings.php:348
+msgid "Video (WebM)"
+msgstr "视频 (WebM)"
+
+#: includes/row-settings.php:340
+msgid "A video in the MP4 format to use as the background of this row. Most modern browsers support this format."
+msgstr "一个 MP4 格式的视频，用作此行的背景。多数现代浏览器支持此格式。"
+
+#: modules/video/video.php:161 includes/row-settings.php:339
+msgid "Video (MP4)"
+msgstr "视频 (MP4)"
+
+#: includes/row-settings.php:319
+msgid "YouTube or Vimeo"
+msgstr "YouTube 或 Vimeo"
+
+#: includes/row-settings.php:73
+msgid "Full Height"
+msgstr "全屏高度"
+
+#: includes/row-settings.php:69 classes/class-fl-builder-art.php:430
+msgid "Height"
+msgstr "高度"
+
+#: includes/row-settings.php:48
+msgid "Fixed Width"
+msgstr "固定宽度"
+
+#. translators: %s: wporg docs link
+#: includes/module-settings.php:79
+msgid "Optional. Set the <a%s>capability</a> required for users to view this module."
+msgstr "可选。设置用户查看此模块所需的<a%s>能力</a>。"
+
+#. translators: %s: an object like posts or taxonomie
+#: includes/loop-settings-matching.php:8
+msgctxt "%s is an object like posts or taxonomies."
+msgid "Match all related %s except..."
+msgstr "匹配所有相关%s，但是..."
+
+#. translators: %s: an object like posts or taxonomie
+#: includes/loop-settings-matching.php:5
+msgctxt "%s is an object like posts or taxonomies."
+msgid "Match all %s except..."
+msgstr "匹配所有%s, 除了..."
+
+#. translators: %s: an object like posts or taxonomie
+#: includes/loop-settings-matching.php:3
+msgctxt "%s is an object like posts or taxonomies."
+msgid "Match these %s..."
+msgstr "匹配这些%s…"
+
+#: includes/ui-js-config.php:112 includes/layout-settings.php:4
+msgid "Layout CSS / Javascript"
+msgstr "布局样式/脚本"
+
+#: includes/global-settings.php:256 includes/layout-settings.php:26
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/global-settings.php:237 includes/layout-settings.php:7
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/global-settings.php:8
+msgid "<strong>Note</strong>: These settings apply to all posts and pages."
+msgstr "<strong>注意</strong>：这些设置应用于所有文章和网页。"
+
+#: includes/export-filters.php:4
+msgid "Export Selected"
+msgstr "导出所选"
+
+#: includes/export-filters.php:3
+msgid "Export All"
+msgstr "导出所有"
+
+#: includes/compatibility.php:210
+msgid "module"
+msgstr "模块"
+
+#: includes/compatibility.php:210
+msgid "SAFEMODE"
+msgstr "安全模式"
+
+#: includes/row-settings.php:743 includes/module-settings.php:100
+#: includes/column-settings.php:466
+msgid "HTML Element"
+msgstr "HTML 元素"
+
+#. translators: %s: wporg docs link
+#: includes/column-settings.php:445
+msgid "Optional. Set the <a%s>capability</a> required for users to view this column."
+msgstr "可选。设置用户查看此栏所需的<a%s>能力</a>。"
+
+#: includes/row-settings.php:720 includes/module-settings.php:77
+#: includes/column-settings.php:443
+msgid "User Capability"
+msgstr "用户能力"
+
+#: includes/row-settings.php:706 includes/module-settings.php:63
+#: includes/column-settings.php:429
+msgid "Logged In User"
+msgstr "已登录用户"
+
+#: includes/row-settings.php:705 includes/module-settings.php:62
+#: includes/column-settings.php:428
+msgid "Logged Out User"
+msgstr "已注销用户"
+
+#: includes/row-settings.php:683 includes/module-settings.php:40
+#: includes/column-settings.php:393
+msgid "Visibility"
+msgstr "可见性"
+
+#: includes/column-settings.php:417
+msgid "Reversed"
+msgstr "倒序"
+
+#: includes/column-settings.php:413
+msgid "The order of the columns in this group when they are stacked for small devices."
+msgstr "该组中的栏为小型设备堆叠时的顺序。"
+
+#: includes/column-settings.php:412
+msgid "Stacking Order"
+msgstr "堆叠顺序"
+
+#: includes/row-settings.php:621 includes/module-settings.php:9
+#: includes/column-settings.php:335 includes/ui-field-typography.php:234
+msgid "Spacing"
+msgstr "间距"
+
+#: includes/column-settings.php:50
+msgid "Setting this to yes will make all of the columns in this group the same height regardless of how much content is in each of them."
+msgstr "将此项设为“是”将让分组中的所有列具有相同的高度，无论各列内容的多少。"
+
+#. translators: %s: support url
+#: includes/admin-settings-welcome.php:117
+msgid "If you can't find an answer, feel free to <a href=\"%s\" target=\"_blank\">send us a message with your question.</a>"
+msgstr "如果您无法找到答案，请随时在我们的<a href=\"%s\" target=\"_blank\">支持论坛</a>发布答案。"
+
+#. translators: %s: upgrade url
+#: includes/admin-settings-welcome.php:114
+msgid "If you can't find an answer, consider upgrading to a premium version of Beaver Builder. Our expert support team is waiting to answer your questions and help you build your website. <a href=\"%s\" target=\"_blank\">Learn More</a>."
+msgstr "如果您无法找到答案，请考虑升级为海狸生成器高级版。我们的专家支持团队随时准备回答您的问题和帮助您建造网站。<a href=\"%s\" target=\"_blank\">了解更多</a>。"
+
+#. translators: 1: docs url: 2: facebook url
+#: includes/admin-settings-welcome.php:110
+msgid "For that, check our <a href=\"%1$s\" target=\"_blank\">Knowledge Base</a> or try searching <a href=\"%2$s\" target=\"_blank\">the Beaver Builders Facebook group</a>."
+msgstr "为此, 请检查我们的<a href=\"%1$s\" target=\"_blank\">知识库</a>或尝试搜索<a href=\"%2$s\" target=\"_blank\">海狸生成器 Facebook 群组</a>。"
+
+#: includes/admin-settings-welcome.php:107
+msgid "The fastest way to find an answer to a question is to see if someone's already answered it!"
+msgstr "找到问题答案的最快方式就是看看是不是已经有人回答过这个问题！"
+
+#: includes/admin-settings-welcome.php:105
+msgid "We take pride in offering outstanding support."
+msgstr "出色的客户支持让我们引以为豪。"
+
+#: includes/admin-settings-welcome.php:103
+msgid "Need Some Help?"
+msgstr "需要帮助吗？"
+
+#. translators: 1: blog post url: 2: changelog url
+#: includes/admin-settings-welcome.php:97
+msgid "There's a whole lot more, too! Read about everything else on our <a href=\"%1$s\" target=\"_blank\">update post</a> or <a href=\"%2$s\" target=\"_blank\">change logs</a>."
+msgstr "还有更多的！ 请阅读我们的<a href=\"%1$s\" target=\"_blank\">更新文章</a>或<a href=\"%2$s\" target=\"_blank\">更新日志</a>。"
+
+#. translators: %s: builder version
+#: includes/admin-settings-welcome.php:86
+msgid "What's New in Beaver Builder %s"
+msgstr "海狸生成器 %s 中的新增功能"
+
+#: includes/admin-settings-welcome.php:56
+msgid "Come by and share a project, ask a question, or just say hi! For news about new features and updates, like our <a href=\"https://www.facebook.com/wpbeaverbuilder/\" target=\"_blank\">Facebook Page</a> or follow us <a href=\"https://twitter.com/beaverbuilder\" target=\"_blank\">on Twitter</a>."
+msgstr "过来分享项目、提问，或者打个招呼也行！要获取新功能和更新的新闻，请喜欢我们的 <a href=\"https://www.facebook.com/wpbeaverbuilder/\" target=\"_blank\">Facebook 网页</a>或<a href=\"https://twitter.com/beaverbuilder\" target=\"_blank\">在 Twitter 上</a>关注我们。"
+
+#: includes/admin-settings-welcome.php:53
+msgid "<a href=\"https://www.wpbeaverbuilder.com/go/bb-slack\" target=\"_blank\">Join the Beaver Builder's Group on Slack</a>"
+msgstr "<a href=\"https://www.wpbeaverbuilder.com/go/bb-slack\" target=\"_blank\">加入海狸生成器在 Slack 上的小组</a>"
+
+#: includes/admin-settings-welcome.php:52
+msgid "<a href=\"https://www.wpbeaverbuilder.com/go/bb-facebook\" target=\"_blank\">Join the Beaver Builder's Group on Facebook</a>"
+msgstr "<a href=\"https://www.wpbeaverbuilder.com/go/bb-facebook\" target=\"_blank\">加入海狸生成器在 Facebook 上的小组</a>"
+
+#: includes/admin-settings-welcome.php:49
+msgid "There's a wonderful community of \"Beaver Builders\" out there and we'd love it if <em>you</em> joined us!"
+msgstr "海狸生成器用户有一个美妙的社区，我们期待<em>您的加入</em>！"
+
+#: includes/admin-settings-welcome.php:47
+msgid "Join the Community"
+msgstr "加入社区"
+
+#: includes/admin-settings-welcome.php:45
+msgid "Ready to start building? Add a new page and jump into Beaver Builder by clicking the Page Builder tab shown on the image."
+msgstr "准备好开始建造了？单击图像上显示的“海狸生成器”选项卡，添加一个新的页面并跳转至海狸生成器。"
+
+#: includes/admin-settings-welcome.php:43
+msgid "Pages → Add New"
+msgstr "页面 \t 新建页面"
+
+#: includes/admin-settings-welcome.php:37
+msgid "Getting Started - Building your first page."
+msgstr "开始使用 - 构建您的第一个网页。"
+
+#: includes/admin-settings-welcome.php:32
+msgid "Be sure to add your license key for access to updates and new features."
+msgstr "请确保添加您的许可证密钥以使用升级和新的功能。"
+
+#. translators: %s: upgrade url
+#: includes/admin-settings-welcome.php:30
+msgid "For more time-saving features and access to our expert support team, <a href=\"%s\" target=\"_blank\">upgrade today</a>."
+msgstr "要获取更多省时功能并使用我们的专家支持团队，请<a href=\"%s\" target=\"_blank\">立即升级</a>。"
+
+#: includes/admin-settings-welcome.php:26
+msgid "Thank you for choosing Beaver Builder and welcome to the colony! Find some helpful information below. Also, to the left are the Page Builder settings options."
+msgstr "感谢您选择海狸生成器，欢迎来到我们的世界！在下面寻找一些有用的信息。左边则是海狸生成器的设置选项。"
+
+#: includes/admin-settings-welcome.php:22
+msgid "Welcome to Beaver Builder!"
+msgstr "欢迎使用海狸生成器！"
+
+#: includes/admin-settings-user-access.php:36
+msgid "Save User Access Settings"
+msgstr "保存用户访问设置"
+
+#: includes/admin-settings-user-access.php:5
+msgid "Use these settings to limit which builder features users can access."
+msgstr "使用这个设置编辑WordPress后台的生成器模版。"
+
+#: includes/admin-settings-user-access.php:4
+msgid "User Access Settings"
+msgstr "用户访问设置"
+
+#: includes/admin-settings-upgrade.php:17
+msgid "Come by the Beaver Builder Homepage to learn more about what our premium features can do for you!"
+msgstr "访问海狸生成器主页，详细了解我们的尊享版功能可以为您做些什么！"
+
+#: includes/admin-settings-upgrade.php:14
+msgid "Build your own custom modules."
+msgstr "建造您自己的自定义模块。"
+
+#: includes/admin-settings-upgrade.php:13
+msgid "Save, export, and reuse full-page layouts, rows, and modules."
+msgstr "保存、导出和重新使用整页布局、行和模块。"
+
+#: includes/admin-settings-upgrade.php:12
+msgid "Beautiful pre-made layout templates."
+msgstr "漂亮的预制布局模板。"
+
+#: includes/admin-settings-upgrade.php:11
+msgid "Expert support from our world-class support team."
+msgstr "我们世界级客户支持团队提供的专家支持。"
+
+#: includes/admin-settings-upgrade.php:10
+msgid "Additional modules: Contact Form, Tabs, Slider, Pricing Table, Map, Blog Posts, Subscribe Form, Social Icons, and many more."
+msgstr "更多模块：联系表、选项卡、滑块、定价表、博客文章、订阅表、社交图标等等。"
+
+#: includes/admin-settings-upgrade.php:7
+msgid "Premium Features"
+msgstr "高级功能"
+
+#: includes/admin-settings-upgrade.php:5
+msgid "Along with access to our expert support team, the premium versions of Beaver Builder are packed with more features to save you time and make building websites easier!"
+msgstr "除访问我们的专家支持团队外，海狸生成器尊享版还具有更多功能，能为您节省时间，让建造网站更加容易！"
+
+#: includes/admin-settings-upgrade.php:3
+msgid "Get More Features"
+msgstr "获取更多功能"
+
+#: includes/admin-settings-tools.php:77
+msgid "If enabled we will send anonymous usage stats to help improve the plugin."
+msgstr "如果启用，我们将发送匿名使用统计信息以帮助改进插件。"
+
+#: includes/admin-settings-tools.php:75
+msgid "Send Usage Data"
+msgstr "发送使用情况数据"
+
+#: includes/admin-settings-tools.php:67
+msgid "Enable"
+msgstr "启用"
+
+#: includes/admin-settings-tools.php:62
+msgid "Disable"
+msgstr "禁用"
+
+#: includes/admin-settings-tools.php:50
+msgid "Enable Debug Mode"
+msgstr "启用调试模式"
+
+#: includes/admin-settings-tools.php:50
+msgid "Disable Debug Mode"
+msgstr "禁用调试模式"
+
+#: includes/admin-settings-tools.php:37
+msgid "Copy this unique URL and send it to support as directed."
+msgstr "复制此唯一网址并按指示将其发送给技术支持。"
+
+#: includes/admin-settings-tools.php:35
+msgid "Enable debug mode to generate a unique support url."
+msgstr "启用调试模式以生成唯一的支持 url。"
+
+#: includes/admin-settings-tools.php:29
+msgid "Debug Mode Disabled"
+msgstr "调试模式已禁用"
+
+#: includes/admin-settings-tools.php:29
+msgid "Debug Mode Enabled"
+msgstr "调试模式已启用"
+
+#: includes/admin-settings-js-config.php:13
+msgid "Select All"
+msgstr "选择所有"
+
+#: includes/admin-settings-js-config.php:12
+msgid "Selected"
+msgstr "已选择"
+
+#: includes/admin-settings-js-config.php:11
+msgid "Select..."
+msgstr "选择..."
+
+#: includes/admin-settings-js-config.php:10
+msgid "None Selected"
+msgstr "未选择"
+
+#: includes/admin-settings-js-config.php:9
+msgid "Deselect All"
+msgstr "取消全选"
+
+#. translators: %s: post type name
+#: includes/admin-posts.php:16
+msgctxt "%s stands the post type name."
+msgid "View %s"
+msgstr "查看%s"
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:41
+msgid "Save Cache Clearing Tool Settings"
+msgstr "保存缓存清除工具设置"
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:32
+msgid "Enable proxy cache clearing"
+msgstr "启用代理缓存清除"
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:27
+msgid "Some hosts use a proxy cache like Varnish or Litespeed. The following setting attempts to invalidate the cache using a remote request. If you are unsure what this does, leave it disabled."
+msgstr "有些主机使用代理缓存，如Varnish或Litespeed。 以下设置尝试使用远程请求使缓存无效。 如果您不确定这是做什么的，请将其禁用。"
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:19
+msgid "Enable the Cache Clearing Tool"
+msgstr "启用缓存清除工具"
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:14
+msgid "Enable the following setting to clear the caches created by any of these caching plugins. If enabled, cache clearing occurs when layouts and templates are saved and when WordPress finishes updating plugins and themes. This setting also defines the DONOTCACHEPAGE constant, which is respected by most cache plugins, to keep the page from being cached when the Beaver Builder editor is active."
+msgstr "启用以下设置以清除由任何这些缓存插件创建的缓存。如果启用, 则在保存布局和模板以及 WordPress 完成更新插件和主题时进行缓存清除。此设置还定义了大多数缓存插件都尊重的 SONOTCACHE 常量, 以防止在海狸生成器编辑器处于活动状态时缓存页面。"
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:11
+msgid "This tool applies to caches created by the following:"
+msgstr "此工具适用于由以下内容创建的缓存："
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:7
+msgid "Cache Clearing Tool"
+msgstr "缓存清除工具"
+
+#. translators: %s: extension type
+#: classes/class-fl-builder.php:3397
+msgid "The uploaded file is not a valid %s extension."
+msgstr "上传的文件不是有效的%s扩展名。"
+
+#: classes/class-fl-builder.php:1375
+msgid "Upgrade Today"
+msgstr "立即升级"
+
+#. translators: %s: post label
+#: classes/class-fl-builder.php:1331
+msgctxt "Currently editing message"
+msgid "Currently Editing %s"
+msgstr "正在编辑%s"
+
+#: classes/class-fl-builder.php:1243
+msgctxt "Keyboard action to dismiss the current task or panel"
+msgid "Dismiss Active Panel"
+msgstr "关闭活动面板"
+
+#: classes/class-fl-builder.php:1238
+msgctxt "Keyboard action to publish any pending changes"
+msgid "Publish changes without leaving builder"
+msgstr "发布更改而不离开生成器"
+
+#: classes/class-fl-builder.php:1233
+msgctxt "Keyboard action to save changes"
+msgid "Save Layout"
+msgstr "保存布局"
+
+#: classes/class-fl-builder.php:1228
+msgctxt "Keyboard action to open the module search panel"
+msgid "Display Module Search"
+msgstr "显示搜索模块"
+
+#: classes/class-fl-builder.php:1224
+msgctxt "Keyboard action to switch between light and dark UI brightness"
+msgid "Change UI Brightness"
+msgstr "改变界面亮度"
+
+#: classes/class-fl-builder.php:1220
+msgctxt "Keyboard action to open the layout settings panel"
+msgid "Open Layout Settings"
+msgstr "打开布局设置"
+
+#: classes/class-fl-builder.php:1216
+msgctxt "Keyboard action to open the global settings panel"
+msgid "Open Global Settings"
+msgstr "打开全局设置"
+
+#: classes/class-fl-builder.php:1208
+msgctxt "Keyboard action to toggle preview mode"
+msgid "Toggle Preview Mode"
+msgstr "切换预览模式"
+
+#: classes/class-fl-builder.php:1203
+msgctxt "Keyboard action to open save template form"
+msgid "Save New Template"
+msgstr "保存新模板"
+
+#: classes/class-fl-builder.php:1198
+msgctxt "Keyboard action to show saved tab"
+msgid "Open Saved Tab"
+msgstr "打开保存的选项卡"
+
+#: classes/class-fl-builder.php:1194
+msgctxt "Keyboard action to show templates tab"
+msgid "Open Templates Tab"
+msgstr "打开模板选项卡"
+
+#: classes/class-fl-builder.php:1190
+msgctxt "Keyboard action to show rows tab"
+msgid "Open Rows Tab"
+msgstr "打开行选项卡"
+
+#: classes/class-fl-builder.php:1186
+msgctxt "Keyboard action to show modules tab"
+msgid "Open Modules Tab"
+msgstr "打开模块选项卡"
+
+#: classes/class-fl-builder.php:1178
+msgctxt "A keyboard shortcut with no label given"
+msgid "Untitled Shortcut"
+msgstr "无标题快捷方式"
+
+#: includes/ui-js-config.php:206 classes/class-fl-builder.php:1157
+msgid "Contact Support"
+msgstr "联系技术支持"
+
+#: classes/class-fl-builder.php:1149
+msgid "View Knowledge Base"
+msgstr "查看知识库"
+
+#: classes/class-fl-builder.php:1141
+msgid "Take A Tour"
+msgstr "新手指南"
+
+#: classes/class-fl-builder.php:1111
+msgid "Customize Theme"
+msgstr "自定义主题"
+
+#: classes/class-fl-builder.php:1088
+msgctxt "label for the WordPress Dashboard link"
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: classes/class-fl-builder.php:1059
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: classes/class-fl-builder.php:1052 classes/class-fl-builder.php:1122
+msgid "Help"
+msgstr "帮助"
+
+#: classes/class-fl-builder.php:1045 classes/class-fl-builder.php:1068
+msgid "WordPress Admin"
+msgstr "网站后台"
+
+#: classes/class-fl-builder.php:1038
+msgid "Change UI Brightness"
+msgstr "改变操作界面亮度"
+
+#: includes/global-settings.php:4 includes/ui-js-config.php:111
+#: classes/class-fl-builder.php:1027
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: classes/class-fl-builder.php:1020
+msgid "Layout CSS & Javascript"
+msgstr "布局样式/脚本"
+
+#: classes/class-fl-builder.php:1002
+msgid "Preview Layout"
+msgstr "预览布局"
+
+#: classes/class-fl-builder.php:996
+msgid "Duplicate Layout"
+msgstr "复制布局"
+
+#: classes/class-fl-builder.php:961
+msgid "Unnamed Menu"
+msgstr "未命名菜单"
+
+#: classes/class-fl-builder-wpcli-command.php:79
+msgid "Rebuilt the theme cache"
+msgstr "重建主题缓存"
+
+#: classes/class-fl-builder-wpcli-command.php:76
+msgid "Cleared the page builder cache"
+msgstr "清除页面设计器缓存"
+
+#. translators: %s: current blog name
+#: classes/class-fl-builder-wpcli-command.php:70
+msgctxt "current blog name"
+msgid "Rebuilt the theme cache for blog %s"
+msgstr "为博客%s重建主题缓存"
+
+#. translators: %s: current blog name
+#: classes/class-fl-builder-wpcli-command.php:66
+msgctxt "current blog name"
+msgid "Cleared the page builder cache for blog %s"
+msgstr "已清除博客%s的页面生成器缓存"
+
+#: classes/class-fl-builder-wpcli-command.php:41
+msgid "--all switch used but bb-theme is not active. If using multisite bb-theme must be active on the root site."
+msgstr "--所有使用的开关，但 bb-theme 未处于活动状态。如果使用多站点 bb-theme 必须在根站点上处于启用状态。"
+
+#: classes/class-fl-builder-wp-blocks.php:94
+msgid "Switching to the native WordPress editor will disable your Beaver Builder layout until it is enabled again. Any edits made in the WordPress editor will not be converted to your Page Builded layout. Do you want to continue?"
+msgstr "切换到本机 WordPress 编辑器将禁用海狸生成器布局，直到它再次启用。 在 WordPress 编辑器中进行的任何编辑都不会转换为您的页面生成布局。要继续吗？"
+
+#. translators: %s: post type name
+#: classes/class-fl-builder-wp-blocks.php:93
+msgctxt "%s post type name."
+msgid "View %s"
+msgstr "查看%s"
+
+#. translators: %s: branded builder name
+#: classes/class-fl-builder-wp-blocks.php:90
+msgctxt "%s branded builder name."
+msgid "Launch %s"
+msgstr "启动%s"
+
+#: classes/class-fl-builder-wp-blocks.php:88
+msgid "Use Standard Editor"
+msgstr "使用标准编辑器"
+
+#. translators: %s: branded builder name
+#: classes/class-fl-builder-wp-blocks.php:87
+msgctxt "%s branded builder name."
+msgid "%s lets you drag and drop your layout on the frontend."
+msgstr "%s允许您在前端拖放布局。"
+
+#. translators: %s: post type name
+#: classes/class-fl-builder-wp-blocks.php:85
+msgctxt "%s branded builder name."
+msgid "Convert to %s"
+msgstr "转换为%s"
+
+#. translators: 1: branded builder name: 2: post type name
+#: classes/class-fl-builder-wp-blocks.php:83
+msgctxt "%1$s branded builder name. %2$s post type name."
+msgid "%1$s is currently active for this %2$s."
+msgstr "%1$s 当前为此 %2$s 处于激活状态。"
+
+#: classes/class-fl-builder-user-access.php:291
+msgid "The selected roles will have unrestricted access to all editing features within the builder."
+msgstr "所选角色将无限制地访问生成器中的所有编辑功能。"
+
+#: classes/class-fl-builder-user-access.php:290
+msgid "Unrestricted Editing"
+msgstr "无限制编辑"
+
+#: classes/class-fl-builder-user-access.php:283
+msgid "The selected roles will have access to the builder for editing posts, pages, and CPTs."
+msgstr "所选角色将有权访问生成器以编辑文章，页面和自定义文章类型。"
+
+#: classes/class-fl-builder-user-access.php:282
+msgid "Builder Access"
+msgstr "生成器访问"
+
+#: classes/class-fl-builder-user-access.php:281
+#: classes/class-fl-builder-user-access.php:289
+msgid "Frontend"
+msgstr "前端"
+
+#: classes/class-fl-builder-user-access.php:49
+msgid "Misc"
+msgstr "杂项"
+
+#: classes/class-fl-builder-usage.php:231
+msgid "We will never collect any private data such as IP, email addresses or usernames."
+msgstr "我们绝不会收集任何私人数据, 如 IP、电子邮件地址或用户名。"
+
+#: classes/class-fl-builder-usage.php:229
+msgid "What kind of info will we collect?"
+msgstr "我们会收集什么样的信息？"
+
+#: classes/class-fl-builder-usage.php:220
+msgid "UI theme, pinned settings etc."
+msgstr "UI 主题、固定设置等。"
+
+#: classes/class-fl-builder-usage.php:219
+msgid "Builder Settings"
+msgstr "生成器设置"
+
+#: classes/class-fl-builder-usage.php:216
+msgid "Which modules are used and how many times."
+msgstr "使用了哪些模块以及使用了多少次。"
+
+#: classes/class-fl-builder-usage.php:215
+msgid "Modules Used"
+msgstr "使用的模块"
+
+#: classes/class-fl-builder-usage.php:211
+msgid "Plugins Count"
+msgstr "插件计数"
+
+#: classes/class-fl-builder-usage.php:207
+msgid "Locale"
+msgstr "本地化"
+
+#: classes/class-fl-builder-usage.php:203
+msgid "WP Multisite"
+msgstr "WP多站点"
+
+#: classes/class-fl-builder-usage.php:199
+msgid "WP Version"
+msgstr "WP版本"
+
+#: classes/class-fl-builder-usage.php:195
+msgid "PHP Version"
+msgstr "PHP版本"
+
+#: classes/class-fl-builder-usage.php:191
+msgid "Server Type"
+msgstr "服务器类型"
+
+#. translators: %s: branded builder name
+#: classes/class-fl-builder-usage.php:103
+msgid "Would you like to help us improve %s by sending anonymous usage data?"
+msgstr "您想通过发送匿名使用数据来帮助我们改进%s吗？"
+
+#: classes/class-fl-builder-usage.php:97
+msgid "No, Thank You"
+msgstr "不，谢谢"
+
+#: classes/class-fl-builder-usage.php:96
+msgid "Sure, I'll help"
+msgstr "当然！我很乐意帮忙"
+
+#: includes/global-settings.php:114
+#: classes/class-fl-builder-ui-content-panel.php:139
+msgid "Columns"
+msgstr "分栏"
+
+#: includes/ui-js-templates.php:338
+#: classes/class-fl-builder-ui-content-panel.php:86
+msgid "Standard Modules"
+msgstr "标准模块"
+
+#: classes/class-fl-builder-timezones.php:120
+#: classes/class-fl-builder-timezones.php:125
+msgid "UTC"
+msgstr "UTC"
+
+#: classes/class-fl-builder-timezones.php:75
+msgid "Select a city"
+msgstr "选择城市"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendy.php:202
+msgid "There was an error subscribing to Sendy. %s"
+msgstr "订阅 Sendy 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-sendy.php:185
+msgid "There was an error subscribing to Sendy. The account is no longer connected."
+msgstr "订阅 Sendy 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-sendy.php:137
+msgid "The ID of the list you would like users to subscribe to. The ID of a list can be found under \"View all lists\" in the section named ID."
+msgstr "您想要用户订阅的列表的 ID。列表的 ID 可以在“查看所有列表”的名为“ID”的部分中找到。"
+
+#: classes/class-fl-builder-service-sendy.php:136
+msgid "List ID"
+msgstr "列表 ID"
+
+#: classes/class-fl-builder-service-sendy.php:115
+msgid "The URL where your Sendy application is installed (e.g. http://mywebsite.com/sendy)."
+msgstr "您安装 Sendy 应用程序的 URL（例如：http://mywebsite.com/sendy）。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendy.php:94
+msgid "Error: Could not connect to Sendy. %s"
+msgstr "错误：无法连接 Sendy。%s"
+
+#: classes/class-fl-builder-service-sendy.php:74
+msgid "Error: You must provide a list ID."
+msgstr "错误：您必须提供一个列表 ID。"
+
+#: classes/class-fl-builder-service-sendy.php:66
+msgid "Error: You must provide your Sendy installation URL."
+msgstr "错误：您必须提供您的 Sendy 安装 URL。"
+
+#. translators: %s: error code
+#: classes/class-fl-builder-service-ontraport.php:252
+msgid "There was an error subscribing to Ontraport. Code: %s"
+msgstr "订阅 Ontraport 时出错。 代码：%s"
+
+#: classes/class-fl-builder-service-ontraport.php:225
+msgid "There was an error subscribing to Ontraport. The account is no longer connected."
+msgstr "订阅 Ontraport 时出错。 该帐户已不再关联。"
+
+#: classes/class-fl-builder-service-ontraport.php:196
+msgctxt "An email campaign from your Ontraport account."
+msgid "Campaign"
+msgstr "活动"
+
+#: classes/class-fl-builder-service-ontraport.php:124
+msgid "Your API key can be found in your Ontraport account."
+msgstr "您的API密钥可以在您的 Ontraport 帐户中找到。"
+
+#: classes/class-fl-builder-service-ontraport.php:113
+msgid "Your APP ID can be found in your Ontraport account."
+msgstr "您的APP ID可以在您的 Ontraport 帐户中找到。"
+
+#: classes/class-fl-builder-service-ontraport.php:112
+msgid "APP ID"
+msgstr "APP ID"
+
+#. translators: %s: error code
+#: classes/class-fl-builder-service-ontraport.php:90
+msgid "Error: Please check your API token. Code: %s"
+msgstr "错误：请检查您的 API 令牌。代码: %s"
+
+#: classes/class-fl-builder-service-ontraport.php:68
+msgid "Error: You must provide an APP ID."
+msgstr "错误：您必须提供一个 APP ID。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mautic.php:281
+msgid "There was an error subscribing to Mautic. %s"
+msgstr "订阅 Mautic 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-mautic.php:248
+msgid "There was an error subscribing to Mautic. The account is no longer connected."
+msgstr "订阅 Mautic 时发生了错误。该帐户不再连接。"
+
+#: classes/class-fl-builder-service-mautic.php:188
+msgid "Error: Please check your API credentials."
+msgstr "错误：请检查您的 API 凭据。"
+
+#: classes/class-fl-builder-service-mautic.php:153
+msgid "Password associated with the username. Make this a Long passPhrase."
+msgstr "与用户名关联的密码。 将其设为Long passPhrase。"
+
+#: classes/class-fl-builder-service-mautic.php:152
+msgid "Mautic Password"
+msgstr "Mautic 密码"
+
+#: classes/class-fl-builder-service-mautic.php:142
+msgid "Username from your Mautic application. Make sure it has `Full system access`. Best practice would be to set up a new user for each external site."
+msgstr "来自 Mautic 应用程序的用户名。 确保它具有“完全系统访问权限”。 最佳做法是为每个外部站点设置新用户。"
+
+#: classes/class-fl-builder-service-mautic.php:141
+msgid "Mautic Username"
+msgstr "Mautic 用户名"
+
+#: classes/class-fl-builder-service-mautic.php:130
+msgid ""
+"API should be enabled in your Mautic application.\n"
+"\t\t\t\t\tGo to Mautic Configuration / API Settings and set `API enabled` to `Yes`, set `Enable HTTP basic auth` to `Yes` . Save changes."
+msgstr ""
+"API 应在您的 Mautic 应用程序中启用。\n"
+"\t\t\t\t\t转到 Mautic 配置/API 设置, 并将 \"启用 API\" 设置为 \"是\", 将 \"启用 HTTP 基本身份验证\" 设置为 \"是\"。保存更改。"
+
+#: classes/class-fl-builder-service-mautic.php:129
+msgid "The URL where your Mautic application is installed (e.g. http://mautic.mywebsite.com)."
+msgstr "Mautic 应用安装位置的 URL（如：http://mautic.mywebsite.com）。"
+
+#: classes/class-fl-builder-service-sendy.php:114
+#: classes/class-fl-builder-service-mautic.php:128
+msgid "Installation URL"
+msgstr "安装 URL"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mautic.php:108
+msgid "Error: Could not connect to Mautic. %s"
+msgstr "错误：无法连接到 Mautic。 %s"
+
+#: classes/class-fl-builder-service-mautic.php:81
+msgid "Error: You must provide your Mautic app user password."
+msgstr "错误：您必须提供您的 Mautic 应用的用户密码."
+
+#: classes/class-fl-builder-service-mautic.php:77
+msgid "Error: You must provide your Mautic app username."
+msgstr "错误：您必须提供您的 Mautic 应用程序用户名。"
+
+#: classes/class-fl-builder-service-mautic.php:73
+msgid "Error: You must provide your Mautic installation URL."
+msgstr "错误：您必须提供您的 Mautic 安装 URL。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailrelay.php:236
+msgid "There was an error subscribing to Mailrelay. %s"
+msgstr "订阅 Mailrelay 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-mailrelay.php:223
+msgid "There was an error subscribing to Mailrelay. The account is no longer connected."
+msgstr "订阅 Mailrelay 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-mailrelay.php:195
+msgctxt "A list of subscribers group from a Mailrelay account."
+msgid "Group"
+msgstr "分组"
+
+#: classes/class-fl-builder-service-mailrelay.php:128
+msgid "Your API key can be found in your Mailrelay account under Menu > Settings > API access."
+msgstr "您的 API 密钥可以在您的 Mailrelay 账户中的“菜单” > “设置” > “API 访问”下找到。"
+
+#: classes/class-fl-builder-service-mailrelay.php:117
+msgid "The host you chose when you signed up for your account. Check your welcome email if you forgot it. Please enter it without the initial http:// (e.g. demo.ip-zone.com)."
+msgstr "您注册账户时选择的主机。如果您忘记了，请查看您的欢迎邮件。请输入“http://”之后的部分（如：demo.ip-zone.com）"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailrelay.php:96
+msgid "Error: Could not connect to Mailrelay. %s"
+msgstr "错误：无法连接 Mailrelay。%s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailpoet.php:195
+msgid "There was an error subscribing to MailPoet. %s"
+msgstr "订阅 MailPoet 时出错。代码：%s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailerlite.php:240
+msgid "There was an error subscribing to MailerLite. Code: %s"
+msgstr "订阅 MailerLite 时出错。代码：%s"
+
+#: classes/class-fl-builder-service-mailerlite.php:201
+msgid "There was an error subscribing to MailerLite. The account is no longer connected."
+msgstr "订阅 MailerLite 时发生了错误。该帐户不再连接。"
+
+#: classes/class-fl-builder-service-mailerlite.php:173
+msgctxt "An email list from a third party provider."
+msgid "Group"
+msgstr "分组"
+
+#: classes/class-fl-builder-service-mailerlite.php:109
+msgid "Found in your MailerLite account under Integrations > Developer API."
+msgstr "到您的 MailerLite 帐户下 集成 > 开发者 API 中寻找到。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailerlite.php:88
+msgid "Error: Could not connect to MailerLite. %s"
+msgstr "错误：无法连接到 MailerLite。%s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact-pro.php:313
+msgid "There was an error subscribing to iContact Pro. %s"
+msgstr "订阅 iContact Pro 时出错。%s"
+
+#. translators: 1: api link
+#: classes/class-fl-builder-service-icontact-pro.php:177
+msgid "Your Company and Profile ID can also be found in the <a%1$s>iContact Pro API settings</a> under Account Information."
+msgstr "您的公司和配置文件 ID 也可以在 帐户信息\" 下的<a%1$s> iContact Pro API 设置</a>中找到。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:175
+msgid "Your iContact Pro Profile ID."
+msgstr "您的 iContact Pro 个人资料 ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:174
+msgid "Profile ID"
+msgstr "资料文件ID"
+
+#: classes/class-fl-builder-service-icontact-pro.php:164
+msgid "Your iContact Pro Company ID."
+msgstr "您的 iContact Pro 公司 ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:163
+msgid "Company ID"
+msgstr "公司 ID"
+
+#: classes/class-fl-builder-service-icontact-pro.php:151
+msgid "Your iContact Pro app password."
+msgstr "您的 iContact Pro APP 密码。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:140
+msgid "Your iContact Pro app ID."
+msgstr "您的 iContact Pro APP ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:129
+msgid "Your iContact Pro username."
+msgstr "您的 iContact Pro 用户名。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact-pro.php:108
+#: classes/class-fl-builder-service-icontact-pro.php:217
+msgid "Error: Could not connect to iContact Pro. %s"
+msgstr "错误：无法连接到 iContact Pro。 %s"
+
+#: classes/class-fl-builder-service-icontact-pro.php:85
+msgid "Error: You must provide a profile ID."
+msgstr "错误：您必须提供个人资料 ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:83
+msgid "Error: You must provide a company ID."
+msgstr "错误：您必须提供公司 ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:81
+msgid "Error: You must provide an app password."
+msgstr "错误：您必须提供一个应用密码."
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:207
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:231
+msgid "There was an error subscribing to GoDaddy Email Marketing. The account is no longer connected."
+msgstr "订阅 GoDaddy 电子邮件营销时出错。 该帐户已不再关联。"
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:179
+msgctxt "A signup form from your GoDaddy Email Marketing account."
+msgid "Form"
+msgstr "形式"
+
+#. translators: 1: Godaddy account page: 2: Godaddy signup page
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:114
+msgid "<a%1$s>Sign in</a> to get your username and API key. <a%2$s>Signup</a> if you don't have a GoDaddy Email Marketing account."
+msgstr "<a%1$s>登录</a>以获取您的用户名和 API 密钥。如果您没有 GoDaddy 电子邮件市场营销帐户, 请<a%2$s>注册</a>."
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:112
+msgid "Your API key from your GoDaddy Email Marketing account."
+msgstr "您的 GoDaddy 电子邮件营销帐户的 API 密钥。"
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:101
+msgid "The username associated with your GoDaddy Email Marketing account."
+msgstr "与您的 GoDaddy 电子邮件营销帐户关联的用户名。"
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:100
+msgid "API Username"
+msgstr "API 用户名"
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:75
+msgid "Unable to connect to GoDaddy Email Marketing. Please check your credentials."
+msgstr "无法连接到 GoDaddy 电子邮件营销。请检查您的证书。"
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:67
+msgid "Error: You must provide an API username."
+msgstr "错误：您必须提供 API 用户名。"
+
+#: classes/class-fl-builder-service-getresponse.php:172
+msgid "This should match the cycle day settings for the selected list's Autoresponder."
+msgstr "这应该与所选列表的自动回复器的循环日设置相匹配。"
+
+#: classes/class-fl-builder-service-getresponse.php:171
+msgctxt "Day of autoresponder cycle."
+msgid "Cycle Day"
+msgstr "周期日"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-enormail.php:220
+msgid "There was an error subscribing to Enormail. %s"
+msgstr "订阅 Enormail 时出错。%s"
+
+#: classes/class-fl-builder-service-enormail.php:196
+msgid "There was an error subscribing to Enormail. The account is no longer connected."
+msgstr "订阅 Enormail 时发生了错误。该帐户不再连接。"
+
+#: classes/class-fl-builder-service-sendy.php:126
+#: classes/class-fl-builder-service-enormail.php:104
+msgid "Found in your Sendy application under Settings."
+msgstr "可在您的 Sendy 应用程序中的“设置”下找到。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-enormail.php:81
+msgid "Error: Could not connect to Enormail. %s"
+msgstr "错误：无法连接到 Enormail。 %s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:295
+msgid "There was an error subscribing to Drip. %s"
+msgstr "订阅 Drip 时发生了错误。%s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:262
+msgid "There was an error searching contact from Drip. %s"
+msgstr "从 Drip 搜索联系人时发生了错误。%s"
+
+#: classes/class-fl-builder-service-drip.php:243
+msgid "There was an error subscribing to Drip. The account is no longer connected."
+msgstr "订阅 Drip 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-drip.php:215
+msgid "For multiple tags, separate with comma."
+msgstr "标签之间请用逗号隔开。"
+
+#: classes/class-fl-builder-service-drip.php:214
+msgctxt "A tag to add to contacts in Drip when they subscribe."
+msgid "Tags"
+msgstr "标签"
+
+#: classes/class-fl-builder-service-drip.php:189
+msgctxt "An email campaign from your GetDrip account."
+msgid "Campaign"
+msgstr "活动"
+
+#: classes/class-fl-builder-service-drip.php:130
+msgid "Your Account ID can be found in your Drip account under Settings > Site Setup."
+msgstr "您的账户 ID 可以在您的 Drip 账户中的“设置” > “网站设置”下找到。"
+
+#: classes/class-fl-builder-service-drip.php:129
+msgid "Account ID"
+msgstr "账户 ID"
+
+#. translators: %s: api url
+#: classes/class-fl-builder-service-drip.php:119
+msgid "Your API Token can be found in your Drip account under Settings > My User Settings. Or, you can click this <a%s>direct link</a>."
+msgstr "您的 API 令牌可以在您的 Drip 账户中的“设置” > “我的用户设置”下找到。您也可以单击此<a%s>直接链接</a>访问。"
+
+#: classes/class-fl-builder-service-drip.php:117
+msgid "API Token"
+msgstr "API 令牌"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:95
+msgid "Error: Please check your API token. %s"
+msgstr "错误：请检查您的 API 令牌。%s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:88
+msgid "Error: Please check your Account ID. %s"
+msgstr "错误：请检查您的账户 ID。%s"
+
+#: classes/class-fl-builder-service-drip.php:67
+msgid "Error: You must provide an Account ID."
+msgstr "错误：您必须提供一个账户 ID。"
+
+#: classes/class-fl-builder-service-drip.php:65
+#: classes/class-fl-builder-service-mailerlite.php:74
+msgid "Error: You must provide an API token."
+msgstr "错误：您必须提供一个 API 令牌。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-convertkit.php:207
+msgid "There was an error subscribing to ConvertKit. Error: %s"
+msgstr "订阅 ConvertKit 时发生了一个错误。%s"
+
+#: classes/class-fl-builder-service-convertkit.php:189
+msgid "There was an error subscribing to ConvertKit. The account is no longer connected."
+msgstr "订阅 ConvertKit 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-convertkit.php:97
+msgid "Your API key can be found in your ConvertKit account under Account > Account Settings > API Key."
+msgstr "您的 API 密钥可以在您的 ConvertKit 账户中的“账户设置” > “API 密钥”下找到。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-campayn.php:284
+msgid "There was an error subscribing to Campayn. %s"
+msgstr "订阅 Campayn 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-campayn.php:236
+msgid "There was an error subscribing to Campayn. The account is no longer connected."
+msgstr "订阅 Campayn 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-campayn.php:207
+msgctxt "An email list from third party provider."
+msgid "List"
+msgstr "列表"
+
+#: classes/class-fl-builder-service-campayn.php:133
+msgid "The host you chose when you signed up for your account. Check your welcome email if you forgot it. Please enter it without the initial http:// (for example: demo.campayn.com)."
+msgstr "您注册账户时选择的主机。如果您忘记了，请查看您的欢迎邮件。请输入“http://”之后的部分（如：demo.campayn.com）"
+
+#: classes/class-fl-builder-service-campayn.php:132
+#: classes/class-fl-builder-service-mailrelay.php:116
+msgid "Host"
+msgstr "主机"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-campayn.php:112
+msgid "Error: Could not connect to Campayn. %s"
+msgstr "错误：无法连接 Campayn。%s"
+
+#: classes/class-fl-builder-service-campayn.php:98
+#: classes/class-fl-builder-service-mailrelay.php:77
+msgid "Error: You must provide a Host."
+msgstr "错误：您必须提供一个主机。"
+
+#: classes/class-fl-builder-service-aweber.php:210
+#: classes/class-fl-builder-service-activecampaign.php:279
+msgid "A comma separated list of tags."
+msgstr "逗号分隔的标签列表。"
+
+#: classes/class-fl-builder-service-aweber.php:209
+#: classes/class-fl-builder-service-activecampaign.php:278
+msgctxt "A comma separated list of tags."
+msgid "Tags"
+msgstr "标签"
+
+#: classes/class-fl-builder-service-activecampaign.php:252
+msgctxt "An email list from ActiveCampaign."
+msgid "List"
+msgstr "列表"
+
+#: classes/class-fl-builder-service-activecampaign.php:217
+msgctxt "Select a form a ActiveCampaign."
+msgid "Form"
+msgstr "表单"
+
+#: classes/class-fl-builder-service-activecampaign.php:184
+msgid "Form"
+msgstr "表单"
+
+#: classes/class-fl-builder-service-activecampaign.php:183
+msgid "List"
+msgstr "列表"
+
+#: classes/class-fl-builder-service-activecampaign.php:180
+msgctxt "Select the list type."
+msgid "Type"
+msgstr "类型"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-campayn.php:175
+#: classes/class-fl-builder-service-mailrelay.php:162
+#: classes/class-fl-builder-service-convertkit.php:76
+msgid "Error: Please check your API key. %s"
+msgstr "错误：请检查您的 API 密钥。%s"
+
+#: classes/class-fl-builder-revisions.php:102
+#: classes/class-fl-builder-revisions.php:108
+msgid "Revisions"
+msgstr "修订版本"
+
+#: classes/class-fl-builder-privacy.php:90
+msgid "<p>In terms of GDPR, Beaver Builder products do not collect any personal information from your users. However some modules such as videos and maps might need you to update your privacy policy accordingly.</p>"
+msgstr "<p>就 GDPR 而言, 海狸生成器产品不会收集用户的任何个人信息。但是, 某些模块 (如视频和地图) 可能需要您相应地更新您的隐私策略。</p>"
+
+#: classes/class-fl-builder-privacy.php:22
+msgid "Beaver Builder Plugin"
+msgstr "海狸生成器插件"
+
+#: classes/class-fl-builder-model.php:6310
+msgid "Beaver Builder"
+msgstr "海狸生成器"
+
+#: includes/ui-js-config.php:237 classes/class-fl-builder-model.php:6073
+msgid "Landing Pages"
+msgstr "着陆页面"
+
+#: includes/ui-js-config.php:209 classes/class-fl-builder-model.php:4793
+#: classes/class-fl-builder-model.php:4834
+#: classes/class-fl-builder-model.php:4904
+#: classes/class-fl-builder-model.php:6116
+msgid "Uncategorized"
+msgstr "未分类"
+
+#: classes/class-fl-builder-model.php:2976
+#: classes/class-fl-builder-model.php:2992
+msgid "Other"
+msgstr "其他"
+
+#: classes/class-fl-builder-model.php:2974
+msgid "Posts"
+msgstr "文章"
+
+#: classes/class-fl-builder-model.php:2973
+msgid "Info"
+msgstr "信息"
+
+#: modules/sidebar/sidebar.php:15 classes/class-fl-builder-model.php:2972
+msgid "Layout"
+msgstr "布局"
+
+#: classes/class-fl-builder-model.php:2971
+msgid "Actions"
+msgstr "操作"
+
+#: classes/class-fl-builder-model.php:2970
+msgid "Media"
+msgstr "媒体"
+
+#: modules/photo/photo.php:26 modules/video/video.php:20
+#: modules/rich-text/rich-text.php:15 modules/audio/audio.php:20
+#: modules/html/html.php:15 classes/class-fl-builder-module.php:364
+#: classes/class-fl-builder-model.php:2969
+msgid "Basic"
+msgstr "基本"
+
+#. translators: %s: module alias key
+#: classes/class-fl-builder-model.php:2792
+msgctxt "%s stands for the module alias key"
+msgid "The module alias %s already exists! Please namespace your module aliases to ensure compatibility with Beaver Builder."
+msgstr "模块别名%s已经存在！ 请命名您的模块别名，以确保与海狸生成器兼容。"
+
+#. translators: %s: plugins page link
+#: classes/class-fl-builder-loader.php:170
+msgid "You currently have two versions of Beaver Builder active on this site. Please <a href=\"%s\">deactivate one</a> before continuing."
+msgstr "您当前在此网站上启用了两个版本的 Beaver Buider。请<a href=\"%s\">停用一个</a>以继续。"
+
+#: classes/class-fl-builder-loader.php:156
+msgid "Beaver Builder may not be functioning correctly as it does not have permission to write files to the WordPress uploads directory on your server. Please update the WordPress uploads directory permissions before continuing or contact your host for assistance."
+msgstr "海狸生成器可能无法正常工作, 因为它没有权限将文件写入服务器上的 WordPress 上传目录。请先更新 WordPress 上传目录权限, 然后再继续或联系您的主机商寻求帮助。"
+
+#: classes/class-fl-builder-importer.php:119
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "这似乎不是 WXR 文件，缺失或无效的 WXR 版本号"
+
+#: classes/class-fl-builder-import.php:44
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "从 WordPress 导出文件中导入<strong>文章、页面、评论、自定义字段、类别和标签</strong>。"
+
+#: classes/class-fl-builder-fonts.php:166
+#: classes/class-fl-builder-fonts.php:167
+msgid "Ultra-Bold Italic"
+msgstr "超粗斜体"
+
+#: classes/class-fl-builder-fonts.php:165
+msgid "Ultra-Bold"
+msgstr "超粗"
+
+#: classes/class-fl-builder-fonts.php:163
+#: classes/class-fl-builder-fonts.php:164
+msgid "Extra-Bold Italic"
+msgstr "特粗斜体"
+
+#: classes/class-fl-builder-fonts.php:162
+msgid "Extra-Bold"
+msgstr "特粗"
+
+#: classes/class-fl-builder-fonts.php:160
+#: classes/class-fl-builder-fonts.php:161
+msgid "Bold Italic"
+msgstr "加粗斜体"
+
+#: classes/class-fl-builder-fonts.php:159
+msgid "Bold"
+msgstr "加粗"
+
+#: classes/class-fl-builder-fonts.php:157
+#: classes/class-fl-builder-fonts.php:158
+msgid "Semi-Bold Italic"
+msgstr "半粗斜体"
+
+#: classes/class-fl-builder-fonts.php:156
+msgid "Semi-Bold"
+msgstr "半粗"
+
+#: classes/class-fl-builder-fonts.php:154
+#: classes/class-fl-builder-fonts.php:155
+msgid "Medium Italic"
+msgstr "中等斜体"
+
+#: classes/class-fl-builder-fonts.php:151
+#: classes/class-fl-builder-fonts.php:152
+msgid "Normal Italic"
+msgstr "普通斜体"
+
+#: includes/ui-field-typography.php:155 includes/ui-field-typography.php:168
+#: classes/class-fl-builder-fonts.php:150
+msgid "Normal"
+msgstr "普通"
+
+#: classes/class-fl-builder-fonts.php:148
+#: classes/class-fl-builder-fonts.php:149
+msgid "Light Italic"
+msgstr "细斜体"
+
+#: modules/audio/audio.php:149 classes/class-fl-builder-fonts.php:147
+msgid "Light"
+msgstr "细体"
+
+#: classes/class-fl-builder-fonts.php:145
+#: classes/class-fl-builder-fonts.php:146
+msgid "Extra-Light Italic"
+msgstr "特细斜体"
+
+#: classes/class-fl-builder-fonts.php:144
+msgid "Extra-Light"
+msgstr "特细"
+
+#: classes/class-fl-builder-fonts.php:142
+#: classes/class-fl-builder-fonts.php:143
+msgid "Thin Italic"
+msgstr "纤细斜体"
+
+#: classes/class-fl-builder-fonts.php:141
+msgid "Thin"
+msgstr "纤细"
+
+#: includes/ui-field-typography.php:156 classes/class-fl-builder-fonts.php:140
+msgid "Italic"
+msgstr "斜体"
+
+#: classes/class-fl-builder-fonts.php:139
+msgid "Regular"
+msgstr "普通"
+
+#: classes/class-fl-builder-admin.php:242
+msgctxt "Plugin action link label."
+msgid "Change Log"
+msgstr "更改日志"
+
+#. translators: %s: link to welcome page
+#: classes/class-fl-builder-admin.php:190
+msgid "Page Builder activated! <a%s>Click here</a> to get started."
+msgstr "海狸生成器已启用！<a%s>单击此处</a>开始。"
+
+#. translators: %s: folder path
+#: classes/class-fl-builder-admin.php:128
+msgid "Install Error! We detected that Beaver Builder appears to be installed in a folder called <kbd>%s</kbd>.<br />For automatic updates to work the plugin must be installed in the folder <kbd>bb-plugin</kbd>."
+msgstr "安装错误！ 我们检测到海狸生成器似乎安装在名为<kbd>%s</kbd>的文件夹中。<br />要使自动更新正常工作，插件必须安装在<kbd>bb-plugin</kbd>文件夹中。"
+
+#. translators: 1: stars link: 2: link to wporg page
+#: classes/class-fl-builder-admin-settings.php:753
+msgid "Add your %1$s on %2$s to spread the love."
+msgstr "在%2$s上添加您的%1$s评价来帮助我们宣传。"
+
+#: classes/class-fl-builder-admin-settings.php:570
+msgid "Error! When downloading from Icomoon, be sure to click the Download Font button and not Generate SVG."
+msgstr "错误！ 从 Icomoon下载时，请确定点击「下载字体」按钮，而不是生成SVG。"
+
+#. translators: %s: unzip error message
+#: classes/class-fl-builder-admin-settings.php:513
+msgid "Unzip Error: %s"
+msgstr "解压缩错误：%s"
+
+#: classes/class-fl-builder-admin-settings.php:410
+msgid "Error! You must have at least one module enabled."
+msgstr "错误！必须至少启用一个模块。"
+
+#: classes/class-fl-builder-admin-settings.php:215
+msgid "User Access"
+msgstr "用户访问"
+
+#: classes/class-fl-builder-admin-settings.php:190
+msgid "Welcome"
+msgstr "欢迎"
+
+#. Author of the plugin
+msgid "The Beaver Builder Team"
+msgstr "Beaver Builder 开发团队"
+
+#. Description of the plugin
+msgid "A drag and drop frontend WordPress page builder plugin that works with almost any theme!"
+msgstr "一个拖拽式前端 WordPress 页面构建器插件，几乎可适用于任何主题！"
+
+#. Plugin Name of the plugin
+msgid "Beaver Builder Plugin (Lite Version)"
+msgstr "海狸构建器插件(精简版)"
+
+#: modules/widget/widget.php:14
+msgid "Display a WordPress widget."
+msgstr "显示一个 WordPress 小工具。"
+
+#: modules/widget/widget.php:13 modules/widget/includes/settings-general.php:38
+#: includes/ui-js-config.php:233
+msgid "Widget"
+msgstr "小工具"
+
+#. translators: %s: widget slug
+#: modules/widget/includes/settings-general.php:44
+#: modules/widget/includes/frontend.php:49
+msgctxt "%s stands for widget slug."
+msgid "%s no longer exists."
+msgstr "%s 不再存在。"
+
+#: modules/video/video.php:193 modules/audio/audio.php:130
+msgid "Loop"
+msgstr "循环"
+
+#: modules/video/video.php:181 modules/audio/audio.php:118
+msgid "Auto Play"
+msgstr "音频播放"
+
+#: modules/video/video.php:177
+msgctxt "Video preview/fallback image."
+msgid "Poster"
+msgstr "海报"
+
+#: modules/video/video.php:148
+msgid "Embed"
+msgstr "嵌入"
+
+#: modules/video/video.php:144
+msgid "Video Type"
+msgstr "视频类型"
+
+#: modules/video/video.php:19
+msgid "Render a WordPress or embedable video."
+msgstr "呈现一个 WordPress 或可嵌入视频。"
+
+#: modules/sidebar/sidebar.php:14
+msgid "Display a WordPress sidebar that has been registered by the current theme."
+msgstr "显示一个以当前主题注册的 WordPress 侧边栏。"
+
+#: modules/sidebar/includes/settings-general.php:5
+#: modules/sidebar/sidebar.php:13
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: modules/rich-text/rich-text.php:14
+msgid "A WYSIWYG text editor."
+msgstr "一个 WYSIWYG 文本编辑器。"
+
+#: includes/ui-field-link.php:15
+msgid "New Window"
+msgstr "新窗口"
+
+#: modules/photo/photo.php:568
+msgid "Link URL"
+msgstr "链接 URL"
+
+#: modules/photo/photo.php:561
+msgid "Link type applies to how the image should be linked on click. You can choose a specific URL, the individual photo or a separate page with the photo."
+msgstr "链接类型决定单击后图像的链接方式。您可以选择一个特定的 URL、单张图像或有该图像的单独网页。"
+
+#: modules/photo/photo.php:550
+msgid "Photo File"
+msgstr "图像文件"
+
+#: modules/photo/photo.php:549
+msgid "Lightbox"
+msgstr "灯箱"
+
+#: modules/photo/photo.php:547
+msgctxt "Link type."
+msgid "None"
+msgstr "未选择"
+
+#: modules/photo/photo.php:545
+msgid "Link Type"
+msgstr "链接类型"
+
+#: modules/photo/photo.php:514
+msgid "Below Photo"
+msgstr "图像下面"
+
+#: modules/photo/photo.php:513
+msgid "On Hover"
+msgstr "在悬停"
+
+#: modules/photo/photo.php:512 includes/row-settings.php:707
+#: includes/module-settings.php:64 includes/column-settings.php:430
+msgid "Never"
+msgstr "从不"
+
+#: modules/photo/photo.php:509
+msgid "Show Caption"
+msgstr "显示副标题"
+
+#: modules/photo/photo.php:505 modules/photo/photo.php:533
+msgid "Caption"
+msgstr "副标题"
+
+#: modules/photo/photo.php:596 classes/class-fl-builder-art.php:75
+msgid "Circle"
+msgstr "圆形"
+
+#: modules/photo/photo.php:595
+msgid "Square"
+msgstr "方形"
+
+#: modules/photo/photo.php:594
+msgid "Portrait"
+msgstr "肖像"
+
+#: modules/photo/photo.php:593
+msgid "Panorama"
+msgstr "全景"
+
+#: modules/photo/photo.php:592
+msgid "Landscape"
+msgstr "横向"
+
+#: modules/photo/photo.php:588
+msgid "Crop"
+msgstr "剪裁"
+
+#: modules/photo/photo.php:497
+msgid "http://www.example.com/my-photo.jpg"
+msgstr "http://www.example.com/my-photo.jpg"
+
+#: modules/photo/photo.php:496
+msgid "Photo URL"
+msgstr "图像 URL"
+
+#: modules/photo/photo.php:471 modules/photo/photo.php:548
+msgid "URL"
+msgstr "链接地址"
+
+#: modules/photo/photo.php:467
+msgid "Photo Source"
+msgstr "图像源"
+
+#: modules/photo/photo.php:25
+msgid "Upload a photo or display one from the media library."
+msgstr "上传一张图像或从媒体库中显示一张图像。"
+
+#: modules/html/html.php:14
+msgid "Display raw HTML code."
+msgstr "显示原始 HTML 代码。"
+
+#: modules/html/html.php:13
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/updater/includes/form.php:47
+msgid "Enter your <a%s>license key</a> to enable remote updates and support."
+msgstr "输入您的<a%s>许可证密钥</a>以启用远程更新和支持。"
+
+#: includes/updater/includes/form.php:32
+msgid "Not Active!"
+msgstr "未启用！"
+
+#: includes/updater/includes/form.php:36
+msgid "Active!"
+msgstr "激活！"
+
+#: includes/updater/includes/form.php:29
+msgid "Updates &amp; Support Subscription"
+msgstr "更新和支持订阅"
+
+#: includes/updater/includes/form.php:10
+msgid "UPDATES UNAVAILABLE! Please subscribe or enter your license key below to enable automatic updates."
+msgstr "更新不可用！ 请在下面订阅或输入您的许可证密钥以启用自动更新。"
+
+#: includes/updater/includes/form.php:15
+#: includes/updater/classes/class-fl-updater.php:382
+msgid "Subscribe Now"
+msgstr "立即订阅"
+
+#: includes/updater/classes/class-fl-updater.php:373
+msgid "Please subscribe to enable automatic updates for this plugin."
+msgstr "请订阅以为此插件启用自动更新。"
+
+#: includes/updater/classes/class-fl-updater.php:388
+msgid "<strong>UPDATE UNAVAILABLE!</strong>"
+msgstr "<strong>有可用的更新！</strong>"
+
+#: classes/class-fl-builder-model.php:3629
+msgid "Left & Right Sidebar"
+msgstr "左右侧边栏"
+
+#: classes/class-fl-builder-model.php:3624
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: classes/class-fl-builder-model.php:3619
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: classes/class-fl-builder-model.php:3614
+msgid "6 Columns"
+msgstr "6 栏"
+
+#: classes/class-fl-builder-model.php:3609
+msgid "5 Columns"
+msgstr "5 栏"
+
+#: classes/class-fl-builder-model.php:3604
+msgid "4 Columns"
+msgstr "4 栏"
+
+#: classes/class-fl-builder-model.php:3599
+msgid "3 Columns"
+msgstr "3 栏"
+
+#: classes/class-fl-builder-model.php:3594
+msgid "2 Columns"
+msgstr "2 栏"
+
+#: classes/class-fl-builder-model.php:3589
+msgid "1 Column"
+msgstr "1 栏"
+
+#: classes/class-fl-builder.php:1379
+msgid "Buy Now"
+msgstr "立即购买"
+
+#: classes/class-fl-builder-admin-settings.php:225
+#: classes/class-fl-builder.php:969
+msgid "Tools"
+msgstr "工具"
+
+#: includes/ui-js-config.php:160
+msgid "Save"
+msgstr "保存"
+
+#: includes/ui-service-settings.php:36
+msgid "Service"
+msgstr "服务"
+
+#: includes/row-settings.php:773
+msgid "A class that will be applied to this row's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. Separate multiple classes with spaces."
+msgstr "一个将应用到此行的 HTML 的类别。必须以字母开头，并仅包含破折号、下划线、字母或数字。用空格分隔多个类别。"
+
+#: includes/row-settings.php:765
+msgid "A unique ID that will be applied to this row's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. No spaces."
+msgstr "一个将应用到此模块的 HTML 的独一无二的 ID。必须以字母开头，并仅包含破折号、下划线、字母或数字。无空格。"
+
+#: includes/row-settings.php:519
+msgid "Slow"
+msgstr "慢速"
+
+#: includes/row-settings.php:518
+msgctxt "Speed."
+msgid "Medium"
+msgstr "中等"
+
+#: includes/row-settings.php:517
+msgid "Fast"
+msgstr "快速"
+
+#: includes/row-settings.php:501
+msgid "Background Parallax"
+msgstr "背景视差"
+
+#: includes/row-settings.php:488
+msgid "Randomize Photos"
+msgstr "随机图像"
+
+#: includes/row-settings.php:478
+msgid "Transition Speed"
+msgstr "过渡速度"
+
+#: includes/row-settings.php:470
+msgid "Boxes Grow"
+msgstr "扩大的方格"
+
+#: includes/row-settings.php:469
+msgid "Random Boxes"
+msgstr "随机方格"
+
+#: includes/row-settings.php:468
+msgid "Boxes"
+msgstr "方格"
+
+#: includes/row-settings.php:467
+msgid "Random Bars"
+msgstr "随机线条"
+
+#: includes/row-settings.php:466
+msgid "Bars"
+msgstr "栏"
+
+#: includes/row-settings.php:465
+msgid "Blinds"
+msgstr "百叶窗"
+
+#: includes/row-settings.php:464
+msgid "Slide Vertical"
+msgstr "垂直滑动"
+
+#: includes/row-settings.php:463
+msgid "Slide Horizontal"
+msgstr "水平滑动"
+
+#: includes/row-settings.php:462
+msgid "Ken Burns"
+msgstr "肯·伯恩斯"
+
+#: includes/row-settings.php:461
+msgid "Fade"
+msgstr "淡入"
+
+#: includes/row-settings.php:460
+msgctxt "Slideshow transition type."
+msgid "None"
+msgstr "未选择"
+
+#: includes/row-settings.php:457
+msgid "Transition"
+msgstr "过渡"
+
+#: includes/row-settings.php:447 includes/row-settings.php:514
+msgid "Speed"
+msgstr "速度"
+
+#: includes/row-settings.php:439
+msgid "Feed URL"
+msgstr "Feed 网址"
+
+#: includes/row-settings.php:431
+msgid "Photos"
+msgstr "图像"
+
+#: includes/row-settings.php:416
+msgid "Pull images from the WordPress media library or a gallery on your SmugMug site by inserting the RSS feed URL from SmugMug. The RSS feed URL can be accessed by using the get a link function in your SmugMug gallery."
+msgstr "通过插入来自 SmugMug 的 RSS 订阅 URL，从 WordPress 媒体库或您 SmugMug 网站的图像库获取图像。可通过使用您 SmugMug 图像库中的获取链接功能访问 RSS 订阅 URL。"
+
+#: modules/photo/photo.php:470 modules/video/video.php:147
+#: modules/audio/audio.php:83 includes/row-settings.php:317
+#: includes/row-settings.php:413
+msgid "Media Library"
+msgstr "媒体库"
+
+#: includes/row-settings.php:314 includes/row-settings.php:410
+#: includes/ui-loop-settings.php:35
+msgid "Source"
+msgstr "信息来源"
+
+#: includes/row-settings.php:406
+msgid "Background Slideshow"
+msgstr "背景滑块"
+
+#: includes/row-settings.php:397
+msgid "A photo that will be displayed if the video fails to load."
+msgstr "视频无法加载时显示的图像。"
+
+#: includes/row-settings.php:396
+msgid "Fallback Photo"
+msgstr "备选图像"
+
+#: modules/video/video.php:18
+msgid "Video"
+msgstr "视频"
+
+#: includes/row-settings.php:310
+msgid "Background Video"
+msgstr "背景视频"
+
+#: includes/row-settings.php:189
+msgctxt "Background type."
+msgid "Parallax"
+msgstr "视差"
+
+#: includes/row-settings.php:185
+msgctxt "Background type."
+msgid "Slideshow"
+msgstr "滑块"
+
+#: includes/row-settings.php:183
+msgctxt "Background type."
+msgid "Video"
+msgstr "视频"
+
+#: includes/row-settings.php:132
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: includes/row-settings.php:127
+msgid "Colors"
+msgstr "颜色"
+
+#: includes/row-settings.php:41
+msgid "Full width content spans the width of the page from edge to edge. Fixed content is no wider than the Row Max Width set in the Global Settings."
+msgstr "全屏宽度的内容将从端到端横跨整个页面。固定的内容不能比“全局设定”中设置的“行最大宽度”更宽。"
+
+#: includes/row-settings.php:35
+msgid "Content Width"
+msgstr "内容宽度"
+
+#: includes/row-settings.php:28
+msgid "Full width rows span the width of the page from edge to edge. Fixed rows are no wider than the Row Max Width set in the Global Settings."
+msgstr "全屏宽度的行将从端到端横跨整个页面。固定的行不能比“全局设定”中设置的“行最大宽度”更宽。"
+
+#: modules/photo/photo.php:601 includes/row-settings.php:17
+#: includes/ui-field-border.php:134 includes/column-settings.php:14
+#: classes/class-fl-builder-art.php:429
+msgid "Width"
+msgstr "宽度"
+
+#: includes/module-settings.php:130
+msgid "A class that will be applied to this module's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. Separate multiple classes with spaces."
+msgstr "一个将应用到此模块的 HTML 的类别。必须以字母开头，并仅包含破折号、下划线、字母或数字。用空格分隔多个类别。"
+
+#: includes/row-settings.php:772 includes/module-settings.php:129
+msgid "Class"
+msgstr "类别"
+
+#: includes/module-settings.php:122
+msgid "A unique ID that will be applied to this module's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. No spaces."
+msgstr "一个将应用到此模块的 HTML 的独一无二的 ID。必须以字母开头，并仅包含破折号、下划线、字母或数字。无空格。"
+
+#: includes/row-settings.php:450 includes/row-settings.php:481
+msgctxt "Value unit for form field of time in seconds. Such as: \"5 seconds\""
+msgid "seconds"
+msgstr "秒"
+
+#: includes/ui-field-animation.php:132
+msgid "Delay"
+msgstr "延时"
+
+#: includes/ui-field-animation.php:32
+msgctxt "Animation style."
+msgid "Slide Down"
+msgstr "向下滑动"
+
+#: includes/ui-field-animation.php:31
+msgctxt "Animation style."
+msgid "Slide Up"
+msgstr "向上滑动"
+
+#: includes/ui-field-animation.php:30
+msgctxt "Animation style."
+msgid "Slide Right"
+msgstr "向右滑动"
+
+#: includes/ui-field-animation.php:29
+msgctxt "Animation style."
+msgid "Slide Left"
+msgstr "向左滑动"
+
+#: includes/ui-field-animation.php:19
+msgctxt "Animation style."
+msgid "Fade In"
+msgstr "淡入淡出"
+
+#: includes/ui-field-animation.php:15
+msgctxt "Animation style."
+msgid "None"
+msgstr "未选择"
+
+#: includes/row-settings.php:730 includes/row-settings.php:734
+#: includes/module-settings.php:87 includes/module-settings.php:91
+#: includes/column-settings.php:453 includes/column-settings.php:457
+msgid "Animation"
+msgstr "动画"
+
+#: includes/ui-loop-settings.php:176
+msgid "Authors"
+msgstr "作者"
+
+#: includes/ui-loop-settings.php:133
+msgid "Filter"
+msgstr "筛选"
+
+#: includes/ui-loop-settings.php:114
+msgid "Skip this many posts that match the specified criteria."
+msgstr "跳过满足指定标准的文章的数量。"
+
+#: includes/ui-loop-settings.php:111
+msgctxt "How many posts to skip."
+msgid "Offset"
+msgstr "偏移"
+
+#: includes/ui-loop-settings.php:71
+msgid "Ascending"
+msgstr "升序"
+
+#: includes/ui-loop-settings.php:70
+msgid "Descending"
+msgstr "降序"
+
+#: includes/ui-loop-settings.php:68
+msgid "Order"
+msgstr "排序"
+
+#: includes/ui-loop-settings.php:88
+msgid "Random"
+msgstr "随机"
+
+#: includes/ui-loop-settings.php:85
+msgid "Menu Order"
+msgstr "选单排序方式"
+
+#: includes/ui-loop-settings.php:81
+msgid "Comment Count"
+msgstr "评论数量"
+
+#: includes/ui-loop-settings.php:80
+msgid "Author"
+msgstr "作者"
+
+#: includes/ui-loop-settings.php:89
+msgid "Title"
+msgstr "标题"
+
+#: includes/ui-loop-settings.php:83
+msgid "Date Last Modified"
+msgstr "上次修改日期"
+
+#: includes/ui-loop-settings.php:82
+msgid "Date"
+msgstr "日期"
+
+#: includes/ui-loop-settings.php:78
+msgid "Order By"
+msgstr "排序"
+
+#: includes/ui-loop-settings.php:62
+msgid "Post Type"
+msgstr "文章类型"
+
+#: includes/ui-js-templates.php:291 includes/ui-js-config.php:210
+msgid "Yes Please!"
+msgstr "好的！"
+
+#: includes/ui-js-templates.php:289 includes/ui-js-config.php:208
+msgid "Welcome! It looks like this might be your first time using the builder. Would you like to take a tour?"
+msgstr "欢迎！看起来这是您首次使用海狸生成器。您想要观看教程吗？"
+
+#: includes/ui-js-config.php:207
+msgid "Watch the Video"
+msgstr "观看视频"
+
+#: includes/ui-js-config.php:203
+msgid "View the Knowledge Base"
+msgstr "查看知识库"
+
+#: includes/ui-js-config.php:202
+msgid "The settings you are currently editing will not be saved if you navigate away from this page."
+msgstr "如果您离开此页面，您当前正在编辑的设置将不会保存。"
+
+#: includes/ui-js-config.php:201
+msgid "Now that you know the basics, you're ready to start building! If at any time you need help, click the help icon in the upper right corner to access the help menu. Happy building!"
+msgstr "现在您已经了解了基础知识，可以开始建造了！如果您需要帮助，请随时单击右上角的帮助图标访问帮助菜单。享受您的建造过程吧！"
+
+#: includes/ui-js-config.php:200
+msgid "Let's Get Building!"
+msgstr "让我们开始建造吧！"
+
+#: includes/ui-js-config.php:199
+msgid "Once you're finished, click the Done button to publish your changes, save a draft or revert back to the last published state."
+msgstr "完成后，单击“完成”按钮发布您的更改、保存草稿或还原到最后一次发布的状态。"
+
+#: includes/ui-js-config.php:198
+msgid "Publish Your Changes"
+msgstr "发布您的更改"
+
+#: includes/ui-js-config.php:196
+msgid "Helpful Tools"
+msgstr "有用的工具"
+
+#: includes/ui-js-config.php:195
+msgid "Use the Templates button to pick a new template or append one to your layout. Appending will insert a new template at the end of your existing page content."
+msgstr "使用“模板”按钮选择一个新的模板或将模板附加到您的布局中。附加将在您现有网页内容的末尾插入一个新的模板。"
+
+#: includes/ui-js-config.php:194
+msgid "Change Templates"
+msgstr "更改模板"
+
+#: includes/ui-js-config.php:193
+msgid "Use the Add Content button to open the content panel and add new row layouts, modules or widgets."
+msgstr "使用“添加内容”按钮打开内容面板并添加新的行布局、模块或小工具。"
+
+#: includes/ui-js-config.php:192
+msgid "Add More Content"
+msgstr "添加更多内容"
+
+#: includes/ui-js-config.php:191
+msgid "Use the action buttons to perform actions such as moving, editing, duplicating or deleting rows, columns and modules."
+msgstr "使用操作按钮执行移动、编辑、复制或删除行、栏和模块的操作。"
+
+#: includes/ui-js-config.php:190
+msgid "Move your mouse over rows, columns or modules to edit and interact with them."
+msgstr "将您的鼠标移动到行、栏或模块上以进行编辑和互动。"
+
+#: includes/ui-js-config.php:189
+msgid "Edit Content"
+msgstr "编辑内容"
+
+#: includes/ui-js-config.php:188
+msgid "Add new content by dragging and dropping modules or widgets into your row layouts or to create a new row layout."
+msgstr "通过将模块或小工具拖放到您的行布局中以添加新的内容，或创建一个新的行布局。"
+
+#: includes/ui-js-config.php:187
+msgid "Add Content"
+msgstr "添加内容"
+
+#: includes/ui-js-config.php:186
+msgid "Add multi-column rows, adjust spacing, add backgrounds and more by dragging and dropping row layouts onto the page."
+msgstr "通过将行布局拖放到网页中来进行添加多栏行、调整间距和添加背景等操作。"
+
+#: includes/ui-js-config.php:185
+msgid "Add Rows"
+msgstr "添加行"
+
+#: includes/ui-js-config.php:184
+msgid "Get started by choosing a layout template to customize, or build a page from scratch by selecting the blank layout template."
+msgstr "选择一个布局模板进行自定义，或通过选择空白布局模板从零开始建造网页。"
+
+#: includes/ui-js-config.php:183
+msgid "Choose a Template"
+msgstr "选择模板"
+
+#: includes/ui-js-config.php:182
+msgid "Get Started"
+msgstr "开始"
+
+#: includes/ui-js-config.php:181
+msgid "Next"
+msgstr "继续"
+
+#: includes/ui-js-config.php:180
+#: classes/class-fl-builder-ui-settings-forms.php:493
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: includes/ui-js-config.php:179
+msgid "Template Saved!"
+msgstr "模板已保存！"
+
+#: includes/ui-js-config.php:178
+msgid "Replace Existing Layout"
+msgstr "替换现有布局"
+
+#: includes/ui-js-config.php:177
+msgid "Append New Layout"
+msgstr "附加新的布局"
+
+#: includes/ui-js-config.php:176
+msgid "Take a Tour"
+msgstr "浏览"
+
+#: includes/ui-js-config.php:174
+msgid "Please select a list before saving."
+msgstr "请在保存前选择一个列表。"
+
+#: includes/ui-js-config.php:173
+msgid "Please connect an account before saving."
+msgstr "请在保存前连接一个账户。"
+
+#: includes/ui-js-config.php:172
+msgid "Please select an account before saving."
+msgstr "请在保存前选择一个账户。"
+
+#: includes/ui-js-config.php:168
+msgid "Select Photos"
+msgstr "选择图像"
+
+#: includes/ui-js-config.php:165 classes/class-fl-builder.php:988
+msgid "Save Template"
+msgstr "另存为模板"
+
+#: includes/ui-js-config.php:159
+msgid "Save Core Template"
+msgstr "保存核心模板"
+
+#: includes/row-settings.php:6 includes/ui-js-templates.php:11
+#: includes/ui-js-config.php:157
+msgid "Row Settings"
+msgstr "行设置"
+
+#: includes/ui-js-config.php:156 includes/ui-js-config.php:231
+msgid "Row"
+msgstr "行栏"
+
+#: includes/ui-js-config.php:149
+msgid "Publish Changes"
+msgstr "发布更改"
+
+#: includes/ui-js-config.php:146
+msgid "Please Wait..."
+msgstr "请稍候..."
+
+#: includes/ui-js-config.php:142
+msgid "Photos Selected"
+msgstr "选中的图像"
+
+#: includes/ui-js-config.php:139
+msgid "Photo Selected"
+msgstr "选中的图像"
+
+#: modules/photo/photo.php:551 includes/ui-js-config.php:138
+msgid "Photo Page"
+msgstr "图像页面"
+
+#: includes/ui-js-templates.php:261 includes/ui-js-templates.php:273
+#: includes/ui-js-config.php:137
+msgid "OK"
+msgstr "确定"
+
+#: includes/ui-js-templates.php:290
+msgid "No Thanks"
+msgstr "不用了，谢谢"
+
+#: includes/ui-js-config.php:134
+msgid "No results found."
+msgstr "未找到搜索结果。"
+
+#: includes/ui-js-config.php:131
+msgid "New Row"
+msgstr "新的行"
+
+#: includes/ui-js-config.php:130
+msgid "New Column"
+msgstr "新的栏"
+
+#: includes/ui-js-templates.php:9 includes/ui-js-templates.php:49
+#: includes/ui-js-templates.php:140 includes/ui-js-config.php:129
+msgid "Move"
+msgstr "移动"
+
+#: includes/ui-js-config.php:127 includes/ui-js-config.php:230
+msgid "Module"
+msgstr "模块"
+
+#: includes/ui-js-config.php:126
+#: classes/class-fl-builder-ui-settings-forms.php:494
+#: classes/class-fl-builder-fonts.php:153
+msgid "Medium"
+msgstr "中等"
+
+#: includes/ui-js-config.php:125 classes/class-fl-builder.php:1097
+msgid "Manage Templates"
+msgstr "管理模板"
+
+#: includes/ui-js-config.php:124
+#: classes/class-fl-builder-ui-settings-forms.php:495
+msgid "Large"
+msgstr "大"
+
+#: includes/ui-js-config.php:123
+msgid "Insert"
+msgstr "插入"
+
+#: includes/ui-js-config.php:122
+msgid "\"{message}\" on line {line} of {file}."
+msgstr "{line}/{file} 线上的“{message}”。"
+
+#: includes/ui-js-templates.php:298
+msgid "Getting Started Video"
+msgstr "入门视频"
+
+#: includes/ui-js-config.php:120
+msgid "Get Help"
+msgstr "取得说明"
+
+#: includes/ui-field-photo-sizes.php:8 includes/ui-js-config.php:119
+#: classes/class-fl-builder-ui-settings-forms.php:496
+msgid "Full Size"
+msgstr "原图"
+
+#: includes/ui-js-config.php:117
+msgid "Beaver Builder caught the following JavaScript error. If Beaver Builder is not functioning as expected the cause is most likely this error. Please help us by disabling all plugins and testing Beaver Builder while reactivating each to determine if the issue is related to a third party plugin."
+msgstr "海狸生成器发现了以下 JavaScript 错误。如果海狸生成器如预期般运行，其原因最可能是此错误。请禁用所有插件然后逐个重新启用，并同时测试海狸生成器，以帮助我们确认此问题是否与第三方插件相关。"
+
+#: includes/ui-js-config.php:113
+msgid "Drop a row layout or module to get started!"
+msgstr "拖放一个行布局或模块以便开始！"
+
+#: includes/ui-js-config.php:108
+msgctxt "Duplicate page/post action label."
+msgid "Duplicate Layout"
+msgstr "复制布局"
+
+#: includes/ui-bar.php:10
+msgid "Save Draft"
+msgstr "保存草稿"
+
+#: includes/ui-js-templates.php:302 includes/ui-js-config.php:105
+#: classes/class-fl-builder.php:1383
+msgid "Done"
+msgstr "完成"
+
+#: includes/ui-js-config.php:104
+msgid "Do you really want to discard these changes? All of your changes that are not published will be lost."
+msgstr "您确定要放弃这些更改吗？所有尚未发布的更改将丢失。"
+
+#: includes/ui-js-config.php:101
+msgid "Do you really want to delete this template?"
+msgstr "您确定要删除此模板吗？"
+
+#: includes/ui-js-config.php:98
+msgid "Do you really want to delete this item?"
+msgstr "您确定要删除此项吗？"
+
+#: includes/ui-js-config.php:96
+msgid "Are you sure you want to remove this account? Other modules that are connected to it will be affected."
+msgstr "您确定要移除此账户吗？这将影响到其他连接到此账户的模块。"
+
+#: includes/ui-js-config.php:95
+msgid "Remove Account"
+msgstr "移除账户"
+
+#: includes/ui-js-config.php:93
+msgid "Please select either a background layout or content layout before submitting."
+msgstr "请在提交前选择一个背景布局或内容布局。"
+
+#: includes/ui-js-config.php:92
+msgid "Column"
+msgstr "分栏"
+
+#: includes/ui-js-config.php:86
+msgid "Warning! Changing the template will replace your existing layout. Do you really want to do this?"
+msgstr "警告！更改模板将替换您当前的布局。您确定要这样做吗？"
+
+#: includes/ui-js-config.php:85
+msgid "Change Template"
+msgstr "更改模板"
+
+#: includes/ui-js-config.php:72
+msgid "What would you like to do?"
+msgstr "您想要怎么做？"
+
+#: includes/icon-selector.php:5
+msgctxt "Select option for showing all icon libraries."
+msgid "All Libraries"
+msgstr "全部模板库"
+
+#: includes/global-settings.php:220
+msgid "The browser width at which the layout will adjust for small devices such as phones."
+msgstr "达到此浏览器宽度时，布局将为手机等小型设备进行调整。"
+
+#: includes/global-settings.php:214
+msgid "Small Device Breakpoint"
+msgstr "小型设备断点"
+
+#: includes/global-settings.php:210
+msgid "The browser width at which the layout will adjust for medium devices such as tablets."
+msgstr "达到此浏览器宽度时，布局将为平板电脑等中型设备进行调整。"
+
+#: includes/global-settings.php:204
+msgid "Medium Device Breakpoint"
+msgstr "中型设备断点"
+
+#: includes/global-settings.php:200
+msgid "When auto spacing is enabled, the builder will automatically adjust the margins and padding in your layout once the small device breakpoint is reached. Most users will want to leave this enabled."
+msgstr "启用自动间距后，一旦达到小型设备的断点，海狸生成器将自动调整您布局中的边距和填充。多数用户选择启用此功能。"
+
+#: includes/global-settings.php:194
+msgctxt "General settings form field label. Intended meaning: \"Enable auto spacing for responsive layouts?\""
+msgid "Enable Auto Spacing"
+msgstr "启用自动间距"
+
+#: includes/global-settings.php:180
+msgctxt "General settings form field label. Intended meaning: \"Responsive layout enabled?\""
+msgid "Enabled"
+msgstr "启用"
+
+#: includes/global-settings.php:104
+msgid "Default Row Content Width"
+msgstr "默认行内容宽度"
+
+#: includes/row-settings.php:21 includes/row-settings.php:39
+#: includes/global-settings.php:94 includes/global-settings.php:108
+msgid "Full Width"
+msgstr "全宽"
+
+#: includes/global-settings.php:90
+msgid "Default Row Width"
+msgstr "默认行宽度"
+
+#: includes/global-settings.php:81
+msgid "All rows will default to this width. You can override this and make a row full width in the settings for each row."
+msgstr "所有行将默认设置为此宽度。您可以在每一行的设置中将其设为全屏宽度以覆盖默认设置。"
+
+#: includes/global-settings.php:76
+msgid "Max Width"
+msgstr "最大宽度"
+
+#: includes/global-settings.php:37
+#: classes/class-fl-builder-ui-content-panel.php:43
+msgid "Rows"
+msgstr "行栏"
+
+#: includes/global-settings.php:32
+msgid "Enter a CSS selector for the default page heading to hide it."
+msgstr "为默认网页标题输入一个 CSS 选择器以将其隐藏。"
+
+#: includes/global-settings.php:30
+msgid "CSS Selector"
+msgstr "CSS 选择器"
+
+#: includes/global-settings.php:26
+msgid "Choosing no will hide the default theme heading for the \"Page\" post type. You will also be required to enter some basic CSS for this to work if you choose no."
+msgstr "选择“否”将隐藏“网页”文章类型的默认主题标题。如果选择“否”，您还将被要求输入一些基础 CSS 才能生效。"
+
+#: modules/video/video.php:185 modules/video/video.php:197
+#: modules/video/video.php:234 modules/audio/audio.php:122
+#: modules/audio/audio.php:134 modules/audio/audio.php:159
+#: modules/audio/audio.php:173 modules/audio/audio.php:185
+#: modules/audio/audio.php:194 includes/row-settings.php:387
+#: includes/row-settings.php:492 includes/global-settings.php:19
+#: includes/global-settings.php:184 includes/global-settings.php:198
+#: includes/column-settings.php:54 includes/ui-loop-settings.php:123
+msgid "Yes"
+msgstr "是"
+
+#: modules/video/video.php:184 modules/video/video.php:196
+#: modules/video/video.php:235 modules/audio/audio.php:121
+#: modules/audio/audio.php:133 modules/audio/audio.php:158
+#: modules/audio/audio.php:172 modules/audio/audio.php:184
+#: modules/audio/audio.php:193 includes/row-settings.php:386
+#: includes/row-settings.php:491 includes/global-settings.php:18
+#: includes/global-settings.php:183 includes/global-settings.php:197
+#: includes/column-settings.php:53 includes/ui-loop-settings.php:124
+msgid "No"
+msgstr "否"
+
+#: includes/global-settings.php:15
+msgctxt "General settings form field label. Intended meaning: \"Show page heading?\""
+msgid "Show"
+msgstr "显示"
+
+#: includes/global-settings.php:11
+msgid "Default Page Heading"
+msgstr "默认网页标题"
+
+#: modules/photo/photo.php:460 modules/sidebar/sidebar.php:28
+#: modules/video/video.php:137 modules/rich-text/rich-text.php:27
+#: modules/audio/audio.php:73 modules/widget/widget.php:80
+#: modules/html/html.php:27 includes/ui-field-border.php:115
+#: includes/global-settings.php:7 classes/class-fl-builder-model.php:6072
+msgid "General"
+msgstr "常规"
+
+#: includes/ui-field-video.php:37
+msgid "Replace Video"
+msgstr "替换视频"
+
+#: includes/ui-js-config.php:169 includes/ui-field-video.php:23
+msgid "Select Video"
+msgstr "选择视频"
+
+#: includes/ui-field-photo.php:77
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/ui-js-config.php:167 includes/ui-field-photo.php:60
+msgid "Select Photo"
+msgstr "选择图像"
+
+#: includes/ui-field-multiple-photos.php:30
+msgid "Add Photos"
+msgstr "添加图像"
+
+#: includes/ui-field-multiple-photos.php:29
+msgid "Edit Gallery"
+msgstr "编辑图像库"
+
+#: includes/ui-field-multiple-photos.php:28
+msgid "Create Gallery"
+msgstr "创建图像库"
+
+#. translators: %d: number of selected (plural)
+#: includes/ui-js-config.php:144
+msgid "%d Photos Selected"
+msgstr "选取 %d 图像"
+
+#: includes/ui-js-templates.php:253 includes/ui-field-link.php:33
+#: includes/icon-selector.php:28 includes/ui-js-config.php:84
+#: includes/ui-bar.php:17 includes/ui-bar.php:31
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/ui-field-suggest.php:10 includes/ui-field-link.php:32
+msgid "Start typing..."
+msgstr "开始键入..."
+
+#: includes/ui-field-link.php:31
+msgid "Enter a post title to search."
+msgstr "输入一个文章标题进行搜索。"
+
+#: includes/ui-field-link.php:4
+msgid "Select"
+msgstr "选择"
+
+#: includes/ui-field-icon.php:26 includes/ui-js-templates.php:27
+#: includes/ui-js-templates.php:76 includes/ui-js-templates.php:172
+#: includes/ui-js-config.php:150 includes/ui-field-photo.php:79
+msgid "Remove"
+msgstr "移除"
+
+#: includes/ui-field-icon.php:24 includes/ui-field-photo.php:81
+msgid "Replace"
+msgstr "替换"
+
+#: includes/ui-field-icon.php:21 includes/icon-selector.php:2
+msgid "Select Icon"
+msgstr "选择图标"
+
+#. translators: %s: form field label
+#: includes/ui-js-config.php:110
+msgctxt "%s stands for form field label."
+msgid "Edit %s"
+msgstr "编辑%s"
+
+#: includes/column-settings.php:496
+msgid "A class that will be applied to this column's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. Separate multiple classes with spaces."
+msgstr "一个将应用到此栏的 HTML 的类别。必须以字母开头，并仅包含破折号、下划线、字母或数字。用空格分隔多个类别。"
+
+#: includes/column-settings.php:495
+msgid "CSS Class"
+msgstr "CSS 类"
+
+#: includes/column-settings.php:488
+msgid "A unique ID that will be applied to this column's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. No spaces."
+msgstr "一个将应用到此栏的 HTML 的独一无二的 ID。必须以字母开头，并仅包含破折号、下划线、字母或数字。无空格。"
+
+#: includes/row-settings.php:764 includes/module-settings.php:121
+#: includes/column-settings.php:487 includes/ui-loop-settings.php:84
+msgid "ID"
+msgstr "ID"
+
+#: includes/row-settings.php:72 includes/ui-field-border.php:34
+#: includes/column-settings.php:416 includes/ui-field-typography.php:140
+#: includes/ui-field-typography.php:154 includes/ui-field-typography.php:167
+#: classes/class-fl-builder-fonts.php:66 classes/class-fl-builder-fonts.php:101
+#: classes/class-fl-builder-fonts.php:138
+msgid "Default"
+msgstr "默认值"
+
+#: includes/row-settings.php:694 includes/module-settings.php:51
+#: includes/column-settings.php:404
+msgid "Small Devices Only"
+msgstr "仅小型设备"
+
+#: includes/row-settings.php:693 includes/module-settings.php:50
+#: includes/column-settings.php:403
+msgid "Medium &amp; Small Devices Only"
+msgstr "仅中小型设备"
+
+#: includes/row-settings.php:692 includes/module-settings.php:49
+#: includes/column-settings.php:402
+msgid "Medium Devices Only"
+msgstr "仅中型设备"
+
+#: includes/row-settings.php:691 includes/module-settings.php:48
+#: includes/column-settings.php:401
+msgid "Large &amp; Medium Devices Only"
+msgstr "仅大中型设备"
+
+#: includes/row-settings.php:690 includes/module-settings.php:47
+#: includes/column-settings.php:400
+msgid "Large Devices Only"
+msgstr "仅大型设备"
+
+#: includes/row-settings.php:704 includes/module-settings.php:46
+#: includes/module-settings.php:61 includes/column-settings.php:427
+msgid "Always"
+msgstr "总是"
+
+#: includes/row-settings.php:702 includes/module-settings.php:59
+#: includes/column-settings.php:425
+msgid "Display"
+msgstr "显示"
+
+#: includes/global-settings.php:176
+msgid "Responsive Layout"
+msgstr "响应式布局"
+
+#: includes/row-settings.php:653 includes/global-settings.php:58
+#: includes/global-settings.php:135 includes/column-settings.php:365
+msgid "Padding"
+msgstr "填充"
+
+#: includes/ui-field-border.php:95 includes/ui-field-border.php:97
+#: includes/ui-field-dimension.php:25
+msgid "Right"
+msgstr "右侧"
+
+#: includes/ui-field-border.php:94 includes/ui-field-border.php:96
+#: includes/ui-field-dimension.php:27
+msgid "Left"
+msgstr "左侧"
+
+#: includes/row-settings.php:118 includes/column-settings.php:72
+#: includes/ui-field-dimension.php:26 classes/class-fl-builder-art.php:332
+msgid "Bottom"
+msgstr "底部"
+
+#: includes/row-settings.php:116 includes/column-settings.php:70
+#: includes/ui-field-dimension.php:24 classes/class-fl-builder-art.php:331
+msgid "Top"
+msgstr "顶部"
+
+#: includes/row-settings.php:625 includes/module-settings.php:13
+#: includes/global-settings.php:41 includes/global-settings.php:118
+#: includes/global-settings.php:158 includes/column-settings.php:339
+msgid "Margins"
+msgstr "边距"
+
+#: includes/row-settings.php:618 includes/module-settings.php:6
+#: includes/column-settings.php:332 classes/class-fl-builder-module.php:366
+#: classes/class-fl-builder-model.php:2975
+msgid "Advanced"
+msgstr "高级"
+
+#: modules/photo/photo.php:636 includes/row-settings.php:602
+#: includes/row-settings.php:606 includes/column-settings.php:316
+#: includes/column-settings.php:320
+msgid "Border"
+msgstr "边框"
+
+#: includes/row-settings.php:554 includes/column-settings.php:297
+msgid "Overlay Color"
+msgstr "覆盖颜色"
+
+#: includes/row-settings.php:528 includes/column-settings.php:272
+msgid "Background Overlay"
+msgstr "背景覆盖"
+
+#: includes/row-settings.php:299 includes/column-settings.php:261
+msgid "Fill"
+msgstr "填充"
+
+#: includes/row-settings.php:298 includes/column-settings.php:260
+msgid "Fit"
+msgstr "适应"
+
+#: includes/row-settings.php:297 includes/column-settings.php:259
+msgctxt "Background scale."
+msgid "None"
+msgstr "未选择"
+
+#: includes/row-settings.php:293 includes/column-settings.php:255
+msgid "Scale"
+msgstr "缩放"
+
+#: includes/row-settings.php:20 includes/row-settings.php:38
+#: includes/row-settings.php:283 includes/global-settings.php:93
+#: includes/global-settings.php:107 includes/column-settings.php:245
+msgid "Fixed"
+msgstr "固定"
+
+#: includes/row-settings.php:282 includes/column-settings.php:244
+msgid "Scroll"
+msgstr "滚动"
+
+#: includes/row-settings.php:278 includes/column-settings.php:240
+msgid "Attachment"
+msgstr "附件"
+
+#: includes/row-settings.php:268 includes/column-settings.php:230
+#: includes/ui-field-gradient.php:48
+msgid "Center Bottom"
+msgstr "底部居中"
+
+#: includes/row-settings.php:117 includes/row-settings.php:267
+#: includes/column-settings.php:71 includes/column-settings.php:229
+#: classes/class-fl-builder-art.php:449
+msgid "Center"
+msgstr "居中"
+
+#: includes/row-settings.php:266 includes/column-settings.php:228
+#: includes/ui-field-gradient.php:46
+msgid "Center Top"
+msgstr "顶部居中"
+
+#: includes/row-settings.php:265 includes/column-settings.php:227
+#: includes/ui-field-gradient.php:45
+msgid "Right Bottom"
+msgstr "右侧底部"
+
+#: includes/row-settings.php:264 includes/column-settings.php:226
+#: includes/ui-field-gradient.php:44
+msgid "Right Center"
+msgstr "右侧居中"
+
+#: includes/row-settings.php:263 includes/column-settings.php:225
+#: includes/ui-field-gradient.php:43
+msgid "Right Top"
+msgstr "右侧顶部"
+
+#: includes/row-settings.php:262 includes/column-settings.php:224
+#: includes/ui-field-gradient.php:42
+msgid "Left Bottom"
+msgstr "左侧底部"
+
+#: includes/row-settings.php:261 includes/column-settings.php:223
+#: includes/ui-field-gradient.php:41
+msgid "Left Center"
+msgstr "左侧居中"
+
+#: includes/row-settings.php:260 includes/column-settings.php:222
+#: includes/ui-field-gradient.php:40
+msgid "Left Top"
+msgstr "左侧顶部"
+
+#: includes/row-settings.php:256 includes/column-settings.php:218
+msgid "Position"
+msgstr "位置"
+
+#: includes/row-settings.php:246 includes/column-settings.php:208
+msgctxt "Background repeat."
+msgid "Vertical"
+msgstr "垂直"
+
+#: includes/row-settings.php:245 includes/column-settings.php:207
+msgctxt "Background repeat."
+msgid "Horizontal"
+msgstr "水平"
+
+#: includes/row-settings.php:244 includes/column-settings.php:206
+msgctxt "Background repeat."
+msgid "Tile"
+msgstr "平铺"
+
+#: includes/row-settings.php:243 includes/column-settings.php:205
+msgctxt "Background repeat."
+msgid "None"
+msgstr "未选择"
+
+#: includes/row-settings.php:239 includes/column-settings.php:201
+msgid "Repeat"
+msgstr "重复"
+
+#: modules/photo/photo.php:24 modules/photo/photo.php:487
+#: includes/row-settings.php:228 includes/row-settings.php:506
+#: includes/column-settings.php:190
+msgid "Photo"
+msgstr "图像"
+
+#: includes/row-settings.php:223 includes/column-settings.php:185
+msgid "Background Photo"
+msgstr "背景图像"
+
+#: includes/row-settings.php:573 includes/column-settings.php:156
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: includes/row-settings.php:182 includes/column-settings.php:136
+msgctxt "Background type."
+msgid "Photo"
+msgstr "图像"
+
+#: includes/row-settings.php:180 includes/column-settings.php:134
+msgctxt "Background type."
+msgid "Color"
+msgstr "颜色"
+
+#: includes/row-settings.php:179 includes/column-settings.php:133
+msgctxt "Background type."
+msgid "None"
+msgstr "未选择"
+
+#: includes/row-settings.php:176 includes/column-settings.php:130
+msgid "Type"
+msgstr "类型"
+
+#: includes/row-settings.php:172 includes/column-settings.php:126
+msgid "Background"
+msgstr "背景"
+
+#: includes/row-settings.php:162 includes/column-settings.php:116
+msgid "Heading Color"
+msgstr "标题颜色"
+
+#: includes/row-settings.php:152 includes/column-settings.php:106
+msgid "Link Hover Color"
+msgstr "链接悬停颜色"
+
+#: includes/row-settings.php:142 includes/column-settings.php:96
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: modules/rich-text/rich-text.php:56 includes/row-settings.php:536
+#: includes/row-settings.php:577 includes/ui-field-border.php:126
+#: includes/column-settings.php:86 includes/column-settings.php:161
+#: includes/column-settings.php:280 classes/class-fl-builder-art.php:500
+msgid "Color"
+msgstr "颜色"
+
+#: includes/column-settings.php:81
+msgid "Text"
+msgstr "文字"
+
+#: modules/photo/photo.php:581 modules/rich-text/rich-text.php:48
+#: modules/audio/audio.php:146 includes/row-settings.php:10
+#: includes/ui-field-border.php:120 includes/column-settings.php:7
+#: includes/ui-field-typography.php:260
+msgid "Style"
+msgstr "样式"
+
+#: includes/ui-js-templates.php:58 includes/ui-js-templates.php:150
+#: includes/column-settings.php:4
+msgid "Column Settings"
+msgstr "分栏设置"
+
+#: includes/admin-settings-upgrade.php:26
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/admin-settings-tools.php:92
+msgid "The builder does not delete the post meta <code>_fl_builder_data</code>, <code>_fl_builder_draft</code> and <code>_fl_builder_enabled</code> in case you want to reinstall it later. If you do, the builder will rebuild all of its data using those meta values."
+msgstr "海狸生成器不会删除 <code>_fl_builder_data</code>、<code>_fl_builder_draft</code> 和 <code>_fl_builder_enabled</code> 等文章元值，以便您将来重新安装。当您重新安装时，海狸生成器将使用这些元值重建所有数据。"
+
+#: includes/admin-settings-tools.php:91
+msgid "Clicking the button below will uninstall the page builder plugin and delete all of the data associated with it. You can uninstall or deactivate the page builder from the plugins page instead if you do not wish to delete the data."
+msgstr "单击以下按钮将卸载海狸生成器插件并删除所有相关数据。如果您不想删除数据，您可以从插件页面卸载或停用海狸生成器。"
+
+#: includes/admin-settings-post-types.php:78
+msgid "Save Post Types"
+msgstr "保存文章类型"
+
+#: includes/admin-settings-post-types.php:38
+msgid "Select the post types you would like the builder to work with."
+msgstr "选择您想要海狸生成器使用的文章类型。"
+
+#: includes/admin-settings-post-types.php:34
+msgid "Example: page, post, product"
+msgstr "示例：页面，文章，产品"
+
+#: includes/admin-settings-post-types.php:19
+#: includes/admin-settings-post-types.php:39
+msgid "NOTE: Not all custom post types may be supported."
+msgstr "注意：不是所有自定义文章类型都受支持。"
+
+#: includes/admin-settings-post-types.php:18
+msgid "Enter a comma separated list of the post types you would like the builder to work with."
+msgstr "输入您想要海狸生成器使用的文章类型，多个类型间用逗号进行分隔。"
+
+#: includes/admin-settings-modules.php:64
+msgid "Save Module Settings"
+msgstr "保存模块设置"
+
+#: includes/admin-settings-modules.php:26
+msgctxt "Plugin setup page: Modules."
+msgid "All"
+msgstr "所有"
+
+#: includes/admin-settings-modules.php:16
+msgid "Check or uncheck modules below to enable or disable them."
+msgstr "选择或取消选择以下模块，从而启用或禁用它们。"
+
+#: includes/admin-settings-modules.php:3
+msgid "Enabled Modules"
+msgstr "启用模块"
+
+#: includes/admin-settings-js-config.php:15
+msgid "Please type \"uninstall\" in the box below to confirm that you really want to uninstall the page builder and all of its data."
+msgstr "请在以下文本框中键入“卸载”以确认您确实想要卸载海狸生成器及其数据。"
+
+#: includes/admin-settings-js-config.php:14
+msgid "Select File"
+msgstr "选择文件"
+
+#: includes/admin-settings-modules.php:10
+#: includes/admin-settings-post-types.php:10
+#: includes/admin-settings-user-access.php:19
+msgid "Override network settings?"
+msgstr "覆盖网络设置？"
+
+#: includes/admin-settings-tools.php:16
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+#: includes/admin-settings-tools.php:11
+msgid "This only applies to this site. Please visit the Network Admin Settings to clear the cache for all sites on the network."
+msgstr "这仅适用于此网站。请访问“网络管理员设置”，为网络中的所有网站清除缓存。"
+
+#: includes/updater/includes/form.php:56 includes/admin-settings-tools.php:9
+#: includes/admin-settings-tools.php:94
+msgid "This applies to all sites on the network."
+msgstr "这适用于网络中的所有网站。"
+
+#: includes/updater/includes/form.php:56 includes/admin-settings-tools.php:9
+#: includes/admin-settings-tools.php:11 includes/admin-settings-tools.php:92
+#: includes/admin-settings-tools.php:94
+msgid "NOTE:"
+msgstr "注意:"
+
+#: includes/admin-settings-tools.php:7
+msgid "A CSS and JavaScript file is dynamically generated and cached each time you create a new layout. Sometimes the cache needs to be refreshed when you migrate your site to another server or update to the latest version. If you are running into any issues, please try clearing the cache by clicking the button below."
+msgstr "您每次创建一个新的布局都会动态生成并缓存一个 CSS 和JavaScript 文件。当您将网站迁移至另一服务器或升级为最新版本时，缓存有时需要刷新。如果您遇到任何问题，请尝试通过单击以下按钮清除缓存。"
+
+#. translators: 1: branded builder name
+#: includes/admin-posts.php:25
+msgctxt "%s stands for custom branded \\\"Page Builder\\\" name."
+msgid "Switching to Text Editor mode will disable your %1$s layout until it is enabled again. Any edits made while in Text Editor mode will not be made on your %1$s layout. Do you want to continue?"
+msgstr "切换为文本编辑器模式将禁用您的 %1$s 布局，直到重新启用为止。所有在文本编辑器模式下进行的编辑将不会出现在您的 %1$s 布局中。您要继续吗？"
+
+#. translators: %s: branded builder name
+#: includes/admin-posts.php:13
+msgctxt "%s stands for custom branded \"Page Builder\" name."
+msgid "Launch %s"
+msgstr "启动%s"
+
+#. translators: 1: branded builder name: 2: post type name
+#: includes/admin-posts.php:10
+msgctxt "The first %s stands for custom branded \"Page Builder\" name. The second %s stands for the post type name."
+msgid "%1$s is currently active for this %2$s."
+msgstr "%1$s 当前为此 %2$s 处于激活状态。"
+
+#: modules/rich-text/rich-text.php:13 includes/admin-posts.php:4
+msgid "Text Editor"
+msgstr "文本区块"
+
+#. translators: %s: field name
+#. translators: %s: field name to add
+#: includes/ui-js-config.php:74
+#: classes/class-fl-builder-ui-settings-forms.php:919
+msgctxt "Field name to add."
+msgid "Add %s"
+msgstr "添加%s"
+
+#: classes/class-fl-builder-services.php:359
+msgid "Account"
+msgstr "账户"
+
+#: classes/class-fl-builder-services.php:352
+msgid "Add Account..."
+msgstr "添加账户..."
+
+#: classes/class-fl-builder-services.php:323
+msgid "Connect"
+msgstr "连接"
+
+#: classes/class-fl-builder-services.php:310
+msgid "Used to identify this connection within the accounts list and can be anything you like."
+msgstr "用于标识账户列表内的连接，可以由您随意决定。"
+
+#: classes/class-fl-builder-services.php:309
+msgid "Account Name"
+msgstr "帐户名称"
+
+#: classes/class-fl-builder-services.php:238
+msgctxt "Account name for a third party service such as MailChimp."
+msgid "Error: An account with that name already exists."
+msgstr "错误：已有一个使用此名称的账户。"
+
+#: classes/class-fl-builder-services.php:229
+msgctxt "Account name for a third party service such as MailChimp."
+msgid "Error: Missing account name."
+msgstr "错误：缺少账户名称。"
+
+#: classes/class-fl-builder-services.php:227
+msgctxt "Connection data such as an API key."
+msgid "Error: Missing service data."
+msgstr "错误：缺少服务数据。"
+
+#: classes/class-fl-builder-services.php:225
+msgctxt "Third party service such as MailChimp."
+msgid "Error: Missing service type."
+msgstr "错误：缺少服务类型。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendinblue.php:228
+msgid "Error: Could not subscribe to SendinBlue. %s"
+msgstr "错误：无法订阅 SendinBlue。%s"
+
+#: classes/class-fl-builder-service-sendinblue.php:225
+msgid "There was an error subscribing to SendinBlue. Please try again."
+msgstr "订阅 SendinBlue 时发生了错误。请重试。"
+
+#: classes/class-fl-builder-service-sendinblue.php:194
+msgid "There was an error subscribing to SendinBlue. The account is no longer connected."
+msgstr "订阅 SendinBlue 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-sendinblue.php:100
+msgid "Your Access Key can be found in your SendinBlue account under API & Integration > Manager Your Keys > Version 2.0 > Access Key."
+msgstr "您的访问密钥可以在您的 SendinBlue 账户的“API 与集成” > “管理您的密钥” > “2.0 版” > “访问密钥”下找到。"
+
+#: classes/class-fl-builder-service-sendinblue.php:99
+msgid "Access Key"
+msgstr "访问密钥"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendinblue.php:75
+#: classes/class-fl-builder-service-sendinblue.php:134
+msgid "Error: Could not connect to SendinBlue. %s"
+msgstr "错误：无法连接 SendinBlue。%s"
+
+#: classes/class-fl-builder-service-sendinblue.php:72
+#: classes/class-fl-builder-service-sendinblue.php:131
+msgid "There was an error connecting to SendinBlue. Please try again."
+msgstr "连接 SendinBlue 时发生了错误。请重试。"
+
+#: classes/class-fl-builder-service-sendinblue.php:65
+msgid "Error: You must provide an Access Key."
+msgstr "错误：您必须提供一个访问密钥。"
+
+#: classes/class-fl-builder-service-mailpoet.php:153
+msgid "There was an error subscribing. MailPoet is not installed."
+msgstr "订阅时发生了错误。未安装 MailPoet。"
+
+#: classes/class-fl-builder-service-mailpoet.php:91
+msgid "There was an error retrieveing your lists."
+msgstr "检索您的列表时发生了错误。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailchimp.php:342
+msgid "There was an error subscribing to MailChimp. %s"
+msgstr "订阅 MailChimp 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-mailchimp.php:257
+msgid "There was an error subscribing to MailChimp. The account is no longer connected."
+msgstr "订阅 MailChimp 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-mailchimp.php:228
+msgctxt "MailChimp list group."
+msgid "Groups"
+msgstr "分组"
+
+#: classes/class-fl-builder-service-mailchimp.php:215
+msgid "No Group"
+msgstr "无分组"
+
+#: classes/class-fl-builder-service-mailchimp.php:101
+msgid "Your API key can be found in your MailChimp account under Account > Extras > API Keys."
+msgstr "您的 API 密钥可以在您的 MailChimp 账户中的“账户” > “其他” > “API 密钥”下找到。"
+
+#: classes/class-fl-builder-service-madmimi.php:207
+#: classes/class-fl-builder-service-madmimi.php:233
+msgid "There was an error subscribing to Mad Mimi. The account is no longer connected."
+msgstr "订阅 Mad Mimi 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:145
+#: classes/class-fl-builder-service-madmimi.php:147
+msgid "There was a problem retrieving your lists. Please check your API credentials."
+msgstr "检索您的列表时发生了问题。请检查您的 API 凭据。"
+
+#: classes/class-fl-builder-service-madmimi.php:114
+msgid "Your API key can be found in your Mad Mimi account under Account > Settings &amp; Billing > API."
+msgstr "您的 API 密钥可以在您的 Mad Mimi 账户中的“账户” > “设置与结算”下找到。"
+
+#: classes/class-fl-builder-service-madmimi.php:103
+msgid "The email address associated with your Mad Mimi account."
+msgstr "与您的 Mad Mimi 账户相关联的电子邮件地址。"
+
+#: classes/class-fl-builder-service-madmimi.php:77
+msgid "Unable to connect to Mad Mimi. Please check your credentials."
+msgstr "无法连接 Mad Mimi。请检查您的凭据。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-infusionsoft.php:286
+msgid "There was an error subscribing to Infusionsoft. %s"
+msgstr "订阅 Infusionsoft 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-infusionsoft.php:240
+msgid "There was an error subscribing to Infusionsoft. The account is no longer connected."
+msgstr "订阅 Infusionsoft 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-infusionsoft.php:122
+msgid "Your API key can be found in your Infusionsoft account under Admin > Settings > Application > API > Encrypted Key."
+msgstr "您的 API 密钥可以在您的 Infusionsoft 账户中的“管理” > “设置” > “应用程序” > API > “密钥”下找到。"
+
+#: classes/class-fl-builder-service-infusionsoft.php:111
+msgid "Your App ID can be found in the URL for your account. For example, if the URL for your account is myaccount.infusionsoft.com, your App ID would be <strong>myaccount</strong>."
+msgstr "您的应用程序 ID 可以在账户的 URL 中找到。例如，如果您账户的 URL 是 myaccount.infusionsoft.com，您的应用程序 ID 就是 <strong>myaccount</strong>。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:79
+#: classes/class-fl-builder-service-infusionsoft.php:79
+msgid "Error: You must provide an app ID."
+msgstr "错误：您必须提供一个 APP ID。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-infusionsoft.php:48
+msgid "There was an error connecting to Infusionsoft. %s"
+msgstr "连接 Infusionsoft 时发生了错误。%s"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact.php:275
+msgid "There was an error subscribing to iContact. %s"
+msgstr "订阅 iContact 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-icontact-pro.php:275
+#: classes/class-fl-builder-service-icontact.php:238
+msgid "There was an error subscribing to iContact. The account is no longer connected."
+msgstr "订阅 iContact 时发生了错误。此账户已不再处于连接状态。"
+
+#. translators: 1: create app url: 2: docs url
+#: classes/class-fl-builder-service-icontact.php:141
+msgid "You must <a%1$s>create an app</a> in iContact to obtain an app ID and password. Please see <a%2$s>the iContact docs</a> for complete instructions."
+msgstr "您必须在 iContact 中<a%1$s>创建一个应用程序</a>以获取应用程序 ID 和密码。完整说明请参阅<a%2$s>iContact 文档</a>。"
+
+#: classes/class-fl-builder-service-icontact.php:139
+msgid "Your iContact app password."
+msgstr "您的 iContact 应用程序密码。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:150
+#: classes/class-fl-builder-service-icontact.php:138
+msgid "App Password"
+msgstr "应用程序密码"
+
+#: classes/class-fl-builder-service-icontact.php:128
+msgid "Your iContact app ID."
+msgstr "您的 iContact 应用程序 ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:139
+#: classes/class-fl-builder-service-infusionsoft.php:110
+#: classes/class-fl-builder-service-icontact.php:127
+msgid "App ID"
+msgstr "APP ID"
+
+#: classes/class-fl-builder-service-icontact.php:117
+msgid "Your iContact username."
+msgstr "您的 iContact 用户名。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:128
+#: classes/class-fl-builder-service-icontact.php:116
+msgid "Username"
+msgstr "用户名字"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact.php:96
+#: classes/class-fl-builder-service-icontact.php:179
+msgid "Error: Could not connect to iContact. %s"
+msgstr "错误：无法连接 iContact。%s"
+
+#: classes/class-fl-builder-service-icontact.php:77
+msgid "Error: You must provide a app password."
+msgstr "错误：您必须提供一个应用密码。"
+
+#: classes/class-fl-builder-service-icontact.php:75
+msgid "Error: You must provide a app ID."
+msgstr "错误：您必须提供一个应用程序 ID。"
+
+#: classes/class-fl-builder-service-icontact-pro.php:77
+#: classes/class-fl-builder-service-icontact.php:73
+msgid "Error: You must provide a username."
+msgstr "错误：您必须提供一个用户名。"
+
+#: classes/class-fl-builder-service-hatchbuck.php:191
+#: classes/class-fl-builder-service-hatchbuck.php:223
+msgid "There was an error subscribing to Hatchbuck."
+msgstr "订阅 Hatchbuck 时发生了错误。"
+
+#: classes/class-fl-builder-service-hatchbuck.php:185
+msgid "There was an error subscribing to Hatchbuck. The API key is invalid."
+msgstr "订阅 Hatchbuck 时发生了错误。无效的 API 密钥。"
+
+#: classes/class-fl-builder-service-hatchbuck.php:157
+msgid "There was an error subscribing to Hatchbuck. The account is no longer connected."
+msgstr "订阅 Hatchbuck 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-hatchbuck.php:129
+msgctxt "A tag to add to contacts in Hatchbuck when they subscribe."
+msgid "Tag"
+msgstr "标签"
+
+#: classes/class-fl-builder-service-hatchbuck.php:85
+msgid "Your API key can be found in your Hatchbuck account under Account Settings > Web API."
+msgstr "您的 API 密钥可以在您的 Hatchbuck 账户中的“账户设置” > “Web API”下找到。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-getresponse.php:247
+msgid "There was an error subscribing to GetResponse. %s"
+msgstr "订阅 GetResponse 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-getresponse.php:200
+msgid "There was an error subscribing to GetResponse. The account is no longer connected."
+msgstr "订阅 GetResponse 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-getresponse.php:97
+msgid "Your API key can be found in your GetResponse account under My Account > API & OAuth."
+msgstr "您可以在我的帐户> API和OAuth下的 GetResponse 帐户中找到您的API密钥。"
+
+#: classes/class-fl-builder-service-email-address.php:126
+msgid "There was an error subscribing. Please try again."
+msgstr "订阅时发生了错误。请重试。"
+
+#: classes/class-fl-builder-service-email-address.php:120
+msgid "Name"
+msgstr "名称"
+
+#: classes/class-fl-builder-service-email-address.php:117
+msgid "Email"
+msgstr "邮箱"
+
+#: classes/class-fl-builder-service-email-address.php:111
+msgid "Subscribe Form Signup"
+msgstr "订阅表单注册"
+
+#: classes/class-fl-builder-service-email-address.php:108
+msgid "There was an error subscribing. The account is no longer connected."
+msgstr "订阅时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-email-address.php:61
+#: classes/class-fl-builder-service-madmimi.php:102
+msgid "Email Address"
+msgstr "邮件地址"
+
+#: classes/class-fl-builder-service-email-address.php:38
+#: classes/class-fl-builder-service-madmimi.php:67
+msgid "Error: You must provide an email address."
+msgstr "错误：您必须提供一个电子邮件地址。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-constant-contact.php:240
+#: classes/class-fl-builder-service-constant-contact.php:273
+msgid "There was an error subscribing to Constant Contact. %s"
+msgstr "订阅 Constant Contact 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-constant-contact.php:189
+msgid "There was an error subscribing to Constant Contact. The account is no longer connected."
+msgstr "订阅 Constant Contact 时发生了错误。此账户已不再处于连接状态。"
+
+#. translators: 1: account link: 2: api key link
+#: classes/class-fl-builder-service-constant-contact.php:96
+msgid "You must register a <a%1$s>Developer Account</a> with Constant Contact to obtain an API key and access token. Please see <a%2$s>Getting an API key</a> for complete instructions."
+msgstr "您必须在 Constant Contact 注册一个<a%1$s>开发者账户</a>以获取 API 密钥和访问令牌。完整说明请参阅<a%2$s>获取 API 密钥</a>。"
+
+#: classes/class-fl-builder-service-constant-contact.php:94
+msgid "Your Constant Contact access token."
+msgstr "您的 Constant Contact 访问令牌。"
+
+#: classes/class-fl-builder-service-constant-contact.php:93
+msgid "Access Token"
+msgstr "访问令牌"
+
+#: classes/class-fl-builder-service-constant-contact.php:83
+msgid "Your Constant Contact API key."
+msgstr "您的 Constant Contact API 密钥。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-constant-contact.php:57
+#: classes/class-fl-builder-service-constant-contact.php:129
+msgid "Error: Could not connect to Constant Contact. %s"
+msgstr "错误：无法连接 Constant Contact。%s"
+
+#: classes/class-fl-builder-service-constant-contact.php:49
+msgid "Error: You must provide an access token."
+msgstr "错误：您必须提供一个访问令牌。"
+
+#: classes/class-fl-builder-service-campaign-monitor.php:251
+msgid "There was an error subscribing to Campaign Monitor."
+msgstr "订阅 Campaign Monitor 时发生了错误。"
+
+#: classes/class-fl-builder-service-campaign-monitor.php:235
+msgid "There was an error subscribing to Campaign Monitor. The account is no longer connected."
+msgstr "订阅 Campaign Monitor 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-campaign-monitor.php:156
+msgctxt "A client account in Campaign Monitor."
+msgid "Client"
+msgstr "客户端"
+
+#: classes/class-fl-builder-service-campaign-monitor.php:87
+msgid "Your API key can be found in your Campaign Monitor account under Account Settings > API Key."
+msgstr "您的 API 密钥可以在您的 Campaign Monitor 账户中的“账户设置” > “API 密钥”下找到。"
+
+#: classes/class-fl-builder-service-hatchbuck.php:60
+#: classes/class-fl-builder-service-getresponse.php:72
+#: classes/class-fl-builder-service-getresponse.php:127
+#: classes/class-fl-builder-service-enormail.php:134
+#: classes/class-fl-builder-service-convertkit.php:127
+#: classes/class-fl-builder-service-campaign-monitor.php:66
+#: classes/class-fl-builder-service-campaign-monitor.php:125
+msgid "Error: Please check your API key."
+msgstr "错误：请检查您的 API 密钥。"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-aweber.php:288
+#: classes/class-fl-builder-service-aweber.php:307
+msgid "There was an error subscribing to AWeber. %s"
+msgstr "订阅 AWeber 时发生了错误。%s"
+
+#: classes/class-fl-builder-service-aweber.php:283
+#: classes/class-fl-builder-service-aweber.php:301
+msgid "There was an error connecting to AWeber. Please try again."
+msgstr "连接 AWeber 时发生了错误。请重试。"
+
+#: classes/class-fl-builder-service-aweber.php:237
+msgid "There was an error subscribing to AWeber. The account is no longer connected."
+msgstr "订阅 AWeber 时发生了错误。此账户已不再处于连接状态。"
+
+#. translators: %s: register url
+#: classes/class-fl-builder-service-aweber.php:120
+msgid "Please register this website with AWeber to get your Authorization Code. <a%s>Register Now</a>"
+msgstr "请用 AWeber 注册此网站，以获取您的授权码。<a%s>立即注册</a>"
+
+#: classes/class-fl-builder-service-aweber.php:118
+msgid "Authorization Code"
+msgstr "授权码"
+
+#: classes/class-fl-builder-service-aweber.php:72
+msgid "Error: Please enter a valid Authorization Code."
+msgstr "错误：请输入一个有效的授权码。"
+
+#: classes/class-fl-builder-service-aweber.php:70
+msgid "Error: You must provide an Authorization Code."
+msgstr "错误：您必须提供一个授权码。"
+
+#: classes/class-fl-builder-service-activecampaign.php:372
+msgid "Error: Invalid API data."
+msgstr "错误：无效的 API 数据。"
+
+#: classes/class-fl-builder-service-activecampaign.php:307
+msgid "There was an error subscribing to ActiveCampaign. The account is no longer connected."
+msgstr "订阅 ActiveCampaign 时发生了错误。此账户已不再处于连接状态。"
+
+#: classes/class-fl-builder-service-mailchimp.php:187
+#: classes/class-fl-builder-service-aweber.php:184
+#: classes/class-fl-builder-service-sendinblue.php:166
+#: classes/class-fl-builder-service-icontact-pro.php:247
+#: classes/class-fl-builder-service-mautic.php:220
+#: classes/class-fl-builder-service-getresponse.php:160
+#: classes/class-fl-builder-service-constant-contact.php:161
+#: classes/class-fl-builder-service-enormail.php:168
+#: classes/class-fl-builder-service-convertkit.php:161
+#: classes/class-fl-builder-service-infusionsoft.php:211
+#: classes/class-fl-builder-service-mailpoet.php:121
+#: classes/class-fl-builder-service-campaign-monitor.php:207
+#: classes/class-fl-builder-service-madmimi.php:179
+#: classes/class-fl-builder-service-icontact.php:210
+msgctxt "An email list from a third party provider."
+msgid "List"
+msgstr "列表"
+
+#: includes/ui-service-settings.php:7
+#: classes/class-fl-builder-service-mailchimp.php:174
+#: classes/class-fl-builder-service-aweber.php:173
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:166
+#: classes/class-fl-builder-service-campayn.php:196
+#: classes/class-fl-builder-service-sendinblue.php:155
+#: classes/class-fl-builder-service-mailrelay.php:183
+#: classes/class-fl-builder-service-activecampaign.php:205
+#: classes/class-fl-builder-service-activecampaign.php:239
+#: classes/class-fl-builder-service-icontact-pro.php:236
+#: classes/class-fl-builder-service-mautic.php:209
+#: classes/class-fl-builder-service-getresponse.php:148
+#: classes/class-fl-builder-service-constant-contact.php:150
+#: classes/class-fl-builder-service-enormail.php:155
+#: classes/class-fl-builder-service-convertkit.php:148
+#: classes/class-fl-builder-service-infusionsoft.php:196
+#: classes/class-fl-builder-service-drip.php:178
+#: classes/class-fl-builder-service-mailpoet.php:110
+#: classes/class-fl-builder-service-campaign-monitor.php:144
+#: classes/class-fl-builder-service-campaign-monitor.php:195
+#: classes/class-fl-builder-service-mailerlite.php:161
+#: classes/class-fl-builder-service-madmimi.php:168
+#: classes/class-fl-builder-service-ontraport.php:183
+#: classes/class-fl-builder-service-icontact.php:198
+#: classes/class-fl-builder-services.php:344
+msgid "Choose..."
+msgstr "选择..."
+
+#: classes/class-fl-builder-service-campayn.php:144
+msgid "Your API key can be found in your Campayn account under Settings > API Key."
+msgstr "您的 API 密钥可以在您的 Campayn 账户中的“设置” > “API 密钥”下找到。"
+
+#: classes/class-fl-builder-service-sendy.php:125
+#: classes/class-fl-builder-service-hatchbuck.php:84
+#: classes/class-fl-builder-service-mailchimp.php:100
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:111
+#: classes/class-fl-builder-service-campayn.php:143
+#: classes/class-fl-builder-service-mailrelay.php:127
+#: classes/class-fl-builder-service-activecampaign.php:111
+#: classes/class-fl-builder-service-getresponse.php:96
+#: classes/class-fl-builder-service-constant-contact.php:82
+#: classes/class-fl-builder-service-enormail.php:103
+#: classes/class-fl-builder-service-convertkit.php:96
+#: classes/class-fl-builder-service-infusionsoft.php:121
+#: classes/class-fl-builder-service-campaign-monitor.php:86
+#: classes/class-fl-builder-service-mailerlite.php:108
+#: classes/class-fl-builder-service-madmimi.php:113
+#: classes/class-fl-builder-service-ontraport.php:123
+msgid "API Key"
+msgstr "API 密钥"
+
+#: classes/class-fl-builder-service-activecampaign.php:101
+msgid "Your API url can be found in your ActiveCampaign account under My Settings > Developer > API."
+msgstr "您可以在我的设置>开发人员> API下的ActiveCampaign帐户中找到您的API网址。"
+
+#: classes/class-fl-builder-service-activecampaign.php:100
+msgid "API URL"
+msgstr "API URL"
+
+#: classes/class-fl-builder-service-activecampaign.php:75
+msgid "Error: Please check your API URL and API key."
+msgstr "错误：请检查您的 API URL 和 API 密钥。"
+
+#: classes/class-fl-builder-service-sendy.php:70
+#: classes/class-fl-builder-service-hatchbuck.php:47
+#: classes/class-fl-builder-service-mailchimp.php:65
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:69
+#: classes/class-fl-builder-service-campayn.php:100
+#: classes/class-fl-builder-service-mailrelay.php:79
+#: classes/class-fl-builder-service-activecampaign.php:69
+#: classes/class-fl-builder-service-getresponse.php:65
+#: classes/class-fl-builder-service-constant-contact.php:47
+#: classes/class-fl-builder-service-enormail.php:67
+#: classes/class-fl-builder-service-convertkit.php:65
+#: classes/class-fl-builder-service-infusionsoft.php:77
+#: classes/class-fl-builder-service-campaign-monitor.php:53
+#: classes/class-fl-builder-service-madmimi.php:69
+#: classes/class-fl-builder-service-ontraport.php:70
+msgid "Error: You must provide an API key."
+msgstr "错误：您必须提供一个 API 密钥。"
+
+#: classes/class-fl-builder-service-activecampaign.php:67
+msgid "Error: You must provide an API URL."
+msgstr "错误：您必须提供一个 API URL。"
+
+#: classes/class-fl-builder-photo.php:99
+msgctxt "Image size."
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: classes/class-fl-builder-photo.php:98
+msgctxt "Image size."
+msgid "Medium"
+msgstr "中等尺寸"
+
+#: classes/class-fl-builder-photo.php:97
+msgctxt "Image size."
+msgid "Large"
+msgstr "大尺寸"
+
+#: classes/class-fl-builder-photo.php:92 classes/class-fl-builder-photo.php:96
+msgctxt "Image size."
+msgid "Full Size"
+msgstr "原图"
+
+#: includes/ui-js-config.php:240 classes/class-fl-builder-model.php:6074
+msgid "Content Pages"
+msgstr "内容页面"
+
+#: classes/class-fl-builder-model.php:4851
+msgctxt "Default user template category."
+msgid "Uncategorized"
+msgstr "未分类"
+
+#. translators: %s: post/page title
+#: classes/class-fl-builder-model.php:4107
+msgctxt "%s stands for post/page title."
+msgid "Copy of %s"
+msgstr "%s 副本"
+
+#: modules/widget/widget.php:15 modules/widget/widget.php:16
+#: includes/admin-settings-modules.php:32 includes/ui-js-config.php:227
+#: classes/class-fl-builder-model.php:2993
+#: classes/class-fl-builder-model.php:3128
+#: classes/class-fl-builder-model.php:3551
+msgid "WordPress Widgets"
+msgstr "系统小工具"
+
+#: classes/class-fl-builder-module.php:365
+msgid "Advanced Modules"
+msgstr "高级模块"
+
+#: classes/class-fl-builder-module.php:363
+msgid "Basic Modules"
+msgstr "基础模块"
+
+#. translators: %s: module filename
+#: classes/class-fl-builder-model.php:2756
+msgctxt "%s stands for the module filename"
+msgid "A module with the filename %s.php already exists! Please namespace your module filenames to ensure compatibility with Beaver Builder."
+msgstr "一个名为 %s.php 的模块已经存在！请为您难道模块文件名提供命名空间，以确保与海狸生成器兼容。"
+
+#: classes/class-fl-builder-admin.php:233
+msgctxt "Plugin action link label."
+msgid "Upgrade"
+msgstr "升级"
+
+#. translators: %s: link to licence page
+#: classes/class-fl-builder-admin.php:186
+msgid "Page Builder activated! <a%s>Click here</a> to enable remote updates."
+msgstr "海狸生成器已启用！<a%s>单击此处</a>以启用远程更新。"
+
+#: classes/class-fl-builder-admin.php:43
+msgid "The <strong>Page Builder</strong> plugin requires WordPress version 3.5 or greater. Please update WordPress before activating the plugin."
+msgstr "<strong>海狸生成器</strong>插件要求 WordPress 3.5 或更高版本。请在激活插件前更新 WordPress。"
+
+#. translators: %s: upgrade url
+#: classes/class-fl-builder-admin.php:63
+msgid "This version of the <strong>Page Builder</strong> plugin is not compatible with WordPress Multisite. <a%s>Please upgrade</a> to the Multisite version of this plugin."
+msgstr "此版本的<strong>海狸生成器</strong>插件与 WordPress 多站点不兼容。<a%s>请升级</a>为此插件的多站点版本。"
+
+#: classes/class-fl-builder-admin-settings.php:561
+msgid "Error! Please upload an icon set from either Icomoon or Fontello."
+msgstr "错误！请上传一个来自 Icomoon 或 Fontello 的图标集。"
+
+#: classes/class-fl-builder-admin-settings.php:519
+msgid "Error! Could not unzip file."
+msgstr "错误！无法解压缩文件。"
+
+#: classes/class-fl-builder-admin-settings.php:457
+msgid "Error! You must have at least one icon set enabled."
+msgstr "错误！您必须至少启用一个图标集。"
+
+#: includes/admin-settings-tools.php:88 includes/admin-settings-tools.php:98
+msgid "Uninstall"
+msgstr "卸载"
+
+#: includes/admin-settings-tools.php:3
+msgid "Cache"
+msgstr "缓存"
+
+#: classes/class-fl-builder-admin-settings.php:220
+msgid "Icons"
+msgstr "图标"
+
+#: includes/admin-settings-post-types.php:3
+#: classes/class-fl-builder-admin-settings.php:210
+msgid "Post Types"
+msgstr "文章类型"
+
+#: classes/class-fl-builder-ui-content-panel.php:53
+msgid "Templates"
+msgstr "模版"
+
+#: includes/global-settings.php:154
+#: classes/class-fl-builder-admin-settings.php:205
+#: classes/class-fl-builder-ui-content-panel.php:32
+msgid "Modules"
+msgstr "模块"
+
+#: classes/class-fl-builder-admin-settings.php:200
+#: classes/class-fl-builder-ui-content-panel.php:222
+msgid "Upgrade"
+msgstr "升级"
+
+#: classes/class-fl-builder-admin-settings.php:195
+msgid "License"
+msgstr "许可证"
+
+#: classes/class-fl-builder-admin-settings.php:177
+msgid "Settings updated!"
+msgstr "设置已更新！"
+
+#. translators: %s: builder branded name
+#: classes/class-fl-builder-admin-settings.php:162
+msgctxt "%s stands for custom branded \"Page Builder\" name."
+msgid "%s Settings"
+msgstr "%s设置"

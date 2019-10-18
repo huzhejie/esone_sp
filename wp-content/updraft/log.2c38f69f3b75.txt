@@ -1,0 +1,494 @@
+0000.001 (0) Opened log file at time: Tue, 15 Oct 2019 07:30:57 +0000 on http://localhost
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.21.22 WP: 5.2.3 PHP: 7.1.32 (apache2handler, Windows NT HUZHEJIE 10.0 build 17763 (Windows 10) AMD64) MySQL: 5.7.17 WPLANG: zh_CN Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 82.6M | 86M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 25850.3 MB
+0000.040 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.141 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.153 (0) Set semaphore last lock (fd) time to 2019-10-15 07:30:58
+0000.157 (0) Semaphore lock (fd) complete
+0000.172 (0) Backup run: resumption=0, nonce=2c38f69f3b75, begun at=1571124657 (1s ago), job type=backup, label=更新前自动备份
+0000.178 (0) A resumption will be scheduled for the cloud backup stage
+0000.182 (0) Scheduling a resumption (1) after 300 seconds (1571124958) in case this run gets aborted
+0000.215 (0) Checking if we have a zip executable available
+0000.222 (0) Creation of backups of directories: beginning
+0000.234 (0) No backup of plugins: excluded by user's options
+0000.238 (0) No backup of themes: excluded by user's options
+0000.241 (0) No backup of uploads: excluded by user's options
+0000.251 (0) Beginning creation of dump of wpcore (split every: 400 MB)
+0000.819 (0) Total entities for the zip file: 141 directories, 1616 files (0 skipped as non-modified), 37.3 MB
+0001.797 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.163 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 162 (162) files added so far); re-opening (prior size: 0 KB)
+0003.584 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 200 files added (on-disk size: 540.9 KB)
+0005.507 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 300 files added (on-disk size: 540.9 KB)
+0006.236 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 145 (307) files added so far); re-opening (prior size: 540.9 KB)
+0008.579 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 400 files added (on-disk size: 1218.3 KB)
+0009.072 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.5 MB, 125 (432) files added so far); re-opening (prior size: 1218.3 KB)
+0011.949 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 500 files added (on-disk size: 1905.3 KB)
+0012.183 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 69 (501) files added so far); re-opening (prior size: 1905.3 KB)
+0014.938 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 600 files added (on-disk size: 2028.9 KB)
+0015.072 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 130 (631) files added so far); re-opening (prior size: 2028.9 KB)
+0015.659 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 700 files added (on-disk size: 2719.2 KB)
+0016.934 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 800 files added (on-disk size: 2719.2 KB)
+0017.720 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 900 files added (on-disk size: 2719.2 KB)
+0018.102 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.5 MB, 282 (913) files added so far); re-opening (prior size: 2719.2 KB)
+0021.119 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.9 MB, 65 (978) files added so far); re-opening (prior size: 4352.5 KB)
+0022.216 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1000 files added (on-disk size: 5839.7 KB)
+0024.010 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1100 files added (on-disk size: 5839.7 KB)
+0024.077 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 125 (1103) files added so far); re-opening (prior size: 5839.7 KB)
+0026.357 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1200 files added (on-disk size: 6784.9 KB)
+0027.073 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.9 MB, 141 (1244) files added so far); re-opening (prior size: 6784.9 KB)
+0028.459 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1300 files added (on-disk size: 7872.2 KB)
+0029.412 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1400 files added (on-disk size: 7872.2 KB)
+0030.071 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.3 MB, 217 (1461) files added so far); re-opening (prior size: 7872.2 KB)
+0031.065 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1500 files added (on-disk size: 9229.3 KB)
+0032.383 (0) Zip: backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip.tmp: 1600 files added (on-disk size: 9229.3 KB)
+0033.342 (0) Created wpcore zip (0) - 9696.8 KB in 33.1 s (293.1 KB/s) (SHA1 checksum: 7ecba1e613d91269848c1c800663f02b4df8a942)
+0033.347 (0) No backup of others: excluded by user's options
+0033.350 (0) No backup of more: excluded by user's options
+0033.365 (0) Saving backup status to database (elements: 2)
+0033.376 (0) Beginning creation of database dump (WordPress DB)
+0033.815 (0) Table hou_options: Total expected rows (approximate): 655
+0033.899 (0) Table hou_options: Total rows added: 667 in 0.08 seconds
+0033.908 (0) Table hou_options: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_options.table.gz - 252.2 KB)
+0033.923 (0) Table hou_users: Total expected rows (approximate): 35
+0033.930 (0) Table hou_users: Total rows added: 35 in 0.00 seconds
+0033.939 (0) Table hou_users: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_users.table.gz - 3.8 KB)
+0033.956 (0) Table hou_usermeta: Total expected rows (approximate): 606
+0033.971 (0) Table hou_usermeta: Total rows added: 606 in 0.01 seconds
+0033.981 (0) Table hou_usermeta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_usermeta.table.gz - 9.1 KB)
+0033.997 (0) Table hou_commentmeta: Total expected rows (approximate): 0
+0034.003 (0) Table hou_commentmeta: Total rows added: 0 in 0.00 seconds
+0034.011 (0) Table hou_commentmeta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_commentmeta.table.gz - 0.4 KB)
+0034.030 (0) Table hou_comments: Total expected rows (approximate): 0
+0034.036 (0) Table hou_comments: Total rows added: 1 in 0.00 seconds
+0034.046 (0) Table hou_comments: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_comments.table.gz - 0.8 KB)
+0034.064 (0) Table hou_links: Total expected rows (approximate): 0
+0034.070 (0) Table hou_links: Total rows added: 0 in 0.00 seconds
+0034.078 (0) Table hou_links: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_links.table.gz - 0.5 KB)
+0034.093 (0) Table hou_postmeta: Total expected rows (approximate): 79979
+0042.563 (0) Table hou_postmeta: Total rows added: 90070 in 8.47 seconds
+0042.573 (0) Table hou_postmeta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_postmeta.table.gz - 884.1 KB)
+0042.588 (0) Table hou_posts: Total expected rows (approximate): 8301
+0043.182 (0) Table hou_posts: Total rows added: 8410 in 0.59 seconds
+0043.193 (0) Table hou_posts: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_posts.table.gz - 298.1 KB)
+0043.210 (0) Table hou_term_relationships: Total expected rows (approximate): 149
+0043.226 (0) Table hou_term_relationships: Total rows added: 149 in 0.01 seconds
+0043.237 (0) Table hou_term_relationships: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_term_relationships.table.gz - 0.8 KB)
+0043.253 (0) Table hou_term_taxonomy: Total expected rows (approximate): 31
+0043.259 (0) Table hou_term_taxonomy: Total rows added: 31 in 0.00 seconds
+0043.269 (0) Table hou_term_taxonomy: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_term_taxonomy.table.gz - 0.7 KB)
+0043.285 (0) Table hou_termmeta: Total expected rows (approximate): 0
+0043.291 (0) Table hou_termmeta: Total rows added: 0 in 0.00 seconds
+0043.308 (0) Table hou_termmeta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_termmeta.table.gz - 0.4 KB)
+0043.338 (0) Table hou_terms: Total expected rows (approximate): 31
+0043.345 (0) Table hou_terms: Total rows added: 31 in 0.00 seconds
+0043.364 (0) Table hou_terms: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_terms.table.gz - 1 KB)
+0043.383 (0) Table hou_yoast_seo_links: Total expected rows (approximate): 0
+0043.389 (0) Table hou_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0043.401 (0) Table hou_yoast_seo_links: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_yoast_seo_links.table.gz - 0.4 KB)
+0043.436 (0) Table hou_yoast_seo_meta: Total expected rows (approximate): 211
+0043.447 (0) Table hou_yoast_seo_meta: Total rows added: 211 in 0.00 seconds
+0043.458 (0) Table hou_yoast_seo_meta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_yoast_seo_meta.table.gz - 0.9 KB)
+0043.473 (0) Table hou_icl_content_status: Total expected rows (approximate): 0
+0043.477 (0) Table hou_icl_content_status: Total rows added: 0 in 0.00 seconds
+0043.485 (0) Table hou_icl_content_status: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_content_status.table.gz - 0.3 KB)
+0043.501 (0) Table hou_icl_core_status: Total expected rows (approximate): 0
+0043.506 (0) Table hou_icl_core_status: Total rows added: 0 in 0.00 seconds
+0043.515 (0) Table hou_icl_core_status: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_core_status.table.gz - 0.4 KB)
+0043.531 (0) Table hou_icl_flags: Total expected rows (approximate): 63
+0043.536 (0) Table hou_icl_flags: Total rows added: 63 in 0.00 seconds
+0043.547 (0) Table hou_icl_flags: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_flags.table.gz - 0.9 KB)
+0043.561 (0) Table hou_icl_languages: Total expected rows (approximate): 63
+0043.568 (0) Table hou_icl_languages: Total rows added: 63 in 0.00 seconds
+0043.578 (0) Table hou_icl_languages: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_languages.table.gz - 1.6 KB)
+0043.598 (0) Table hou_icl_languages_translations: Total expected rows (approximate): 3969
+0043.662 (0) Table hou_icl_languages_translations: Total rows added: 3969 in 0.06 seconds
+0043.672 (0) Table hou_icl_languages_translations: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_languages_translations.table.gz - 33.1 KB)
+0043.686 (0) Table hou_icl_locale_map: Total expected rows (approximate): 3
+0043.692 (0) Table hou_icl_locale_map: Total rows added: 3 in 0.00 seconds
+0043.701 (0) Table hou_icl_locale_map: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_locale_map.table.gz - 0.4 KB)
+0043.718 (0) Table hou_icl_message_status: Total expected rows (approximate): 0
+0043.723 (0) Table hou_icl_message_status: Total rows added: 0 in 0.00 seconds
+0043.733 (0) Table hou_icl_message_status: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_message_status.table.gz - 0.4 KB)
+0043.748 (0) Table hou_icl_mo_files_domains: Total expected rows (approximate): 76
+0043.755 (0) Table hou_icl_mo_files_domains: Total rows added: 76 in 0.00 seconds
+0043.767 (0) Table hou_icl_mo_files_domains: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_mo_files_domains.table.gz - 4 KB)
+0043.782 (0) Table hou_icl_node: Total expected rows (approximate): 0
+0043.787 (0) Table hou_icl_node: Total rows added: 0 in 0.00 seconds
+0043.797 (0) Table hou_icl_node: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_node.table.gz - 0.3 KB)
+0043.812 (0) Table hou_icl_reminders: Total expected rows (approximate): 0
+0043.818 (0) Table hou_icl_reminders: Total rows added: 0 in 0.00 seconds
+0043.828 (0) Table hou_icl_reminders: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_reminders.table.gz - 0.3 KB)
+0043.851 (0) Table hou_icl_string_packages: Total expected rows (approximate): 6
+0043.857 (0) Table hou_icl_string_packages: Total rows added: 6 in 0.00 seconds
+0043.868 (0) Table hou_icl_string_packages: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_packages.table.gz - 0.7 KB)
+0043.881 (0) Table hou_icl_string_pages: Total expected rows (approximate): 51969
+0044.446 (0) Table hou_icl_string_pages: Total rows added: 51969 in 0.56 seconds
+0044.457 (0) Table hou_icl_string_pages: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_pages.table.gz - 249.9 KB)
+0044.472 (0) Table hou_icl_string_positions: Total expected rows (approximate): 220
+0044.487 (0) Table hou_icl_string_positions: Total rows added: 220 in 0.01 seconds
+0044.499 (0) Table hou_icl_string_positions: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_positions.table.gz - 2.6 KB)
+0044.528 (0) Table hou_icl_string_status: Total expected rows (approximate): 0
+0044.533 (0) Table hou_icl_string_status: Total rows added: 0 in 0.00 seconds
+0044.552 (0) Table hou_icl_string_status: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_status.table.gz - 0.4 KB)
+0044.575 (0) Table hou_icl_string_translations: Total expected rows (approximate): 49541
+0046.818 (0) Table hou_icl_string_translations: Total rows added: 47869 in 2.24 seconds
+0046.828 (0) Table hou_icl_string_translations: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_translations.table.gz - 1040.8 KB)
+0046.843 (0) Table hou_icl_string_urls: Total expected rows (approximate): 112
+0046.850 (0) Table hou_icl_string_urls: Total rows added: 112 in 0.00 seconds
+0046.859 (0) Table hou_icl_string_urls: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_urls.table.gz - 2.2 KB)
+0046.875 (0) Table hou_icl_strings: Total expected rows (approximate): 32396
+0048.616 (0) Table hou_icl_strings: Total rows added: 31171 in 1.74 seconds
+0048.627 (0) Table hou_icl_strings: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_strings.table.gz - 1929.9 KB)
+0048.651 (0) Table hou_icl_translate: Total expected rows (approximate): 34
+0048.659 (0) Table hou_icl_translate: Total rows added: 34 in 0.00 seconds
+0048.668 (0) Table hou_icl_translate: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translate.table.gz - 2 KB)
+0048.685 (0) Table hou_icl_translate_job: Total expected rows (approximate): 8
+0048.692 (0) Table hou_icl_translate_job: Total rows added: 8 in 0.00 seconds
+0048.702 (0) Table hou_icl_translate_job: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translate_job.table.gz - 0.6 KB)
+0048.730 (0) Table hou_icl_translation_batches: Total expected rows (approximate): 3
+0048.737 (0) Table hou_icl_translation_batches: Total rows added: 3 in 0.00 seconds
+0048.752 (0) Table hou_icl_translation_batches: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translation_batches.table.gz - 0.5 KB)
+0048.780 (0) Table hou_icl_translation_status: Total expected rows (approximate): 4895
+0048.910 (0) Table hou_icl_translation_status: Total rows added: 4727 in 0.13 seconds
+0048.921 (0) Table hou_icl_translation_status: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translation_status.table.gz - 40.2 KB)
+0048.937 (0) Table hou_icl_translations: Total expected rows (approximate): 7678
+0049.060 (0) Table hou_icl_translations: Total rows added: 7658 in 0.12 seconds
+0049.069 (0) Table hou_icl_translations: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translations.table.gz - 60.5 KB)
+0049.090 (0) Table hou_mappress_maps: Total expected rows (approximate): 2
+0049.097 (0) Table hou_mappress_maps: Total rows added: 2 in 0.00 seconds
+0049.106 (0) Table hou_mappress_maps: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_mappress_maps.table.gz - 0.8 KB)
+0049.122 (0) Table hou_mappress_posts: Total expected rows (approximate): 2
+0049.127 (0) Table hou_mappress_posts: Total rows added: 2 in 0.00 seconds
+0049.136 (0) Table hou_mappress_posts: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_mappress_posts.table.gz - 0.3 KB)
+0049.160 (0) Table hou_nextend2_image_storage: Total expected rows (approximate): 3
+0049.165 (0) Table hou_nextend2_image_storage: Total rows added: 3 in 0.00 seconds
+0049.176 (0) Table hou_nextend2_image_storage: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_image_storage.table.gz - 0.6 KB)
+0049.193 (0) Table hou_nextend2_section_storage: Total expected rows (approximate): 1
+0049.198 (0) Table hou_nextend2_section_storage: Total rows added: 1 in 0.00 seconds
+0049.206 (0) Table hou_nextend2_section_storage: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_section_storage.table.gz - 0.5 KB)
+0049.226 (0) Table hou_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0049.232 (0) Table hou_nextend2_smartslider3_generators: Total rows added: 0 in 0.00 seconds
+0049.240 (0) Table hou_nextend2_smartslider3_generators: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0049.262 (0) Table hou_nextend2_smartslider3_sliders: Total expected rows (approximate): 1
+0049.268 (0) Table hou_nextend2_smartslider3_sliders: Total rows added: 1 in 0.00 seconds
+0049.276 (0) Table hou_nextend2_smartslider3_sliders: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_sliders.table.gz - 2.4 KB)
+0049.291 (0) Table hou_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0049.295 (0) Table hou_nextend2_smartslider3_sliders_xref: Total rows added: 0 in 0.00 seconds
+0049.303 (0) Table hou_nextend2_smartslider3_sliders_xref: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_sliders_xref.table.gz - 0.3 KB)
+0049.324 (0) Table hou_nextend2_smartslider3_slides: Total expected rows (approximate): 3
+0049.330 (0) Table hou_nextend2_smartslider3_slides: Total rows added: 3 in 0.00 seconds
+0049.338 (0) Table hou_nextend2_smartslider3_slides: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_slides.table.gz - 2.1 KB)
+0049.353 (0) Table hou_revslider_css: Total expected rows (approximate): 145
+0049.366 (0) Table hou_revslider_css: Total rows added: 145 in 0.01 seconds
+0049.375 (0) Table hou_revslider_css: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_css.table.gz - 6 KB)
+0049.390 (0) Table hou_revslider_layer_animations: Total expected rows (approximate): 11
+0049.396 (0) Table hou_revslider_layer_animations: Total rows added: 11 in 0.00 seconds
+0049.407 (0) Table hou_revslider_layer_animations: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_layer_animations.table.gz - 0.7 KB)
+0049.423 (0) Table hou_revslider_navigations: Total expected rows (approximate): 0
+0049.429 (0) Table hou_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0049.439 (0) Table hou_revslider_navigations: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_navigations.table.gz - 0.3 KB)
+0049.455 (0) Table hou_revslider_settings: Total expected rows (approximate): 0
+0049.461 (0) Table hou_revslider_settings: Total rows added: 0 in 0.00 seconds
+0049.473 (0) Table hou_revslider_settings: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_settings.table.gz - 0.3 KB)
+0049.489 (0) Table hou_revslider_sliders: Total expected rows (approximate): 3
+0049.496 (0) Table hou_revslider_sliders: Total rows added: 3 in 0.00 seconds
+0049.505 (0) Table hou_revslider_sliders: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_sliders.table.gz - 4.1 KB)
+0049.520 (0) Table hou_revslider_slides: Total expected rows (approximate): 12
+0049.531 (0) Table hou_revslider_slides: Total rows added: 12 in 0.01 seconds
+0049.540 (0) Table hou_revslider_slides: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_slides.table.gz - 4.3 KB)
+0049.555 (0) Table hou_revslider_static_slides: Total expected rows (approximate): 0
+0049.561 (0) Table hou_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0049.569 (0) Table hou_revslider_static_slides: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_static_slides.table.gz - 0.3 KB)
+0049.585 (0) Table hou_rg_form: Total expected rows (approximate): 6
+0049.591 (0) Table hou_rg_form: Total rows added: 6 in 0.00 seconds
+0049.599 (0) Table hou_rg_form: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_form.table.gz - 0.5 KB)
+0049.615 (0) Table hou_rg_form_meta: Total expected rows (approximate): 6
+0049.622 (0) Table hou_rg_form_meta: Total rows added: 6 in 0.00 seconds
+0049.633 (0) Table hou_rg_form_meta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_form_meta.table.gz - 2.6 KB)
+0049.648 (0) Table hou_rg_form_view: Total expected rows (approximate): 299
+0049.657 (0) Table hou_rg_form_view: Total rows added: 299 in 0.01 seconds
+0049.667 (0) Table hou_rg_form_view: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_form_view.table.gz - 3.6 KB)
+0049.682 (0) Table hou_rg_incomplete_submissions: Total expected rows (approximate): 0
+0049.688 (0) Table hou_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0049.698 (0) Table hou_rg_incomplete_submissions: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_incomplete_submissions.table.gz - 0.4 KB)
+0049.712 (0) Table hou_rg_lead: Total expected rows (approximate): 7
+0049.720 (0) Table hou_rg_lead: Total rows added: 7 in 0.00 seconds
+0049.730 (0) Table hou_rg_lead: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead.table.gz - 1 KB)
+0049.745 (0) Table hou_rg_lead_detail: Total expected rows (approximate): 27
+0049.751 (0) Table hou_rg_lead_detail: Total rows added: 27 in 0.00 seconds
+0049.761 (0) Table hou_rg_lead_detail: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_detail.table.gz - 1.3 KB)
+0049.779 (0) Table hou_rg_lead_detail_long: Total expected rows (approximate): 0
+0049.785 (0) Table hou_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0049.794 (0) Table hou_rg_lead_detail_long: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_detail_long.table.gz - 0.3 KB)
+0049.810 (0) Table hou_rg_lead_meta: Total expected rows (approximate): 0
+0049.816 (0) Table hou_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0049.823 (0) Table hou_rg_lead_meta: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_meta.table.gz - 0.4 KB)
+0049.838 (0) Table hou_rg_lead_notes: Total expected rows (approximate): 0
+0049.843 (0) Table hou_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0049.852 (0) Table hou_rg_lead_notes: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_notes.table.gz - 0.4 KB)
+0049.866 (0) Table hou_toolset_associations: Total expected rows (approximate): 0
+0049.871 (0) Table hou_toolset_associations: Total rows added: 0 in 0.00 seconds
+0049.881 (0) Table hou_toolset_associations: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_associations.table.gz - 0.4 KB)
+0049.896 (0) Table hou_toolset_post_guid_id: Total expected rows (approximate): 0
+0049.901 (0) Table hou_toolset_post_guid_id: Total rows added: 0 in 0.00 seconds
+0049.911 (0) Table hou_toolset_post_guid_id: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_post_guid_id.table.gz - 0.3 KB)
+0049.925 (0) Table hou_toolset_relationships: Total expected rows (approximate): 0
+0049.930 (0) Table hou_toolset_relationships: Total rows added: 0 in 0.00 seconds
+0049.940 (0) Table hou_toolset_relationships: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_relationships.table.gz - 0.7 KB)
+0049.955 (0) Table hou_toolset_type_sets: Total expected rows (approximate): 0
+0049.960 (0) Table hou_toolset_type_sets: Total rows added: 0 in 0.00 seconds
+0049.969 (0) Table hou_toolset_type_sets: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_type_sets.table.gz - 0.4 KB)
+0049.982 (0) Table hou_user_registration_sessions: Total expected rows (approximate): 0
+0049.987 (0) Table hou_user_registration_sessions: Total rows added: 0 in 0.00 seconds
+0049.995 (0) Table hou_user_registration_sessions: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_user_registration_sessions.table.gz - 0.4 KB)
+0050.011 (0) Table hou_wpgmza: Total expected rows (approximate): 0
+0050.016 (0) Table hou_wpgmza: Total rows added: 0 in 0.00 seconds
+0050.024 (0) Table hou_wpgmza: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza.table.gz - 0.4 KB)
+0050.039 (0) Table hou_wpgmza_categories: Total expected rows (approximate): 0
+0050.044 (0) Table hou_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0050.052 (0) Table hou_wpgmza_categories: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_categories.table.gz - 0.3 KB)
+0050.066 (0) Table hou_wpgmza_category_maps: Total expected rows (approximate): 0
+0050.072 (0) Table hou_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0050.080 (0) Table hou_wpgmza_category_maps: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_category_maps.table.gz - 0.3 KB)
+0050.094 (0) Table hou_wpgmza_circles: Total expected rows (approximate): 0
+0050.100 (0) Table hou_wpgmza_circles: Total rows added: 0 in 0.00 seconds
+0050.108 (0) Table hou_wpgmza_circles: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_circles.table.gz - 0.3 KB)
+0050.122 (0) Table hou_wpgmza_maps: Total expected rows (approximate): 0
+0050.129 (0) Table hou_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0050.138 (0) Table hou_wpgmza_maps: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_maps.table.gz - 0.7 KB)
+0050.153 (0) Table hou_wpgmza_polygon: Total expected rows (approximate): 0
+0050.158 (0) Table hou_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0050.166 (0) Table hou_wpgmza_polygon: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_polygon.table.gz - 0.4 KB)
+0050.180 (0) Table hou_wpgmza_polylines: Total expected rows (approximate): 0
+0050.185 (0) Table hou_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0050.194 (0) Table hou_wpgmza_polylines: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_polylines.table.gz - 0.4 KB)
+0050.210 (0) Table hou_wpgmza_rectangles: Total expected rows (approximate): 0
+0050.218 (0) Table hou_wpgmza_rectangles: Total rows added: 0 in 0.00 seconds
+0050.258 (0) Table hou_wpgmza_rectangles: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_rectangles.table.gz - 0.3 KB)
+0050.280 (0) Table hou_wpmm_subscribers: Total expected rows (approximate): 0
+0050.288 (0) Table hou_wpmm_subscribers: Total rows added: 0 in 0.00 seconds
+0050.302 (0) Table hou_wpmm_subscribers: finishing file (backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpmm_subscribers.table.gz - 0.3 KB)
+0050.317 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_options.table.gz (1/74): adding to final database dump
+0050.369 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_users.table.gz (2/74): adding to final database dump
+0050.375 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_usermeta.table.gz (3/74): adding to final database dump
+0050.386 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_commentmeta.table.gz (4/74): adding to final database dump
+0050.391 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_comments.table.gz (5/74): adding to final database dump
+0050.394 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_links.table.gz (6/74): adding to final database dump
+0050.398 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_postmeta.table.gz (7/74): adding to final database dump
+0050.702 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_posts.table.gz (8/74): adding to final database dump
+0050.795 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_term_relationships.table.gz (9/74): adding to final database dump
+0050.801 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_term_taxonomy.table.gz (10/74): adding to final database dump
+0050.805 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_termmeta.table.gz (11/74): adding to final database dump
+0050.809 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_terms.table.gz (12/74): adding to final database dump
+0050.813 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_yoast_seo_links.table.gz (13/74): adding to final database dump
+0050.818 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_yoast_seo_meta.table.gz (14/74): adding to final database dump
+0050.822 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_content_status.table.gz (15/74): adding to final database dump
+0050.826 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_core_status.table.gz (16/74): adding to final database dump
+0050.830 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_flags.table.gz (17/74): adding to final database dump
+0050.834 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_languages.table.gz (18/74): adding to final database dump
+0050.839 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_languages_translations.table.gz (19/74): adding to final database dump
+0050.855 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_locale_map.table.gz (20/74): adding to final database dump
+0050.859 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_message_status.table.gz (21/74): adding to final database dump
+0050.864 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_mo_files_domains.table.gz (22/74): adding to final database dump
+0050.869 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_node.table.gz (23/74): adding to final database dump
+0050.873 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_reminders.table.gz (24/74): adding to final database dump
+0050.877 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_packages.table.gz (25/74): adding to final database dump
+0050.882 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_pages.table.gz (26/74): adding to final database dump
+0051.010 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_positions.table.gz (27/74): adding to final database dump
+0051.017 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_status.table.gz (28/74): adding to final database dump
+0051.021 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_translations.table.gz (29/74): adding to final database dump
+0051.322 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_string_urls.table.gz (30/74): adding to final database dump
+0051.327 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_strings.table.gz (31/74): adding to final database dump
+0051.615 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translate.table.gz (32/74): adding to final database dump
+0051.620 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translate_job.table.gz (33/74): adding to final database dump
+0051.624 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translation_batches.table.gz (34/74): adding to final database dump
+0051.628 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translation_status.table.gz (35/74): adding to final database dump
+0051.651 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_icl_translations.table.gz (36/74): adding to final database dump
+0051.688 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_mappress_maps.table.gz (37/74): adding to final database dump
+0051.693 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_mappress_posts.table.gz (38/74): adding to final database dump
+0051.697 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_image_storage.table.gz (39/74): adding to final database dump
+0051.701 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_section_storage.table.gz (40/74): adding to final database dump
+0051.705 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_generators.table.gz (41/74): adding to final database dump
+0051.710 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_sliders.table.gz (42/74): adding to final database dump
+0051.715 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_sliders_xref.table.gz (43/74): adding to final database dump
+0051.719 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_nextend2_smartslider3_slides.table.gz (44/74): adding to final database dump
+0051.724 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_css.table.gz (45/74): adding to final database dump
+0051.731 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_layer_animations.table.gz (46/74): adding to final database dump
+0051.736 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_navigations.table.gz (47/74): adding to final database dump
+0051.740 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_settings.table.gz (48/74): adding to final database dump
+0051.745 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_sliders.table.gz (49/74): adding to final database dump
+0051.750 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_slides.table.gz (50/74): adding to final database dump
+0051.755 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_revslider_static_slides.table.gz (51/74): adding to final database dump
+0051.759 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_form.table.gz (52/74): adding to final database dump
+0051.764 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_form_meta.table.gz (53/74): adding to final database dump
+0051.768 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_form_view.table.gz (54/74): adding to final database dump
+0051.772 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_incomplete_submissions.table.gz (55/74): adding to final database dump
+0051.776 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead.table.gz (56/74): adding to final database dump
+0051.779 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_detail.table.gz (57/74): adding to final database dump
+0051.783 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_detail_long.table.gz (58/74): adding to final database dump
+0051.786 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_meta.table.gz (59/74): adding to final database dump
+0051.789 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_rg_lead_notes.table.gz (60/74): adding to final database dump
+0051.794 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_associations.table.gz (61/74): adding to final database dump
+0051.797 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_post_guid_id.table.gz (62/74): adding to final database dump
+0051.966 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_relationships.table.gz (63/74): adding to final database dump
+0051.973 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_toolset_type_sets.table.gz (64/74): adding to final database dump
+0051.980 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_user_registration_sessions.table.gz (65/74): adding to final database dump
+0051.986 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza.table.gz (66/74): adding to final database dump
+0051.992 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_categories.table.gz (67/74): adding to final database dump
+0051.998 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_category_maps.table.gz (68/74): adding to final database dump
+0052.005 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_circles.table.gz (69/74): adding to final database dump
+0052.011 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_maps.table.gz (70/74): adding to final database dump
+0052.018 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_polygon.table.gz (71/74): adding to final database dump
+0052.024 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_polylines.table.gz (72/74): adding to final database dump
+0052.030 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpgmza_rectangles.table.gz (73/74): adding to final database dump
+0052.035 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db-table-hou_wpmm_subscribers.table.gz (74/74): adding to final database dump
+0052.047 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db.gz: finished writing out complete database file (4840 KB)
+0052.094 (0) Total database tables backed up: 74 (backup_2019-10-15-0730_localhost_2c38f69f3b75-db.gz, size: 4966968, checksum (SHA1): 265d37f47b69c83910c35d6a846ed783fe4d45f8)
+0052.113 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0052.117 (0) backup_2019-10-15-0730_localhost_2c38f69f3b75-db.gz: db: This file has not yet been successfully uploaded: will queue
+0052.120 (0) Saving backup history. Total backup size: 14.2 MB
+0052.129 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0052.140 (0) Cloud backup selection (1/1): ftp (last)
+0052.144 (0) Beginning dispatch of backup to remote (ftp)
+0055.156 (0) FTP Failure: we did not successfully log in with those credentials.
+0055.162 (0) An error condition has occurred for the first time during this job
+0055.170 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0055.174 (0) Number of backup sets in history: 13; groups (db): 1
+0055.178 (0) Examining (for databases) backup set with group_id=0, nonce=2c38f69f3b75, datestamp=1571124657 (Oct 15 2019 07:30:57)
+0055.182 (0) This backup set is the backup set just made, so will not be deleted.
+0055.186 (0) Examining (for databases) backup set with group_id=0, nonce=ccbeebb8fe17, datestamp=1571036091 (Oct 14 2019 06:54:51)
+0055.189 (0) This backup set (1571036091) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.193 (0) Examining (for databases) backup set with group_id=0, nonce=f0c595ed37d5, datestamp=1569720141 (Sep 29 2019 01:22:21)
+0055.197 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.200 (0) Examining (for databases) backup set with group_id=0, nonce=49b2addf27d6, datestamp=1569141386 (Sep 22 2019 08:36:26)
+0055.204 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.207 (0) Examining (for databases) backup set with group_id=0, nonce=9700ed7abbab, datestamp=1568551599 (Sep 15 2019 12:46:39)
+0055.211 (0) Examining (for databases) backup set with group_id=0, nonce=293bd62b6aa5, datestamp=1560926218 (Jun 19 2019 06:36:58)
+0055.214 (0) Examining (for databases) backup set with group_id=0, nonce=1eb8c0afcd0a, datestamp=1558505255 (May 22 2019 06:07:35)
+0055.218 (0) Examining (for databases) backup set with group_id=0, nonce=1256e92d6b07, datestamp=1554892428 (Apr 10 2019 10:33:48)
+0055.221 (0) Examining (for databases) backup set with group_id=0, nonce=e4215d80b235, datestamp=1552456218 (Mar 13 2019 05:50:18)
+0055.225 (0) Examining (for databases) backup set with group_id=0, nonce=6335cb9b17d9, datestamp=1545650998 (Dec 24 2018 11:29:58)
+0055.228 (0) Examining (for databases) backup set with group_id=0, nonce=69d912dab67d, datestamp=1545303763 (Dec 20 2018 11:02:43)
+0055.231 (0) Examining (for databases) backup set with group_id=0, nonce=18794e6ff13f, datestamp=1545303175 (Dec 20 2018 10:52:55)
+0055.235 (0) Examining (for databases) backup set with group_id=0, nonce=137e83568716, datestamp=1544670069 (Dec 13 2018 03:01:09)
+0055.240 (0) Number of backup sets in history: 13; groups (files): 1
+0055.248 (0) Examining (for files) backup set with nonce=2c38f69f3b75, datestamp=1571124657 (Oct 15 2019 07:30:57)
+0055.253 (0) This backup set is the backup set just made, so will not be deleted.
+0055.256 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.259 (0) Examining (for files) backup set with nonce=ccbeebb8fe17, datestamp=1571036091 (Oct 14 2019 06:54:51)
+0055.262 (0) This backup set (1571036091) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.265 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.268 (0) Examining (for files) backup set with nonce=f0c595ed37d5, datestamp=1569720141 (Sep 29 2019 01:22:21)
+0055.271 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.274 (0) Examining (for files) backup set with nonce=49b2addf27d6, datestamp=1569141386 (Sep 22 2019 08:36:26)
+0055.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.282 (0) Examining (for files) backup set with nonce=9700ed7abbab, datestamp=1568551599 (Sep 15 2019 12:46:39)
+0055.285 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.289 (0) Examining (for files) backup set with nonce=293bd62b6aa5, datestamp=1560926218 (Jun 19 2019 06:36:58)
+0055.292 (0) This backup set (1560926218) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.296 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.299 (0) Examining (for files) backup set with nonce=1eb8c0afcd0a, datestamp=1558505255 (May 22 2019 06:07:35)
+0055.302 (0) This backup set (1558505255) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.305 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.309 (0) Examining (for files) backup set with nonce=1256e92d6b07, datestamp=1554892428 (Apr 10 2019 10:33:48)
+0055.313 (0) This backup set (1554892428) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.316 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.320 (0) Examining (for files) backup set with nonce=e4215d80b235, datestamp=1552456218 (Mar 13 2019 05:50:18)
+0055.323 (0) This backup set (1552456218) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.327 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.331 (0) Examining (for files) backup set with nonce=6335cb9b17d9, datestamp=1545650998 (Dec 24 2018 11:29:58)
+0055.334 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.338 (0) Examining (for files) backup set with nonce=69d912dab67d, datestamp=1545303763 (Dec 20 2018 11:02:43)
+0055.341 (0) This backup set (1545303763) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.345 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.348 (0) Examining (for files) backup set with nonce=18794e6ff13f, datestamp=1545303175 (Dec 20 2018 10:52:55)
+0055.351 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.355 (0) Examining (for files) backup set with nonce=137e83568716, datestamp=1544670069 (Dec 13 2018 03:01:09)
+0055.358 (0) This backup set (1544670069) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0055.361 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0055.364 (0) Retain: saving new backup history (sets now: 13) and finishing retain operation
+0055.374 (0) Resume backup (2c38f69f3b75, 0): finish run
+0055.384 (0) Decremented the semaphore (fd) by 1
+0055.390 (0) Semaphore (fd) unlocked
+0055.393 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0055.403 (0) Rescheduling resumption 1: moving to 120 seconds from now (1571124833)
+0055.411 (0) No email will/can be sent - the user has not configured an email address.
+0055.414 (0) 备份尚未完成;计划恢复
+106182.921 (1) Opened log file at time: Wed, 16 Oct 2019 13:00:40 +0000 on http://localhost
+106182.925 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.21.22 WP: 5.2.4 PHP: 7.1.32 (apache2handler, Windows NT HUZHEJIE 10.0 build 17763 (Windows 10) AMD64) MySQL: 5.7.17 WPLANG: zh_CN Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 79.3M | 82M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+106182.929 (1) Free space on disk containing Updraft's temporary directory: 29655.2 MB
+106182.936 (1) Backup run: resumption=1, nonce=2c38f69f3b75, begun at=1571124657 (106183s ago), job type=backup, previous check-in=50.3s
+106182.941 (1) Long time past since expected resumption time: approx expected=1571125008.4, now=1571230840.9, diff=105832.4
+106182.949 (1) [Warning] 您的网站很少访问, UpdraftPlus 没有得到它所希望的资源;请阅读此页面: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+106182.957 (1) We are in "one shot" mode - no resumptions will be scheduled
+106183.008 (1) Checking if we have a zip executable available
+106183.016 (1) Creation of backups of directories: already finished
+106183.024 (1) Saving backup status to database (elements: 2)
+106183.035 (1) Database dump (WordPress DB): Creation was completed already
+106183.057 (1) backup_2019-10-15-0730_localhost_2c38f69f3b75-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+106183.062 (1) backup_2019-10-15-0730_localhost_2c38f69f3b75-db.gz: db: This file has not yet been successfully uploaded: will queue
+106183.069 (1) Saving backup history. Total backup size: 14.2 MB
+106183.078 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+106183.087 (1) Cloud backup selection (1/1): ftp (last)
+106183.171 (1) Beginning dispatch of backup to remote (ftp)
+106186.179 (1) FTP Failure: we did not successfully log in with those credentials.
+106186.184 (1) An error condition has occurred for the first time during this job
+106186.193 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+106186.198 (1) Number of backup sets in history: 13; groups (db): 1
+106186.201 (1) Examining (for databases) backup set with group_id=0, nonce=2c38f69f3b75, datestamp=1571124657 (Oct 15 2019 07:30:57)
+106186.205 (1) This backup set is the backup set just made, so will not be deleted.
+106186.209 (1) Examining (for databases) backup set with group_id=0, nonce=ccbeebb8fe17, datestamp=1571036091 (Oct 14 2019 06:54:51)
+106186.213 (1) This backup set (1571036091) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.217 (1) Examining (for databases) backup set with group_id=0, nonce=f0c595ed37d5, datestamp=1569720141 (Sep 29 2019 01:22:21)
+106186.224 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+106186.228 (1) Examining (for databases) backup set with group_id=0, nonce=49b2addf27d6, datestamp=1569141386 (Sep 22 2019 08:36:26)
+106186.241 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+106186.246 (1) Examining (for databases) backup set with group_id=0, nonce=9700ed7abbab, datestamp=1568551599 (Sep 15 2019 12:46:39)
+106186.250 (1) Examining (for databases) backup set with group_id=0, nonce=293bd62b6aa5, datestamp=1560926218 (Jun 19 2019 06:36:58)
+106186.254 (1) Examining (for databases) backup set with group_id=0, nonce=1eb8c0afcd0a, datestamp=1558505255 (May 22 2019 06:07:35)
+106186.258 (1) Examining (for databases) backup set with group_id=0, nonce=1256e92d6b07, datestamp=1554892428 (Apr 10 2019 10:33:48)
+106186.262 (1) Examining (for databases) backup set with group_id=0, nonce=e4215d80b235, datestamp=1552456218 (Mar 13 2019 05:50:18)
+106186.265 (1) Examining (for databases) backup set with group_id=0, nonce=6335cb9b17d9, datestamp=1545650998 (Dec 24 2018 11:29:58)
+106186.270 (1) Examining (for databases) backup set with group_id=0, nonce=69d912dab67d, datestamp=1545303763 (Dec 20 2018 11:02:43)
+106186.276 (1) Examining (for databases) backup set with group_id=0, nonce=18794e6ff13f, datestamp=1545303175 (Dec 20 2018 10:52:55)
+106186.281 (1) Examining (for databases) backup set with group_id=0, nonce=137e83568716, datestamp=1544670069 (Dec 13 2018 03:01:09)
+106186.286 (1) Number of backup sets in history: 13; groups (files): 1
+106186.291 (1) Examining (for files) backup set with nonce=2c38f69f3b75, datestamp=1571124657 (Oct 15 2019 07:30:57)
+106186.296 (1) This backup set is the backup set just made, so will not be deleted.
+106186.299 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+106186.304 (1) Examining (for files) backup set with nonce=ccbeebb8fe17, datestamp=1571036091 (Oct 14 2019 06:54:51)
+106186.309 (1) This backup set (1571036091) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.313 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+106186.317 (1) Examining (for files) backup set with nonce=f0c595ed37d5, datestamp=1569720141 (Sep 29 2019 01:22:21)
+106186.324 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+106186.327 (1) Examining (for files) backup set with nonce=49b2addf27d6, datestamp=1569141386 (Sep 22 2019 08:36:26)
+106186.331 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+106186.335 (1) Examining (for files) backup set with nonce=9700ed7abbab, datestamp=1568551599 (Sep 15 2019 12:46:39)
+106186.340 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.345 (1) Examining (for files) backup set with nonce=293bd62b6aa5, datestamp=1560926218 (Jun 19 2019 06:36:58)
+106186.348 (1) This backup set (1560926218) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.352 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.356 (1) Examining (for files) backup set with nonce=1eb8c0afcd0a, datestamp=1558505255 (May 22 2019 06:07:35)
+106186.360 (1) This backup set (1558505255) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.363 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.367 (1) Examining (for files) backup set with nonce=1256e92d6b07, datestamp=1554892428 (Apr 10 2019 10:33:48)
+106186.370 (1) This backup set (1554892428) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.375 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.378 (1) Examining (for files) backup set with nonce=e4215d80b235, datestamp=1552456218 (Mar 13 2019 05:50:18)
+106186.381 (1) This backup set (1552456218) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.384 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.388 (1) Examining (for files) backup set with nonce=6335cb9b17d9, datestamp=1545650998 (Dec 24 2018 11:29:58)
+106186.392 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.396 (1) Examining (for files) backup set with nonce=69d912dab67d, datestamp=1545303763 (Dec 20 2018 11:02:43)
+106186.399 (1) This backup set (1545303763) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.402 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.406 (1) Examining (for files) backup set with nonce=18794e6ff13f, datestamp=1545303175 (Dec 20 2018 10:52:55)
+106186.409 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.412 (1) Examining (for files) backup set with nonce=137e83568716, datestamp=1544670069 (Dec 13 2018 03:01:09)
+106186.415 (1) This backup set (1544670069) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+106186.418 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+106186.423 (1) Retain: saving new backup history (sets now: 13) and finishing retain operation
+106186.431 (1) Resume backup (2c38f69f3b75, 1): finish run
+106186.438 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+106186.444 (1) No email will/can be sent - the user has not configured an email address.
+106186.447 (1) 备份尝试已完成, 显然未成功

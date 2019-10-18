@@ -1,0 +1,10 @@
+2018-11-20T11:49:16+00:00 CRITICAL C:\xampp\htdocs\BenWP\wp-includes\plugin.php 中第 398 行的 Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\BenWP\wp-content\themes\twentyseventeen\functions.php on line 228 and at least 2 expected in C:\xampp\htdocs\BenWP\wp-includes\plugin.php:398
+Stack trace:
+#0 C:\xampp\htdocs\BenWP\wp-content\themes\twentyseventeen\functions.php(228): add_action('admin_menu')
+#1 C:\xampp\htdocs\BenWP\wp-settings.php(426): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\BenWP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\BenWP\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\BenWP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+

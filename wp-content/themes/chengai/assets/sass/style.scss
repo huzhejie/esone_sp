@@ -1,0 +1,3331 @@
+.clearfix {
+    zoom: 0;
+}
+
+body, #content {
+    background: #f4f4f4;
+}
+
+body.modal-open {
+    padding: 0 !important;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+.activiries-info-block {
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.post-link {
+    color: #007e94;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix::after {
+    contain: '';
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    line-height: 1px;
+}
+
+svg {
+    &.icon {
+        display: none;
+    }
+}
+
+.category {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+.single-post {
+    div.container {
+        max-width: 1200px;
+    }
+}
+
+/* login form */
+
+.login {
+    a {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .dropdown-menu {
+        a {
+            color: #000;
+
+            &:hover {
+                color: #007e94;
+            }
+        }
+    }
+}
+
+#login {
+    input {
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+}
+
+.myLoginBox {
+    .tab-nav {
+        display: flex;
+
+        li {
+            flex: 1;
+        }
+    }
+
+    .tab-item {
+        a {
+            font-size: 16px;
+        }
+    }
+
+    label {
+        text-transform: capitalize;
+    }
+}
+
+/* */
+
+/* Header */
+
+#header.transparent-header + #slider, #header.transparent-header + #page-title.page-title-parallax, #header.transparent-header + #google-map, #slider + #header.transparent-header {
+    top: auto;
+    margin-bottom: auto;
+}
+
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height: auto;
+}
+
+#header.transparent-header.full-header #primary-menu > ul {
+    border: none;
+}
+
+#header, #header-wrap {
+    height: auto;
+}
+
+#header.transparent-header.full-header #logo {
+    border: none;
+    padding: 8px 0;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    .nav-translation {
+        a {
+            color: #fff;
+
+            &:hover {
+                color: #007e94;
+            }
+        }
+    }
+}
+
+.pagination {
+    justify-content: center;
+}
+
+#logo img {
+    max-height: 70px;
+}
+
+.single {
+    .content-wrap {
+        padding-bottom: 80px;
+    }
+
+    .entry-content {
+        img {
+            height: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .post-navigation {
+        .screen-reader-text {
+            display: none;
+        }
+    }
+}
+
+.category {
+    .post-navigation {
+        .screen-reader-text {
+            display: none;
+        }
+    }
+}
+
+.content-wrap {
+    padding-bottom: 0;
+
+    .container {
+        // max-width: 85%;
+        margin: 0 auto;
+    }
+
+    .page-title {
+        display: inline-block;
+        text-align: center;
+
+        h1 {
+            // border-bottom: 2px solid #000;
+            padding: 0 0 20px 0;
+            margin: 0;
+            position: relative;
+            display: inline-block;
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0;
+                height: 3px;
+                width: 100%;
+                max-width: 80%;
+                background: #0a2f87;
+            }
+        }
+
+        p {
+            padding: 20px 0 0 0;
+        }
+    }
+}
+
+.swiper_wrapper {
+    height: auto;
+}
+
+#header.transparent-header.full-header #header-wrap {
+    border: none;
+}
+
+#header.transparent-header {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    &.stretched {
+        #header.full-header {
+            border: none;
+
+            // .container {
+            //     max-width: 85%;
+            // }
+       
+        }
+    }
+}
+
+#primary-menu {
+    ul {
+        li {
+            & > a {
+                color: #fff;
+                padding: 45px 15px 10px 15px;
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    padding: 45px 15px 10px 15px;
+}
+
+#header {
+    &.sticky-header {
+        #header-wrap {
+            background: rgba(0, 0, 0, 0.75);
+        }
+    }
+}
+
+.city-info-list {
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    transform: translateY(-50%);
+    color: #fff;
+    background: rgba(125, 125, 125, 0.7);
+    width: 100%;
+    max-width: 260px;
+    cursor: pointer;
+
+    // padding: 5px 0;
+
+    .city-menu-lists {
+        text-align: center;
+    }
+
+    .city-lists {
+        & > a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 15%;
+            max-width: 100%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.5);
+            }
+
+            // &:first-child {
+            //     padding-top: 0;
+            // }
+
+            // &:last-child {
+            //     padding-bottom: 0;
+            // }
+       
+        }
+
+        p {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        i {
+            font-size: 22px;
+            font-style: normal;
+        }
+    }
+}
+
+.header-top-info {
+    .header-top-contain {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        height: 45px;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.6);
+    }
+
+    .top-info-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .top-info-right {
+        display: flex;
+        justify-content: space-between;
+        min-width: 90px;
+        align-items: center;
+        padding-right: 25px;
+
+        .login {
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 16px;
+        }
+
+        .nav-translation {
+            height: 100%;
+        }
+
+        .wpml-ls {
+            background: transparent;
+            width: 90px;
+            position: relative;
+            z-index: 9999;
+            height: 100%;
+
+            & > ul {
+                // position: relative;
+                // top: 50%;
+                // transform: translateY(-50%);
+                height: 100%;
+            }
+
+            a.wpml-ls-item-toggle {
+                background: transparent;
+                padding-bottom: 0;
+                padding-top: 0;
+                border: none;
+
+                &:hover {
+                    background: transparent;
+                }
+
+                // &:after {
+                //     border-top-color: #fff;
+                //     content: none;
+                // }
+           
+            }
+
+            .wpml-ls-item {
+                border: none;
+                height: 100%;
+
+                a {
+                    padding: 0;
+                    padding-left: 10px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                }
+            }
+
+            .wpml-ls-link {
+                background: transparent;
+                border: none;
+
+                &:hover {
+                    background: transparent;
+                }
+            }
+
+            .wpml-ls-flag {
+                width: 32px;
+                height: 20px;
+            }
+
+            .wpml-ls-sub-menu {
+                border: none;
+                background: rgba(0, 0, 0, 0.7);
+                box-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+
+                .wpml-ls-item {
+                    padding: 6px 0;
+
+                    &:hover {
+                        background: #444;
+
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                a {
+                    color: #444;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    .top-info-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+
+        .top-bloc-img {
+            max-width: 24px;
+        }
+
+        .top-block-text {
+            margin-left: 5px;
+        }
+    }
+}
+
+.header-bottom-info {}
+
+#gotoTop {
+    display: block;
+}
+
+.wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle:after {
+    right: 30px;
+    top: calc(50% - .2em);
+}
+
+/* Header end */
+
+/* Footer */
+
+#footer {
+    border: none;
+
+    &.dark {
+        background: #e1eae8;
+    }
+
+    .footer-widgets-wrap {
+        padding: 35px 0;
+    }
+}
+
+.footer-block {
+    .container {
+        // max-width: 85%;
+
+        .row {
+            justify-content: space-around;
+        }
+
+        h4 {
+            margin-bottom: 15px;
+        }
+    }
+
+    .footer-site-logo {
+        text-align: center;
+    }
+
+    .footer-site-logo, .footer-site-weixin {
+        img {
+            max-width: 200px;
+        }
+    }
+
+    .footer-site-contact {
+        .contact-title {
+            text-align: center;
+        }
+
+        .contact-info-lists {
+            padding: 5px 0 5px 24px;
+            border-bottom: 1px solid #ccc;
+
+            &:first-child { 
+                padding-top: 0;
+            }
+        }
+    }
+
+    .footer-site-menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .social-footer-navigation {
+            width: 100%;
+        }
+
+        .social-links-menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 30px 0 0 0;
+        }
+
+        .wpml-ls-menu-item {
+            display: none;
+        }
+
+        li {
+            padding: 2px 0;
+            font-size: 16px;
+
+            a {
+                color: #000;
+                font-weight: bold;
+            }
+
+            a:hover {
+                color: #007e94;
+            }
+        }
+    }
+
+    .footer-house-btn {
+        text-align: center;
+        margin-top: 20px;
+
+        .search-icon {
+            display: inline-block;
+            padding: 5px;
+            background: #fff;
+            border-radius: 50%;
+            margin-right: 18px;
+
+            img {
+                max-width: 30px;
+            }
+        }
+
+        a {
+            padding: 8px 10px;
+            font-size: 16px;
+            color: #fff;
+            border-radius: 2px;
+            width: 100%;
+            max-width: 310px;
+            display: inline-block;
+            background: #39569c;
+            min-height: 50px;
+            line-height: 28px;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.website-records {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    background: rgba(125, 125, 125, 0.45);
+
+    .powered-oslion, .website-records-content {
+        padding: 0 5px;
+    }
+}
+
+/* Footer end */
+
+/* sidebar style */
+
+.sidebar {
+    .widget_search {}
+
+    .slibar-news-img {
+        width: 52px;
+        height: 52px;
+    }
+}
+
+/* sidebar style end */
+
+/* inde-page */
+
+.city-info-block {
+    position: relative;
+    z-index: 0;
+
+    &:hover {
+        z-index: 99;
+    }
+
+    .container {
+        position: relative;
+        z-index: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        &:hover {
+            z-index: 99;
+        }
+    }
+
+    .oc-item {
+        img {
+            max-width: 52px;
+            margin-right: 20px;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .city-info-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        p {
+            margin: 0;
+        }
+
+        .city-title {
+            font-size: 24px;
+            color: #fff;
+        }
+    }
+
+    .container {
+        padding: 15px;
+        max-width: 85%;
+    }
+
+    .city-dec-block {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+
+        img {
+            max-width: 300px;
+            height: 100%;
+        }
+
+        .city-dec-info {
+            opacity: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: all 0.32s linear;
+            position: absolute;
+            transform: translate(-15%, -100%);
+            max-width: 700px;
+            width: 100%;
+            border-radius: 2px;
+        }
+
+        .city-dec-show {
+            opacity: 1;
+        }
+
+        .order-change {
+            .city-dec-text {
+                order: -1;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            .city-dec-img {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+
+        .city-dec-content {
+            display: flex;
+            align-items: center;
+            max-width: 700px;
+            width: 100%;
+        }
+
+        p {
+            margin: 0;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .city-dec-img {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .city-dec-text {
+            height: 100%;
+            padding: 10px;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+
+    &:hover {
+        .city-dec-block {
+            z-index: 100;
+        }
+    }
+}
+
+.company-adv-block {
+    background: #747474;
+    position: relative;
+
+    &:hover {
+        z-index: 999;
+    }
+}
+
+.company-adv-list {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .adv-block-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .adv-info-text {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            margin-left: 30px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 64px;
+        }
+    }
+
+    h3 {
+        margin: 0;
+        color: #fff;
+    }
+}
+
+.select-pro-block {
+    padding-bottom: 4%;
+
+    .pro-block-info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .house-info-list {}
+
+    .house-ca-lists {
+        li {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 18px;
+            line-height: 1.4em;
+            cursor: pointer;
+            margin-right: 10px;
+
+            &.active, &:hover {
+                background: linear-gradient(to right, #10abe1, #23d4e7);
+                border-radius: 8px;
+                color: #fff;
+            }
+        }
+    }
+
+    .house-info-block {
+        margin-top: 25px;
+    }
+
+    .house-block-list {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        min-height: 320px;
+
+        .house-list-info {
+            margin: 10px 0;
+
+            .house-list-dec {
+                border: 1px solid #ccc;
+                display: flex;
+                flex-flow: column;
+            }
+        }
+
+        img {
+            // max-height: 50%;
+            height: 245px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .house-dec-block {
+        color: #000;
+
+        .house-dec-mon {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            margin: 0;
+
+            .dec-year-info {
+                color: #e8daad;
+            }
+        }
+
+        .house-info-dec {
+            padding: 0 5px;
+
+            span {
+                padding: 0 2px;
+
+                i {
+                    color: #80ff56;
+                    font-style: normal;
+                }
+            }
+        }
+
+        .house-info-link {
+            text-align: right;
+            padding: 0 5px;
+            color: #007e94;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+}
+
+.news-info-block {
+    padding: 3% 0 4% 0;
+    background-color: #f4f4f4;
+
+    .news-block-info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.news-block-contain {
+    .news-contain-top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news-contain-bottom {
+        margin-top: 5%;
+    }
+
+    .news-ca-touzi {
+        // width: 58%;
+        padding-top: 15px;
+
+        .ca-touzi-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                font-size: 16px;
+            }
+
+            i {
+                font-style: normal;
+            }
+        }
+
+        .ca-touzi-info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .ca-touzi-block {
+            padding: 10px 5px;
+
+            a {
+                display: block;
+                width: 100%;
+                position: relative;
+            }
+
+            p {
+                position: absolute;
+                bottom: 0;
+                margin: 0;
+                background: rgba(0, 0, 0, 0.5);
+                font-size: 16px;
+                text-align: center;
+                color: #fff;
+                width: 100%;
+                padding: 5px 5px;
+            }
+        }
+    }
+
+    .news-ca-goufang {
+        // width: 39%;
+        padding-top: 15px;
+
+        .ca-goufang-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                border-bottom: 2px solid #0a2f87;
+                padding: 2px 0;
+            }
+
+            a {
+                color: #fff;
+                width: 32px;
+                height: 32px;
+                background: rgba(0, 0, 0, 0.5);
+                border-radius: 4px;
+                text-align: center;
+                font-size: 32px;
+                line-height: 32px;
+            }
+        }
+
+        p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .efg {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3px 0;
+            border-bottom: 1px solid #ccc;
+
+            &:first-child {
+                padding-top: 0;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            p {
+                max-width: 85%;
+            }
+
+            a {
+                color: #000;
+
+                &:hover {
+                    color: #007e94;
+                }
+            }
+        }
+    }
+
+    .news-ca-riben {
+        width: 100%;
+        padding-top: 15px;
+
+        .ca-riben-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .ca-riben-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .ca-riben-block {
+            // max-width: 30%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            a {
+                display: block;
+                width: 100%;
+                position: relative;
+            }
+
+            p {
+                position: absolute;
+                bottom: 0;
+                margin: 0;
+                background: rgba(0, 0, 0, 0.5);
+                font-size: 16px;
+                color: #fff;
+                width: 100%;
+                padding: 5px 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                i {
+                    font-size: 26px;
+                    font-style: normal;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+}
+
+.kk-info-block {
+    padding: 3% 0 4% 0;
+
+    .kk-block-info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .kk-block-contain {
+        .kk-logo-lists {
+            text-align: center;
+
+            img {
+                max-width: 35%;
+                border-radius: 50%;
+                background: linear-gradient(45deg, #10abe1, #23d4e7);
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.contact-info-block {
+    padding: 3% 0;
+    background-color: #f4f4f4;
+    position: relative;
+
+    .contact-form-lists {
+        width: 100%;
+    }
+
+    .gform_confirmation_message {
+        min-height: 200px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .contact-block-dec {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-55%);
+        right: -50%;
+        color: #fff;
+        max-width: 48%;
+
+        .contact-dec-title, .contact-dec-phone, .contact-dec-wechat {
+            h3, h5, p, span {
+                color: #fff;
+            }
+
+            p, span {
+                font-size: 18px;
+            }
+
+            span {
+                display: inline-block;
+                width: 100%;
+            }
+
+            h5 {
+                margin-bottom: 10px;
+                font-size: 22px;
+            }
+        }
+
+        .contact-dec-wechat {
+            img {
+                margin-top: 5px;
+                display: block;
+                max-width: 50%;
+            }
+        }
+    }
+
+    .contact-block-info {
+        text-align: center;
+    }
+
+    .contact-block-title {
+        h1, p {
+            color: #fff;
+        }
+    }
+
+    .contact-block-title {}
+}
+
+.contact-block-contain {
+    position: relative;
+
+    .home-contact-form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-contact-form-content {
+        position: relative;
+        min-height: 435px;
+    }
+
+    .gform_confirmation_message {
+        font-size: 16px;
+        color: #fff;
+        margin-top: 35px;
+    }
+}
+
+/* contact map */
+
+.contact-inf-map {
+    .container {
+        margin-bottom: 90px;
+    }
+
+    .contact-map-dec {
+        padding: 15px 0;
+        box-shadow: 0 0 4px #eee;
+        margin: 20px 0;
+        border-radius: 2px;
+        min-height: 300px;
+
+        .row {
+            overflow: hidden;
+        }
+
+        .contact-map-text {
+            padding-left: 15px;
+        }
+
+        .contact-map-content {
+            padding: 0 15px;
+        }
+    }
+
+    .contact-company-text {
+        span {
+            font-size: 18px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+/* contact map end */
+
+/* form */
+
+div.contact-form-lists_wrapper {
+    width: 100%;
+
+    .validation_error {
+        display: none;
+    }
+
+    form.contact-form-lists {
+        width: 740px;
+        max-width: 80vw;
+
+        li.contact-form-name, li.contact-form-phone {
+            width: 50%;
+            display: inline-block;
+            background: none;
+            border: none;
+        }
+
+        li.contact-form-email {
+            background: none;
+            border: none;
+        }
+
+        li.gfield {
+            margin-top: 25px;
+            font-size: 16px;
+            padding-right: 16px !important;
+            position: relative;
+            margin-bottom: 0 !important;
+            padding-top: 0;
+            padding-bottom: 0;
+
+            .validation_message {
+                position: absolute;
+                padding: 0;
+                color: #e40f0f;
+            }
+
+            .gfield_label {
+                color: #fff;
+            }
+
+            .gfield_required {
+                color: #e40f0f;
+            }
+
+            input.medium {
+                width: 100%;
+            }
+
+            input, textarea {
+                // border-color: #dddddd;
+                padding: 8px 5px;
+                border: none !important;
+                border-radius: 2px;
+            }
+
+            textarea {
+                height: 200px;
+            }
+        }
+    }
+
+    .gform_footer.top_label {
+        text-align: center;
+
+        input.button {
+            width: 230px;
+            min-height: 45px;
+            font-size: 20px;
+            border-radius: 2px;
+        }
+    }
+}
+
+/* index-page-end */
+
+/* */
+
+.listing-page-content {}
+
+.page-banner-img {
+    height: 60vh;
+    max-height: 280px;
+
+    .page-title-dec {
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        h1 {
+            margin-top: 5%;
+            color: #fff;
+        }
+    }
+}
+
+.listing-screening-block {
+    .ajax-query-field {
+        padding: 5px 0;
+        border-bottom: 1px solid #ccc;
+
+        li {
+            display: inline-block;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 0 5px;
+            padding: 5px 15px;
+            min-width: 105px;
+            text-align: center;
+
+            &.active, &:hover {
+                background: #00829b;
+                border-radius: 4px;
+                color: #fff;
+            }
+        }
+    }
+
+    .filter-btn {
+        height: 42px;
+        width: 100px;
+        font-size: 18px;
+        border-radius: 4px;
+        background: #00829b;
+        color: #fff;
+        margin-top: 30px;
+    }
+}
+
+.house-main {
+    margin-top: 60px;
+
+    .house-top-info {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #ccc;
+        padding: 0 5px;
+    }
+
+    .house-num {
+        font-size: 18px;
+    }
+
+    .house-order-menu {
+        display: flex;
+
+        li {
+            display: inline-block;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+
+            &:not(:first-child) {
+                margin: 0 5px;
+            }
+
+            .order-icon {
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                margin-left: 5px;
+
+                i {
+                    line-height: 0.6;
+                    font-size: 18px;
+                }
+            }
+
+            .active {
+                color: #00829b;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .house-lists-block {
+        min-height: 420px;
+    }
+
+    .house-info-dec {
+        justify-content: space-between;
+        margin: 0;
+        padding: 40px 0;
+
+        .house-info-img {
+            max-height: 300px;
+            width: 100%;
+        }
+    }
+}
+
+.house-info-block {
+    .house-info-dec {
+        justify-content: space-between;
+        margin: 0;
+        padding: 20px 0;
+        align-items: center;
+
+        .house-info-img {
+            max-height: 320px;
+            width: 100%;
+        }
+    }
+
+    .house-dec-block {
+        .house-dec-title {
+            h2 {
+                margin: 0;
+                font-size: 32px;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .house-title-info {
+            height: 100%;
+            background: #eee;
+            padding-left: 10px;
+
+            h2 {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            a {
+                color: #000;
+
+                &:hover {
+                    color: #10abe1;
+                }
+            }
+        }
+
+        .house-price {
+            text-align: center;
+            color: #00829b;
+
+            h2 {
+                color: #00829b;
+            }
+
+            p {
+                margin-bottom: 5px;
+            }
+        }
+
+        .house-annual {
+            span {
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            color: #ab0000;
+            line-height: 1.4em !important;
+        }
+    }
+
+    .house-dec-info {
+        margin-top: 10px;
+
+        .house-dec-menu {
+            p {
+                margin: 0;
+            }
+
+            li {
+                margin: 2px 0;
+            }
+
+            span {
+                font-size: 16px;
+                min-width: 110px;
+                display: inline-block;
+                padding: 5px;
+
+                &:first-child {
+                    background: #eee;
+                }
+            }
+        }
+    }
+}
+
+/* */
+
+/* flows style */
+
+.flows-lists-block {
+    .container {
+        padding: 80px 0;
+
+        // max-width: 1440px;;
+   
+    }
+
+    .flows-lists-title {
+        max-width: 60%;
+        margin: 0 auto;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .flows-lists-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .lists-ol-title {
+            width: 100%;
+            max-width: 60%;
+            font-size: 18px;
+        }
+    }
+
+    .flows-list-ol {
+        position: relative;
+        max-width: 60%;
+
+        h4, h3 {
+            margin-bottom: 10px;
+        }
+
+        P {
+            margin: 0;
+        }
+
+        .flows-list-dedc {
+            position: relative;
+            padding: 5px 0 20px 60px;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 25px;
+                transform: translateX(-50%);
+                width: 10px;
+                border-radius: 10px 10px 0 0;
+                height: calc(100% + 5px );
+                background: #007e94;
+            }
+
+            &::before {
+                content: attr(data-order);
+                position: absolute;
+                width: 36px;
+                height: 36px;
+                top: 0;
+                left: 25px;
+                transform: translateX(-50%);
+                border-radius: 50%;
+                background: #007e94;
+                text-align: center;
+                color: #fff;
+                line-height: 36px;
+                z-index: 2;
+                font-size: 18px;
+            }
+
+            &:last-child {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+}
+
+/* flows end */
+
+/* reform page */
+
+.reform-lists-block {
+    .container {
+        padding: 80px 0;
+    }
+}
+
+.reform-lists-info {
+    .reform-lists-dec {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 50px 0 15px 0;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 10px;
+            border-radius: 10px 10px 0 0;
+            height: calc(100% + 5px );
+            background: #007e94;
+        }
+
+        &:before {
+            content: attr(data-time);
+            position: absolute;
+            width: 54px;
+            height: 54px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            line-height: 54px;
+            z-index: 2;
+            background: #007e94;
+            font-size: 18px;
+            border-radius: 50%;
+            text-align: center;
+            top: 0px;
+        }
+
+        .reform-dec-content, .reform-dec-img {
+            max-width: 40%;
+            width: 100%;
+        }
+    }
+
+    .reform-dec-content {
+        p {
+            margin-bottom: .8em;
+            font-size: 16px;
+        }
+    }
+
+    .reform-lists-right {
+        .reform-dec-content {
+            // order: -1;
+       
+        }
+    }
+
+    .time-end {
+        p {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background: #007e94;
+            line-height: 54px !important;
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            margin: 0 auto;
+            position: relative;
+            z-index: 9;
+        }
+    }
+}
+
+/* reform page end */
+
+/* introduce page */
+
+.introduce-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .introduce-info-logo {
+        text-align: center;
+    }
+
+    .introduce-info-licence {
+        margin-top: 30px;
+        box-shadow: 0 0 8px #eee;
+    }
+
+    .introduce-info-text {
+        height: 100%;
+
+        p {
+            font-size: 18px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+/* introduce page end */
+
+/* activiries page */
+
+.post-activiries-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .post-activiries-links {
+        display: block;
+
+        // height: 100%;
+        margin: 10px 0;
+    }
+
+    .post-activiries-dec {
+        margin: 0;
+        padding: 10px;
+        box-shadow: 0 0 8px #ccc;
+        border-radius: 4px;
+        transition: all .3s linear;
+        height: 100%;
+
+        .post-img-info {
+            height: 100%;
+            width: 100%;
+            transition: all 0.32s linear;
+            min-height: 180px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 8px rgb(136, 136, 136);
+
+            .post-activiries-img {
+                .post-img-info {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .post-activiries-img {
+        overflow: hidden;
+        height: 265px;
+
+        img {
+            transition: all .3s linear;
+        }
+    }
+
+    .post-activiries-info {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+
+        p {
+            color: #000;
+        }
+    }
+
+    .activiries-title-block {
+        margin-top: 15px;
+
+        h3, p {
+            margin-bottom: 10px;
+            color: #000;
+        }
+    }
+}
+
+/* activiries page end */
+
+/* successful-case page */
+
+.successful-case-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .successful-case-dec {
+        margin: 20px 0;
+        box-shadow: 0 0 8px #ccc;
+        overflow: hidden;
+        transition: all .3s linear;
+        border-radius: 2px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 8px rgb(136, 136, 136);
+
+            .successful-case-img {
+                img {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .content-dec-img {
+        .successful-case-img {
+            overflow: hidden;
+
+            img {
+                max-height: 300px;
+                transition: all .3s linear;
+            }
+        }
+
+        padding: 0;
+    }
+
+    .content-dec-block {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-between;
+        background: rgba(238, 238, 238, 0.7);
+
+        .content-dec-text {
+            padding: 30px 20px;
+            color: #000;
+        }
+
+        .successful-case-title {
+            h3 {
+                margin-bottom: 10px;
+            }
+        }
+
+        .successful-case-text {
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .successful-dec-right {
+        .content-dec-block {
+            order: -1;
+        }
+    }
+
+    .successful-dec-left {
+        .successful-case-img {
+            padding-right: 0;
+        }
+    }
+}
+
+/* successful-case page end */
+
+/* encyclopedias page */
+
+.page-encyclopedias-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    ul.tab-nav {
+        .tab-nav-items > a {
+            font-size: 18px;
+        }
+
+        li.tab-nav-items {
+            &.ui-tabs-active {
+                a {
+                    border-bottom-width: 3px;
+                }
+            }
+        }
+    }
+
+    .page-encyclopedias-dec {
+        margin: 30px 0;
+        padding: 10px;
+        box-shadow: 0 0 8px #ccc;
+        border-radius: 4px;
+        transition: all .3s linear;
+
+        &:first-child {
+            margin-top: 2%;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 8px rgb(136, 136, 136);
+
+            .page-encyclopedias-img {
+                .post-img-info {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .page-encyclopedias-img {
+        overflow: hidden;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 100%;
+
+        .post-img-info {
+            height: 100%;
+            width: 100%;
+            transition: all 0.32s linear;
+            min-height: 180px;
+        }
+
+        img {
+            transition: all .3s linear;
+        }
+    }
+
+    .page-encyclopedias-info {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        color: #000;
+    }
+
+    .encyclopedias-title-block {
+        margin-top: 15px;
+
+        h3, p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* encyclopedias page eend */
+
+/* project-investment-page */
+
+.project-investment-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .content-dec-img {
+        .project-investment-img {
+            overflow: hidden;
+
+            img {
+                max-height: 300px;
+                transition: all .3s linear;
+            }
+        }
+
+        padding: 0;
+    }
+
+    .content-dec-block {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-between;
+        background: rgba(238, 238, 238, 0.7);
+
+        .content-dec-text {
+            padding: 30px 20px;
+            color: #000;
+        }
+    }
+
+    .project-investment-dec {
+        margin: 20px 0;
+        box-shadow: 0 0 8px #ccc;
+        overflow: hidden;
+        transition: all .3s linear;
+        border-radius: 2px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 8px rgb(136, 136, 136);
+
+            .project-investment-img {
+                img {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .investmentl-dec-right {
+        .content-dec-block {
+            order: -1;
+        }
+    }
+}
+
+/* project-investment-page end */
+
+/* page-news-block */
+
+.page-news-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .post-activiries-dec {
+        margin: 30px 0;
+        box-shadow: 0 0 8px #ccc;
+        overflow: hidden;
+        transition: all .3s linear;
+        border-radius: 2px;
+
+        .post-img-info {
+            height: 100%;
+            width: 100%;
+            transition: all 0.32s linear;
+            min-height: 180px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 8px rgb(136, 136, 136);
+
+            .post-activiries-img {
+                .post-img-info {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .post-activiries-img {
+        overflow: hidden;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 100%;
+
+        img {
+            // height: 100%;
+            max-height: 220px;
+            width: 100%;
+
+            // position: relative;
+            // top: 50%;
+            // transform: translateY(-50%);
+            transition: all .3s linear;
+        }
+    }
+
+    .post-activiries-info {
+        padding: 10px 10px 10px 0;
+
+        p {
+            color: #000;
+        }
+    }
+
+    .activiries-title-block {
+        h3, p {
+            margin-bottom: 10px;
+            color: #000;
+        }
+    }
+}
+
+/* */
+
+/* Immigration-plan-page */
+
+.Immigration-plan-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .content-dec-img {
+        .Immigration-plan-img {
+            overflow: hidden;
+
+            img {
+                max-height: 300px;
+                transition: all .3s linear;
+            }
+        }
+
+        padding: 0;
+    }
+
+    .content-dec-block {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-between;
+        background: rgba(238, 238, 238, 0.7);
+
+        .content-dec-text {
+            padding: 30px 20px;
+            color: #000;
+        }
+    }
+
+    .Immigration-plan-dec {
+        margin: 20px 0;
+        box-shadow: 0 0 8px #ccc;
+        overflow: hidden;
+        transition: all .3s linear;
+        border-radius: 2px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 8px rgb(136, 136, 136);
+
+            .Immigration-plan-img {
+                img {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .Immigrationl-dec-right {
+        .content-dec-block {
+            order: -1;
+        }
+    }
+}
+
+/* Immigration-plan-page end */
+
+/* team page */
+
+.page-team-block {
+    .container {
+        padding: 80px 0;
+    }
+
+    .team-content {
+        margin-top: 25px;
+    }
+
+    .team {
+        border-radius: 2px;
+
+        .team-image {
+            cursor: pointer;
+            overflow: hidden;
+
+            img {
+                transition: all 0.3s linear;
+            }
+        }
+
+        overflow: hidden;
+        padding-bottom: 20px;
+        min-height: 370px;
+        box-shadow: 0 0 16px #eee;
+        transition: all 0.3s linear;
+
+        &:hover {
+            .team-image {
+                img {
+                    transform: scale(1.07);
+                }
+            }
+
+            box-shadow: 0 0 8px #ccc;
+        }
+
+        .team-desc {
+            span {
+                color: #a5a5a5;
+                font-style: normal;
+            }
+        }
+    }
+}
+
+/* team page end */
+
+/* contact page */
+
+.page-contact-block {
+    .container {
+        margin-top: 90px;
+    }
+}
+
+/* contact page end */
+
+/* 账号信息界面 */
+
+.account-block {
+    .account-content {
+        padding: 30px 0 90px 0;
+    }
+
+    .user-registration-MyAccount-content {
+        border-radius: 2px;
+    }
+}
+
+/*  */
+
+/* single sellhouse page */
+.single-sellhouse {
+    div.container {
+        max-width: 1200px;
+    }
+
+    .list-content-title {
+        padding: 10px 0;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        line-height: 1.8;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .list-content {
+        border-bottom: 1px solid #ccc;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        flex: 1;
+
+        .list-text, .list-title {
+            padding: 10px 0;
+        }
+
+        .list-title {
+            background: #eee;
+            padding-left: 30px;
+            padding-right: 5px;
+
+            // display: inline-block;
+            height: 100%;
+            line-height: 1.8;
+            width: 100%;
+            max-width: 160px;
+            display: flex;
+            align-items: center;
+        }
+
+        .list-text {
+            padding-left: 35px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.single-sellhouse-content {
+    .contact-block-dec {
+        margin-top: 25px;
+
+        h4, h5 {
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 22px;
+        }
+
+        .contact-dec-phone, .contact-dec-title, .contact-dec-wechat {
+            margin-bottom: 15px;
+        }
+
+        .contact-dec-wechat {
+            span {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            img {
+                max-width: 156px;
+            }
+        }
+    }
+
+    .page-content-title {
+        h3 {
+            // margin-bottom: 20px;
+            display: inline-block;
+            padding: 0 10px;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                height: 3px;
+                width: 100%;
+                background: #10abe1;
+            }
+        }
+    }
+
+    .page-content-info {
+        padding: 0 10px;
+    }
+
+    .single-content-block {
+        padding: 0px 0 50px 0;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.sellhouse-content-top {
+    .top-content-imgs {
+        position: relative;
+        height: 100%;
+        min-height: 330px;
+
+        .swiper-container {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gallery-top {
+            height: 80%;
+            width: 100%;
+        }
+
+        .gallery-thumbs {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .gallery-thumbs .swiper-slide {
+            height: 100%;
+            opacity: 0.4;
+        }
+
+        .gallery-thumbs .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+    }
+
+    .top-content-info {
+        .content-info-list {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px 5px;
+
+            & > div {
+                flex: 1;
+                margin: 0;
+                padding: 8px 0;
+                border-top: 1px solid #ccc;
+            }
+
+            &:last-child {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .content-list-block {
+            display: flex;
+            align-items: center;
+        }
+
+        .content-title, .content-dec {
+            font-size: 18px;
+        }
+
+        .content-title {
+            min-width: 100px;
+            display: inline-block;
+
+            // align-self: flex-start;
+       
+        }
+    }
+
+    .sign-content-price {
+        .content-title, .content-dec {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .content-dec {
+            font-size: 24px;
+
+            em {
+                font-size: 14px;
+                font-style: normal;
+            }
+        }
+
+        .house-price {
+            .content-dec {
+                color: #10abe1;
+            }
+        }
+    }
+
+    .contact-house-block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+
+        .house-form-moxb {
+            max-width: 40%;
+
+            .modal-body {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+        .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+            width: 100%;
+        }
+
+        .contact-info-btn, .contact-info-text {
+            flex: 1;
+            text-align: center;
+        }
+    }
+
+    .contact-info-text {
+        display: flex;
+        text-align: center;
+
+        .phone-icon-block {
+            img {
+                width: 50px;
+            }
+        }
+
+        .contact-info-dec {
+            display: flex;
+            text-align: center;
+            align-items: center;
+
+            .contact-dec-text {
+                margin-left: 15px;
+            }
+
+            .contact-dec-title {
+                font-size: 18px;
+            }
+
+            .phone-number {
+                font-size: 24px;
+                color: #c02942;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.sellhouse-content-info {
+    .house-info-text {
+        font-size: 18px;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.sellhouse-content-loan {
+    .loan-content-lists {
+        display: flex;
+        flex-wrap: wrap;
+
+        .loan-content-list {
+            flex: 1 1 50%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .loan-content-list {
+        & > .row {
+            align-items: center;
+        }
+
+        .loan-list-title {
+            font-size: 16px;
+        }
+    }
+
+    .payment-amount-text {
+        margin: 0;
+    }
+}
+
+.sellhouse-file-download {
+    .file-down-block {
+        display: flex;
+        font-size: 18px;
+
+        .file-down-title {
+            width: 600px;
+            max-width: 50%;
+        }
+    }
+}
+
+.sellhouse-info-text {
+    .sellhouse-info-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > p {
+            flex: 1;
+            margin: 0;
+        }
+
+        &:last-child {
+            .list-content {
+                border: none;
+            }
+        }
+    }
+
+    .sellhouse-info-lists {
+        border: 1px solid #ccc;
+    }
+}
+
+.loan-details-block {
+    border: 1px solid #ccc;
+
+    .loan-details-list {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+
+        &:last-child {
+            border: none;
+        }
+
+        p, span {
+            margin: 0;
+            font-size: 18px;
+            padding: 15px 15px;
+            line-height: 1.8;
+        }
+
+        .repayment-months-js {
+            padding-right: 0;
+
+            & + span {
+                padding-left: 0;
+            }
+        }
+
+        .details-list-title {
+            background: #eee;
+            min-width: 37.5%;
+        }
+    }
+}
+
+.house-map-content {
+    margin-bottom: 20px;
+
+    .house-info-content {
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+
+        .house-info-title {
+            min-width: 60px;
+            font-size: 18px;
+            align-self: flex-start;
+            line-height: 1.8;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .house-info-text {
+            font-size: 18px;
+        }
+    }
+}
+
+.sellhouse-content-cost {
+    .cost-holding-list, .cost-rentout-list, .cost-transaction-list {
+        border: 1px solid #ccc;
+    }
+
+    .cost-transaction-list {
+        height: 100%;
+    }
+
+    .cost-holding-list {
+        border-bottom: none;
+    }
+
+    .cost-info-list {
+        &:last-child {
+            .list-content {
+                border: none;
+            }
+        }
+    }
+}
+
+.sellhouse-content-affi {
+    .affi-content-block {
+        p {
+            margin: 0;
+        }
+    }
+
+    .affi-logo-block {
+        padding: 0 20px;
+        background: #000;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .affi-list-dec {
+        display: flex;
+        align-items: center;
+
+        .affi-icon-block, .affi-title-block, .affi-info-block {
+            font-size: 18px;
+        }
+
+        .affi-icon-block {
+            padding: 10px;
+        }
+
+        .affi-title-block {
+            min-width: 100px;
+        }
+    }
+}
+
+.sellhouse-content-simil {
+    .simil-post-content {
+        position: relative;
+        padding: 15px;
+        transition: all 0.32s linear;
+
+        &:hover {
+            background: #fff;
+            box-shadow: 0 0 8px #ccc;
+            border-radius: 4px;
+
+            .house-img-content {
+                img {
+                    transform: scale(1.08);
+                }
+            }
+        }
+    }
+
+    .house-img-content {
+        max-height: 275px;
+        overflow: hidden;
+
+        img {
+            transition: all 0.32s linear;
+        }
+    }
+
+    .dec-text-lists {
+        display: flex;
+        padding: 5px;
+        line-height: 1.8;
+        width: 100%;
+        margin-top: 5px;
+        color: #000;
+
+        .dec-text-title, .dec-text-module, .dec-text-price {
+            flex: 1;
+            font-size: 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .dec-text-price {
+            text-align: right;
+            color: #fd3547;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+}
+
+/* single-sellhouse-content form */
+
+.house-form-content {
+    width: 100%;
+
+    .validation_error {
+        display: none;
+    }
+
+    form.house-contact-form {
+        max-width: 80vw;
+
+        li.gfield {
+            margin-top: 25px;
+            font-size: 16px;
+            padding-right: 16px !important;
+            position: relative;
+            margin-bottom: 0 !important;
+            padding-top: 0;
+            padding-bottom: 0;
+            background: none;
+            border: none;
+            max-width: calc(100% - 16px);
+
+            .validation_message {
+                position: absolute;
+                padding: 0;
+                color: #e40f0f;
+            }
+
+            .gfield_label {
+                color: #000;
+                margin: 0 !important;
+                text-transform: capitalize;
+            }
+
+            input.medium {
+                width: 100%;
+            }
+
+            input, textarea {
+                // border-color: #dddddd;
+                padding: 8px 5px;
+                border-radius: 2px;
+                border: 1px solid #ccc;
+            }
+
+            textarea {
+                height: 200px;
+            }
+        }
+    }
+
+    .gform_footer.top_label {
+        text-align: center;
+
+        input.button {
+            width: 130px;
+            min-height: 40px;
+            font-size: 18px;
+            border-radius: 2px;
+        }
+    }
+}
+
+/* single-sellhouse-content form end */
+
+/* single sellhouse page end */
+
+@media screen and (max-width: 1366px) {
+    .house-list-info {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        &.stretched {
+            #header.full-header {
+                .container {
+                    max-width: 85%;
+                }
+            }
+        }
+    }
+
+    .flows-lists-block {
+        .container {
+            max-width: 85%;
+        }
+    }
+
+    .company-adv-list {
+        .container {
+            max-width: 85%;
+        }
+    }
+
+    .home, .listing-page-content {
+        .content-wrap {
+            .container {
+                max-width: 85%;
+                margin: 0 auto;
+                padding-bottom: 50px;
+            }
+        }
+    }
+
+    .footer-block {
+        .container {
+            max-width: 85%;
+        }
+    }
+
+    .cost-info-lists {
+        & > .row {
+            & > div {
+                padding-right: 0;
+
+                &:last-child {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #header {
+        &.transparent-header, &.semi-transparent {
+            z-index: 1009;
+        }
+    }
+}
+
+#header {
+    &.transparent-header, &.semi-transparent {
+        z-index: 1009;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header-top-info, .city-info-list {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #primary-menu ul li .menu-login {
+        display: none;
+    }
+
+    .header-bottom-info {
+        // padding: 7px 0;
+        .wpml-ls-item {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-wrap .container {
+        padding-bottom: 70px;
+    }
+
+    .single-sellhouse {
+        .list-content {
+            flex: 1 1 100%;
+        }
+    }
+
+    .news-block-contain .news-ca-goufang .efg p {
+        max-width: 72%;
+    }
+
+    .footer-block {
+        .social-footer-navigation {
+            margin-top: 30px;
+        }
+
+        .footer-site-menu {
+            flex-wrap: wrap;
+
+            li {
+                padding: 2px 5px;
+            }
+        }
+    }
+
+    .single {
+        .tright {
+            text-align: left !important;
+        }
+
+        h1 {
+            font-size: 22px;
+        }
+    }
+
+    .news-info-block, .kk-info-block, .contact-info-block {
+        padding-top: 10%;
+    }
+
+    .house-info-block {
+        .house-dec-block {
+            .house-dec-title {
+                h2 {
+                    font-size: 26px;
+                }
+
+                p {
+                    font-size: 17px;
+                }
+            }
+
+            .house-price-info {
+                margin-top: 10px;
+
+                h2, p {
+                    display: inline;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                .house-annual {
+                    display: block;
+                }
+            }
+
+            .house-annual {
+                span {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+
+    #primary-menu ul li .menu-login {
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.5;
+        display: block;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        -webkit-transition: margin .4s ease, padding .4s ease;
+        -o-transition: margin .4s ease, padding .4s ease;
+        transition: margin .4s ease, padding .4s ease;
+        padding: 14px 5px;
+        border: none;
+        margin: 0;
+    }
+
+    div.contact-form-lists_wrapper {
+        form.contact-form-lists {
+            li.gfield {
+                padding: 0 !important;
+                width: 100%;
+            }
+
+            li.contact-form-name, li.contact-form-phone {
+                width: 100%;
+            }
+        }
+    }
+
+    .page-banner-img {
+        max-height: 160px;
+
+        .page-title-dec {
+            h1 {
+                margin-top: 22%;
+                max-width: 70%;
+                text-align: center;
+            }
+        }
+    }
+
+    .header-bottom-info {
+        padding: 8px 0;
+    }
+
+    #logo {
+        height: 70px;
+        padding: 15px 0;
+    }
+
+    .listing-screening-block {
+        .ajax-query-field {
+            li {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    #primary-menu-trigger {
+        font-size: 28px;
+        top: 20px;
+        color: #fff;
+        z-index: 10;
+    }
+
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul ul a {
+        color: #fff !important;
+        font-size: 14px;
+    }
+
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover ul a {
+        color: #fff !important;
+        font-size: 14px;
+    }
+
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover ul a {
+        color: rgba(255, 255, 255, 1.5);
+    }
+
+    .city-info-block {
+        .city-dec-block {
+            display: none !important;
+        }
+    }
+
+    .contact-info-block {
+        .contact-block-dec {
+            display: none;
+        }
+    }
+
+    .page-encyclopedias-block {
+        .encyclopedias-title-block {
+            margin-top: 15px;
+        }
+    }
+
+    .project-investment-block {
+        .investmentl-dec-right {
+            .content-dec-block {
+                order: 1;
+            }
+        }
+    }
+
+    .Immigration-plan-block {
+        .Immigrationl-dec-right {
+            .content-dec-block {
+                order: 1;
+            }
+        }
+    }
+
+    .successful-case-block {
+        .successful-dec-right {
+            .content-dec-block {
+                order: 1;
+            }
+        }
+    }
+
+    .page-news-block {
+        .post-activiries-info {
+            padding: 15px 10px;
+        }
+    }
+
+    .reform-lists-block {
+        .reform-lists-info {
+            .reform-lists-dec {
+                justify-content: flex-end;
+                padding: 55px 0 15px 0;
+
+                &:after {
+                    content: '';
+                    left: 10%;
+                }
+
+                &:before {
+                    content: attr(data-time);
+                    left: 10%;
+                }
+
+                .reform-dec-content, .reform-dec-img {
+                    max-width: 75%;
+                }
+            }
+
+            .reform-dec-content {
+                margin-top: 10px;
+            }
+
+            .reform-lists-right {
+                .reform-dec-content {
+                    order: 1;
+                }
+            }
+        }
+
+        .time-end {
+            p {
+                left: 10%;
+                transform: translateX(-50%);
+                margin: 0;
+            }
+        }
+    }
+
+    #footer {
+        .footer-widgets-wrap {
+            padding-top: 30px;
+        }
+    }
+
+    .sidebar {
+        margin-top: 30px;
+    }
+
+    .sellhouse-content-top {
+        .top-content-info {
+            .content-info-list {
+                & > div {
+                    flex: 1 1 100%;
+                }
+            }
+
+            .sign-content-price {
+                & > div {
+                    flex: 1 1 50%;
+                }
+
+                .content-dec {
+                    em {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .contact-house-block {
+            .contact-info-btn, .contact-info-text {
+                flex: 1 1 100%;
+            }
+
+            .contact-info-text {
+                padding-top: 10px;
+                border-top: 1px solid #ccc;
+                margin-top: 10px;
+
+                .contact-info-dec {
+                    margin: 0 auto;
+                }
+            }
+
+            .house-form-moxb {
+                max-width: 95%;
+            }
+        }
+
+        .contact-block-dec {
+            display: none;
+        }
+
+        .house-form-content {
+            form.house-contact-form {
+                li.gfield {
+                    padding-right: 0 !important;
+                }
+            }
+        }
+    }
+
+    .sellhouse-content-loan {
+        .loan-content-lists {
+            .loan-content-list {
+                flex: 1 1 100%;
+            }
+        }
+    }
+
+    .footer-widgets-wrap {
+        .footer-site-logo, .footer-site-menu, .footer-site-contact, .footer-site-weixin {
+            width: 100%;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .footer-site-logo {
+            margin-top: 0;
+        }
+
+        .footer-site-menu {
+            position: relative;
+
+            .social-navigation {
+                position: relative;
+                max-width: 50%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .footer-site-contact {
+            position: relative;
+
+            .contact-block {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .flows-lists-block {
+        .flows-lists-title {
+            max-width: 100%;
+        }
+
+        .flows-lists-info {
+            .lists-ol-title {
+                max-width: 100%;
+            }
+        }
+
+        .flows-list-ol {
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .house-order-menu {
+        flex-wrap: wrap;
+
+        .house-order-title {
+            &:first-child {
+                width: 100%;
+            }
+        }
+    }
+
+    .house-num {
+        flex: 1 1 15%;
+        align-self: flex-end;
+    }
+}

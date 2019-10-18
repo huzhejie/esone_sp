@@ -1,0 +1,53 @@
+您说的清晰度应该是视频的清晰度，视频清晰度是视频的问题，您可能需要重新进行视频的录制
+
+字体相关问题回复：
+  1、您好 网站上设置的字体在不同的浏览器上显示的效果可能会不同，为了整体的浏览效果我们推荐您使用网站的默认字体
+
+  2、
+
+视频问题
+  视频清晰度
+  1、网站上视频的清晰度是由您上传到第三方平台上的视频决定的
+
+  视频的增删改查
+  2、您好 这已经不是开发问题了，需要对网站上的视频进行修改的话，后期我们会在网站的操作手册中编写出来，您可以根据操作手册进行网站视频的修改，有什么问题您可以打电话 17765123837 
+
+  用户内容替换
+
+  1、您好，根据我们的协议。视频链接一般属于文章发布 （内容上传或替换），我们可以帮您发两篇。操作手册里有，也请您这边尽快验收。我们会帮忙更替下，我们这边项目多，也请互现体谅下。加快速度，谢谢
+
+
+项目拖延用户
+
+  1、网站验收
+    您好 网站最终版本的修改已通过邮件的形式发送给您了，考虑到项目已延期近两个月（延期时间）了，请您尽快对网站进行验收(可以附上延期的图片)
+    网站验收完成之后，您可以
+
+  2、
+
+
+[qode_button_v2 target="_self" icon_pack="font_elegant" fe_icon="arrow_carrot-right_alt2" enable_icon_square="yes" hover_effect="icon_rotate" gradient="no" text="learn more" link="http://wpbrclient.wporder.com/wpbrclient3?p=791" font_size="12" icon_font_size="16" background_color="#94a0aa" hover_background_color="#94a0aa" icon_border_color="#94a0aa" icon_background_color="#67767f" icon_background_hover_color="#67767f"]
+[qode_button_v2 target="_self" icon_pack="font_elegant" fe_icon="arrow_carrot-right_alt2" enable_icon_square="yes" hover_effect="icon_rotate" gradient="no" text="learn more" link="#" font_size="12" icon_font_size="16" text_align="center"]
+
+  
+
+  隶书的字体有很多的版本，请问是使用哪一个版本的，是否已购买了该版本的商业使用版权
+  隶书字体大多都是付费字体，如果是用作商业用途，是需要进行商业用途的
+  您说没改的内容是指什么
+
+  隶书字体大多是需要在字体平台上购买版权，购买完版权之后您会得到该字体的字体文件，将字体文件发送给我们，我们再引入该字体文件在网站中进行使用，稍后我们设计师会将隶书字体的购买平台的链接发送给您
+  如果您不使用商业付费字体的话，我们推荐使用网站的默认字体微软雅黑
+
+    昨天收到了网站最终版的修改邮件，已根据邮件修改完毕，请您进行网站的验收，另外也请您验收到AUK网站
+    + + +
+
+
+  auk
+
+
+http://player.youku.com/player.php/sid/XMzg2NTMwNzg4OA==/v.swf
+
+
+<iframe height=397 width=100% src='http://player.youku.com/player.php/sid/XMzg2NTMwNzg4OA==/v.swf' frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" scrolling="no" class="video-info"></iframe>
+
+http://player.youku.com/embed/XMzg2NTMwNzg4OA==

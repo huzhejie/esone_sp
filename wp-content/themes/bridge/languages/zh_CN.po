@@ -1,0 +1,5382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bridge-四亩地\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-28 11:00+0800\n"
+"PO-Revision-Date: 2017-11-28 13:39+0800\n"
+"Last-Translator: admin <support@qodeinteractive.com>\n"
+"Language-Team: www.4mudi.com <admin@4mudi.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ qode
+#: 404.php:11
+msgid "The page you are looking for is not found"
+msgstr "你要找的页面不存在！"
+
+# @ qode
+#: 404.php:12
+msgid ""
+"The page you are looking for does not exist. It may have been moved, or "
+"removed altogether. Perhaps you can return back to the site’s homepage and "
+"see if you can find what you are looking for."
+msgstr ""
+"您正在查找的页面不存在。它可能已被移动或完全删除。也许你可以返回到网站的主"
+"页，看看是否能找到你所寻找的。"
+
+# @ qode
+#: 404.php:14
+msgid "Back to homepage"
+msgstr "返回首页"
+
+# @ qode
+#: blog-vertical-loop.php:58 search.php:48 search.php:69 search.php:97
+#: templates/blog-structure.php:169
+msgid "No posts were found."
+msgstr "没有发现文章。"
+
+# @ qode
+#: comments.php:2
+msgid "No Comments"
+msgstr "暂无评论"
+
+# @ qode
+#: comments.php:2 includes/shortcodes/shortcode-elements/blog-slider.php:228
+#: includes/shortcodes/shortcode-elements/latest-posts.php:173
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:129
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:155
+#: templates/blog-parts/compound/meta.php:7
+#: templates/blog-parts/pinterest/text.php:7
+#: templates/blog-single-image-title-post-loop.php:94
+#: templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:280
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_large_image_with_dividers-loop.php:84
+#: templates/blog_large_image_with_dividers-loop.php:140
+#: templates/blog_large_image_with_dividers-loop.php:207
+#: templates/blog_large_image_with_dividers-loop.php:255
+#: templates/blog_large_image_with_dividers-loop.php:304
+#: templates/blog_large_image_with_dividers-loop.php:362
+#: templates/blog_masonry-loop.php:50 templates/blog_masonry-loop.php:74
+#: templates/blog_masonry-loop.php:91 templates/blog_masonry-loop.php:128
+#: templates/blog_masonry-loop.php:145 templates/blog_masonry-loop.php:176
+#: templates/blog_search-loop.php:46 templates/blog_single-loop.php:74
+#: templates/blog_single-loop.php:109 templates/blog_single-loop.php:134
+#: templates/blog_single-loop.php:193 templates/blog_single-loop.php:219
+#: templates/blog_single-loop.php:255 templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:294 templates/blog_vertical-loop.php:83
+#: templates/blog_vertical-loop.php:153 templates/blog_vertical-loop.php:224
+#: templates/blog_vertical-loop.php:296 templates/blog_vertical-loop.php:369
+#: templates/blog_vertical-loop.php:442
+msgid "Comment"
+msgstr "条评论"
+
+# @ qode
+#: comments.php:2 includes/shortcodes/shortcode-elements/blog-slider.php:231
+#: includes/shortcodes/shortcode-elements/latest-posts.php:176
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:132
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:158
+#: templates/blog-parts/compound/meta.php:7
+#: templates/blog-parts/pinterest/text.php:7
+#: templates/blog-single-image-title-post-loop.php:94
+#: templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:280
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_large_image_with_dividers-loop.php:84
+#: templates/blog_large_image_with_dividers-loop.php:140
+#: templates/blog_large_image_with_dividers-loop.php:207
+#: templates/blog_large_image_with_dividers-loop.php:255
+#: templates/blog_large_image_with_dividers-loop.php:304
+#: templates/blog_large_image_with_dividers-loop.php:362
+#: templates/blog_masonry-loop.php:50 templates/blog_masonry-loop.php:74
+#: templates/blog_masonry-loop.php:91 templates/blog_masonry-loop.php:128
+#: templates/blog_masonry-loop.php:145 templates/blog_masonry-loop.php:176
+#: templates/blog_search-loop.php:46 templates/blog_single-loop.php:74
+#: templates/blog_single-loop.php:109 templates/blog_single-loop.php:134
+#: templates/blog_single-loop.php:193 templates/blog_single-loop.php:219
+#: templates/blog_single-loop.php:255 templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:294 templates/blog_vertical-loop.php:83
+#: templates/blog_vertical-loop.php:153 templates/blog_vertical-loop.php:224
+#: templates/blog_vertical-loop.php:296 templates/blog_vertical-loop.php:369
+#: templates/blog_vertical-loop.php:442
+msgid "Comments"
+msgstr "条评论"
+
+# @ qode
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "这是一篇受密码保护的文章，输入密码才能查看其评论。"
+
+# @ qode
+#: comments.php:29
+msgid "Sorry, the comment form is closed at this time."
+msgstr "对不起，评论已经关闭"
+
+# @ qode
+#: comments.php:42
+msgid "Post A Comment"
+msgstr "发表评论"
+
+# @ qode
+#: comments.php:43
+#, php-format
+msgid "Post A Reply to %s"
+msgstr "回复%s."
+
+# @ qode
+#: comments.php:44
+msgid "Cancel Reply"
+msgstr "取消回复"
+
+# @ qode
+# @ wordpress-importer
+#: comments.php:45
+msgid "Submit"
+msgstr "提交"
+
+# @ qode
+#: comments.php:46
+msgid "Write your comment here..."
+msgstr "在这里发表您的评论..."
+
+# @ qode
+#: comments.php:50
+msgid "Your full name"
+msgstr "您的全名"
+
+# @ qode
+#: comments.php:51
+msgid "E-mail address"
+msgstr "邮箱地址"
+
+# @ qode
+#: comments.php:52 contact-page.php:128
+msgid "Website"
+msgstr "网站"
+
+# @ qode
+#: contact-page.php:79
+msgid "Get in touch with us"
+msgstr "与我们取得联系"
+
+# @ qode
+#: contact-page.php:82
+msgid "Say Hello! Don’t be shy."
+msgstr "打个招呼！不要害羞。"
+
+# @ qode
+#: contact-page.php:97 contact-page.php:138
+msgid "Contact Us"
+msgstr "联系我们"
+
+# @ qode
+#: contact-page.php:98
+msgid "This is a required field"
+msgstr "这是必填字段"
+
+# @ qode
+#: contact-page.php:98
+msgid "Please enter a valid email address."
+msgstr "请输入有效的邮箱地址"
+
+# @ qode
+#: contact-page.php:102
+msgid "First Name *"
+msgstr "名字 *"
+
+# @ qode
+#: contact-page.php:108
+msgid "Last Name *"
+msgstr "姓氏 *"
+
+# @ qode
+#: contact-page.php:114 contact-page.php:122
+msgid "Email *"
+msgstr "邮箱 *"
+
+# @ qode
+#: contact-page.php:133
+msgid "Message"
+msgstr "信息"
+
+#: export/qode-export.php:299
+msgid "Qode Export"
+msgstr "导出"
+
+#: export/qode-export.php:319 framework/lib/qode.layout.php:3571
+msgid "Export"
+msgstr "导出"
+
+#: extendvc/extend-vc.php:347
+msgid "Show image description at bottom"
+msgstr "在底部显示图像描述"
+
+#: extendvc/extend-vc.php:1866
+msgid "Read More Button Size"
+msgstr "阅读更多按钮大小"
+
+#: extendvc/extend-vc.php:1869
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:74
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:45
+msgid "Small"
+msgstr "小"
+
+#: extendvc/extend-vc.php:1870
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:157
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:46
+msgid "Medium"
+msgstr "中"
+
+#: extendvc/extend-vc.php:1871
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:72
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:158
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:47
+msgid "Large"
+msgstr "大"
+
+# @ qode
+#: extendvc/extend-vc.php:2079
+msgid "Please insert margin in format: 0px 0px 1px 0px"
+msgstr "请插入外边距，格式：0px 0px 1px 0px"
+
+# @ qode
+#: extendvc/extend-vc.php:2087
+msgid "Please insert border radius(Rounded corners) in px. For example: 4 "
+msgstr "请插入边框半径（圆角） px. 例如：4"
+
+#: extendvc/extend-vc.php:2784 extendvc/extend-vc.php:5122
+#: extendvc/extend-vc.php:5159 extendvc/extend-vc.php:6588
+msgid "Element Appearance"
+msgstr "元素外观"
+
+#: extendvc/extend-vc.php:2786 extendvc/extend-vc.php:5124
+#: extendvc/extend-vc.php:5161 extendvc/extend-vc.php:6590
+msgid "Set distance (related to browser bottom) to start the animation"
+msgstr "设置距离（与浏览器底部相关）开始动画"
+
+# @ default
+#: extendvc/extend-vc.php:3608
+msgid "Select Yes if you want to use custom icon size and margin"
+msgstr "选择是，如果您想要使用自定义图标大小和外边距"
+
+# @ default
+#: extendvc/extend-vc.php:3617
+msgid "Enter just number, omit px"
+msgstr "仅输入数字，省略px"
+
+# @ default
+#: extendvc/extend-vc.php:3627
+msgid "Enter just number, omit px. Applied only for circle or square icon type"
+msgstr "仅输入数字，省略px。仅适用于圆形或方形图标类型"
+
+# @ default
+#: extendvc/extend-vc.php:3637
+msgid ""
+"Spacing between icon and text (for left icon/margin position). Enter just "
+"number, omit px"
+msgstr "图标和文本之间的间距（左图标/边缘位置）。仅限输入数字，省略px"
+
+#: extendvc/extend-vc.php:4130
+msgid "Choose Frame"
+msgstr "选择框架"
+
+#: extendvc/extend-vc.php:4133
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:32
+msgid "Standard"
+msgstr "标准"
+
+#: extendvc/extend-vc.php:4134
+msgid "Jungle"
+msgstr "丛林"
+
+# @ qode
+# @ tgmpa
+#: extendvc/extend-vc.php:4294
+#: framework/modules/timetable-schedule/visual-composer-map.php:61
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:30
+#: includes/nav_menu/edit_custom_walker.php:207
+#: includes/plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "类型"
+
+# @ default
+#: extendvc/extend-vc.php:7632 extendvc/extend-vc.php:7816
+msgid "Speed of slide animation in milliseconds"
+msgstr "滑动动画速度，以毫秒为单位"
+
+# @ qode
+#: extendvc/extend-vc.php:8441
+msgid "Qode Elements Holder"
+msgstr "元素容器"
+
+# @ qode
+#: extendvc/extend-vc.php:8530
+msgid "Qode Elements Holder Item"
+msgstr "元素容器项目"
+
+#: extendvc/extend-vc.php:8973
+msgid "Qode Vertical Split Slider"
+msgstr "垂直分割幻灯片"
+
+#: extendvc/extend-vc.php:8987
+msgid "Left Sliding Panel"
+msgstr "左滑动面板"
+
+#: extendvc/extend-vc.php:9002
+msgid "Right Sliding Panel"
+msgstr "右滑动面板"
+
+#: extendvc/extend-vc.php:9017
+msgid "Slide Content Item"
+msgstr "幻灯片内容项目"
+
+#: extendvc/extend-vc.php:9080
+msgid "Qode Horizontal Marquee"
+msgstr "水平字幕"
+
+#: extendvc/extend-vc.php:9108
+msgid "Horizontal Marquee Item"
+msgstr "水平字幕项目"
+
+#: extendvc/extend-vc.php:9143
+msgid "Qode Preview Slider"
+msgstr "预览幻灯片"
+
+#: extendvc/extend-vc.php:9156
+msgid "Preview Slider Item"
+msgstr "预览幻灯片项目"
+
+#: extendvc/extend-vc.php:9200
+msgid "Qode In-Device Slider"
+msgstr "设备幻灯片"
+
+#: extendvc/extend-vc.php:9270
+msgid "In-Device Slider Item"
+msgstr "设备幻灯片项目"
+
+#: extendvc/extend-vc.php:9312
+msgid "Qode Content Slider"
+msgstr "内容幻灯片"
+
+#: extendvc/extend-vc.php:9391
+msgid "Content Slider Item"
+msgstr "内容幻灯片项目"
+
+#: extendvc/extend-vc.php:9781
+msgid "Content"
+msgstr "内容"
+
+#: framework/admin/meta-boxes/blog/map.php:15
+msgid "Qode Blog"
+msgstr "博客"
+
+#: framework/admin/meta-boxes/content-bottom/map.php:11
+msgid "Qode Content Bottom"
+msgstr "内容底部"
+
+#: framework/admin/meta-boxes/general/map.php:10
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:8
+msgid "Qode General"
+msgstr "常规"
+
+#: framework/admin/meta-boxes/header/map.php:10
+msgid "Qode Header"
+msgstr "页眉"
+
+#: framework/admin/meta-boxes/left-menu/map.php:8
+msgid "Qode Left Menu Area"
+msgstr "左侧菜单区域"
+
+#: framework/admin/meta-boxes/portfolio/map.php:18
+msgid "Qode Portfolio General"
+msgstr "作品常规"
+
+#: framework/admin/meta-boxes/portfolio/map.php:120
+msgid "Qode Portfolio Images (multiple upload)"
+msgstr "作品图片（多个上传）"
+
+#: framework/admin/meta-boxes/portfolio/map.php:141
+msgid "Qode Portfolio Images/Videos (single upload)"
+msgstr "作品图片/视频（单个上传）"
+
+#: framework/admin/meta-boxes/portfolio/map.php:154
+msgid "Qode Additional Portfolio Sidebar Items"
+msgstr "其它作品侧边栏项目"
+
+#: framework/admin/meta-boxes/seo/map.php:8
+msgid "Qode SEO"
+msgstr "SEO"
+
+#: framework/admin/meta-boxes/sidebar/map.php:13
+msgid "Qode Sidebar"
+msgstr "侧边栏"
+
+#: framework/admin/meta-boxes/title/map.php:10
+msgid "Qode Title"
+msgstr "标题"
+
+#: framework/admin/meta-boxes/title/map.php:238
+msgid "Qode Scroll Title Animations"
+msgstr "滚动标题动画"
+
+#: framework/admin/options/contactform7/map.php:183
+#: framework/admin/options/contactform7/map.php:357
+#: framework/admin/options/contactform7/map.php:530
+msgid "Enable Full Width Button"
+msgstr "启用全宽按钮"
+
+#: framework/admin/options/contactform7/map.php:184
+#: framework/admin/options/contactform7/map.php:358
+#: framework/admin/options/contactform7/map.php:531
+msgid ""
+"Enabling this option will make the \"Send\" button take up the full width of "
+"the contact form."
+msgstr "启用此选项将使“发送”按钮占用联系表单的全部宽度。"
+
+#: framework/admin/options/verticalsplitslider/map.php:48
+msgid "Advanced Responsive"
+msgstr "高级自适应"
+
+#: framework/admin/options/verticalsplitslider/map.php:49
+msgid "Enable this option for advanced responsive on smaller devices"
+msgstr "启用此选项可在较小的设备上进行高级自适应"
+
+#: framework/admin/options/verticalsplitslider/map.php:73
+msgid "Advanced Responsive Breakpoint"
+msgstr "高级自适应断点"
+
+#: framework/admin/options/verticalsplitslider/map.php:74
+msgid "Choose a width at which advanced responsive options will take effect."
+msgstr "选择高级自适应选项生效的宽度"
+
+#: framework/lib/qode.functions.php:787
+msgid "Import field is empty"
+msgstr "导入字段为空"
+
+#: framework/lib/qode.functions.php:794
+msgid "Options are imported successfully"
+msgstr "选项导入成功"
+
+#: framework/lib/qode.functions.php:796
+msgid "Non valid authorization"
+msgstr "非有效的授权"
+
+#: framework/lib/qode.functions.php:801
+msgid "You don't have privileges for this operation"
+msgstr "您没有权限执行此操作"
+
+#: framework/lib/qode.functions.php:853
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:83
+msgid "Same Window"
+msgstr "同一窗口"
+
+#: framework/lib/qode.functions.php:854
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:82
+msgid "New Window"
+msgstr "新窗口"
+
+# @ qode
+#: framework/lib/qode.functions.php:958
+msgid "Invalid Captcha"
+msgstr "无效的验证码"
+
+# @ qode
+#: framework/lib/qode.functions.php:965
+msgid "THANK YOU!"
+msgstr "谢谢您！"
+
+# @ qode
+#: framework/lib/qode.functions.php:965
+msgid ""
+"Your email was successfully sent. We will contact you as soon as possible."
+msgstr "您的邮件已经发送成功。我们会尽快与您联系。"
+
+# @ qode
+#: framework/lib/qode.functions.php:967
+msgid "Email server problem"
+msgstr "邮件服务器问题"
+
+#: framework/lib/qode.icons/qode.icons.php:81
+#: framework/lib/qode.icons/qode.icons.php:86
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: framework/lib/qode.icons/qode.icons.php:82
+#: framework/lib/qode.icons/qode.icons.php:87
+msgid "Font Elegant"
+msgstr "Font Elegant"
+
+#: framework/lib/qode.icons/qode.icons.php:88
+msgid "Linea Icons"
+msgstr "线性图标"
+
+#: framework/lib/qode.icons/qode.icons.php:89
+msgid "Dripicons"
+msgstr "滴水图标"
+
+#: framework/lib/qode.layout.php:754 framework/lib/qode.layout.php:755
+#: framework/lib/qode.layout.php:2385 framework/lib/qode.layout.php:2386
+#: framework/lib/qode.layout.php:2436 framework/lib/qode.layout.php:2437
+#: framework/lib/qode.layout.php:2546 framework/lib/qode.layout.php:2547
+#: framework/lib/qode.layout.php:2598 framework/lib/qode.layout.php:2599
+#: framework/lib/qode.layout.php:2872 framework/lib/qode.layout.php:2873
+#: framework/lib/qode.layout.php:2942 framework/lib/qode.layout.php:2943
+msgid "Select Image"
+msgstr "选择图片"
+
+#: framework/lib/qode.layout.php:755 framework/lib/qode.layout.php:818
+#: framework/lib/qode.layout.php:2298 framework/lib/qode.layout.php:2386
+#: framework/lib/qode.layout.php:2437 framework/lib/qode.layout.php:2547
+#: framework/lib/qode.layout.php:2599 framework/lib/qode.layout.php:2873
+#: framework/lib/qode.layout.php:2943
+msgid "Upload"
+msgstr "上传"
+
+# @ qode
+#: framework/lib/qode.layout.php:757 framework/lib/qode.layout.php:820
+#: framework/lib/qode.layout.php:2388 framework/lib/qode.layout.php:2439
+#: framework/lib/qode.layout.php:2549 framework/lib/qode.layout.php:2601
+#: framework/lib/qode.layout.php:2875 framework/lib/qode.layout.php:2945
+#: includes/nav_menu/edit_custom_walker.php:323
+msgid "Remove"
+msgstr "删除"
+
+#: framework/lib/qode.layout.php:817 framework/lib/qode.layout.php:818
+msgid "Select File"
+msgstr "选择文件"
+
+# @ qode
+#: framework/lib/qode.layout.php:1160 framework/lib/qode.layout.php:1200
+#: framework/lib/qode.layout.php:1306 framework/lib/qode.layout.php:1361
+#: framework/lib/qode.layout.php:1471 framework/lib/qode.layout.php:1526
+#: framework/lib/qode.layout.php:1581 framework/lib/qode.layout.php:1636
+#: framework/lib/qode.layout.php:1691 framework/lib/qode.layout.php:1746
+#: framework/modules/page/meta-boxes/map.php:25
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:72
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:82
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:100
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:142
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:152
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:163
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:81
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:53
+#: widgets/call_to_action_widget.php:83 widgets/call_to_action_widget.php:91
+#: widgets/call_to_action_widget.php:156
+msgid "Yes"
+msgstr "是"
+
+# @ qode
+#: framework/lib/qode.layout.php:1162 framework/lib/qode.layout.php:1202
+#: framework/lib/qode.layout.php:1308 framework/lib/qode.layout.php:1363
+#: framework/lib/qode.layout.php:1473 framework/lib/qode.layout.php:1528
+#: framework/lib/qode.layout.php:1583 framework/lib/qode.layout.php:1638
+#: framework/lib/qode.layout.php:1693 framework/lib/qode.layout.php:1748
+#: framework/modules/page/meta-boxes/map.php:26
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:73
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:83
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:99
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:141
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:151
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:162
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:80
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:54
+#: widgets/call_to_action_widget.php:84 widgets/call_to_action_widget.php:92
+#: widgets/call_to_action_widget.php:157
+msgid "No"
+msgstr "否"
+
+#: framework/lib/qode.layout.php:1251
+msgid "On"
+msgstr "开"
+
+#: framework/lib/qode.layout.php:1253
+msgid "Off"
+msgstr "关"
+
+#: framework/lib/qode.layout.php:1416
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:46
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:45
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:44
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:29
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:49
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:28
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:85
+msgid "Image"
+msgstr "图片"
+
+#: framework/lib/qode.layout.php:1418
+msgid "Video"
+msgstr "视频"
+
+#: framework/lib/qode.layout.php:2300
+msgid "Remove All"
+msgstr "移除所有"
+
+#: framework/lib/qode.layout.php:3325
+msgid ""
+"You have successfully connected with your Twitter account. If you have any "
+"issues fetching data from Twitter try reconnecting."
+msgstr ""
+"您已成功与你的Twitter帐户连接。如果你从Twitter获取数据的任何问题，尝试重新连"
+"接。"
+
+#: framework/lib/qode.layout.php:3331
+msgid "Re-connect with Twitter"
+msgstr "重新与推特连接"
+
+#: framework/lib/qode.layout.php:3331 framework/lib/qode.layout.php:3341
+msgid "Connect with Twitter"
+msgstr "与推特连接"
+
+#: framework/lib/qode.layout.php:3343
+msgid ""
+"Connecting with Twitter will enable you to show your latest tweets on your "
+"site"
+msgstr "与推特连接将启用在网站显示最新推文"
+
+#: framework/lib/qode.layout.php:3377
+msgid ""
+"You have successfully connected with your Instagram account. If you have any "
+"issues fetching data from Instagram try reconnecting."
+msgstr ""
+"您已成功与你的Instagram帐户相连。如果你从Instagram的读取数据的任何问题尝试重"
+"新连接。"
+
+#: framework/lib/qode.layout.php:3384
+msgid "Re-connect with Instagram"
+msgstr "重新与Instagram连接"
+
+#: framework/lib/qode.layout.php:3384 framework/lib/qode.layout.php:3395
+msgid "Connect with Instagram"
+msgstr "与Instagram连接"
+
+#: framework/lib/qode.layout.php:3397
+msgid ""
+"Connecting with Instagram will enable you to show your latest photos on your "
+"site"
+msgstr "与Instagram的连接将使您能够在网站上显示您的最新照片"
+
+#: framework/lib/qode.layout.php:3572
+msgid ""
+"Copy the code from this field and save it to a textual file to export your "
+"options. Save that textual file somewhere so you can later use it to import "
+"options if necessary."
+msgstr ""
+"复制此字段代码并保存它到文本文件来导入你的选项。保存到文本文件，你可以在以后"
+"导入选项使用它。"
+
+#: framework/lib/qode.layout.php:3586
+msgid "Import"
+msgstr "导入"
+
+#: framework/lib/qode.layout.php:3587
+msgid ""
+"To import options, just paste the code you previously saved from the \"Export"
+"\" field into this field, and then click the \"Import\" button."
+msgstr ""
+"要导入选项，只需之前\"导出\"字段的代码粘贴到此字段，然后点击\"导入\"按钮"
+
+#: framework/lib/qode.layout.php:3605
+msgid "Please wait"
+msgstr "请稍候"
+
+#: framework/lib/qode.layout.php:3605
+msgid "Are you sure, you want to import Options now?"
+msgstr "确定要导入选项？"
+
+# @ qode
+#: framework/lib/qode.layout.php:3616 includes/import/qode-import.php:483
+msgid "Important notes:"
+msgstr "重要提示："
+
+#: framework/lib/qode.layout.php:3618
+msgid "Please note that import process will overide all your existing options."
+msgstr "请注意，导入过程将覆盖现有的所有选项。"
+
+#: framework/lib/qode.layout.tax.php:71 framework/lib/qode.layout.tax.php:93
+msgid "Add Image"
+msgstr "添加图片"
+
+#: framework/lib/qode.layout.tax.php:72 framework/lib/qode.layout.tax.php:94
+msgid "Remove Image"
+msgstr "删除图片"
+
+#: framework/modules/envato-wordpress-toolkit/envato-wordpress-toolkit-config.php:42
+msgid "There is a new version of "
+msgstr "有一个新版本的"
+
+#: framework/modules/page/meta-boxes/map.php:11
+msgid "Qode Page Options"
+msgstr "页面选项"
+
+#: framework/modules/page/meta-boxes/map.php:21
+#: framework/modules/page/options-map/map.php:27
+msgid "Inter-Page Navigation"
+msgstr "页间导航"
+
+#: framework/modules/page/meta-boxes/map.php:22
+#: framework/modules/page/options-map/map.php:28
+msgid ""
+"Enabling this option will add a navigation section to the bottom of your "
+"page with “Previous” and “Next” buttons, which users can use to navigate "
+"through your pages. Please note that the navigation will only lead through "
+"pages in the same hierarchical level (e.g. if you have a parent page called "
+"“Home” and then 3 child pages on which you have enabled the navigation, it "
+"will only lead through the child pages)."
+msgstr ""
+"启用此选项将使用“上一个”和“下一个”按钮将导航部分添加到页面的底部，用户可以使"
+"用它们浏览您的页面。 请注意，导航只会导致同一分层级别的页面（例如，如果您有一"
+"个名为“首页”的父页面，然后3个子页面已启用导航，则只会导致子页面）。"
+
+#: framework/modules/page/meta-boxes/map.php:24
+#: framework/modules/page/meta-boxes/map.php:53
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:152
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:176
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:251
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:576
+#: includes/qode-blog-helper-functions.php:14
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:203
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:44
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:65
+msgid "Default"
+msgstr "默认"
+
+#: framework/modules/page/meta-boxes/map.php:54
+#: framework/modules/page/options-map/map.php:71
+msgid "No Link"
+msgstr "无链接"
+
+#: framework/modules/page/meta-boxes/map.php:66
+#: framework/modules/page/options-map/map.php:83
+msgid "\"Back To\" Link"
+msgstr "“返回”链接"
+
+#: framework/modules/page/meta-boxes/map.php:67
+#: framework/modules/page/options-map/map.php:84
+msgid "Choose a page for the “back to” link to lead to when clicked on."
+msgstr "选择点击“返回”链接的页面。"
+
+# @ qode
+#: framework/modules/page/options-map/map.php:11
+#: includes/qode-breadcrumbs.php:122
+msgid "Page"
+msgstr "页面"
+
+#: framework/modules/page/options-map/map.php:17
+msgid "Page Single"
+msgstr "单个页面"
+
+#: framework/modules/page/options-map/map.php:50
+msgid "In Grid"
+msgstr "网格"
+
+#: framework/modules/page/options-map/map.php:51
+msgid ""
+"Set this option to “Yes” if you would like the inter-page navigation to be "
+"placed in grid."
+msgstr "如果您希望将页面间导航置于网格中，请将此选项设置为“是”。"
+
+#: framework/modules/page/options-map/map.php:59
+#: framework/modules/timetable-schedule/options-map/map.php:175
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:119
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:146
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:40
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:94
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:78
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: framework/modules/page/options-map/map.php:67
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:148
+msgid "Enable Icon Gradient"
+msgstr "启用图标渐变"
+
+#: framework/modules/page/options-map/map.php:92
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:95
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:113
+msgid "Order By"
+msgstr "排序"
+
+#: framework/modules/page/options-map/map.php:93
+msgid "Choose order for pages"
+msgstr "选择页面顺序"
+
+# @ qode
+# @ js_composer
+#: framework/modules/page/options-map/map.php:95
+#: includes/qode-custom-taxonomy-field.php:52
+#: includes/qode-custom-taxonomy-field.php:82
+#: includes/qode-custom-taxonomy-field.php:112
+#: includes/qode-custom-taxonomy-field.php:142
+#: includes/qode-custom-taxonomy-field.php:172
+#: includes/qode-custom-taxonomy-field.php:202
+#: includes/qode-custom-taxonomy-field.php:232
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:40
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tab.php:36
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:44
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:117
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:86
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:111
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:49
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:39
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:28
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:67
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:33
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:37
+#: vc_templates/vc_text_separator.php:4
+msgid "Title"
+msgstr "标题"
+
+#: framework/modules/page/options-map/map.php:96
+msgid "Menu Order"
+msgstr "菜单顺序"
+
+# @ qode
+# @ woocommerce
+#: framework/modules/page/options-map/map.php:97
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:116
+#: templates/portfolio-loop.php:231 templates/portfolio-loop.php:409
+#: templates/portfolio-loop.php:589 templates/portfolio-loop.php:808
+#: templates/portfolio-loop.php:1030 templates/portfolio-loop.php:1216
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr "日期"
+
+#: framework/modules/page/templates/inter-page-navigation.php:19
+msgid "Previous page"
+msgstr "上一页"
+
+#: framework/modules/page/templates/inter-page-navigation.php:29
+msgid "Back"
+msgstr "返回"
+
+#: framework/modules/page/templates/inter-page-navigation.php:40
+msgid "Next page"
+msgstr "下一页"
+
+#: framework/modules/timetable-schedule/options-map/map.php:11
+msgid "Timetable"
+msgstr "时间表"
+
+#: framework/modules/timetable-schedule/options-map/map.php:17
+msgid "Events Single"
+msgstr "单个活动"
+
+#: framework/modules/timetable-schedule/options-map/map.php:29
+msgid "Sidebar Layout"
+msgstr "侧边栏布局"
+
+#: framework/modules/timetable-schedule/options-map/map.php:30
+msgid "Choose a sidebar layout for single event pages"
+msgstr "选择单个事件页侧边栏布局"
+
+#: framework/modules/timetable-schedule/options-map/map.php:32
+msgid "No Sidebar"
+msgstr "无侧边栏"
+
+#: framework/modules/timetable-schedule/options-map/map.php:33
+msgid "Sidebar 1/3 right"
+msgstr "右1/3侧边栏"
+
+#: framework/modules/timetable-schedule/options-map/map.php:34
+msgid "Sidebar 1/4 right"
+msgstr "右1/4侧边栏"
+
+#: framework/modules/timetable-schedule/options-map/map.php:35
+msgid "Sidebar 1/3 left"
+msgstr "左1/3侧边栏"
+
+#: framework/modules/timetable-schedule/options-map/map.php:36
+msgid "Sidebar 1/4 left"
+msgstr "左1/4侧边栏"
+
+#: framework/modules/timetable-schedule/options-map/map.php:52
+msgid "Sidebar to Display"
+msgstr "显示侧边栏"
+
+#: framework/modules/timetable-schedule/options-map/map.php:53
+msgid "Choose a sidebar to display on single event pages"
+msgstr "选择一个侧边栏显示在单个事件页面上"
+
+#: framework/modules/timetable-schedule/options-map/map.php:58
+msgid "Timetable Shortcode"
+msgstr "时间表简码"
+
+#: framework/modules/timetable-schedule/options-map/map.php:66
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:17
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:23
+msgid "Typography"
+msgstr "排版"
+
+#: framework/modules/timetable-schedule/options-map/map.php:72
+msgid "Columns Heading Typography"
+msgstr "列标题排版"
+
+#: framework/modules/timetable-schedule/options-map/map.php:73
+msgid "Setup typography for columns heading"
+msgstr "设置列标题的排版"
+
+#: framework/modules/timetable-schedule/options-map/map.php:88
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:56
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:170
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:70
+msgid "Font Size (px)"
+msgstr "字体大小（px）"
+
+#: framework/modules/timetable-schedule/options-map/map.php:96
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:39
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:69
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:93
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:77
+msgid "Font Family"
+msgstr "字体系列"
+
+#: framework/modules/timetable-schedule/options-map/map.php:104
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:47
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:107
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:115
+msgid "Text Transform"
+msgstr "文字转换"
+
+#: framework/modules/timetable-schedule/options-map/map.php:113
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:56
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:92
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:116
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:100
+msgid "Font Style"
+msgstr "字体样式"
+
+#: framework/modules/timetable-schedule/options-map/map.php:128
+msgid "Letter Spacing (px)"
+msgstr "字母间距（px）"
+
+#: framework/modules/timetable-schedule/options-map/map.php:136
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:82
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:62
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:133
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:177
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:84
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:108
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:92
+msgid "Font Weight"
+msgstr "字体粗细"
+
+#: framework/modules/timetable-schedule/options-map/map.php:144
+msgid "Color Styles"
+msgstr "颜色样式"
+
+#: framework/modules/timetable-schedule/options-map/map.php:150
+msgid "Heading Color Styles"
+msgstr "标题颜色样式"
+
+#: framework/modules/timetable-schedule/options-map/map.php:151
+msgid "Set color styles for timetable heading"
+msgstr "为时间表标题设置颜色样式"
+
+#: framework/modules/timetable-schedule/options-map/map.php:166
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:50
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:80
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:121
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:61
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:99
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:137
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:129
+msgid "Color"
+msgstr "颜色"
+
+#: framework/modules/timetable-schedule/options-map/map.php:181
+msgid "Timetable Color Styles"
+msgstr "时间表颜色样式"
+
+#: framework/modules/timetable-schedule/options-map/map.php:182
+msgid "Set color styles for timetable"
+msgstr "设置时间表颜色样式"
+
+#: framework/modules/timetable-schedule/options-map/map.php:197
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:31
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:86
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:134
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:31
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: framework/modules/timetable-schedule/options-map/map.php:206
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:40
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:40
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:48
+msgid "Odd Rows Background Color"
+msgstr "奇数行背景颜色"
+
+#: framework/modules/timetable-schedule/options-map/map.php:214
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:48
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:48
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:56
+msgid "Even Rows Background Color"
+msgstr "偶数行背景颜色"
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:8
+msgid "Timetable Event Hours"
+msgstr "时间表活动时间"
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:10
+#: framework/modules/timetable-schedule/visual-composer-map.php:27
+#: framework/modules/timetable-schedule/visual-composer-map.php:43
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:24
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:26
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:26
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:38
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:24
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:25
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:39
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:41
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:24
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slide.php:25
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:24
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:39
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:39
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:39
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:25
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:26
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:24
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:24
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:42
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:24
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:31
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:30
+msgid "by QODE"
+msgstr "四亩地"
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:23
+msgid "Timetable Event Info Holder"
+msgstr "时间表事件信息容器"
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:40
+msgid "Timetable Event Info Table Item"
+msgstr "时间表事件信息表项目"
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:49
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:58
+msgid "Label"
+msgstr "标签"
+
+#: framework/modules/timetable-schedule/visual-composer-map.php:55
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:63
+msgid "Value"
+msgstr "值"
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:16
+msgid "Dimensions for Product List Masonry"
+msgstr "产品列表切片尺寸"
+
+#: framework/modules/woocommerce/admin/meta-boxes/woocommerce-meta-boxes.php:17
+msgid ""
+"Choose image layout when it appears in Qode Product List - Masonry shortcode"
+msgstr "当它出现在产品列表 - 切片简码中时，选择图片布局"
+
+#: framework/modules/woocommerce/plugins/yith-quick-view/yith-quick-view-functions.php:16
+msgid "QUICK LOOK"
+msgstr "快速查看"
+
+#: framework/modules/woocommerce/plugins/yith-wishlist/widgets/yith-wishlist.php:6
+msgid "Qode Woocommerce Wishlist"
+msgstr "Woocommerce收藏夹"
+
+#: framework/modules/woocommerce/plugins/yith-wishlist/widgets/yith-wishlist.php:7
+msgid ""
+"Display a wishlist icon with number of products that are in the wishlist"
+msgstr "显示包含产品数量图标的收藏夹"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:21
+msgid "Product List"
+msgstr "产品列表"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:33
+msgid "Masonry"
+msgstr "切片"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:40
+msgid "Product Info Position"
+msgstr "产品信息位置"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:42
+msgid "Info On Image Hover"
+msgstr "图片悬停信息"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:43
+msgid "Info Below Image"
+msgstr "图片下信息"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:51
+msgid "Number of Products"
+msgstr "产品数量"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:56
+msgid "Number of Columns"
+msgstr "列数"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:58
+msgid "One"
+msgstr "一"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:59
+msgid "Two"
+msgstr "二"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:60
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:34
+msgid "Three"
+msgstr "三"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:61
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:35
+msgid "Four"
+msgstr "四"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:62
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:36
+msgid "Five"
+msgstr "五"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:63
+msgid "Six"
+msgstr "六"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:70
+msgid "Space Between Items"
+msgstr "项目间距"
+
+# @ qode
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:73
+#: widgets/call_to_action_widget.php:128
+msgid "Normal"
+msgstr "标准"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:75
+msgid "Tiny"
+msgstr "细小"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:76
+msgid "No Space"
+msgstr "无间距"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:83
+msgid "Show Ordering Filter"
+msgstr "显示排序筛选"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:89
+msgid "Price range for pricing filter"
+msgstr "价格筛选价格范围"
+
+# @ woocommerce
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:103
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:124
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr "订单"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:111
+msgid "Show Category Filter"
+msgstr "显示分类筛选"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:117
+msgid "Enter Category Values"
+msgstr "输入分类值"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:118
+msgid "Separate values (category slugs) with a comma"
+msgstr "用逗号分隔值（分类别名）"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:124
+msgid "Show \"All\" Item in Filter"
+msgstr "在筛选显示“所有”"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:131
+msgid "Choose Sorting Taxonomy"
+msgstr "选择排序分类法"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:133
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:134
+msgid "Category"
+msgstr "分类"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:134
+msgid "Tag"
+msgstr "标签"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:135
+msgid "Id"
+msgstr "ID"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:137
+msgid ""
+"If you would like to display only certain products, this is where you can "
+"select the criteria by which you would like to choose which products to "
+"display"
+msgstr "如果您只想显示某些产品，则可以在此选择要选择要显示哪些产品的条件"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:143
+msgid "Enter Taxonomy Values"
+msgstr "输入分类值"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:144
+msgid "Separate values (category slugs, tags, or post IDs) with a comma"
+msgstr "使用逗号分隔值（分类别名，标签，或文章ID）"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:150
+msgid "Image Proportions"
+msgstr "图像比例"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:153
+msgid "Original"
+msgstr "原始"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:154
+msgid "Square"
+msgstr "方形"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:155
+msgid "Landscape"
+msgstr "横向"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:156
+msgid "Portrait"
+msgstr "竖向"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:159
+msgid "Shop Catalog"
+msgstr "产品目录"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:160
+msgid "Shop Single"
+msgstr "商店详情页"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:161
+msgid "Shop Thumbnail"
+msgstr "店铺缩略图"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:167
+msgid "Display Title"
+msgstr "显示标题"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:169
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:215
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:222
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:237
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:244
+msgid "Product Info"
+msgstr "产品信息"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:174
+msgid "Product Info Skin"
+msgstr "产品信息皮肤"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:177
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:188
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:66
+msgid "Light"
+msgstr "浅色"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:178
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:189
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:67
+msgid "Dark"
+msgstr "深色"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:181
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:192
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:200
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:208
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:230
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:257
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:264
+msgid "Product Info Style"
+msgstr "产品信息样式"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:186
+msgid "Product Info Hover Background Skin"
+msgstr "产品信息悬停背景皮肤"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:197
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:49
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:38
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:42
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:50
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:43
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:92
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:117
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:55
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:44
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:45
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:38
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:44
+msgid "Title Tag"
+msgstr "标题标签"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:205
+msgid "Title Text Transform"
+msgstr "标题文字变换"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:213
+msgid "Display Category"
+msgstr "显示分类"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:220
+msgid "Display Excerpt"
+msgstr "显示摘要"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:227
+msgid "Excerpt Length"
+msgstr "摘要长度"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:228
+msgid "Number of characters"
+msgstr "字符数"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:235
+msgid "Display Rating"
+msgstr "显示评分"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:242
+msgid "Display Price"
+msgstr "显示价格"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:249
+msgid "Product Info Text Alignment"
+msgstr "产品信息文本对齐"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:252
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:103
+msgid "Left"
+msgstr "左"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:253
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:102
+msgid "Center"
+msgstr "中"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:254
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:104
+msgid "Right"
+msgstr "右"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:262
+msgid "Product Info Bottom Margin (px)"
+msgstr "产品信息下边距（px）"
+
+# @ qode
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:546
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:609
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:222
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:563
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:925
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:958
+#: templates/masonry-filter.php:28
+msgid "All"
+msgstr "所有"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:577
+msgid "Popularity"
+msgstr "热门"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:578
+msgid "Average rating"
+msgstr "平均评分"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:579
+msgid "Newness"
+msgstr "最新"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:580
+msgid "Price: Low to High"
+msgstr "价格：从低到高"
+
+#: framework/modules/woocommerce/shortcodes/product-list/product-list.php:581
+msgid "Price: High to Low"
+msgstr "价格：从高到低"
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/categories-filter.php:3
+msgid "Categories"
+msgstr "分类"
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/ordering-filter.php:3
+msgid "Filter"
+msgstr "筛选"
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/ordering-filter.php:6
+msgid "Sort By"
+msgstr "排序方式"
+
+#: framework/modules/woocommerce/shortcodes/product-list/templates/parts/ordering-filter.php:12
+msgid "Price Range"
+msgstr "价格范围"
+
+# @ qode
+#: framework/modules/woocommerce/shortcodes/product-list/templates/product-list-masonry.php:6
+#: framework/modules/woocommerce/shortcodes/product-list/templates/product-list-standard.php:6
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:912
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1406
+#: templates/blog-structure.php:178
+msgid "Loading..."
+msgstr "加载中..."
+
+#: framework/modules/woocommerce/templates/parts/image.php:15
+msgid "NEW"
+msgstr "新"
+
+#: framework/modules/woocommerce/templates/parts/image.php:23
+msgid "SOLD"
+msgstr "售罄"
+
+#: framework/modules/woocommerce/templates/parts/no-posts.php:1
+#: framework/modules/woocommerce/woocommerce-functions.php:132
+msgid "No products were found!"
+msgstr "没有找到产品！"
+
+#: framework/modules/woocommerce/templates/parts/rating.php:9
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "评分%s，共5分"
+
+# @ qode
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:8
+msgid "Woocommerce Dropdown Cart"
+msgstr "Woocommerce下拉购物车"
+
+# @ woocommerce
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:83
+msgid "No products in the cart."
+msgstr "购物车是空的"
+
+# @ woocommerce
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:93
+msgid "Cart"
+msgstr "购物车"
+
+# @ woocommerce
+#: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart.php:95
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart.php:38
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Total"
+msgstr "总计"
+
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:72
+#: framework/modules/woocommerce/woocommerce-config.php:85
+msgid "First name"
+msgstr "名字"
+
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:73
+#: framework/modules/woocommerce/woocommerce-config.php:86
+msgid "Last name"
+msgstr "姓氏"
+
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:74
+#: framework/modules/woocommerce/woocommerce-config.php:87
+msgid "Company name"
+msgstr "公司名称"
+
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:75
+#: framework/modules/woocommerce/woocommerce-config.php:88
+msgid "Address"
+msgstr "地址"
+
+# @ woocommerce
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:76
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email"
+msgstr "邮箱"
+
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:77
+msgid "Phone"
+msgstr "电话"
+
+# @ qode
+#: framework/modules/woocommerce/woocommerce-config.php:78
+#: framework/modules/woocommerce/woocommerce-config.php:89
+msgid "Postcode / ZIP"
+msgstr "邮编"
+
+#: framework/modules/woocommerce/woocommerce-config.php:79
+#: framework/modules/woocommerce/woocommerce-config.php:90
+msgid "Town / City"
+msgstr "城市"
+
+#: framework/modules/woocommerce/woocommerce-config.php:80
+#: framework/modules/woocommerce/woocommerce-config.php:91
+msgid "State"
+msgstr "街道"
+
+# @ woocommerce
+#: framework/modules/woocommerce/woocommerce-config.php:214
+msgid "Search for:"
+msgstr "搜索内容："
+
+# @ woocommerce
+#: framework/modules/woocommerce/woocommerce-config.php:215
+msgid "Search Products"
+msgstr "搜索产品"
+
+# @ woocommerce
+#: framework/modules/woocommerce/woocommerce-config.php:383
+msgid "Additional Information"
+msgstr "其他信息"
+
+#: framework/modules/woocommerce/woocommerce-config.php:385
+msgid "Additional Info"
+msgstr "附加信息"
+
+#: framework/modules/woocommerce/woocommerce-functions.php:81
+msgid "SALE"
+msgstr "促销"
+
+# @ qode
+#: framework/qode-framework.php:204 framework/qode-framework.php:276
+msgid "Save Changes"
+msgstr "保存更改"
+
+# @ tgmpa
+#: framework/qode-framework.php:454
+#: includes/plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "关闭此通知"
+
+#: framework/qode-framework.php:703
+msgid "Contact Administrator"
+msgstr "联系管理员"
+
+# @ qode
+#: functions.php:512
+msgid "Top Navigation"
+msgstr "顶部导航"
+
+# @ qode
+#: functions.php:519
+msgid "Fullscreen Navigation"
+msgstr "全屏导航"
+
+# @ qode
+#: functions.php:526
+msgid "Left Top Navigation"
+msgstr "左上导航"
+
+# @ qode
+#: functions.php:532
+msgid "Right Top Navigation"
+msgstr "右上导航"
+
+# @ qode
+#: functions.php:1765
+msgid "Author:"
+msgstr "作者："
+
+# @ qode
+#: functions.php:1783 header.php:480 header.php:503 header.php:525
+#: header.php:949 header.php:970 header.php:992 header.php:1138
+msgid "Search"
+msgstr "搜索"
+
+# @ qode
+#: functions.php:1794
+msgid "404 - Page not found"
+msgstr "404 - 页面未找到"
+
+# @ qode
+#: functions.php:1823
+msgid "Archive"
+msgstr "归档"
+
+#: functions.php:2421
+msgid ""
+"Note that writing permissions aren't set for folders containing css and js "
+"files on your server.\n"
+"\t\t\t\t\tWe recommend setting writing permissions in order to optimize your "
+"site performance.\n"
+"\t\t\t\t\tFor further instructions, please refer to our <a target=\"_blank\" "
+"href=\"http://demo.qodeinteractive.com/bridge-new-help/#!/getting_started"
+"\">documentation</a>."
+msgstr ""
+"请注意，写入权限不包含您的服务器上的CSS和JS文件的文件夹设置。\n"
+"\t\t\t\t\t建议设置写入权限，以优化您的网站性能。\n"
+"\t\t\t\t\t进一步的说明，请参阅<a target=\"_blank\" href=\"http://demo."
+"qodeinteractive.com/bridge-new-help/#!/getting_started\">文档</a>."
+
+#: header.php:1411
+msgid "Search:"
+msgstr "搜索："
+
+# @ qode
+#: includes/comment/comment.php:12 templates/blog_large_image-loop.php:54
+#: templates/blog_large_image-loop.php:97
+#: templates/blog_large_image-loop.php:151
+#: templates/blog_large_image-loop.php:188
+#: templates/blog_large_image-loop.php:225
+#: templates/blog_large_image-loop.php:271
+#: templates/blog_large_image_whole_post-loop.php:54
+#: templates/blog_large_image_whole_post-loop.php:97
+#: templates/blog_large_image_whole_post-loop.php:134
+#: templates/blog_large_image_whole_post-loop.php:190
+#: templates/blog_large_image_whole_post-loop.php:227
+#: templates/blog_large_image_whole_post-loop.php:273
+#: templates/blog_search-loop.php:31 templates/blog_single-loop.php:67
+#: templates/blog_single-loop.php:102 templates/blog_single-loop.php:127
+#: templates/blog_single-loop.php:186 templates/blog_single-loop.php:212
+#: templates/blog_single-loop.php:248 templates/blog_small_image-loop.php:54
+#: templates/blog_small_image-loop.php:98
+#: templates/blog_small_image-loop.php:142
+#: templates/blog_small_image-loop.php:195
+#: templates/blog_small_image-loop.php:239
+#: templates/blog_small_image-loop.php:285
+msgid "Posted at"
+msgstr "发布于"
+
+# @ qode
+#: includes/comment/comment.php:21
+msgid "Your comment is awaiting moderation."
+msgstr "你的评论正在等待审核"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:143
+#: includes/import/class.wordpress-importer.php:194
+#: includes/import/class.wordpress-importer.php:198
+#: includes/import/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr "抱歉，出现了一个错误！"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:178
+msgid "All done."
+msgstr "全部完成，"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr "玩得开心！"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "记住更新密码并导入用户角色。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr "在<code>%s</code>找不到导出文件。这可能是由于权限问题造成的"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr "该WXR文件（版本 %s）可能不支持当前导入版本。请考虑更新。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr "导入作者%s失败，他们的文章将归于当前用户。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr "分配作者"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"为了便于您编辑和保存导入的内容，你可能要重新分配导入项目的作者到本网站的现有"
+"用户。例如，您可能要导入为<code>admin</code>项的所有条目"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"如果在WordPress中创建一个新用户，将随机生成一个新的密码和新用户的角色将被设定"
+"为%s。手动更改新用户的详细信息将是必要的。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr "导入附件"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr "下载并导入附件"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:299
+msgid "Import author:"
+msgstr "导入作者："
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr "或创建新用户登录名："
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:313
+msgid "as a new user:"
+msgstr "作为新用户："
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr "分配文章给现有用户："
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr "或分配文章给现有用户："
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr "- 选择 -"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr "创建新用户%s失败，他们的文章将归于当前用户。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr "导入分类%s失败"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:470
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "导入文章标签%s失败"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:520
+#: includes/import/class.wordpress-importer.php:744
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "导入%s %s失败"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:610
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "导入 &#8220;%s&#8221 失败；无效的文章类型 %s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:647
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; 已经存在。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:709
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "导入 %s &#8220;%s&#8221 失败"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:875
+msgid "Menu item skipped due to missing menu slug"
+msgstr "由于缺少菜单别名，跳过菜单项目"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:882
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "忽略菜单项，因为缺少菜单别名：%s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:945
+msgid "Fetching attachments is not enabled"
+msgstr "获取附件未启用"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:958
+msgid "Invalid file type"
+msgstr "文件类型无效"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1002
+msgid "Remote server did not respond"
+msgstr "远程服务器无响应"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1008
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "远程服务器返回错误%1$d %2$s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1015
+msgid "Remote file is incorrect size"
+msgstr "远程文件大小不正确"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1020
+msgid "Zero size file downloaded"
+msgstr "下载的文件是0字节"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1026
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "远程文件过大，上限是%s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1127
+msgid "Import WordPress"
+msgstr "导入wordpress"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1134
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr "导入器有一个新版本可用。请升级版本%s以确保新导入文件的兼容性。"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1149
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"你好！上传您的WordPress eXtended RSS（WXR）文件，我们将导入文章，页面，评论，"
+"自定义字段，分类，标签到本站"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1150
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "选择要上传的WXR (.xml) 文件，然后点击上传文件并导入。"
+
+# @ wordpress-importer
+#: includes/import/parsers.php:42 includes/import/parsers.php:77
+#: includes/import/parsers.php:85
+msgid "There was an error when reading this WXR file"
+msgstr "读取 WXR 文件时出错"
+
+# @ wordpress-importer
+#: includes/import/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr "详情如上所示。现在导入器将再次尝试用不同的分析器..."
+
+# @ wordpress-importer
+#: includes/import/parsers.php:89 includes/import/parsers.php:94
+#: includes/import/parsers.php:284 includes/import/parsers.php:473
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "这似乎不是一个 WXR 文件，缺失或无效 WXR 版本号"
+
+# @ qode
+#: includes/import/qode-import.php:41 includes/import/qode-import.php:61
+msgid "Content imported successfully"
+msgstr "内容已导入成功"
+
+# @ qode
+#: includes/import/qode-import.php:58
+msgid "An Error Occurred During Import"
+msgstr "导入时发生错误"
+
+# @ qode
+#: includes/import/qode-import.php:73
+msgid "Widgets imported successfully"
+msgstr "小工具导入成功"
+
+# @ qode
+#: includes/import/qode-import.php:92
+msgid "Custom sidebars imported successfully"
+msgstr "自定义侧边栏导入成功"
+
+# @ qode
+#: includes/import/qode-import.php:98
+msgid "Options imported successfully"
+msgstr "选项导入成功"
+
+#: includes/import/qode-import.php:156
+msgid "Qode Import"
+msgstr "导入"
+
+#: includes/import/qode-import.php:169
+msgid "Bridge — One-Click Import"
+msgstr "一键导入"
+
+#: includes/import/qode-import.php:176
+msgid "Demo Site"
+msgstr "演示网站"
+
+#: includes/import/qode-import.php:423
+msgid "Import Type"
+msgstr "导入类型"
+
+#: includes/import/qode-import.php:445
+msgid "Import attachments"
+msgstr "导入附件"
+
+# @ qode
+#: includes/import/qode-import.php:472
+msgid "The import process may take some time. Please be patient."
+msgstr "导入过程可能需要一些时间，请耐心等待......"
+
+#: includes/import/qode-import.php:485
+msgid "Delete all menus from Appearance > Menus before importing a new demo."
+msgstr "导入新演示前从外观 > 菜单删除所有菜单"
+
+#: includes/import/qode-import.php:486
+msgid ""
+"All options will be overwritten by the options for the demo you are "
+"importing."
+msgstr "所有选项将通过你的导入演示选项覆盖"
+
+# @ qode
+#: includes/import/qode-import.php:487
+msgid ""
+"Please note that import process will take time needed to download all "
+"attachments from demo web site."
+msgstr "请注意，导入过程将需要下载演示网站上的所有附件，需要一些时间。"
+
+# @ qode
+#: includes/import/qode-import.php:488
+msgid ""
+"If you plan to use shop, please install WooCommerce before you run import."
+msgstr "如果你想使用商店功能，请在导入前安装WooCommerce"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s（无效）"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s（待定）"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:124
+msgid "Edit Menu Item"
+msgstr "编辑菜单项目"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:133
+msgid "URL"
+msgstr "网址"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:140
+msgid "Navigation Label"
+msgstr "导航标签"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:146
+msgid "Title Attribute"
+msgstr "标题属性"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:153
+msgid "Open link in a new window/tab"
+msgstr "在新窗口/选项卡打开链接"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:158
+msgid "CSS Classes (optional)"
+msgstr "CSS类 (可选)"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:164
+msgid "Link Relationship (XFN)"
+msgstr "链接关系（XFN）"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:170
+msgid "Description"
+msgstr "描述"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:172
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "如果主题支持，描述将显示到菜单中。"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:181
+msgid "Anchor"
+msgstr "锚"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:192
+msgid "Don't link"
+msgstr "不链接"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:202
+msgid "Don't show"
+msgstr "不显示"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:217
+msgid "Wide menu position"
+msgstr "宽菜单位置"
+
+#: includes/nav_menu/edit_custom_walker.php:242
+msgid "Icon Pack"
+msgstr "图标包"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:248
+msgid "Only with \"wide with icons\" menu type"
+msgstr "仅在“宽图标”菜单类型"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:259
+msgid "Icon"
+msgstr "图标"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:280
+msgid "Custom widget area"
+msgstr "自定义小工具区域"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:291
+msgid "Only with \"wide & wide with icons\" menu type"
+msgstr "仅在“宽图标”菜单类型"
+
+#: includes/nav_menu/edit_custom_walker.php:301
+msgid "Show custom widget area in popup (only for 'wide' menu types)"
+msgstr "在弹出窗口显示自定义小工具区域（仅用于'宽'菜单类型）"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:310
+#, php-format
+msgid "Original: %s"
+msgstr "原始：%s"
+
+# @ qode
+# @ woocommerce
+#: includes/nav_menu/edit_custom_walker.php:324
+#: woocommerce/myaccount/my-orders.php:83
+msgid "Cancel"
+msgstr "取消"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:334
+#: includes/plugins/plugins-activation.php:151
+msgid "Install Required Plugins"
+msgstr "安装必要的插件"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:335
+#: includes/plugins/plugins-activation.php:152
+msgid "Install Plugins"
+msgstr "安装插件"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:337
+#: includes/plugins/plugins-activation.php:153
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "安装插件：%s"
+
+#: includes/plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "更新插件：%s"
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:340
+#: includes/plugins/plugins-activation.php:154
+msgid "Something went wrong with the plugin API."
+msgstr "插件API出现一些错误。"
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:343
+#: includes/plugins/plugins-activation.php:155
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "主题需要安装以下插件：%1$s"
+msgstr[1] "主题需要安装以下插件：%1$s"
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:349
+#: includes/plugins/plugins-activation.php:156
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "此主题推荐以下插件：%1$s."
+msgstr[1] "此主题推荐以下插件：%1$s."
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:355
+#: includes/plugins/plugins-activation.php:161
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要更新到最新版本以确保与主题的最大兼容性：%1$s."
+msgstr[1] "以下插件需要更新到最新版本以确保与主题的最大兼容性：%1$s."
+
+#: includes/plugins/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "有可用的更新：%1$s."
+msgstr[1] "以下插件有更新用更新：%1$s."
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:367
+#: includes/plugins/plugins-activation.php:158
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下所需插件未激活：%1$s."
+msgstr[1] "以下所需插件未激活：%1$s."
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:373
+#: includes/plugins/plugins-activation.php:159
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下推荐插件未激活：%1$s."
+msgstr[1] "以下推荐插件未激活：%1$s."
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:378
+#: includes/plugins/plugins-activation.php:163
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+msgstr[1] "开始安装插件"
+
+#: includes/plugins/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+msgstr[1] "开始更新插件"
+
+#: includes/plugins/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "开始激活插件"
+msgstr[1] "开始激活插件"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:392
+#: includes/plugins/plugins-activation.php:165
+msgid "Return to Required Plugins Installer"
+msgstr "返回到必要插件安装列表"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:393
+#: includes/plugins/class-tgm-plugin-activation.php:912
+#: includes/plugins/class-tgm-plugin-activation.php:2618
+#: includes/plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "返回仪表盘"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:394
+#: includes/plugins/class-tgm-plugin-activation.php:3244
+#: includes/plugins/plugins-activation.php:166
+msgid "Plugin activated successfully."
+msgstr "插件启用成功。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:395
+#: includes/plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下插件激活成功："
+msgstr[1] "以下插件激活成功："
+
+#: includes/plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "不采取任何操作。插件%1$s已激活"
+
+#: includes/plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "插件未激活。此主题需要一个高版本的%s。请更新插件"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有插件已安装并成功激活. %1$s"
+
+#: includes/plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "有一个或更多必装或推荐插件来安装、更新或激活。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系本网站管理员获取帮助"
+
+#: includes/plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "需要更新"
+
+#: includes/plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包不包含所需别名的文件夹且重命名不工作"
+
+#: includes/plugins/class-tgm-plugin-activation.php:1019
+#: includes/plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供者，并要求他们根据WordPress的指导来打包自己的插件。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包包含一个以上的文件，但该文件没有被打包在一个文件夹中。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "必需"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "推荐"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "WordPress资源库"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "外部源"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "预打包"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "未安装"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "安装但尚未激活"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "激活"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "所需更新不可用"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "推荐更新"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "所有<span class=\"count\">(%s)</span>"
+msgstr[1] "所有<span class=\"count\">(%s)</span>"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "要安装 <span class=\"count\">(%s)</span>"
+msgstr[1] "要安装 <span class=\"count\">(%s)</span>"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "更新可用 <span class=“count”>(%s)</span>"
+msgstr[1] "更新可用 <span class=“count”>(%s)</span>"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "要激活<span class=“count”>(%s)</span>"
+msgstr[1] "要激活<span class=“count”>(%s)</span>"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "已安装版本："
+
+#: includes/plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "最低版本要求："
+
+#: includes/plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "可用版本："
+
+#: includes/plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "无插件安装，更新或激活。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "插件"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "来源"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "版本"
+
+# @ tgmpa
+# @ woocommerce
+#: includes/plugins/class-tgm-plugin-activation.php:2639
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr "状态"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "安装%2$s"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "更新%2$s"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "激活%2$s"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "升级信息来自插件作者："
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "安装"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "更新"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "激活"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装的插件，不采取任何操作"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件，未采取任何操作。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "当前没有插件可以安装。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "当前没有插件可以更新。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择要激活的插件，不采取任何操作。"
+
+#: includes/plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "没有插件可以在这个时候激活"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "插件激活失败"
+
+#: includes/plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "更新插件 %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装%1$s时发生错误：<strong>%2$s</strong>."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "安装 %1$s 失败。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "安装和激活过程已开始。这也许要花一点时间，请稍等。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s已安装并激活成功"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "显示详情"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "隐藏详情"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "已完成所有安装和激活。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "安装并激活插件 %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "安装过程已开始。这个过程也许要花点时间，请稍等。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s 安装成功"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "所有安装都已经完成。"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件：%1$s (%2$d/%3$d)"
+
+#: includes/plugins/plugins-activation.php:13
+msgid "WPBakery Visual Composer"
+msgstr "WPBakery可视化编辑器"
+
+#: includes/plugins/plugins-activation.php:23
+msgid "LayerSlider WP"
+msgstr "LayerSlider WP"
+
+#: includes/plugins/plugins-activation.php:33
+msgid "Revolution Slider"
+msgstr "Revolution幻灯片"
+
+#: includes/plugins/plugins-activation.php:43
+msgid "Envato Wordpress Toolkit"
+msgstr "Envato Wordpress工具包"
+
+#: includes/plugins/plugins-activation.php:53
+msgid "Timetable Responsive Schedule For WordPress"
+msgstr "WordPress的时间表自适应日程表"
+
+#: includes/plugins/plugins-activation.php:63
+msgid "Wp Job Manager"
+msgstr "Wp Job Manager"
+
+#: includes/plugins/plugins-activation.php:69
+msgid "Qode Instagram Widget"
+msgstr "Instagram小工具"
+
+#: includes/plugins/plugins-activation.php:79
+msgid "Qode Twitter Feed"
+msgstr "Twitter Feed"
+
+#: includes/plugins/plugins-activation.php:89
+msgid "Quick Links"
+msgstr "快捷链接"
+
+#: includes/plugins/plugins-activation.php:99
+msgid "Qode Listing"
+msgstr "清单"
+
+#: includes/plugins/plugins-activation.php:109
+msgid "Qode News"
+msgstr "新闻"
+
+#: includes/plugins/plugins-activation.php:119
+msgid "Qode Restaurant"
+msgstr "餐厅"
+
+#: includes/plugins/plugins-activation.php:129
+msgid "Qode Membership"
+msgstr "会员资格"
+
+# @ qode
+#: includes/plugins/plugins-activation.php:157
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] "对不起，但你没有权限安装%s插件。联系此网站管理员获取帮助安装插件"
+msgstr[1] "对不起，但你没有权限安装%s插件。联系此网站管理员获取帮助安装插件"
+
+# @ qode
+#: includes/plugins/plugins-activation.php:160
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] "对不起，你没有权限激活%s插件，请联系此网站管理员获取帮助激活插件。"
+msgstr[1] "对不起，你没有权限激活%s插件，请联系此网站管理员获取帮助激活插件。"
+
+# @ qode
+#: includes/plugins/plugins-activation.php:162
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] "对不起，你没有权限更新%s插件，请联系此网站管理员获取帮助激活插件。"
+msgstr[1] "对不起，你没有权限更新%s插件，请联系此网站管理员获取帮助激活插件。"
+
+# @ qode
+#: includes/plugins/plugins-activation.php:164
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "激活已安装插件"
+msgstr[1] "激活已安装插件"
+
+# @ qode
+#: includes/plugins/plugins-activation.php:167
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "所有插件已安装并成功激活。%s"
+
+#: includes/qode-blog-helper-functions.php:15
+msgid "Large Height"
+msgstr "大高度"
+
+#: includes/qode-blog-helper-functions.php:16
+msgid "Large Width"
+msgstr "大宽度"
+
+#: includes/qode-blog-helper-functions.php:17
+msgid "Large Width/Height"
+msgstr "大宽度/高度"
+
+# @ qode
+#: includes/qode-breadcrumbs.php:15
+msgid "Home"
+msgstr "首页"
+
+#: includes/qode-breadcrumbs.php:45
+msgid "Search results for \""
+msgstr "搜索结果”"
+
+#: includes/qode-breadcrumbs.php:104
+msgid "Posts tagged \""
+msgstr "文章标签“"
+
+#: includes/qode-breadcrumbs.php:109
+msgid "Articles posted by "
+msgstr "文章作者："
+
+#: includes/qode-breadcrumbs.php:112
+msgid "Error 404"
+msgstr "错误404"
+
+# @ qode
+#: includes/qode-custom-post-types.php:18
+msgid "Portfolio"
+msgstr "作品"
+
+# @ qode
+#: includes/qode-custom-post-types.php:19
+msgid "Portfolio Item"
+msgstr "作品项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:20
+msgid "New Portfolio Item"
+msgstr "新作品项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:21
+msgid "Add New Portfolio Item"
+msgstr "添加作品项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:22
+msgid "Edit Portfolio Item"
+msgstr "编辑作品项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:36
+msgid "Testimonials"
+msgstr "客户评价"
+
+# @ qode
+#: includes/qode-custom-post-types.php:37
+msgid "Testimonial"
+msgstr "客户评价"
+
+# @ qode
+#: includes/qode-custom-post-types.php:38
+msgid "New Testimonial"
+msgstr "新客户评价"
+
+# @ qode
+#: includes/qode-custom-post-types.php:39
+msgid "Add New Testimonial"
+msgstr "添加客户评价"
+
+# @ qode
+#: includes/qode-custom-post-types.php:40
+msgid "Edit Testimonial"
+msgstr "编辑客户评价"
+
+# @ qode
+#: includes/qode-custom-post-types.php:56
+#: includes/qode-custom-post-types.php:57
+msgid "Qode Slider"
+msgstr "幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:58
+msgid "Slides"
+msgstr "幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:59
+#: includes/qode-custom-post-types.php:62
+msgid "Add New Slide"
+msgstr "添加幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:60
+msgid "Slide"
+msgstr "幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:61
+msgid "New Slide"
+msgstr "新幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:63
+msgid "Edit Slide"
+msgstr "编辑幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:80
+#: includes/qode-custom-post-types.php:81
+msgid "Qode Carousel"
+msgstr "轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:82
+msgid "Carousel Items"
+msgstr "轮播项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:83
+#: includes/qode-custom-post-types.php:86
+msgid "Add New Carousel Item"
+msgstr "添加轮播项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:84
+msgid "Carousel Item"
+msgstr "轮播项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:85
+msgid "New Carousel Item"
+msgstr "新轮播项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:87
+msgid "Edit Carousel Item"
+msgstr "编辑轮播项目"
+
+#: includes/qode-custom-post-types.php:104
+msgid "Masonry Gallery"
+msgstr "切片相册"
+
+#: includes/qode-custom-post-types.php:105
+msgid "Masonry Gallery Items"
+msgstr "切片相册项目"
+
+#: includes/qode-custom-post-types.php:106
+msgid "Masonry Gallery Item"
+msgstr "切片相册项目"
+
+#: includes/qode-custom-post-types.php:107
+msgid "New Masonry Gallery Item"
+msgstr "新切片相册项目"
+
+#: includes/qode-custom-post-types.php:108
+msgid "Add New Masonry Gallery Item"
+msgstr "添加切片相册项目"
+
+#: includes/qode-custom-post-types.php:109
+msgid "Edit Masonry Gallery Item"
+msgstr "编辑切片相册项目"
+
+# @ qode
+#: includes/qode-custom-post-types.php:125
+#: includes/qode-custom-post-types.php:135
+msgid "Portfolio Categories"
+msgstr "作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:126
+msgid "Portfolio Category"
+msgstr "作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:127
+msgid "Search Portfolio Categories"
+msgstr "搜索作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:128
+msgid "All Portfolio Categories"
+msgstr "所有作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:129
+msgid "Parent Portfolio Category"
+msgstr "父作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:130
+msgid "Parent Portfolio Category:"
+msgstr "父作品分类："
+
+# @ qode
+#: includes/qode-custom-post-types.php:131
+msgid "Edit Portfolio Category"
+msgstr "编辑作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:132
+msgid "Update Portfolio Category"
+msgstr "更新作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:133
+msgid "Add New Portfolio Category"
+msgstr "添加作品分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:134
+msgid "New Portfolio Category Name"
+msgstr "新作品分类名"
+
+# @ qode
+#: includes/qode-custom-post-types.php:150
+#: includes/qode-custom-post-types.php:160
+msgid "Portfolio Tags"
+msgstr "作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:151
+msgid "Portfolio Tag"
+msgstr "作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:152
+msgid "Search Portfolio Tags"
+msgstr "搜索作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:153
+msgid "All Portfolio Tags"
+msgstr "所有作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:154
+msgid "Parent Portfolio Tag"
+msgstr "父级作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:155
+msgid "Parent Portfolio Tags:"
+msgstr "父级作品标签："
+
+# @ qode
+#: includes/qode-custom-post-types.php:156
+msgid "Edit Portfolio Tag"
+msgstr "编辑作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:157
+msgid "Update Portfolio Tag"
+msgstr "更新作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:158
+msgid "Add New Portfolio Tag"
+msgstr "添加作品标签"
+
+# @ qode
+#: includes/qode-custom-post-types.php:159
+msgid "New Portfolio Tag Name"
+msgstr "新作品标签名"
+
+# @ qode
+#: includes/qode-custom-post-types.php:174
+#: includes/qode-custom-post-types.php:184
+msgid "Testimonials Categories"
+msgstr "客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:175
+msgid "Testimonial Category"
+msgstr "客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:176
+msgid "Search Testimonials Categories"
+msgstr "搜索客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:177
+msgid "All Testimonials Categories"
+msgstr "所有客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:178
+msgid "Parent Testimonial Category"
+msgstr "父级客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:179
+msgid "Parent Testimonial Category:"
+msgstr "父级客户评价分类："
+
+# @ qode
+#: includes/qode-custom-post-types.php:180
+msgid "Edit Testimonials Category"
+msgstr "编辑客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:181
+msgid "Update Testimonials Category"
+msgstr "更新客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:182
+msgid "Add New Testimonials Category"
+msgstr "添加客户评价分类"
+
+# @ qode
+#: includes/qode-custom-post-types.php:183
+msgid "New Testimonials Category Name"
+msgstr "新客户评价分类名"
+
+# @ qode
+#: includes/qode-custom-post-types.php:201
+#: includes/qode-custom-post-types.php:211
+msgid "Sliders"
+msgstr "幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:202
+msgid "Slider"
+msgstr "幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:203
+msgid "Search Sliders"
+msgstr "搜索幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:204
+msgid "All Sliders"
+msgstr "所有幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:205
+msgid "Parent Slider"
+msgstr "父级幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:206
+msgid "Parent Slider:"
+msgstr "父级幻灯片："
+
+# @ qode
+#: includes/qode-custom-post-types.php:207
+msgid "Edit Slider"
+msgstr "编辑幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:208
+msgid "Update Slider"
+msgstr "更新幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:209
+msgid "Add New Slider"
+msgstr "添加幻灯片"
+
+# @ qode
+#: includes/qode-custom-post-types.php:210
+msgid "New Slider Name"
+msgstr "新幻灯片名"
+
+# @ qode
+#: includes/qode-custom-post-types.php:226
+#: includes/qode-custom-post-types.php:236
+msgid "Carousels"
+msgstr "轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:227
+msgid "Carousel"
+msgstr "轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:228
+msgid "Search Carousels"
+msgstr "搜索轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:229
+msgid "All Carousels"
+msgstr "所有轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:230
+msgid "Parent Carousel"
+msgstr "父级轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:231
+msgid "Parent Carousel:"
+msgstr "父级轮播："
+
+# @ qode
+#: includes/qode-custom-post-types.php:232
+msgid "Edit Carousel"
+msgstr "编辑轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:233
+msgid "Update Carousel"
+msgstr "更新轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:234
+msgid "Add New Carousel"
+msgstr "添加轮播"
+
+# @ qode
+#: includes/qode-custom-post-types.php:235
+msgid "New Carousel Name"
+msgstr "新轮播名"
+
+#: includes/qode-custom-post-types.php:250
+#: includes/qode-custom-post-types.php:260
+msgid "Masonry Gallery Categories"
+msgstr "切片相册分类"
+
+#: includes/qode-custom-post-types.php:251
+msgid "Masonry Gallery Category"
+msgstr "切片相册分类"
+
+#: includes/qode-custom-post-types.php:252
+msgid "Search Masonry Gallery Categories"
+msgstr "搜索切片相册分类"
+
+#: includes/qode-custom-post-types.php:253
+msgid "All Masonry Gallery Categories"
+msgstr "所有切片相册分类"
+
+#: includes/qode-custom-post-types.php:254
+msgid "Parent Masonry Gallery Category"
+msgstr "父级切片相册分类"
+
+#: includes/qode-custom-post-types.php:255
+msgid "Parent Masonry Gallery Category:"
+msgstr "父级切片相册分类："
+
+#: includes/qode-custom-post-types.php:256
+msgid "Edit Masonry Gallery Category"
+msgstr "编辑切片相册分类"
+
+#: includes/qode-custom-post-types.php:257
+msgid "Update Masonry Gallery Category"
+msgstr "更新切片相册分类"
+
+#: includes/qode-custom-post-types.php:258
+msgid "Add New Masonry Gallery Category"
+msgstr "添加切片相册分类"
+
+#: includes/qode-custom-post-types.php:259
+msgid "New Masonry Gallery Category Name"
+msgstr "新切片相册分类名"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:10
+msgid "Effect on header (dark/light style)"
+msgstr "页眉效果（深色/浅色风格）"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:22
+msgid "Parallax effect"
+msgstr "视差效果"
+
+#: includes/qode-custom-taxonomy-field.php:33
+msgid "Advanced responsiveness"
+msgstr "高级自适应"
+
+#: includes/qode-custom-taxonomy-field.php:44
+msgid "Breakpoint Coefficients 1 (values: 0-1, default value: 1)"
+msgstr "断点系数1（值：0-1，默认值：1）"
+
+#: includes/qode-custom-taxonomy-field.php:48
+#: includes/qode-custom-taxonomy-field.php:78
+#: includes/qode-custom-taxonomy-field.php:108
+#: includes/qode-custom-taxonomy-field.php:138
+#: includes/qode-custom-taxonomy-field.php:168
+#: includes/qode-custom-taxonomy-field.php:198
+#: includes/qode-custom-taxonomy-field.php:228
+msgid "Graphic"
+msgstr "图形"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:56
+#: includes/qode-custom-taxonomy-field.php:86
+#: includes/qode-custom-taxonomy-field.php:116
+#: includes/qode-custom-taxonomy-field.php:146
+#: includes/qode-custom-taxonomy-field.php:176
+#: includes/qode-custom-taxonomy-field.php:206
+#: includes/qode-custom-taxonomy-field.php:236
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:58
+msgid "Subtitle"
+msgstr "子标题"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:60
+#: includes/qode-custom-taxonomy-field.php:90
+#: includes/qode-custom-taxonomy-field.php:120
+#: includes/qode-custom-taxonomy-field.php:150
+#: includes/qode-custom-taxonomy-field.php:180
+#: includes/qode-custom-taxonomy-field.php:210
+#: includes/qode-custom-taxonomy-field.php:240
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:48
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:106
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:131
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:69
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:53
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:79
+msgid "Text"
+msgstr "文字"
+
+#: includes/qode-custom-taxonomy-field.php:64
+#: includes/qode-custom-taxonomy-field.php:94
+#: includes/qode-custom-taxonomy-field.php:124
+#: includes/qode-custom-taxonomy-field.php:154
+#: includes/qode-custom-taxonomy-field.php:184
+#: includes/qode-custom-taxonomy-field.php:214
+#: includes/qode-custom-taxonomy-field.php:244
+msgid "Button"
+msgstr "按钮"
+
+#: includes/qode-custom-taxonomy-field.php:69
+msgid "screen width > 1600px for 'set1' and 'set2'"
+msgstr "屏幕宽度 > 1600px 用于 'set1' 和 'set2'"
+
+#: includes/qode-custom-taxonomy-field.php:74
+msgid "Breakpoint Coefficients 2 (values: 0-1, default value: 1)"
+msgstr "断点系数2（值：0-1，默认值：1）"
+
+#: includes/qode-custom-taxonomy-field.php:99
+msgid ""
+"screen width = [1200px,1600px] for 'set1', screen width = [1300px,1600px] "
+"for 'set2'"
+msgstr ""
+"屏幕宽度 = [1200px,1600px] 用于 'set1', 屏幕宽度 = [1300px,1600px] 用于 "
+"'set2'"
+
+#: includes/qode-custom-taxonomy-field.php:104
+msgid "Breakpoint Coefficients 3 (values: 0-1, default value: 0.8)"
+msgstr "断点系数3（值：0-1，默认值：0.8）"
+
+#: includes/qode-custom-taxonomy-field.php:129
+msgid ""
+"screen width = [900px,1200px] for 'set1', screen width = [1000px,1300px] for "
+"'set2'"
+msgstr ""
+"屏幕宽度 = [900px,1200px] 用于 'set1', 屏幕宽度 = [1000px,1300px] 用于 'set2'"
+
+#: includes/qode-custom-taxonomy-field.php:134
+msgid "Breakpoint Coefficients 4 (values: 0-1, default value: 0.7)"
+msgstr "断点系数4（值：0-1，默认值：0.7）"
+
+#: includes/qode-custom-taxonomy-field.php:159
+msgid ""
+"screen width = [650px,900px] for 'set1', screen width = [768px,1000px] for "
+"'set2'"
+msgstr ""
+"屏幕宽度 = [650px,900px] 用于 'set1', 屏幕宽度 = [768px,1000px] 用于 'set2'"
+
+#: includes/qode-custom-taxonomy-field.php:164
+msgid "Breakpoint Coefficients 5 (values: 0-1, default value: 0.6)"
+msgstr "断点系数5（值：0-1，默认值：0.6）"
+
+#: includes/qode-custom-taxonomy-field.php:189
+msgid ""
+"screen width = [500px,650px] for 'set1', screen width = [567px,768px] for "
+"'set2'"
+msgstr ""
+"屏幕宽度 = [500px,650px] 用于 'set1', 屏幕宽度 = [567px,768px] 用于 'set2'"
+
+#: includes/qode-custom-taxonomy-field.php:194
+msgid "Breakpoint Coefficients 6 (values: 0-1, default value: 0.5)"
+msgstr "断点系数6（值：0-1，默认值：0.5）"
+
+#: includes/qode-custom-taxonomy-field.php:219
+msgid ""
+"screen width = [320px,500px] for 'set1', screen width = [320px,567px] for "
+"'set2'"
+msgstr ""
+"屏幕宽度 = [320px,500px] 用于 'set1', 屏幕宽度 = [320px,567px] 用于 'set2'"
+
+#: includes/qode-custom-taxonomy-field.php:224
+msgid "Breakpoint Coefficients 7 (values: 0-1, default value: 0.4)"
+msgstr "断点系数 7 (值： 0-1, 默认值： 0.4)"
+
+#: includes/qode-custom-taxonomy-field.php:249
+msgid "screen width < 320px for 'set1' and 'set2'"
+msgstr "屏幕宽度 < 320px 用于 'set1' 和 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:254
+msgid "Slider shortcode"
+msgstr "幻灯片简码"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:258
+msgid "Use this shortcode to insert it on page"
+msgstr "使用此简将其插入到页面"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:288
+msgid "Name"
+msgstr "名字"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:289
+msgid "Shortcode"
+msgstr "简码"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:291
+msgid "Slug"
+msgstr "别名"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:292
+msgid "Posts"
+msgstr "文章"
+
+# @ qode
+#: includes/qode-like.php:76 includes/qode-like.php:100
+msgid " Likes"
+msgstr "赞"
+
+# @ qode
+#: includes/qode-like.php:78 includes/qode-like.php:102
+msgid " Like"
+msgstr "赞"
+
+# @ qode
+#: includes/qode-like.php:123
+msgid "Like this"
+msgstr "赞我"
+
+# @ qode
+#: includes/qode-like.php:126
+msgid "You already like this!"
+msgstr "您已经赞过了！"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:21
+msgid "Qode Accordion Tab"
+msgstr "手风琴选项卡"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:34
+msgid "Section ID"
+msgstr "栏目ID"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:36
+#, php-format
+msgid ""
+"Enter optional row ID. Make sure it is unique, and it is valid as w3c "
+"specification: %s (Must not have spaces)"
+msgstr "输入可选行ID。 确保它是唯一的，它是有效的w3c规范：%s（不能有空格）"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:36
+msgid "link"
+msgstr "链接"
+
+# @ js_composer
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:43
+#: vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr "栏目"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:44
+msgid "Enter accordion section title."
+msgstr "输入手风琴栏目标题。"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:66
+msgid "Content Background Image"
+msgstr "内容背景图片"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:68
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:74
+msgid "Content Design"
+msgstr "内容设计"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:72
+msgid "Content Padding"
+msgstr "内容填充"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion-tab.php:75
+msgid "Enter padding in format 1px 0 0 1px"
+msgstr "输入格式为1px 0 0 1px的填充"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:21
+msgid "Qode Accordion"
+msgstr "手风琴"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:31
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:150
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:156
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:136
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:142
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:148
+msgid "Style"
+msgstr "风格"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:34
+msgid "Accordion"
+msgstr "手风琴"
+
+#: includes/shortcodes/shortcode-elements/accordions/accordion.php:35
+msgid "Toggle"
+msgstr "切换"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:9
+msgid "Accordions"
+msgstr "手风琴"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:24
+msgid "Setup typography for accordions navigation"
+msgstr "手风琴导航排版设置"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:65
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:114
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:129
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:122
+msgid "Letter Spacing"
+msgstr "字符间距"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:90
+msgid "Accordions Color Styles"
+msgstr "手风琴颜色样式"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:96
+msgid "Accordion Color Styles"
+msgstr "手风琴颜色样式"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:97
+msgid "Set color styles for accordion title"
+msgstr "设置手风琴标题颜色样式"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:111
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:138
+msgid "Title/Icon Color"
+msgstr "标题/图标颜色"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:124
+msgid "Active and Hover Accordion Color Styles"
+msgstr "活动和悬停手风琴颜色样式"
+
+#: includes/shortcodes/shortcode-elements/accordions/options-map/map.php:125
+msgid "Set color styles for active and hover accordions"
+msgstr "设置活动和悬停手风琴颜色样式"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:36
+msgid "Advanced Call To Action"
+msgstr "高级行为号召"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:44
+msgid "Call To Action Text"
+msgstr "行为号召文字"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:52
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:58
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:65
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:121
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:128
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:136
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:143
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:154
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:162
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:169
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:177
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:185
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:82
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:89
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:97
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:104
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:112
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:120
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:126
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:133
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:144
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:154
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:165
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:173
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:181
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:188
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:196
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:93
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:100
+msgid "Design Options"
+msgstr "设计选项"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:69
+msgid "Enable Gradient"
+msgstr "启用渐变"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:75
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:85
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:209
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:79
+msgid "Enable Gradient Animation"
+msgstr "启用渐变动画"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:90
+msgid "Call To Action Link"
+msgstr "行为号召链接"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:96
+msgid "Enable Anchor Link Functionality"
+msgstr "启用锚链接功能"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:106
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:60
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:79
+msgid "Link Target"
+msgstr "链接目标"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:109
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:63
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:140
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:162
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:184
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:145
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:92
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:121
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:89
+msgid "Self"
+msgstr "自身"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:110
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:64
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:141
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:163
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:185
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:146
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:93
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:122
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:90
+msgid "Blank"
+msgstr "新窗口"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:119
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:48
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:126
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:185
+msgid "Icon Font Size (px)"
+msgstr "内容字体大小（px）"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:141
+msgid "Icon Left Margin (px)"
+msgstr "图标左边距 (px)"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:148
+msgid "Icon Border Shape"
+msgstr "图标边框形状"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:151
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:57
+msgid "None"
+msgstr "无"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:152
+msgid "Circle"
+msgstr "圈"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:159
+msgid "Icon Border Shape Size (px)"
+msgstr "图标边框形状大小 (px)"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:167
+msgid "Icon Horizontal Offset Adjust (px)"
+msgstr "图标水平偏移量调整 (px)"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:170
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:178
+msgid "Adjust icon alignment within border shape"
+msgstr "调整边框形状与图标对齐"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:175
+msgid "Icon Vertical Offset Adjust (px)"
+msgstr "图标垂直偏移量调整 (px)"
+
+#: includes/shortcodes/shortcode-elements/advanced-call-to-action/advanced-call-to-action.php:183
+msgid "Shortcode Height (px)"
+msgstr "简码高度 (px)"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:21
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:7
+msgid "Advanced Pricing Table"
+msgstr "高级价格表"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:28
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:38
+msgid "Table Title"
+msgstr "表格标题"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:33
+msgid "Column Title"
+msgstr "列标题"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:52
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:58
+msgid "Pricing Items"
+msgstr "价格项目"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:58
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:64
+msgid "Item Title"
+msgstr "项目标题"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:64
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:70
+msgid "Item Price"
+msgstr "项目价格"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:72
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:48
+msgid "Currency"
+msgstr "货币"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:77
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:197
+msgid "Table Footer Image"
+msgstr "表格页脚图片"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/advanced-pricing-table.php:82
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:202
+msgid "Table Footer Text"
+msgstr "表格页脚文字"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:15
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:15
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:15
+msgid "Color Options"
+msgstr "颜色选项"
+
+#: includes/shortcodes/shortcode-elements/advanced-pricing-table/options-map/map.php:16
+msgid "Setup colors for advanced pricing table"
+msgstr "设置高级价格表颜色"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tab.php:22
+msgid "Advanced Tab"
+msgstr "高级选项卡"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:21
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:7
+msgid "Advanced Tabs"
+msgstr "高级选项卡"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:31
+msgid "Title Layout"
+msgstr "标题布局"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:34
+msgid "Without Icon"
+msgstr "无图标"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:35
+#: widgets/call_to_action_widget.php:129
+msgid "With Icon"
+msgstr "带图标"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/advanced-tabs.php:36
+msgid "Only Icon"
+msgstr "仅图标"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:15
+msgid "Title Color Options"
+msgstr "标题颜色选项"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:16
+msgid "Setup colors for advanced tabs title"
+msgstr "设置高级选项卡标题颜色"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:48
+msgid "Active Color"
+msgstr "活动颜色"
+
+#: includes/shortcodes/shortcode-elements/advanced-tabs/options-map/map.php:56
+msgid "Background Active Color"
+msgstr "活动背景颜色"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:37
+msgid "Blog Carousel - Titled"
+msgstr "博客轮播 - 标题"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:64
+msgid "Posts Title Tag"
+msgstr "文章标题标签"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:93
+msgid "Number of Blog Posts Shown"
+msgstr "显示博客文章数量"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:102
+msgid ""
+"Number of blog posts that are showing at the same time (on smaller screens "
+"is responsive so there will be less items shown)"
+msgstr "同时显示的博客文章数量（在较小的屏幕上自适应，因此将显示较少的项目）"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:106
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:34
+msgid "Number"
+msgstr "数量"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:108
+msgid "Number of blog posts on page (Leave empty for all)"
+msgstr "页面上的博客文章数量（全部为空）"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:109
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:120
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:130
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:137
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:144
+msgid "Build Query "
+msgstr "建立查询"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:127
+msgid "DESC"
+msgstr "降序"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:128
+msgid "ASC"
+msgstr "升序"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:136
+msgid "Category Slug (leave empty for all)"
+msgstr "分类别名（为所有留空）"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:141
+msgid "Selected Posts"
+msgstr "所选文章"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:143
+msgid "Selected Posts (leave empty for all, delimit by comma)"
+msgstr "所选文章（为所有留空，用逗号分隔）"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:148
+msgid "Title Background Color"
+msgstr "标题背景颜色"
+
+#: includes/shortcodes/shortcode-elements/blog-carousel-titled/blog-carousel-titled.php:154
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:80
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:90
+msgid "Title Color"
+msgstr "标题颜色"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/blog-slider.php:225
+#: includes/shortcodes/shortcode-elements/latest-posts.php:170
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:126
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:152
+msgid "No comment"
+msgstr "暂无评论"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/blog-slider.php:353
+#: templates/blog_large_image-loop.php:76
+#: templates/blog_large_image-loop.php:119
+#: templates/blog_large_image-loop.php:173
+#: templates/blog_large_image-loop.php:293
+#: templates/blog_large_image_whole_post-loop.php:76
+#: templates/blog_large_image_whole_post-loop.php:119
+#: templates/blog_large_image_whole_post-loop.php:212
+#: templates/blog_large_image_whole_post-loop.php:295
+#: templates/blog_search-loop.php:64 templates/blog_small_image-loop.php:76
+#: templates/blog_small_image-loop.php:120
+#: templates/blog_small_image-loop.php:217
+#: templates/blog_small_image-loop.php:307
+msgid "Read More"
+msgstr "查看全文"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/blog-slider.php:368
+#: includes/shortcodes/shortcode-elements/carousel.php:130
+#: includes/shortcodes/shortcode-elements/masonry-gallery.php:214
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:550
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:903
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1397
+#: includes/shortcodes/shortcode-elements/portfolio-slider.php:160
+#: includes/shortcodes/shortcode-elements/slider.php:1452
+#: includes/shortcodes/shortcode-elements/testimonials-carousel.php:125
+#: includes/shortcodes/shortcode-elements/testimonials-masonry.php:169
+#: includes/shortcodes/shortcode-elements/testimonials.php:127
+msgid "Sorry, no posts matched your criteria."
+msgstr "抱歉，没有符合条件的文章。"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:39
+msgid "Qode Button V2"
+msgstr "按钮V2"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:54
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:136
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:73
+msgid "Link"
+msgstr "链接"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:71
+msgid "Custom CSS class"
+msgstr "自定义CSS类"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:87
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:128
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:136
+msgid "Hover Color"
+msgstr "悬停颜色"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:101
+msgid "Hover Background Color"
+msgstr "悬停背景颜色"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:108
+msgid "Icon Left Border Color"
+msgstr "图标左边框颜色"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:116
+msgid "Hover Icon Left Border Color"
+msgstr "悬停图标左边框颜色"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:124
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:97
+msgid "Icon Background Color"
+msgstr "图标背景颜色"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:131
+msgid "Icon Background Hover Color"
+msgstr "图标背景悬停颜色"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:138
+msgid "Enable Shadow"
+msgstr "启用阴影"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:159
+msgid "Enable Icon Square"
+msgstr "启用方形图标"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:192
+msgid "Margin"
+msgstr "边距"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:194
+msgid "Insert margin in format: 0px 0px 1px 0px"
+msgstr "插入边距，格式：0px 0px 1px 0px"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:200
+msgid "Hover Effect"
+msgstr "悬停效果"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:204
+msgid "3D Rotate"
+msgstr "3D旋转"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:205
+msgid "Shadow Enhance"
+msgstr "阴影增强"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:206
+msgid "Icon Rotate"
+msgstr "图标旋转"
+
+#: includes/shortcodes/shortcode-elements/button-v2/button.php:210
+msgid "Icon Rotate Hover should only be used when icon set"
+msgstr "图标旋转悬停只能在图标设置时使用"
+
+#: includes/shortcodes/shortcode-elements/cards-gallery/cards-gallery.php:47
+msgid "Select images from media library"
+msgstr "从媒体库中选择图像"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:21
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:7
+msgid "Comparative Features Table"
+msgstr "比较功能表"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:28
+msgid "Columns"
+msgstr "列"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:56
+msgid "Feature Title Tag"
+msgstr "功能标题标签"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:70
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:58
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:107
+msgid "Column One Title"
+msgstr "列一标题"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:76
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:64
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:119
+msgid "Column Two Title"
+msgstr "列二标题"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:82
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:70
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:131
+msgid "Column Three Title"
+msgstr "列三标题"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:88
+msgid "Feature"
+msgstr "功能"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:94
+msgid "Feature Title"
+msgstr "功能标题"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:99
+msgid "Column One Active"
+msgstr "列一激活"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:109
+msgid "Column Two Active"
+msgstr "列二激活"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:119
+msgid "Column Three Active"
+msgstr "列三激活"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:131
+msgid "Column One Link"
+msgstr "列一链接"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:137
+msgid "Column One Link Target"
+msgstr "列一链接目标"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:147
+msgid "Column One Link Text"
+msgstr "列一链接文字"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:153
+msgid "Column Two Link"
+msgstr "列二链接"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:159
+msgid "Column Two Link Target"
+msgstr "列二链接目标"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:169
+msgid "Column Two Link Text"
+msgstr "列二链接文字"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:175
+msgid "Column Three Link"
+msgstr "列三链接"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:181
+msgid "Column Three Link Target"
+msgstr "列三链接目标"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/comparative-features-table.php:191
+msgid "Column Three Link Text"
+msgstr "列三链接文字"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:16
+msgid "Setup colors for comparative features table"
+msgstr "设置比较功能表的颜色"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:53
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:61
+msgid "Button Options"
+msgstr "按钮选项"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:54
+msgid "Setup button options for comparative features table"
+msgstr "比较功能表的设置按钮选项"
+
+#: includes/shortcodes/shortcode-elements/comparative-features-table/options-map/map.php:76
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:100
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:84
+msgid "Font Size"
+msgstr "字体大小"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slide.php:21
+msgid "Elliptical Slide"
+msgstr "椭圆形幻灯片"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:21
+msgid "Elliptical Slider"
+msgstr "椭圆形幻灯片"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:31
+msgid "Animation speed"
+msgstr "动画速度"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:35
+msgid "Speed of slide animation in miliseconds"
+msgstr "幻灯片动画的速度，以毫秒为单位"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:39
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: includes/shortcodes/shortcode-elements/elliptical-slider/elliptical-slider.php:46
+msgid "Enable this option if you want to have autoplay Elliptical Slider "
+msgstr "如果您想自动播放椭圆幻灯片，请启用此选项"
+
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:37
+msgid "Image With Icon And Text"
+msgstr "图像与文字"
+
+#: includes/shortcodes/shortcode-elements/image-with-icon-and-text/image-with-icon-and-text.php:51
+msgid "Margin Below Image"
+msgstr "图片下边距"
+
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:37
+msgid "Info Card With Icon"
+msgstr "带图标信息卡"
+
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:56
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:72
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:81
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:89
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:95
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:101
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:107
+msgid "Icon Style"
+msgstr "图标样式"
+
+#: includes/shortcodes/shortcode-elements/info-card-with-icon/info-card-with-icon.php:142
+msgid "Target"
+msgstr "目标"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:37
+msgid "Info Card"
+msgstr "信息卡"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:74
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:103
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:169
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:71
+msgid "Enable Button"
+msgstr "启用按钮"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:83
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:112
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:184
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:80
+msgid "Button Link"
+msgstr "按钮链接"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:89
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:118
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:86
+msgid "Button Target"
+msgstr "按钮目标"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:99
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:128
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:178
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:96
+msgid "Button Text"
+msgstr "按钮文本"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:105
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:102
+msgid "Button Background Color"
+msgstr "按钮背景颜色"
+
+#: includes/shortcodes/shortcode-elements/info-card/info-card.php:111
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:108
+msgid "Button Height(px)"
+msgstr "按钮高度（px）"
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase-item.php:21
+msgid "Interactive Icon Showcase Item"
+msgstr "交互式图标展示项目"
+
+#: includes/shortcodes/shortcode-elements/interactive-icon-showcase/interactive-icon-showcase.php:18
+msgid "Interactive Icon Showcase"
+msgstr "交互式图标展示"
+
+#: includes/shortcodes/shortcode-elements/latest-posts-two.php:143
+msgid "Author Image"
+msgstr "作者图像"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/masonry-blog.php:88
+#: templates/blog-parts/pinterest/audio.php:3
+#: templates/blog_large_image-loop.php:90
+#: templates/blog_large_image_simple-loop.php:68
+#: templates/blog_large_image_whole_post-loop.php:90
+#: templates/blog_large_image_with_dividers-loop.php:103
+#: templates/blog_masonry-loop.php:64
+#: templates/blog_masonry_date_in_image-loop.php:88
+#: templates/blog_single-loop.php:95
+msgid "Your browser don't support audio player"
+msgstr "您的浏览器不支持音频播放器"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:21
+msgid "Numbered Process Item"
+msgstr "流程项目编号"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:58
+msgid "Number Color"
+msgstr "编号颜色"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:60
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:66
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:76
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:82
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:88
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:94
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:54
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:75
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:112
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:119
+msgid "Design Group"
+msgstr "设计组"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:64
+msgid "Number Background Color"
+msgstr "数字背景颜色"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:70
+msgid "Title Position"
+msgstr "标题位置"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:73
+msgid "On Image"
+msgstr "在图片"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:74
+msgid "Under Image"
+msgstr "在图像下"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process-item.php:92
+msgid "Border Width (px)"
+msgstr "边框宽度 (px)"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:21
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:7
+msgid "Numbered Process"
+msgstr "流程编号"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:32
+msgid "Number of Process Items"
+msgstr "流程项目数量"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:42
+msgid "Space Between Process Items"
+msgstr "流程项目间距"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:52
+msgid "Line Between Process Items"
+msgstr "流程项目之间的线"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:55
+msgid "Solid"
+msgstr "实线"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:56
+msgid "Dashed"
+msgstr "虚线"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/numbered-process.php:62
+msgid "Line Skin"
+msgstr "线的皮肤"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:15
+msgid "Line Options"
+msgstr "线选项"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:16
+msgid "Setup options for line in numbered process"
+msgstr "流程编号线选项"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:40
+msgid "Thickness (px)"
+msgstr "粗细（px）"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:45
+msgid "Number Options"
+msgstr "数字选项"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:46
+msgid "Setup options for number in numbered process"
+msgstr "流程编号数字选项"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:83
+msgid "Process Item Border Options"
+msgstr "流程项目边框选项"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:84
+msgid "Setup options for process item border"
+msgstr "流程项目边框选项"
+
+#: includes/shortcodes/shortcode-elements/numbered-process/options-map/map.php:108
+msgid "Width (px)"
+msgstr "宽度（px）"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:391
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:746
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1120
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1172
+#: includes/shortcodes/shortcode-elements/portfolio-slider.php:143
+msgid "zoom"
+msgstr "缩放"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:394
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:749
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1123
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1175
+#: includes/shortcodes/shortcode-elements/portfolio-slider.php:146
+#: templates/portfolio-related.php:42
+msgid "view"
+msgstr "查看"
+
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:473
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:828
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:875
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1285
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1333
+msgid "Go to Project"
+msgstr "转到项目"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:911
+#: includes/shortcodes/shortcode-elements/portfolio-list.php:1405
+#: templates/blog-structure.php:177 templates/blog-structure.php:182
+msgid "Show more"
+msgstr "显示更多"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:77
+msgid "Price Options"
+msgstr "价格选项"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/options-map/map.php:78
+msgid "Setup price options for pricing calculator"
+msgstr "价格计算器价格选项"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:21
+msgid "Pricing Calculator"
+msgstr "价格计算器"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:33
+msgid "Subtitle Title Tag"
+msgstr "子标题标题标签"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:76
+msgid "Item Active"
+msgstr "项目激活"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:88
+msgid "Items Title Tag"
+msgstr "项目标题标签"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:140
+msgid "Left Section Background Color"
+msgstr "左侧栏目背景颜色"
+
+#: includes/shortcodes/shortcode-elements/pricing-calculator/pricing-calculator.php:146
+msgid "Right Section Background Color"
+msgstr "右侧栏目背景颜色"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:7
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:21
+msgid "Report Sheet"
+msgstr "报告表"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:16
+msgid "Setup colors for report sheet"
+msgstr "设置报告表的颜色"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:40
+msgid "Header Background Color"
+msgstr "页眉背景颜色"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/options-map/map.php:62
+msgid "Setup button options for report sheet"
+msgstr "报告表的设置按钮选项"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:28
+msgid "Number of columns"
+msgstr "列数"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:40
+msgid "Report Sheet Title"
+msgstr "报告表标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:76
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:143
+msgid "Column Four Title"
+msgstr "列四标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:82
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:155
+msgid "Column Five Title"
+msgstr "列五标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:88
+msgid "Columns Title Tag"
+msgstr "列标题标签"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:101
+msgid "Report Sheet Rows"
+msgstr "报告表行"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:113
+msgid "Column One Subtitle"
+msgstr "列一子标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:125
+msgid "Column Two Subtitle"
+msgstr "列二子标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:137
+msgid "Column Three Subtitle"
+msgstr "列三子标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:149
+msgid "Column Four Subtitle"
+msgstr "列四子标题"
+
+#: includes/shortcodes/shortcode-elements/report-sheet/report-sheet.php:161
+msgid "Column Five Subtitle"
+msgstr "列五子标题"
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:42
+msgid "Scrolling Image"
+msgstr "滚动图像"
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:47
+msgid "Enable Rounded Image"
+msgstr "启用圆形图像"
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/scrolling-image.php:57
+msgid "Enable Box Shadow"
+msgstr "启用框阴影"
+
+#: includes/shortcodes/shortcode-elements/scrolling-image/templates/scrolling-image-template.php:20
+msgid "Scrolling Image Frame"
+msgstr "滚动图像帧"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/slider.php:1433
+msgid "Sorry, no slides matched your criteria."
+msgstr "抱歉，没有符合条件的幻灯片。"
+
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:39
+msgid "Sliding Image Holder"
+msgstr "滑动图片容器"
+
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/sliding-image-holder.php:52
+msgid "Recommended width of image is 1920px"
+msgstr "图像的推荐宽度为1920像素"
+
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/templates/sliding-image-holder-template.php:3
+#: includes/shortcodes/shortcode-elements/sliding-image-holder/templates/sliding-image-holder-template.php:4
+msgid "Sliding Image"
+msgstr "滑动图像"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:19
+msgid "Share on: "
+msgstr "分享到："
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:31
+#: includes/shortcodes/shortcode-elements/social-share-list.php:34
+msgid "Share on Facebook"
+msgstr "分享到微博"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:57
+#: includes/shortcodes/shortcode-elements/social-share-list.php:60
+msgid "Share on Twitter"
+msgstr "分享到微信"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:75
+msgid "Share on Google+"
+msgstr "分享到人人"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:87
+msgid "Share on LinkedIn"
+msgstr "分享到领英"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:99
+msgid "Share on Tumblr"
+msgstr "分享到QQ空间"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:112
+msgid "Share on Pinterest"
+msgstr "分享到腾讯微博"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share-list.php:125
+msgid "Share on VK"
+msgstr "分享到 VK"
+
+# @ qode
+#: includes/shortcodes/shortcode-elements/social-share.php:44
+msgid "Share"
+msgstr "分享"
+
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:21
+msgid "Specification List"
+msgstr "规格表"
+
+#: includes/shortcodes/shortcode-elements/specification-list/specification-list.php:52
+msgid "List Items"
+msgstr "列表项目"
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:7
+msgid "Video Box"
+msgstr "视频框"
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:15
+msgid "Play Button Color Options"
+msgstr "播放按钮颜色选项"
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:16
+msgid "Setup colors for play button"
+msgstr "设置播放按钮颜色"
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:31
+msgid "Circle Color"
+msgstr "圆形颜色"
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:40
+msgid "Circle Hover Color"
+msgstr "圆形悬停颜色"
+
+#: includes/shortcodes/shortcode-elements/video-box/options-map/map.php:56
+msgid "Icon Hover Color"
+msgstr "图标悬停颜色"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:27
+msgid "Workflow"
+msgstr "工作流程"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:38
+msgid "Extra class name"
+msgstr "额外的类名"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:40
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr "样式特定内容元素不同 - 添加类名称并在自定义CSS中引用它。"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:44
+msgid "Workflow line color"
+msgstr "工作流线颜色"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:46
+msgid "Pick a color for the workflow line."
+msgstr "选择工作流线的颜色。"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:50
+msgid "Animate Workflow"
+msgstr "动画工作流程"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-holder.php:56
+msgid "Animate Workflow shortcode when it comes into viewport"
+msgstr "进入视口时，动画工作流简码"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:27
+msgid "Workflow Item"
+msgstr "工作流项目"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:40
+msgid "Enter workflow item title."
+msgstr "输入工作流项目标题。"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:61
+msgid "Enter workflow item subtitle."
+msgstr "输入工作流项目子标题"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:65
+msgid "Subtitle Tag"
+msgstr "子标题标签"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:81
+msgid "Enter workflow item text."
+msgstr "输入工作流项目文本。"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:87
+msgid "Insert workflow item image."
+msgstr "插入工作流项目图像。"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:91
+msgid "Set image on right side"
+msgstr "在右侧设置图像"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:98
+msgid "Image alignment"
+msgstr "图片对齐方式"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:109
+msgid "Circle border color"
+msgstr "圆边框颜色"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:111
+msgid "Pick a color for the circle border color."
+msgstr "选择圆形边框颜色的颜色。"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:116
+msgid "Circle background color"
+msgstr "圆形背景颜色"
+
+#: includes/shortcodes/shortcode-elements/workflow/workflow-item.php:118
+msgid "Pick a color for the circle background color."
+msgstr "选择圆形背景颜色的颜色。"
+
+# @ qode
+#: includes/sidebar/qode-custom-sidebar.php:18
+msgid "Custom Widget Area"
+msgstr "自定义小工具区域"
+
+# @ default
+#: includes/sidebar/qode-custom-sidebar.php:42
+msgid "Enter Name of the new Widget Area"
+msgstr "在这里输入新小工具区域名字"
+
+# @ default
+#: includes/sidebar/qode-custom-sidebar.php:43
+msgid "Add Widget Area"
+msgstr "添加小工具区域"
+
+# @ qode
+#: js/default_dynamic.php:22
+msgid "Comment has been sent!"
+msgstr "评论已发送！"
+
+# @ qode
+#: js/default_dynamic.php:115
+msgid "Loading new posts..."
+msgstr "加载新文章..."
+
+# @ qode
+#: js/default_dynamic.php:119
+msgid "No more posts"
+msgstr "没有更多文章"
+
+# @ qode
+#: searchform.php:3
+msgid "Search Here"
+msgstr "搜索这里"
+
+#: templates/blog-parts/blog-share-like-below-text.php:7
+#: templates/portfolio-loop.php:1169
+msgid "Print page"
+msgstr "打印页面"
+
+#: templates/blog-parts/compound/meta.php:13
+msgid "Continue Reading"
+msgstr "继续阅读"
+
+# @ qode
+#: templates/blog-parts/gallery/text.php:12
+#: templates/blog-single-image-title-post-loop.php:89
+#: templates/blog_large_image-loop.php:58
+#: templates/blog_large_image-loop.php:101
+#: templates/blog_large_image-loop.php:155
+#: templates/blog_large_image-loop.php:192
+#: templates/blog_large_image-loop.php:229
+#: templates/blog_large_image-loop.php:275
+#: templates/blog_large_image_whole_post-loop.php:58
+#: templates/blog_large_image_whole_post-loop.php:101
+#: templates/blog_large_image_whole_post-loop.php:138
+#: templates/blog_large_image_whole_post-loop.php:194
+#: templates/blog_large_image_whole_post-loop.php:231
+#: templates/blog_large_image_whole_post-loop.php:277
+#: templates/blog_search-loop.php:41 templates/blog_single-loop.php:70
+#: templates/blog_single-loop.php:105 templates/blog_single-loop.php:130
+#: templates/blog_single-loop.php:189 templates/blog_single-loop.php:215
+#: templates/blog_single-loop.php:251 templates/blog_small_image-loop.php:58
+#: templates/blog_small_image-loop.php:102
+#: templates/blog_small_image-loop.php:146
+#: templates/blog_small_image-loop.php:199
+#: templates/blog_small_image-loop.php:243
+#: templates/blog_small_image-loop.php:289
+msgid "by"
+msgstr "作者："
+
+#: templates/blog-parts/masonry-gallery/text.php:6
+msgid "By"
+msgstr "作者："
+
+# @ qode
+#: templates/blog-parts/masonry-gallery/text.php:8
+#: templates/blog-parts/pinterest/text.php:5
+#: templates/blog_large_image-loop.php:55
+#: templates/blog_large_image-loop.php:98
+#: templates/blog_large_image-loop.php:152
+#: templates/blog_large_image-loop.php:189
+#: templates/blog_large_image-loop.php:226
+#: templates/blog_large_image-loop.php:272
+#: templates/blog_large_image_whole_post-loop.php:55
+#: templates/blog_large_image_whole_post-loop.php:98
+#: templates/blog_large_image_whole_post-loop.php:135
+#: templates/blog_large_image_whole_post-loop.php:191
+#: templates/blog_large_image_whole_post-loop.php:228
+#: templates/blog_large_image_whole_post-loop.php:274
+#: templates/blog_search-loop.php:35 templates/blog_single-loop.php:68
+#: templates/blog_single-loop.php:103 templates/blog_single-loop.php:128
+#: templates/blog_single-loop.php:187 templates/blog_single-loop.php:213
+#: templates/blog_single-loop.php:249 templates/blog_small_image-loop.php:55
+#: templates/blog_small_image-loop.php:99
+#: templates/blog_small_image-loop.php:143
+#: templates/blog_small_image-loop.php:196
+#: templates/blog_small_image-loop.php:240
+#: templates/blog_small_image-loop.php:286
+msgid "in"
+msgstr " "
+
+# @ qode
+#: templates/blog_large_image-loop.php:54
+#: templates/blog_large_image-loop.php:97
+#: templates/blog_large_image-loop.php:151
+#: templates/blog_large_image-loop.php:188
+#: templates/blog_large_image-loop.php:225
+#: templates/blog_large_image-loop.php:271
+#: templates/blog_large_image_whole_post-loop.php:54
+#: templates/blog_large_image_whole_post-loop.php:97
+#: templates/blog_large_image_whole_post-loop.php:134
+#: templates/blog_large_image_whole_post-loop.php:190
+#: templates/blog_large_image_whole_post-loop.php:227
+#: templates/blog_large_image_whole_post-loop.php:273
+#: templates/blog_search-loop.php:31 templates/blog_single-loop.php:67
+#: templates/blog_single-loop.php:102 templates/blog_single-loop.php:127
+#: templates/blog_single-loop.php:186 templates/blog_single-loop.php:212
+#: templates/blog_single-loop.php:248 templates/blog_small_image-loop.php:54
+#: templates/blog_small_image-loop.php:98
+#: templates/blog_small_image-loop.php:142
+#: templates/blog_small_image-loop.php:195
+#: templates/blog_small_image-loop.php:239
+#: templates/blog_small_image-loop.php:285
+msgid "h"
+msgstr "h"
+
+#: templates/blog_single-loop.php:271
+msgid "Tags:"
+msgstr "标签："
+
+#: templates/blog_vertical-loop.php:103 templates/blog_vertical-loop.php:173
+#: templates/blog_vertical-loop.php:247 templates/blog_vertical-loop.php:316
+#: templates/blog_vertical-loop.php:393 templates/blog_vertical-loop.php:462
+msgid "See More"
+msgstr "查看更多"
+
+# @ qode
+#: templates/portfolio-loop.php:242 templates/portfolio-loop.php:420
+#: templates/portfolio-loop.php:600 templates/portfolio-loop.php:819
+#: templates/portfolio-loop.php:1041 templates/portfolio-loop.php:1227
+msgid "Category "
+msgstr "分类"
+
+# @ qode
+#: templates/portfolio-loop.php:266 templates/portfolio-loop.php:444
+#: templates/portfolio-loop.php:624 templates/portfolio-loop.php:843
+#: templates/portfolio-loop.php:1065 templates/portfolio-loop.php:1251
+msgid "Tags"
+msgstr "标签"
+
+# @ qode
+#: templates/portfolio-loop.php:274 templates/portfolio-loop.php:453
+#: templates/portfolio-loop.php:554 templates/portfolio-loop.php:773
+#: templates/portfolio-loop.php:995 templates/portfolio-loop.php:1181
+msgid "About This Project"
+msgstr "关于项目"
+
+#: templates/portfolio-related.php:12
+msgid "Related Projects"
+msgstr "相关项目"
+
+# @ js_composer
+#: vc_templates/vc_accordion_tab.php:45 vc_templates/vc_tab.php:9
+msgid "Empty section. Edit page to add content here."
+msgstr "空白栏目。编辑页面添加内容到这里。"
+
+# @ js_composer
+#: vc_templates/vc_tabs.php:68
+msgid "Previous slide"
+msgstr "上一张幻灯片"
+
+# @ js_composer
+#: vc_templates/vc_tabs.php:68
+msgid "Next slide"
+msgstr "下一张幻灯片"
+
+# @ text_domain
+#: widgets/call_to_action_widget.php:8
+msgid "Call to Action Widget"
+msgstr "调用操作小工具"
+
+# @ qode
+#: widgets/call_to_action_widget.php:81
+msgid "Full Width:"
+msgstr "全宽："
+
+# @ qode
+#: widgets/call_to_action_widget.php:89
+msgid "Content In Grid:"
+msgstr "网格内容："
+
+# @ qode
+#: widgets/call_to_action_widget.php:97
+msgid "Text:"
+msgstr "文字："
+
+# @ qode
+#: widgets/call_to_action_widget.php:102
+msgid "Text Color:"
+msgstr "文字颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:107
+msgid "Text Size:"
+msgstr "文字大小："
+
+# @ qode
+#: widgets/call_to_action_widget.php:112
+msgid "Text Letter Spacing:"
+msgstr "字符间距："
+
+# @ qode
+#: widgets/call_to_action_widget.php:117
+msgid "Text Font Weight:"
+msgstr "文字字体粗细："
+
+# @ qode
+#: widgets/call_to_action_widget.php:126
+msgid "Type:"
+msgstr "类型："
+
+# @ qode
+#: widgets/call_to_action_widget.php:134
+msgid "Background Color:"
+msgstr "背景颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:139
+msgid "Border Color:"
+msgstr "边框颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:144
+msgid "Padding Top (px):"
+msgstr "填充顶部（PX）："
+
+# @ qode
+#: widgets/call_to_action_widget.php:149
+msgid "Padding Bottom (px):"
+msgstr "底部填充（PX）："
+
+# @ qode
+#: widgets/call_to_action_widget.php:154
+msgid "Show Button:"
+msgstr "显示按钮："
+
+# @ qode
+#: widgets/call_to_action_widget.php:162
+msgid "Button Link:"
+msgstr "按钮链接："
+
+# @ qode
+#: widgets/call_to_action_widget.php:167
+msgid "Button Text:"
+msgstr "按钮文字："
+
+# @ qode
+#: widgets/call_to_action_widget.php:172
+msgid "Button Target:"
+msgstr "按钮目标："
+
+# @ qode
+#: widgets/call_to_action_widget.php:182
+msgid "Button Text Color:"
+msgstr "按钮文本颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:187
+msgid "Button Hover Text Color:"
+msgstr "按钮悬停文本颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:192
+msgid "Button Background Color:"
+msgstr "按钮背景颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:197
+msgid "Button Hover Background Color:"
+msgstr "按钮悬停背景颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:202
+msgid "Button Border Color:"
+msgstr "按钮边框颜色："
+
+# @ qode
+#: widgets/call_to_action_widget.php:207
+msgid "Button Hover Border Color:"
+msgstr "按钮悬停边框颜色："
+
+# @ text_domain
+#: widgets/latest_posts_menu.php:8
+msgid "Menu Latest Posts"
+msgstr "菜单最新文章"
+
+# @ qode
+#: widgets/latest_posts_menu.php:50
+msgid "Posted in"
+msgstr "发布在"
+
+# @ qode
+#: widgets/latest_posts_menu.php:51
+msgid " by"
+msgstr "作者："
+
+# @ qode
+#: widgets/latest_posts_menu.php:83 widgets/relate_posts_widget.php:75
+msgid "Title:"
+msgstr "标题："
+
+# @ qode
+#: widgets/latest_posts_menu.php:87 widgets/relate_posts_widget.php:79
+msgid "Number of posts:"
+msgstr "文章数量："
+
+# @ qode
+#: widgets/latest_posts_menu.php:91
+msgid "Category:"
+msgstr "分类："
+
+#: widgets/latest_posts_widget.php:9
+msgid "Display posts from your blog"
+msgstr "显示博客文章"
+
+#: widgets/lib/widget-class.php:87
+msgid "There are no options for this widget."
+msgstr "此小工具没有选项"
+
+# @ text_domain
+#: widgets/relate_posts_widget.php:8
+msgid "Related Posts Widget"
+msgstr "相关文章小工具"
+
+# @ qode
+#: widgets/relate_posts_widget.php:15
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: widgets/social_icon_widget.php:8
+msgid "Qode Social Icon Widget"
+msgstr "社交图标小工具"
+
+#: widgets/sticky_sidebar_widget.php:8
+msgid ""
+"Use this widget to make the sidebar sticky. Drag it into the sidebar above "
+"the widget which you want to be the first element in the sticky sidebar."
+msgstr ""
+"使用这个小工具使侧边栏置顶。拖动它小工具上面的侧边栏，它在粘性侧边栏第一个元"
+"素"
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return to shop"
+msgstr "返回商店"
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid ""
+"There are no shipping methods available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"没有可用的运送方式。 请确保您的地址已正确输入，如果您需要任何帮助，请联系我"
+"们。"
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid "Enter your full address to see shipping costs."
+msgstr "输入您的完整地址以查看运费。"
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr "购物车总计"
+
+#: woocommerce/cart/cart-totals.php:33
+msgid "Subtotal"
+msgstr "小计"
+
+#: woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr "运送方式"
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr "（估计为%s）"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:35
+msgid "Product"
+msgstr "产品"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:36
+msgid "Price"
+msgstr "价格"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:37
+msgid "Quantity"
+msgstr "数量"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:59
+msgid "Remove this item"
+msgstr "移除该商品"
+
+#: woocommerce/cart/cart.php:104
+msgid "Available on backorder"
+msgstr "缺货"
+
+#: woocommerce/cart/cart.php:150
+msgid "Coupon:"
+msgstr "优惠券："
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "Select a state&hellip;"
+msgstr "选择一个地区&hellip;"
+
+# @ woocommerce
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr "有优惠券代码？"
+
+# @ woocommerce
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr "点击这里输入您的代码"
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"不幸的是，您的订单无法处理，因为原始银行/商家已拒绝您的交易。 请尝试再次购"
+"买。"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:34 woocommerce/myaccount/my-orders.php:75
+msgid "Pay"
+msgstr "支付"
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr "我的账户"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:42 woocommerce/checkout/thankyou.php:111
+msgid "Thank you. Your order has been received."
+msgstr "谢谢，我们已经收到您的订单。"
+
+#: woocommerce/checkout/thankyou.php:47
+msgid "Order number:"
+msgstr "订单号："
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:53 woocommerce/checkout/thankyou.php:58
+msgid "Date:"
+msgstr "日期："
+
+#: woocommerce/checkout/thankyou.php:65
+msgid "Email:"
+msgstr "邮箱："
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:71
+msgid "Total:"
+msgstr "总计："
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:79 woocommerce/checkout/thankyou.php:87
+msgid "Payment method:"
+msgstr "支付方式："
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:39
+#: woocommerce/myaccount/form-login.php:45
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Username or email"
+msgstr "用户名或邮箱"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:42
+#: woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:97
+msgid "Password"
+msgstr "密码"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:51
+#: woocommerce/myaccount/form-login.php:56
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:54
+#: woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr "记住我"
+
+# @ woocommerce
+#: woocommerce/loop/add-to-cart.php:34
+msgid "Out of stock"
+msgstr "缺货"
+
+# @ woocommerce
+#: woocommerce/loop/result-count.php:40
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] "显示一个结果"
+msgstr[1] "显示所有%d结果"
+
+#: woocommerce/loop/result-count.php:43
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "显示一个结果"
+msgstr[1] "显示%1$d&ndash;%2$d，共%3$d个结果"
+
+# @ woocommerce
+#: woocommerce/loop/sale-flash.php:29
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale"
+msgstr "特价"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:36
+msgid "Login"
+msgstr "登录"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:74
+msgid "Register"
+msgstr "注册"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:85
+msgid "Username"
+msgstr "用户名"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"忘记密码？请输入您的用户名或者电子邮箱，您将收到一封重置密码的电子邮件."
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:26
+msgid "My Addresses"
+msgstr "我的地址"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/my-address.php:34
+msgid "Billing Address"
+msgstr "账单地址"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:29
+msgid "Shipping Address"
+msgstr "配送地址"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:32
+msgid "My Address"
+msgstr "我的地址"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:44
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "结帐时将自动使用下列的默认地址。"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:54
+msgid "Edit"
+msgstr "编辑"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:73
+msgid "You have not set up this type of address yet."
+msgstr "您还没有建立这种类型的地址。"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent Orders"
+msgstr "最近订单"
+
+#: woocommerce/myaccount/my-orders.php:55
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "第%1$s个，共%2$s个项目"
+msgstr[1] "第%1$s个，共%2$s个项目"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:79
+msgid "View"
+msgstr "查看"
+
+# @ woocommerce
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "该产品目前缺货且不可用。"
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr "清除"
+
+# @ woocommerce
+#: woocommerce/single-product/related.php:35
+#: woocommerce/single-product/related.php:86
+msgid "Related Products"
+msgstr "相关商品"
+
+# @ woocommerce
+#: woocommerce/single-product/up-sells.php:37
+#: woocommerce/single-product/up-sells.php:85
+msgid "You may also like&hellip;"
+msgstr "您可能也喜欢&hellip;"
+
+#~ msgid "Quick News"
+#~ msgstr "新闻"
+
+#~ msgid "Cart Totals"
+#~ msgstr "购物车总计"
+
+#~ msgid ""
+#~ "Shipping costs will be calculated once you have provided your address."
+#~ msgstr "一旦你提交了你的地址，将会计算你的运费"
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please double check your "
+#~ "address, or contact us if you need any help."
+#~ msgstr ""
+#~ "没有配送方式可用。请再次检查您的地址，如果您需要任何帮助与我们联系。"
+
+# @ woocommerce
+#~ msgid "Anti-spam"
+#~ msgstr "反垃圾"
+
+# @ woocommerce
+#~ msgid "Your cart is currently empty."
+#~ msgstr "您的购物车是空的。"
+
+# @ qode
+#~ msgid "Error loading files"
+#~ msgstr "加载文件错误"
+
+# @ woocommerce
+#~ msgid "Return To Shop"
+#~ msgstr "返回商店"
+
+#~ msgid "estimated for %s"
+#~ msgstr "估计%s"
+
+# @ woocommerce
+#~ msgid "Coupon"
+#~ msgstr "优惠券"
+
+#~ msgid "Coupon code"
+#~ msgstr "优惠券代码"
+
+# @ woocommerce
+#~ msgid "Apply Coupon"
+#~ msgstr "使用优惠券"
+
+# @ woocommerce
+#~ msgid ""
+#~ "Unfortunately your order cannot be processed as the originating bank/"
+#~ "merchant has declined your transaction."
+#~ msgstr "很遗憾，您的订单无法处理，银行/商家已拒绝您的交易。"
+
+# @ woocommerce
+#~ msgid "Please attempt your purchase again or go to your account page."
+#~ msgstr "请再次尝试购买，或到您的帐户页面。"
+
+# @ woocommerce
+#~ msgid "Please attempt your purchase again."
+#~ msgstr "请再次尝试购买."
+
+# @ woocommerce
+#~ msgid "My Account"
+#~ msgstr "我的帐号"
+
+# @ woocommerce
+#~ msgid "Order:"
+#~ msgstr "订单："
+
+# @ woocommerce
+#~ msgctxt "Product quantity input tooltip"
+#~ msgid "Qty"
+#~ msgstr "数量"
+
+# @ woocommerce
+#~ msgid "Showing all %d results"
+#~ msgstr "显示所有%d结果"
+
+# @ woocommerce
+#~ msgctxt "%1$d = first, %2$d = last, %3$d = total"
+#~ msgid "%1$d–%2$d of %3$d results"
+#~ msgstr "显示 %1$d–%2$d， 共 %3$d 结果"
+
+# @ woocommerce
+#~ msgid "Lost Password?"
+#~ msgstr "忘记密码？"
+
+# @ woocommerce
+#~ msgid "Enter a new password below."
+#~ msgstr "在下面输入新密码。"
+
+# @ woocommerce
+#~ msgid "New password"
+#~ msgstr "新密码"
+
+# @ woocommerce
+#~ msgid "Re-enter new password"
+#~ msgstr "重新输入新密码"
+
+# @ woocommerce
+#~ msgid "Reset Password"
+#~ msgstr "重置密码"
+
+# @ woocommerce
+#~ msgid "Save"
+#~ msgstr "保存"
+
+# @ woocommerce
+#~ msgid "%s for %s item"
+#~ msgid_plural "%s for %s items"
+#~ msgstr[0] "%s %s 项目"
+#~ msgstr[1] "%s %s 项目"
+
+# @ woocommerce
+#~ msgid "Product Description"
+#~ msgstr "产品描述"
+
+# @ tgmpa
+#~ msgid "Something went wrong."
+#~ msgstr "未知错误"
+
+# @ tgmpa
+#~ msgid "Return to the dashboard"
+#~ msgstr "返回仪表盘"
+
+# @ tgmpa
+#~ msgid "Private Repository"
+#~ msgstr "私人资源库"
+
+# @ tgmpa
+#~ msgid ""
+#~ "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+#~ "Dashboard\">Return to the Dashboard</a>"
+#~ msgstr ""
+#~ "没有插件要安装或激活. <a href=\"%1$s\" title=\"返回仪表盘\">返回仪表盘</a>"
+
+# @ tgmpa
+#~ msgid "Install package not available."
+#~ msgstr "安装包不可用"
+
+# @ tgmpa
+#~ msgid ""
+#~ "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+#~ msgstr "正在从<span class=\"code\">%s</span>下载安装包&#8230;"
+
+# @ tgmpa
+#~ msgid "Unpacking the package&#8230;"
+#~ msgstr "正在解压&#8230;"
+
+# @ tgmpa
+#~ msgid "Installing the plugin&#8230;"
+#~ msgstr "正在安装插件&#8230;"
+
+# @ tgmpa
+#~ msgid "Plugin install failed."
+#~ msgstr "插件安装失败。"
+
+# @ tgmpa
+#~ msgid "Plugin installed successfully."
+#~ msgstr "插件安装成功。"
+
+#~ msgid " (taxes estimated for %s)"
+#~ msgstr "（税估计为%s）"
+
+#~ msgid ""
+#~ "Note: Shipping and taxes are estimated%s and will be updated during "
+#~ "checkout based on your billing and shipping information."
+#~ msgstr "注意：运费和税费估计为%s，结账时将更新您的帐单"
+
+# @ woocommerce
+#~ msgid "Update Cart"
+#~ msgstr "更新购物车"
+
+# @ woocommerce
+#~ msgid "Proceed to Checkout"
+#~ msgstr "继续结帐"
+
+# @ woocommerce
+#~ msgid "Calculate Shipping"
+#~ msgstr "计算运费"
+
+# @ woocommerce
+#~ msgid "Select a country&hellip;"
+#~ msgstr "选择一个地区&hellip;"
+
+# @ woocommerce
+#~ msgid "State / county"
+#~ msgstr "国家/地区"
+
+# @ woocommerce
+#~ msgid "City"
+#~ msgstr "城市"
+
+# @ woocommerce
+#~ msgid "Postcode / Zip"
+#~ msgstr "邮编"
+
+# @ woocommerce
+#~ msgid "Update Totals"
+#~ msgstr "更新总计"
+
+# @ qode
+#~ msgid "File doesn't exist"
+#~ msgstr "文件不存在"
+
+#~ msgid "Shipping #%d"
+#~ msgstr "运送到#%d"
+
+#~ msgid ""
+#~ "Please use the shipping calculator to see available shipping methods."
+#~ msgstr "请使用运费计算器来查看可用的配送方式。"
+
+#~ msgid ""
+#~ "Please continue to the checkout and enter your full address to see if "
+#~ "there are any available shipping methods."
+#~ msgstr "请继续结账，输入完整地址后查看可用的配送方式。"
+
+#~ msgid "Please fill in your details to see available shipping methods."
+#~ msgstr "请填写您所在的省份及邮编，以查看可用的配送方式。"
+
+#~ msgid "Order Number"
+#~ msgstr "订单号"
+
+# @ woocommerce
+#~ msgid "Clear selection"
+#~ msgstr "清除选择"
+
+# @ qode
+#~ msgid "Font family"
+#~ msgstr "字体系列"
