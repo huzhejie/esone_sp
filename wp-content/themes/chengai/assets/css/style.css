@@ -3196,7 +3196,7 @@ div.contact-form-lists_wrapper .gform_footer.top_label input.button {
     #header.transparent-header.full-header #logo{
         float: left;
         margin-left: 1px;
-        /*margin-top: 7px*/
+        margin-top: 5px
     }
     .house-list-dec img{
         height: 250px;
@@ -3244,7 +3244,7 @@ div.contact-form-lists_wrapper .gform_footer.top_label input.button {
         transform: translate3d(45.1vw,-2.4vh,0)!important
     }
     .d-login{
-        transform: translateY(calc(342px - 4vh));
+        /*transform: translateY(calc(342px - 4vh));*/
         /*margin-top: 5px;*/
         margin-top: 0;
     }

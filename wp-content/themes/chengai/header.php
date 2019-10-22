@@ -48,7 +48,7 @@ function get_link_by_slug($slug, $type = 'page')
             <div class="container clearfix">
 
                 <div class="header-bottom-info clearfix">
-<!--                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>-->
+                    <!--                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>-->
                     <!-- <div class="header-bottom-info"> -->
 
                     <div id="logo">
@@ -70,32 +70,32 @@ function get_link_by_slug($slug, $type = 'page')
                     <div id="login-jp-block">
                         <div class="login">
 
-                        <?php
-                        if (is_user_logged_in()) {
-                            ?>
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                   aria-haspopup="true" aria-expanded="false"><?php _e('我的账户', 'esone')?></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item"
-                                       href="<?php echo get_link_by_slug('account', 'page') ?>"><?php _e('账户信息', 'esone');?></a>
-                                    <a class="dropdown-item"
-                                       href="<?php echo get_bloginfo('url').'/wp-login.php?action=logout' ?>"><?php _e('登出', 'esone');?></a>
+                            <?php
+                            if (is_user_logged_in()) {
+                                ?>
+                                <div class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                       aria-haspopup="true" aria-expanded="false"><?php _e('我的账户', 'esone')?></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item"
+                                           href="<?php echo get_link_by_slug('account', 'page') ?>"><?php _e('账户信息', 'esone');?></a>
+                                        <a class="dropdown-item"
+                                           href="<?php echo get_bloginfo('url').'/wp-login.php?action=logout' ?>"><?php _e('登出', 'esone');?></a>
+                                    </div>
                                 </div>
-                            </div>
-                            <?php
-                        } else {
+                                <?php
+                            } else {
+                                ?>
+                                <div class="nav-item">
+                                    <a class="" data-toggle="modal" data-target=".myLoginBox"><?php _e('登陆/注册', 'esone');?></a>
+                                </div>
+                                <?php
+                            }
                             ?>
-                            <div class="nav-item">
-                                <a class="" data-toggle="modal" data-target=".myLoginBox"><?php _e('登陆/注册', 'esone');?></a>
-                            </div>
-                            <?php
-                        }
-                        ?>
-                    </div>
-                    <div class="nav-translation">
-                        <span>JP</span>
-                    </div>
+                        </div>
+                        <div class="nav-translation">
+                            <span>JP</span>
+                        </div>
                     </div>
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
                 </div>
@@ -150,22 +150,48 @@ function get_link_by_slug($slug, $type = 'page')
             return flag;
         }
         jQuery(document).ready(function($){
-            var els = document.getElementsByTagName('a');
+            var els = document.getElementsByClassName('menu-item');
             var el = document.getElementById("wrapper");
             var menu = document.getElementById("primary-menu");
-            var login_btn = document.getElementsByClassName('nav-item')[0];
+            var login_btn = document.getElementsByClassName("nav-item")[0];
+            var icon = document.getElementsByClassName("icon-reorder")[0];
             if(IsNotPC()) {
+                icon.addEventListener("click",function () {
+                    login_btn.style.transform = "translateY(320px)";
+                });
                 el.addEventListener("click", function () {
-                    // var y = menu.offsetTop + menu.clientHeight;
-                    login_btn.style.transform = "translateY(calc(342px - 4vh))";
+                    var y = menu.clientHeight;
+                    if(y>400) {
+                        login_btn.style.opacity = 0;
+                        setTimeout(function () {
+                            login_btn.style.opacity = 1;
+                            login_btn.style.display = "block";
+                            login_btn.style.transform = "translateY(320px)";
+                        }, 400);
+                    }
                 });
                 // console.log(els.length);
-                for (var m = 0; m < els.length; m++) {
-                    var elq = els[m];
+                els[0].firstElementChild.addEventListener("click",function (){
+                    login_btn.style.opacity = 0;
+                    setTimeout(function () {
+                        var y = menu.clientHeight+menu.offsetTop;
+                        login_btn.style.opacity = 1;
+                        login_btn.style.display = "block";
+                        login_btn.style.transform = "translateY(calc(" + y + "px - 20px))";
+                    }, 100);
+
+                });
+                var m = 1;
+                for (; m < els.length; m++) {
+                    var elq = els[m].firstElementChild;
                     elq.addEventListener("click", function () {
-                        var y = menu.offsetTop + menu.clientHeight;
-                        login_btn.style.transform = "translateY(calc(" + y + "px - 4vh))";
-                        login_btn.style.transition= "opacity 2s linear 2s";
+                        login_btn.style.opacity= 0;
+                        setTimeout(function() {
+                            var y = menu.clientHeight+menu.offsetTop;
+                            login_btn.style.opacity = 1;
+                            login_btn.style.display = "block";
+                            login_btn.style.transform = "translateY(calc(" + y + "px - 20px))";
+                        },100);
                     });
                 }
             }
