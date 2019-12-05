@@ -85,6 +85,62 @@ function isMobile() {
                     <div class="footer-site-menu">
                         <div class="footer-site-logo">
                             <img src="<?php the_field('footer_logo', 'option') ?>" alt="footer logo">
+                            <div class="contact-block-dec">
+                                <?php
+                                $contactInfoDate = get_field('contact_info', 'option');
+                                foreach($contactInfoDate as $value) {
+                                    if (true){
+                                        ?>
+                                        <!--            <h6>--><?php //_e('微信联系我们', 'esone');?><!--</h6>-->
+                                        <div class="contact-dec-wechat">
+
+                                            <?php
+                                            foreach($value['contact_us_time'] as $time) {
+
+
+                                                ?>
+                                                <!--                  <span>--><?php //_e('工作日', 'esone');?><!--：--><?php //echo $time['contact_us_workday'] ?><!--</span>-->
+                                                <!--                  <span>--><?php //_e('双休日', 'esone');?><!--：--><?php //echo $time['contact_us_two-day_dayoffs'] ?><!--</span>-->
+                                                <!--                    <img src="--><?php //the_field('weixin_img', 'option')?><!--" alt="wechat">-->
+                                                <div class="contact-block-add">
+                                                    <div><p>東京都台東区元浅草1-20-9 Estate One BLD.5F・6F</p></div>
+                                                    <div class="contact-contents">
+                                                        <p>TEL: 03-5826-4777</p><p>FAX: 03-5826-4778</p>
+                                                        <!--                            <div class="contact-left"><span>TEL: 03-5826-4777</span><br><span>FAX: 03-5826-4778</span></div>-->
+                                                        <!--                            <div class="contact-right"><span>工作日：09:00 ~ 20:00</span><br><span>双休日：10:00 ~ 18:00</span></div>-->
+                                                    </div>
+                                                </div>
+                                                <?php
+                                            }
+                                            ?>
+                                        </div>
+                                        <?php
+                                    }
+//                                    else{
+//                                        ?>
+<!--                                        <div class="contact-dec-wechat">-->
+<!---->
+<!--                                            --><?php
+//                                            foreach($value['contact_us_time'] as $time) {
+//
+//
+//                                                ?>
+<!--                                                <div class="contact-block-add"><p>東京都台東区元浅草1-20-9 <br> Estate One BLD.5F・6F</p>-->
+<!--                                                    <div class="contact-left" style="font-size: 12px"><span>TEL: 03-5826-4777</span><br><span>FAX: 03-5826-4778</span></div>-->
+<!--                                                </div>-->
+<!--                                                <div>-->
+<!--                                                    <div class="contact-right" style="float: right"><span>工作日：09:00 ~ 20:00</span><br><span>双休日：10:00 ~ 18:00</span><br><span style="float: right">--><?php //_e('微信联系我们', 'esone');?><!--</span></div>-->
+<!---->
+<!--                                                    <img src="--><?php //the_field('weixin_img', 'option')?><!--" alt="wechat"></div>-->
+<!--                                                --><?php
+//                                            }
+//                                            ?>
+<!--                                        </div>-->
+<!--                                        --><?php
+//                                    }
+                                }?>
+
+                            </div>
                         </div>
                         <?php
                         if ( has_nav_menu( 'social' ) ) : ?>
@@ -115,69 +171,6 @@ function isMobile() {
             ?>
         </div>
 
-        <div class="contact-block-dec">
-            <?php
-            $contactInfoDate = get_field('contact_info', 'option');
-            foreach($contactInfoDate as $value) {
-                if (!isMobile()){
-            ?>
-            <h6><?php _e('微信联系我们', 'esone');?></h6>
-            <div class="contact-dec-wechat">
-
-                <?php
-                foreach($value['contact_us_time'] as $time) {
-
-
-                    ?>
-                    <!--                  <span>--><?php //_e('工作日', 'esone');?><!--：--><?php //echo $time['contact_us_workday'] ?><!--</span>-->
-                    <!--                  <span>--><?php //_e('双休日', 'esone');?><!--：--><?php //echo $time['contact_us_two-day_dayoffs'] ?><!--</span>-->
-                    <img src="<?php the_field('weixin_img', 'option')?>" alt="wechat">
-                    <div class="contact-block-add"><p>東京都台東区元浅草1-20-9 Estate One BLD.5F・6F</p>
-                        <div class="contact-contents">
-                            <div class="contact-left"><span>TEL: 03-5826-4777</span><br><span>FAX: 03-5826-4778</span></div>
-                            <div class="contact-right"><span>工作日：09:00 ~ 20:00</span><br><span>双休日：10:00 ~ 18:00</span></div>
-                        </div>
-                    </div>
-                    <?php
-                }
-                ?>
-            </div>
-            <?php
-                }
-                else{
-                    ?>
-                    <div class="contact-dec-wechat">
-
-                        <?php
-                        foreach($value['contact_us_time'] as $time) {
-
-
-                            ?>
-                            <div class="contact-block-add"><p>東京都台東区元浅草1-20-9 <br> Estate One BLD.5F・6F</p>
-                                <div class="contact-left" style="font-size: 12px"><span>TEL: 03-5826-4777</span><br><span>FAX: 03-5826-4778</span></div>
-                            </div>
-                            <div>
-                            <div class="contact-right" style="float: right"><span>工作日：09:00 ~ 20:00</span><br><span>双休日：10:00 ~ 18:00</span><br><span style="float: right"><?php _e('微信联系我们', 'esone');?></span></div>
-
-                        <img src="<?php the_field('weixin_img', 'option')?>" alt="wechat"></div>
-                            <?php
-                        }
-                        ?>
-                    </div>
-                    <?php
-                }
-            }?>
-
-        </div>
-        <div class="website-records">
-            <div class="website-records-content">
-                <?php the_field('website-records', 'option'); ?>
-            </div>
-            <div class="powered-oslion">
-                POWERED BY
-                <a href="www.oslion.com">OSLION</a>
-            </div>
-        </div>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 

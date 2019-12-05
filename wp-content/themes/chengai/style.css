@@ -75,7 +75,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	}
     #footer .contact-block-dec .contact-block-add{
         margin-left: 0!important;
-		width: 180px;
+		/*width: 180px;*/
     }
 
 }
@@ -2383,11 +2383,11 @@ body.top-search-open #header-wrap #logo, body.top-search-open #primary-menu>ul, 
 }
 
 #header.sticky-header #header-wrap {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: #FFF;
+	/*position: fixed;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*width: 100%;*/
+	/*background-color: #FFF;*/
 	/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
 }
 
@@ -11882,7 +11882,7 @@ blockquote.float-right {
 
 .owl-carousel .owl-stage-outer {
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .owl-carousel.owl-loaded {
@@ -11956,11 +11956,8 @@ blockquote.float-right {
 
 .owl-carousel.owl-drag .owl-item {
 	user-select: none;
-	width: 24%!important;
-	line-height: 10.0;
-}
-.owl-carousel.owl-drag div:nth-child(5){
-      margin-left: 10%;
+	width: 14%!important;
+	/*line-height: 10.0;*/
 }
 
 .owl-carousel.owl-grab {
@@ -12292,7 +12289,8 @@ blockquote.float-right {
 
 .owl-carousel .owl-stage {
 	padding: 20px 0;
-	/*max-width: 200%;*/
+	transform: translateX(-5%)!important;
+	width: 110% !important;
 }
 
 /* ----------------------------------------------------------------
@@ -13483,7 +13481,9 @@ button.toast-close-button {
 
 #footer .footer-widgets-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 30px 0;
+	/*width: 50%;*/
+	display: flex;
 }
 
 .footer-widgets-wrap .col_full, .footer-widgets-wrap .col_half, .footer-widgets-wrap .col_one_third, .footer-widgets-wrap .col_two_third, .footer-widgets-wrap .col_three_fourth, .footer-widgets-wrap .col_one_fourth, .footer-widgets-wrap .col_one_fifth, .footer-widgets-wrap .col_two_fifth, .footer-widgets-wrap .col_three_fifth, .footer-widgets-wrap .col_four_fifth, .footer-widgets-wrap .col_one_sixth, .footer-widgets-wrap .col_five_sixth {

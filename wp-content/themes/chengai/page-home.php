@@ -347,41 +347,6 @@ if($current_lang !== "ja") {
                 <?php
             }
             ?>
-            <?php
-            global $sitepress; $current_lang = $sitepress->get_current_language();
-            if($current_lang !== "ja") {
-                ?>
-                <div class="kk-info-block">
-                    <div class="container">
-                        <div class="kk-block-info">
-                            <div class="kk-block-title page-title">
-                                <h1 class="kk-title-info page-title-info"><?php _e('株式会社エステート・ワン', 'esone');?></h1>
-                                <p class="kk-title-dec page-title-dec"><?php _e('为客户提供最优质的投资置业服务', 'esone');?></p>
-                            </div>
-                        </div>
-
-                        <div class="kk-block-contain">
-                            <div class="row">
-                                <?php
-                                $kkLogos = get_field('kk_logo', get_queried_object_id());
-                                if ($kkLogos) {
-                                    foreach ($kkLogos as $i) {
-                                        ?>
-                                        <div class="kk-logo-lists col-6 col-md-3 col-sm-6">
-                                            <img src="<?php echo $i['kk_icon'] ?>" alt="kklogo">
-                                            <p>
-                                                <?php echo $i['kk_title'] ?>
-                                            </p>
-                                        </div>
-                                        <?php
-                                    }
-                                }
-                                ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
 
             <?php
             global $sitepress; $current_lang = $sitepress->get_current_language();

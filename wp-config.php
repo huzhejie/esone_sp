@@ -43,18 +43,20 @@
 /** The name of the database for WordPress */
 
 define('DB_NAME', 'db_local');
+//define('DB_NAME', 'esone');
 
 
 
 /** MySQL database username */
 
 define('DB_USER', 'root');
-
+//define('DB_USER', 'esone');
 
 
 /** MySQL database password */
 
 define('DB_PASSWORD', 'hzj199429');
+//define('DB_PASSWORD', 'GGwHhxcssMvBwmHO');
 
 
 

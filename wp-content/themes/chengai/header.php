@@ -94,7 +94,7 @@ function get_link_by_slug($slug, $type = 'page')
                             ?>
                         </div>
                         <div class="nav-translation">
-                            <span>JP</span>
+                            <a href="//www.jpestateone.com/">日文</a>
                         </div>
                     </div>
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -167,7 +167,7 @@ function get_link_by_slug($slug, $type = 'page')
                             login_btn.style.opacity = 1;
                             login_btn.style.display = "block";
                             login_btn.style.transform = "translateY(320px)";
-                        }, 400);
+                        }, 25);
                     }
                 });
                 // console.log(els.length);
