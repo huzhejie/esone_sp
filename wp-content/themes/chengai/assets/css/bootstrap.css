@@ -1957,7 +1957,7 @@ textarea.form-control {
 }
 
 .form-group {
-	margin-bottom: 1rem;
+	/*margin-bottom: 1rem;*/
 }
 
 .form-text {
@@ -3321,7 +3321,7 @@ input[type="button"].btn-block {
 	flex-wrap: wrap;
 	-ms-flex-align: stretch;
 	align-items: stretch;
-	width: 400px;
+	width: 20vw;
 }
 
 .input-group > .form-control,

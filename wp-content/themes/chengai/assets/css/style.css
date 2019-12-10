@@ -609,7 +609,7 @@ body.stretched #header.full-header {
 }
 
 .footer-block .footer-site-logo img, .footer-block .footer-site-weixin img {
-    max-width: 30vw;
+    max-width: 20vw;
 }
 
 .footer-block .footer-site-contact .contact-title {
@@ -1397,7 +1397,7 @@ body.stretched #header.full-header {
 }
 
 #footer .contact-block-dec .contact-block-add {
-    margin-left: 30px;
+    margin-left: 4vw;
 }
 
 #footer .contact-block-dec .contact-block-add p {
@@ -2708,7 +2708,7 @@ div.contact-form-lists_wrapper .gform_footer.top_label input.button {
     width: 50%;
     flex: 1;
     margin: 0;
-    padding: 5px 0;
+    padding: 10px 0;
     border-top: 1px solid #ccc
 }
 
@@ -2839,7 +2839,8 @@ div.contact-form-lists_wrapper .gform_footer.top_label input.button {
 
 .sellhouse-content-loan .loan-content-lists .loan-content-list {
     flex: 1 1 50%;
-    margin-bottom: 20px;
+    margin: auto;
+    /*margin-bottom: 20px;*/
     /*margin-left: 15px;*/
 }
 
@@ -3049,7 +3050,7 @@ div.contact-form-lists_wrapper .gform_footer.top_label input.button {
     font-size: 12px;
     /*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     text-align: center;
 }
 
