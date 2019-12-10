@@ -1485,7 +1485,7 @@ div.contact-form-lists_wrapper form.contact-form-lists li.gfield .validation_mes
 }
 
 div.contact-form-lists_wrapper form.contact-form-lists li.gfield .gfield_label {
-    color: #fff
+    /*color: #fff*/
 }
 
 div.contact-form-lists_wrapper form.contact-form-lists li.gfield .gfield_required {
